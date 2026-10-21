@@ -148,3 +148,17 @@ The source-to-block mapping is in `stardust/figma-to-eds/mapping.md`, and the fu
 | `content-parity.json` | Text, image, link and heading parity |
 | `spec-conformance.json` | 28 Figma spec checks |
 | `screenshots/` | Source, migrated, side-by-side and diff heatmaps at 1440 and 390 |
+
+## 6. DA block library (excat `block-library-creator`, DA path)
+
+| Item | Result |
+|---|---|
+| Library panel config | `POST admin.da.live/config/sanyasandal/stardust-figma-migration/` returned 201. A fresh config was written because the GET returned 404 (no prior sheets). `library` sheet: `Blocks` points to `library/blocks.json` |
+| Block index | https://content.da.live/sanyasandal/stardust-figma-migration/library/blocks.json (6 entries; 201) |
+| Sample pages | `library/blocks/{banner,cards,columns,facebook-feed,fragment,hero}` (201 each). Uploaded by the agent because DA writes were authorized; the skill's default is a manual upload |
+| Placeholders | `library/blocks/images/placeholder-{16x9,4x3}.png` (201) |
+| Variants | `cards` + `cards supplementary`; `banner` + `banner cta` |
+| Sample source | Reference page `/fortstreet/index` for 5 blocks; `fragment` synthesized from its JS |
+| metadata.json | Created for the 6 in-scope blocks (inferred fields only) |
+| Skipped | `widget`: there are no `/widgets/*` implementations to render. `header` and `footer` are page chrome |
+| Local copies | `content/library/` (hlxignored) |

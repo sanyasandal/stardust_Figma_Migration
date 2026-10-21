@@ -1,0 +1,10 @@
+{
+  "variantName": "fragment",
+  "baseBlock": "fragment",
+  "version": "1.0.0",
+  "created": "2026-10-21T12:35:58.000Z",
+  "contentPattern": {
+    "structure": "single link to fragment path",
+    "imageCount": 0
+  }
+}

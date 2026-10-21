@@ -1,0 +1,22 @@
+{
+  "variantName": "columns",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-10-21T12:35:58.000Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "text-media"
+  },
+  "contentPattern": {
+    "structure": "multi-column cells per row",
+    "imageCount": 1
+  },
+  "usage": {
+    "pagesUsing": [
+      "fortstreet/index"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-10-21T12:35:58.000Z"
+  }
+}

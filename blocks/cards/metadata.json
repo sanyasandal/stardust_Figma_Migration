@@ -1,0 +1,27 @@
+{
+  "variantName": "cards",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-10-21T12:35:58.000Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "teaser-grid",
+    "imagePattern": "image-top"
+  },
+  "contentPattern": {
+    "structure": "image | title-body-link repeating rows",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "variants": [
+    "supplementary"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "fortstreet/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-21T12:35:58.000Z"
+  }
+}
