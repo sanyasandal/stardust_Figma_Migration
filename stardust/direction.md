@@ -17,3 +17,19 @@
 6. **Chrome deltas** — footer gains a brand line; social icons replaced by text links (icon SVGs absent).
 7. **Facebook feed** — rebuilt as a lazy `facebook-feed` embed block (Page Plugin iframe).
 8. **Hero** — source "dark" section treatment dropped; hero supplies the Supporting-1 panel per Figma.
+
+---
+
+## Re-run on stardust main only — 2026-10-21T12:45Z (supersedes the run above)
+
+**User directive (verbatim):** "please use stardust and do the migration with figma using main stardust skills branch and fir uplodung block use the skill i provided thats it" / "we dont want to use figma-to-eds in this migration … just pure stardust main".
+
+- Skills: `adobe/skills` main @ cf07727 (stardust plugin v0.34.1; installed copy byte-identical — `diff -rq` empty). `figma-to-eds` (unmerged PR-315 branch) is **not used**; everything it produced (figma-mcp donor capture, spec-conformance, the hand-written 51-page converter `stardust/migrate/convert.py`) is retired from the evidence chain.
+- Flow: `reskin` (content kept byte-faithful, design from a donor). Main's reskin refuses `--donor-figma` and prescribes: "Export the frames as static HTML prototypes … and re-run with `--donor-dir`". That is the path taken.
+- Donor: oneAZ v3.2 section frames exported via the Figma Dev Mode MCP code export (`get_design_context`) into `stardust/reskin/donor-dir/` (export log `_export-log.json`), served on localhost, captured by the **bounded donor capture** path (`donor-sources.md` § Two first-class token-sourcing paths).
+- Block library: excat `block-library-creator` skill (user-supplied).
+
+### Named deviations (re-run)
+R1. **Figma → HTML export step** — performed by the agent via the Figma MCP code export rather than by a human Figma export; mechanical JSX→HTML conversion only, fixes logged per node in `donor-dir/_export-log.json`. Replaces nothing in the skill; it produces the `--donor-dir` input main asks for.
+R2. **Retired converter** — `stardust/migrate/convert.py` (agent-authored, replaced migrate+rollout) is retired. 35 DA documents it uploaded before it was stopped are overwritten by the main-pipeline delivery.
+R3. **First-run EDS code retired** — blocks/CSS built with figma-to-eds in the first run (cards/columns/hero/banner/facebook-feed/accordion/table/embed restyles, oneAZ tokens in styles.css, header/footer) are reset to the boilerplate baseline before Phase 6; main `deploy`/`rollout` regenerate every block from the reskin pages so no figma-to-eds output survives.
