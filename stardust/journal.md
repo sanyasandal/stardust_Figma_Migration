@@ -108,3 +108,13 @@
 
 **Artifacts touched:**
 - blocks/teaser/teaser.css, report/*, stardust/.work/{deploy/qa*.txt,fidelity/*}
+
+## 2026 — Block library images fix
+
+**Prompt:** "DA blocks does not have images ?"
+
+- Cause: sample `<img>` pointed at `content.da.live/.../library/blocks/images/placeholder-*.png` (401 without auth; DA library panel loads them unauthenticated) and library docs had never been previewed.
+- Fix: previewed 8 library docs + `blocks.json`; rewrote hero/cards/teaser/columns img src to public media-bus URLs (`media_1456c6…png` 16x9, `media_199335…png` 4x3); PUT to DA; re-previewed 4/4.
+
+**Artifacts touched:**
+- DA library/blocks/{hero,cards,teaser,columns}.html, content/library/blocks/*.plain.html, report/{benchmark-report,migration-steps}.md
