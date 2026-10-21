@@ -1,0 +1,61 @@
+{
+  "slug": "learning-and-support_high-potential-and-gifted-education",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M4",
+    "M9",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Inspire – High potential and gifted education",
+    "description": "At our school, we recognise that some students learn more quickly or shine in areas such as creativity, leadership, or sport, and we nurture these strengths through tailored lessons and activities that help advanced learners grow and thrive.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Inspire – High potential and gifted education",
+    "description": "At our school, we recognise that some students learn more quickly or shine in areas such as creativity, leadership, or sport, and we nurture these strengths through tailored lessons and activities that help advanced learners grow and thrive.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "b9d8490091c4",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "learning-and-support/high-potential-and-gifted-education/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "learning-and-support/high-potential-and-gifted-education/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,1341 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-21T13:27:26.128Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.34.1"
+  },
+  "generatedAt": "2026-10-21T13:27:26.128Z",
+  "pages": [
+    {
+      "slug": "about-us",
+      "path": "/about-us",
+      "title": "About us",
+      "templateId": "about-us",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/index.html",
+        "metaJson": "stardust/migrated/about-us/_meta.json",
+        "sourceHash": "sha256:a8bca9b3637b36de98c728df8ca1537b55365edbcdb587b9ce480f9af1806ac9",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us"
+      },
+      "blocks": [
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_enrol",
+      "path": "/about-us/enrol",
+      "title": "Enrol",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/enrol/index.html",
+        "metaJson": "stardust/migrated/about-us/enrol/_meta.json",
+        "sourceHash": "sha256:41d488ddbfe499f364c89b3d5bf7b9165d56a07fe73d42a896a95cd7d64f628d",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol"
+      },
+      "blocks": [
+        "M6",
+        "M9",
+        "M4",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_facilities-and-resources",
+      "path": "/about-us/facilities-and-resources",
+      "title": "Facilities and resources",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/facilities-and-resources/index.html",
+        "metaJson": "stardust/migrated/about-us/facilities-and-resources/_meta.json",
+        "sourceHash": "sha256:761e46924478f4589b221eb5a11d3961e3bef30355fd4f6d17948b9fd3a75059",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources"
+      },
+      "blocks": [
+        "M6",
+        "M5",
+        "M4"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_hsc-results",
+      "path": "/about-us/hsc-results",
+      "title": "HSC Results",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/hsc-results/index.html",
+        "metaJson": "stardust/migrated/about-us/hsc-results/_meta.json",
+        "sourceHash": "sha256:6e21d113376ed793dc45e4fdb7e1ff285b217b2b108811ddbc37a7b75ca33f57",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results"
+      },
+      "blocks": [
+        "M6",
+        "NM1",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_our-principal-and-staff",
+      "path": "/about-us/our-principal-and-staff",
+      "title": "Our principal and staff",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/our-principal-and-staff/index.html",
+        "metaJson": "stardust/migrated/about-us/our-principal-and-staff/_meta.json",
+        "sourceHash": "sha256:3047dcd0e0869292401662da626c937d6b1574e697f0365a5f6ba318a5e793aa",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "NM1",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_policies-and-reports",
+      "path": "/about-us/policies-and-reports",
+      "title": "Policies and reports",
+      "templateId": "about-us_policies-and-reports",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/policies-and-reports/index.html",
+        "metaJson": "stardust/migrated/about-us/policies-and-reports/_meta.json",
+        "sourceHash": "sha256:8c488f82a5c120897b1b9d580c00518763b466e8bd77a2a3855c3a5160010ad8",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports"
+      },
+      "blocks": [
+        "M4",
+        "M6",
+        "M9",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_policies-and-reports_nsw-public-school-information",
+      "path": "/about-us/policies-and-reports/nsw-public-school-information",
+      "title": "NSW public school information",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/policies-and-reports/nsw-public-school-information/index.html",
+        "metaJson": "stardust/migrated/about-us/policies-and-reports/nsw-public-school-information/_meta.json",
+        "sourceHash": "sha256:744ca0dc8f3c0ab478b0d36aff8a6e4cefff73b6b48a3a7f49785ae3f63bdbeb",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information"
+      },
+      "blocks": [
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_school-history-and-archives",
+      "path": "/about-us/school-history-and-archives",
+      "title": "School history and archives",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/school-history-and-archives/index.html",
+        "metaJson": "stardust/migrated/about-us/school-history-and-archives/_meta.json",
+        "sourceHash": "sha256:1edff65da657ec97da4f1c5217bf36f0cc726c84c1416bbe2d44cc3b6772af3b",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives"
+      },
+      "blocks": [
+        "M5",
+        "M4",
+        "M6"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_school-history-and-archives_fort-street-archives",
+      "path": "/about-us/school-history-and-archives/fort-street-archives",
+      "title": "Fort Street Archives",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/school-history-and-archives/fort-street-archives/index.html",
+        "metaJson": "stardust/migrated/about-us/school-history-and-archives/fort-street-archives/_meta.json",
+        "sourceHash": "sha256:fa4e3f84096c287387fca0a69e8496f2ac5d42e6d595df12d209628bf75c8d55",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/fort-street-archives"
+      },
+      "blocks": [
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_school-history-and-archives_the-fort-street-museum",
+      "path": "/about-us/school-history-and-archives/the-fort-street-museum",
+      "title": "The Fort Street Museum",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/school-history-and-archives/the-fort-street-museum/index.html",
+        "metaJson": "stardust/migrated/about-us/school-history-and-archives/the-fort-street-museum/_meta.json",
+        "sourceHash": "sha256:16cfccacabb8df7dbf8a77eb9a315c9d045bc0de5e24f95f4282f4e56989767d",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fort-street-museum"
+      },
+      "blocks": [
+        "M7",
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_school-history-and-archives_the-fortian-digitised",
+      "path": "/about-us/school-history-and-archives/the-fortian-digitised",
+      "title": "The Fortian Digitised",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/school-history-and-archives/the-fortian-digitised/index.html",
+        "metaJson": "stardust/migrated/about-us/school-history-and-archives/the-fortian-digitised/_meta.json",
+        "sourceHash": "sha256:165b97fc3f8e724c82bf32266f9448d583bdfcb6d9ec76f2e58f0313522a5221",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fortian-digitised"
+      },
+      "blocks": [
+        "M4",
+        "M9",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_stories-and-highlights",
+      "path": "/about-us/stories-and-highlights",
+      "title": "Stories and highlights",
+      "templateId": "about-us_stories-and-highlights",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/stories-and-highlights/index.html",
+        "metaJson": "stardust/migrated/about-us/stories-and-highlights/_meta.json",
+        "sourceHash": "sha256:6825c1a583c5999a43192d3de0b7a33feec615860b591bbdf7f51c530ac7a61a",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights"
+      },
+      "blocks": [
+        "M5",
+        "M6",
+        "M8"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_transition-to-high-school",
+      "path": "/about-us/transition-to-high-school",
+      "title": "Transition to high school",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/transition-to-high-school/index.html",
+        "metaJson": "stardust/migrated/about-us/transition-to-high-school/_meta.json",
+        "sourceHash": "sha256:9c7b4245f6aaa5a17fcced93fcae2beab7521f5c3ae8f3dbbf72c02ed2484fce",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school"
+      },
+      "blocks": [
+        "M4",
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "about-us_why-choose-us",
+      "path": "/about-us/why-choose-us",
+      "title": "Why choose us?",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/why-choose-us/index.html",
+        "metaJson": "stardust/migrated/about-us/why-choose-us/_meta.json",
+        "sourceHash": "sha256:9afc70b8fc95bc9fd5125bb2f5b48f5904556a1d500b8887b8f8e38145f9eb9c",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us"
+      },
+      "blocks": [
+        "M4",
+        "M6",
+        "M5",
+        "M8"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "contact-us",
+      "path": "/contact-us",
+      "title": "Contact us",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/contact-us/index.html",
+        "metaJson": "stardust/migrated/contact-us/_meta.json",
+        "sourceHash": "sha256:d133d144a12f37174e541e29989eaa93b5eeda00c35f1e5da8536cb4e9511f47",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/contact-us"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Fort Street High School",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:37bbfd71e8179f0006582ff8acb5b1b7a2284bb3c32a9988132075c4da283e24",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/"
+      },
+      "blocks": [
+        "M3",
+        "M5",
+        "M4"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "learning-and-support",
+      "path": "/learning-and-support",
+      "title": "Learning and support",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/learning-and-support/index.html",
+        "metaJson": "stardust/migrated/learning-and-support/_meta.json",
+        "sourceHash": "sha256:67a7e672653d70cf296026ab5a405d62758bff68250b13804d7396978a6bc18f",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support"
+      },
+      "blocks": [
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "learning-and-support_additional-learning-support",
+      "path": "/learning-and-support/additional-learning-support",
+      "title": "Additional learning support",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/learning-and-support/additional-learning-support/index.html",
+        "metaJson": "stardust/migrated/learning-and-support/additional-learning-support/_meta.json",
+        "sourceHash": "sha256:5c9fa2bbb8f089c54b91b4e55706296c6abc4eeb9ec42236cc73ffb4fddc544c",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support"
+      },
+      "blocks": [
+        "M4",
+        "M6",
+        "M9",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "learning-and-support_careers",
+      "path": "/learning-and-support/careers",
+      "title": "Careers",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/learning-and-support/careers/index.html",
+        "metaJson": "stardust/migrated/learning-and-support/careers/_meta.json",
+        "sourceHash": "sha256:e8a5037f63d2e5288cddd4c8f5bbc7d9a68c2509c454fd8b477a7b67a9cd8666",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers"
+      },
+      "blocks": [
+        "M4",
+        "M5",
+        "M6"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "learning-and-support_high-potential-and-gifted-education",
+      "path": "/learning-and-support/high-potential-and-gifted-education",
+      "title": "Inspire – High potential and gifted education",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/learning-and-support/high-potential-and-gifted-education/index.html",
+        "metaJson": "stardust/migrated/learning-and-support/high-potential-and-gifted-education/_meta.json",
+        "sourceHash": "sha256:beb45a2d07e1b44ca9c59edb8dab0e0865212a827d68c57af10580e679d6af78",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "M9",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "learning-and-support_learning",
+      "path": "/learning-and-support/learning",
+      "title": "Learning",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/learning-and-support/learning/index.html",
+        "metaJson": "stardust/migrated/learning-and-support/learning/_meta.json",
+        "sourceHash": "sha256:06b9469f1a7c00033ccc2dfe359f7c8fc456b4b11b8417daf4665167692c0902",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning"
+      },
+      "blocks": [
+        "M4",
+        "M5",
+        "M9",
+        "M6"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "learning-and-support_wellbeing",
+      "path": "/learning-and-support/wellbeing",
+      "title": "Wellbeing",
+      "templateId": "learning-and-support_wellbeing",
+      "source": {
+        "migratedHtml": "stardust/migrated/learning-and-support/wellbeing/index.html",
+        "metaJson": "stardust/migrated/learning-and-support/wellbeing/_meta.json",
+        "sourceHash": "sha256:53e056c81f91c5de6bfe7d1ad6cb22a613460336570c1aede54a34706cddf394",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing"
+      },
+      "blocks": [
+        "M4",
+        "M9",
+        "NM1",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "our-community",
+      "path": "/our-community",
+      "title": "Our community",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/our-community/index.html",
+        "metaJson": "stardust/migrated/our-community/_meta.json",
+        "sourceHash": "sha256:44babae5f60d3e8d1aee639214303063f40ac5d4952689dc453e160a3f9dcf07",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/our-community"
+      },
+      "blocks": [
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "our-community_alumni",
+      "path": "/our-community/alumni",
+      "title": "Alumni",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/our-community/alumni/index.html",
+        "metaJson": "stardust/migrated/our-community/alumni/_meta.json",
+        "sourceHash": "sha256:289bb13411e1d75cdbe681eb24e6c16c0b736f24ebb5c55711ecdcf4a1b5bf00",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni"
+      },
+      "blocks": [
+        "M4",
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "our-community_fortians-union",
+      "path": "/our-community/fortians-union",
+      "title": "The Fortians Union",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/our-community/fortians-union/index.html",
+        "metaJson": "stardust/migrated/our-community/fortians-union/_meta.json",
+        "sourceHash": "sha256:628f078b069195421ce722e8b7556421a7ab61b8d56c1d708a28fe72a8fa2678",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union"
+      },
+      "blocks": [
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "our-community_foundation",
+      "path": "/our-community/foundation",
+      "title": "The Fort Street Foundation",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/our-community/foundation/index.html",
+        "metaJson": "stardust/migrated/our-community/foundation/_meta.json",
+        "sourceHash": "sha256:9eedcaa389fc4332fccdd67a77a7ca80a85befdf6e9d601241d31636395892f7",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation"
+      },
+      "blocks": [
+        "M5",
+        "M4",
+        "M6",
+        "NM1"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "our-community_foundation-tertiary-bursaries",
+      "path": "/our-community/foundation-tertiary-bursaries",
+      "title": "Foundation Tertiary Bursaries",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/our-community/foundation-tertiary-bursaries/index.html",
+        "metaJson": "stardust/migrated/our-community/foundation-tertiary-bursaries/_meta.json",
+        "sourceHash": "sha256:1a3693e3062c7c26e64019908fdedefb569b819032827995b692ef6a813af772",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries"
+      },
+      "blocks": [
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "our-community_pandc",
+      "path": "/our-community/pandc",
+      "title": "Parents and Citizens Association",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/our-community/pandc/index.html",
+        "metaJson": "stardust/migrated/our-community/pandc/_meta.json",
+        "sourceHash": "sha256:4fcfbf249ce4beabdcade3ce9e30f0ac0ba22e15024fb8a4c6b8e25fc68f0f73",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc"
+      },
+      "blocks": [
+        "M4",
+        "M6",
+        "M9",
+        "NM1",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life",
+      "path": "/school-life",
+      "title": "School life",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/index.html",
+        "metaJson": "stardust/migrated/school-life/_meta.json",
+        "sourceHash": "sha256:f5a4ae79c08fddbb43a324791ac901a971600dfb4291600e2a6bf1748c4f56f3",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life"
+      },
+      "blocks": [
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_bell-times",
+      "path": "/school-life/bell-times",
+      "title": "Bell times",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/bell-times/index.html",
+        "metaJson": "stardust/migrated/school-life/bell-times/_meta.json",
+        "sourceHash": "sha256:41f78b26c078faaa29e7f3a171f105272092c5b76ca60938d26bd24294cfac22",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_bring-your-own-device",
+      "path": "/school-life/bring-your-own-device",
+      "title": "Bring your own device",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/bring-your-own-device/index.html",
+        "metaJson": "stardust/migrated/school-life/bring-your-own-device/_meta.json",
+        "sourceHash": "sha256:d6ba18f1dc6f648f8aceebbe09c203b47c9d79ad799544193c0c634e93099ca9",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device"
+      },
+      "blocks": [
+        "M4",
+        "M6",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_canteen",
+      "path": "/school-life/canteen",
+      "title": "Canteen",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/canteen/index.html",
+        "metaJson": "stardust/migrated/school-life/canteen/_meta.json",
+        "sourceHash": "sha256:a0e496851a162bf0f9c7431afec6787217ce0f2cea094c70e9ec8ec413701886",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen"
+      },
+      "blocks": [
+        "M4",
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_events",
+      "path": "/school-life/events",
+      "title": "Events",
+      "templateId": "school-life_events",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/events/index.html",
+        "metaJson": "stardust/migrated/school-life/events/_meta.json",
+        "sourceHash": "sha256:733c38aa7d32b9bb91b340fef1d8d21e0d50980a6a4735d9b31c1cbba2b4a5d3",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/events"
+      },
+      "blocks": [
+        "M6",
+        "NM1",
+        "M7",
+        "M8",
+        "M4",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_forms",
+      "path": "/school-life/forms",
+      "title": "Forms",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/forms/index.html",
+        "metaJson": "stardust/migrated/school-life/forms/_meta.json",
+        "sourceHash": "sha256:a1ab277a968d2db965442bc77b5716c6649c2c74214eb7b35d646bbb0e6ec95b",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms"
+      },
+      "blocks": [
+        "M6",
+        "NM1",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_house-and-merit-system",
+      "path": "/school-life/house-and-merit-system",
+      "title": "House and Merit System",
+      "templateId": "school-life_events",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/house-and-merit-system/index.html",
+        "metaJson": "stardust/migrated/school-life/house-and-merit-system/_meta.json",
+        "sourceHash": "sha256:9947c31c903e0145f9ba7bbc85f44f1586da4e9e0bd4881da5ef77e9a00b989e",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "M7",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_lockers-and-lost-property",
+      "path": "/school-life/lockers-and-lost-property",
+      "title": "Lockers and lost property",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/lockers-and-lost-property/index.html",
+        "metaJson": "stardust/migrated/school-life/lockers-and-lost-property/_meta.json",
+        "sourceHash": "sha256:aea057eb47e1957ba80d971277ae391f53c87a0a92d14ff841ee2aa419031216",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property"
+      },
+      "blocks": [
+        "M6",
+        "NM1",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_newsletters",
+      "path": "/school-life/newsletters",
+      "title": "Newsletters",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/newsletters/index.html",
+        "metaJson": "stardust/migrated/school-life/newsletters/_meta.json",
+        "sourceHash": "sha256:d020858a6d60f0f29501d80e711c444a31a3e04dd40d65e68415a7f0eb181e7f",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "M9",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_parent-portal",
+      "path": "/school-life/parent-portal",
+      "title": "Parent portal",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/parent-portal/index.html",
+        "metaJson": "stardust/migrated/school-life/parent-portal/_meta.json",
+        "sourceHash": "sha256:29e11f1cf5c23c2be13f2e42be38d6ea8e978b5c604751b9ebbdaa7158a7a716",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_stationery",
+      "path": "/school-life/stationery",
+      "title": "Stationery",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/stationery/index.html",
+        "metaJson": "stardust/migrated/school-life/stationery/_meta.json",
+        "sourceHash": "sha256:d6fadd3675da774bbe6eb0613726a4b4be8af96ddbfe6cd4baa5cf21089c31b0",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities",
+      "path": "/school-life/student-opportunities-and-activities",
+      "title": "Student opportunities and activities",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/_meta.json",
+        "sourceHash": "sha256:db85b9a423555223ef94f8785940b7b877cb5a78548e5907143b131b36eac44f",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities"
+      },
+      "blocks": [
+        "M5",
+        "M6",
+        "NM1",
+        "M9",
+        "M8"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities_academic-competitions",
+      "path": "/school-life/student-opportunities-and-activities/academic-competitions",
+      "title": "Academic Competitions",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/academic-competitions/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/academic-competitions/_meta.json",
+        "sourceHash": "sha256:fc4e587c72c86a9c637c9e125d9ac354bfc43f0e7989789d2b821fc3dd1f900c",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions"
+      },
+      "blocks": [
+        "M4",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities_clubs-and-committees",
+      "path": "/school-life/student-opportunities-and-activities/clubs-and-committees",
+      "title": "Clubs and Committees",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/clubs-and-committees/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/clubs-and-committees/_meta.json",
+        "sourceHash": "sha256:697526f159919a8c0fc620c32d7667150a9200a4aabe40da61d5b95c78cade05",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees"
+      },
+      "blocks": [
+        "M4",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities_creative-and-performing-arts",
+      "path": "/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+      "title": "Creative and Performing Arts",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/creative-and-performing-arts/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/creative-and-performing-arts/_meta.json",
+        "sourceHash": "sha256:d0e8675f28f9f8f4b808f34cfda7d86ca2ab93b5848bf374745c7b2c9ff13542",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts"
+      },
+      "blocks": [
+        "M4",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities_debating-and-public-speaking",
+      "path": "/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+      "title": "Debating and Public Speaking",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/debating-and-public-speaking/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/debating-and-public-speaking/_meta.json",
+        "sourceHash": "sha256:aa17838ac4d1577d3d4b518f113eeb9277d71448c9d9c1c81e2677e85cd6c7a1",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking"
+      },
+      "blocks": [
+        "M4",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities_duke-of-edinburgh-award",
+      "path": "/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+      "title": "Duke of Edinburgh Award",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/duke-of-edinburgh-award/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/duke-of-edinburgh-award/_meta.json",
+        "sourceHash": "sha256:f75d59ac8b12eef392d397183783ceba28bbd2d208e4dd99447bc00e3e27b859",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award"
+      },
+      "blocks": [
+        "M7",
+        "M6",
+        "M9",
+        "M5",
+        "NM1"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities_instrumental-music-program",
+      "path": "/school-life/student-opportunities-and-activities/instrumental-music-program",
+      "title": "Instrumental Music Program",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/instrumental-music-program/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/instrumental-music-program/_meta.json",
+        "sourceHash": "sha256:c253bbbb0925481ceff5984ab645a4f77a32e6096667db344d7417effedc50ff",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities_robotics-and-maker-society",
+      "path": "/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+      "title": "Robotics and Maker Society",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/robotics-and-maker-society/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/robotics-and-maker-society/_meta.json",
+        "sourceHash": "sha256:bcb0005e40d8c6cd1a6277583172b8f69593da81654c31b53286341ac9226da5",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society"
+      },
+      "blocks": [
+        "M4",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities_sport",
+      "path": "/school-life/student-opportunities-and-activities/sport",
+      "title": "Sport",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/sport/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/sport/_meta.json",
+        "sourceHash": "sha256:38c836d6e45ad33aac54ad894712eed87b7168f1ed43baa17f0e72981c0654b2",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport"
+      },
+      "blocks": [
+        "M6",
+        "NM1",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_student-opportunities-and-activities_student-leadership-opportunities",
+      "path": "/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+      "title": "Student Leadership Opportunities",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/student-opportunities-and-activities/student-leadership-opportunities/index.html",
+        "metaJson": "stardust/migrated/school-life/student-opportunities-and-activities/student-leadership-opportunities/_meta.json",
+        "sourceHash": "sha256:2154a7a6396806801d99602a59763adfce9c6581586b30bdffadb99abae5e530",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities"
+      },
+      "blocks": [
+        "M4",
+        "M9",
+        "M6",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_travel-to-school",
+      "path": "/school-life/travel-to-school",
+      "title": "Travel to school",
+      "templateId": "school-life_events",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/travel-to-school/index.html",
+        "metaJson": "stardust/migrated/school-life/travel-to-school/_meta.json",
+        "sourceHash": "sha256:934e5c9e1e046b9679ab659b7190a7c4bc7dce2a1cd886cc284b4b810751b77f",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school"
+      },
+      "blocks": [
+        "M6",
+        "M4",
+        "NM1",
+        "M8",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_uniform",
+      "path": "/school-life/uniform",
+      "title": "Uniform",
+      "templateId": "about-us_enrol",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/uniform/index.html",
+        "metaJson": "stardust/migrated/school-life/uniform/_meta.json",
+        "sourceHash": "sha256:df8df04f69c9e001d54a31e206307d1dfdeddee7b953847e069c91cfaa96d56b",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform"
+      },
+      "blocks": [
+        "M4",
+        "M5",
+        "M9",
+        "M8"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "school-life_uniform_uniform-shop",
+      "path": "/school-life/uniform/uniform-shop",
+      "title": "Uniform Shop",
+      "templateId": "about-us_hsc-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/school-life/uniform/uniform-shop/index.html",
+        "metaJson": "stardust/migrated/school-life/uniform/uniform-shop/_meta.json",
+        "sourceHash": "sha256:f8e7761f926a489fa89ec51ebef2352b7c3b8a73b555c383f4c0f01f76ef7ba9",
+        "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop"
+      },
+      "blocks": [
+        "M6",
+        "NM1",
+        "M5"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    }
+  ]
+}

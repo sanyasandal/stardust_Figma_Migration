@@ -1,0 +1,1206 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:36:02.059Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_student-opportunities-and-activities_instrumental-music-program.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Instrumental Music Program",
+    "description": "The Instrumental Music Program (IMP) is the largest co-curricular program in the school, involving over 370 students, and is widely regarded as one of the finest programs of its kind in NSW.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+    "ogTags": {
+      "og:title": "Instrumental Music Program",
+      "og:description": "The Instrumental Music Program (IMP) is the largest co-curricular program in the school, involving over 370 students, and is widely regarded as one of the finest programs of its kind in NSW.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_11f764c44b41567c28b73110efedddb4289a7bb5b.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_11f764c44b41567c28b73110efedddb4289a7bb5b.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Instrumental Music Program performance"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Instrumental Music Program",
+      "twitter:description": "The Instrumental Music Program (IMP) is the largest co-curricular program in the school, involving over 370 students, and is widely regarded as one of the finest programs of its kind in NSW.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_11f764c44b41567c28b73110efedddb4289a7bb5b.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Instrumental Music Program The Instrumental Music Program (IMP) is the largest co-curricular program in the school, involving over 370 students, and is widely regarded as one of the finest programs of its kind in NSW. The 14 ensembles in the IMP include Orchestras, Wind Bands, Jazz Ensembles, Percussion Ensembles, and Choirs. These groups rehearse weekly, and contribute to over 80 performances each year. The IMP fosters a range of musical abilities, offering opportunities for students who already play an instrument, as well as a Training Band program, which involves around 40 students beginning a new wind or brass instrument in Year 7. Information for current members Handbook Click Here (opens in new window) to view the IMP Membership Handbook. It provides detailed information about the program and should be your first stop to answer any general IMP questions. Rehearsal Timetable and Calendar of events Click Here (opens in new window) to view the IMP Weekly Rehearsal Timetable Click Here (opens in new window) to view the IMP online calendar. Members are encouraged to subscribe to this calendar. Absence notification Click Here (opens in new window) to notify the IMP and your conductor that you will be absent from a regular weekly rehearsal. For performances or special IMP events, including excursions, please email your ensemble (using the email address in the IMP Handbook). If this also includes a school absence, please also remember to inform the school via School Bytes or phone. New members Registration for 2026 Click Here (opens in new window) to register for the IMP in 2026. This registration form will open on Orientation Day (2 December 2025). Students should register up as soon as possible, and before the end of the school year in 2025, to aid in ensemble planning for 2026. Confirmation of IMP registration, and a welcome email with more information will be sent to students and families during the school holidays. Current IMP members do not need to re-apply. Online IMP Q&A session If you have any questions before signing up, or would like advice on which instrument to choose, ask one of the parent volunteers after the assembly on Orientation Day, or drop-in to the online Q&A session Wednesday 3 December 2025, 7:30pm-8:30pm. Students and parents are both welcome. A Google Meet link will be shared at Orientation Day. New Members Night All new IMP Members and parents must attend New Members Night, which will be held on Google Meet on Wednesday 28th January 2026 from 7:30pm-8:30pm. Details will be sent in your welcome email after you register for the IMP. Membership Fees and Individual Lessons The annual IMP Membership Fee for 2026 is $618 per student (this works out at $15.45 per week). Fees generally rise in line with CPI each year. This fee covers participation in the program irrespective of the number of ensembles a student joins. Students are encouraged to participate in more than one ensemble, and in particular, all students are strongly encouraged to join the Vocal Ensemble. IMP membership fees are charged to the students’ school account, and are payable by the end of Week 5, Term 1. Each student is required to take weekly lessons on their instrument with a tutor, in addition to participating in ensembles. Students may choose a private tutor outside school or attend tutorials with IMP instrumental tutors (subject to availability). Lessons with IMP tutors occur during school time, on a rotating timetable. Students must be actively involved in an IMP ensemble to be eligible for lessons with an IMP tutor. Fees for individual music lessons are paid directly to the tutor, and are not included in the IMP Membership Fee. Choosing an instrument, and instrument hire If you already play an instrument, simply register using the registration link above. If you are starting a new wind or brass instrument, remember that there are limited places for each instrument, and these are assigned on a first-come, first-served basis. You will have access to more opportunities if you choose an unusual or rare instrument. The IMP Coordinator assigns beginners an instrument based on their preferences, and the need to create balanced ensembles in the IMP - please don’t purchase a new instrument until your welcome email arrives and you know which instrument you have been assigned. Most students are expected to organise their own instruments but a limited number of instruments are available for hire from the school. For large instruments such as Tubas, Euphoniums, and Double Basses, which are difficult to transport, the IMP hires one instrument for use at home, and provides a second instrument free of charge for use at school. In general, the IMP does not hire out more commonly-played and lower-cost instruments such as flutes, clarinets, trumpets, and alto saxophones, although a limited number of positions are available in the Training Band on these instruments. Due to the nature of the IMP ensembles, there is no beginner strings program at Fort Street. Expensive or rare/unusual instruments are hired out at highly-subsidised rates. In 2026, the following Training Band positions are available: 2 Oboes (subsidised hire) 3 Flutes (limited hire instruments available) 3 Clarinets (no hire instruments available) 1 Bass Clarinet (subsidised hire) 1 Bassoon (subsidised hire) 2 Alto Saxophones (no hire available) 2 Tenor Saxophones (subsidised hire) 3 Trumpets (limited hire instruments available) 3 French Horns (subsidised hire) 3 Trombones (subsidised hire) 2 Euphoniums (subsidised hire, including a second practice instrument for home use) 2 Tubas (free hire, including a second practice instrument for home use) 1 Double Bass (free hire, including a second practice instrument for home use) 1 Percussion If all the above positions are filled, more positions on various instrument may be considered, taking into consideration the makeup and needs of the incoming cohort to create balanced ensembles (e.g. if a smaller than average number of current trumpet players enter Year 7, more trumpet positions will be offered in Training Band). When registering for the IMP students are encouraged to select instruments other than clarinet, flute, alto sax or trumpet in at least one of their 3 preferences. If you would like to see these instruments demonstrated by members of the USA Army Field Band Click Here (opens in new window) . Ensembles for new IMP members The following ensembles are available to incoming Year 7 Students: Training Band - for new players of wind and brass instruments. No previous musical experience is necessary. Concert Band - for students who already play wind, brass and percussion instruments Philharmonic Orchestra - for students who already play string instruments (wind and brass parts are auditioned in the middle of the year) Percussion Ensemble - for students who are taking weekly percussion lessons Vocal Ensemble - open to all IMP members, regardless of experience Big Band - entry by audition, subject to available positions - NB no prior jazz experience is necessary Parent Support Administration and artistic direction of the IMP is managed by the IMP Coordinator, Dr Matthew Manchester, and the IMP Administration Assistant, Eve Osborn. They are assisted by the IMP Committee (a parent subcommittee of the Fort Street P&C) who meet once per term to provide a parent voice for the IMP, assist with planning for concerts & IMP Camp, and oversee IMP fundraising. Without their help, such a large and diverse program would not be possible, so please consider becoming involved. Enquiries Email: fortstreetimp@gmail.com Dr Matthew Manchester IMP Coordinator Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 9142,
+    "scopeTextLen": 7931,
+    "ratio": 0.868,
+    "h1Text": "Instrumental Music Program",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Instrumental Music Program The Instrumental Music Program (IMP) is the largest co-curricular program in the school, involving over 370 students, and is widely regarded as one of the finest programs of its kind in NSW. The 14 ensembles in the IMP include Orchestras, Wind Bands, Jazz Ensembles, Percussion Ensembles, and Choirs. These groups rehearse weekly, and contribute to over 80 performances each year. The IMP fosters a range of musical abilities, offering opportunities for students who already play an instrument, as well as a Training Band program, which involves around 40 students beginning a new wind or brass instrument in Year 7. Information for current members Handbook Click Here (opens in new window) to view the IMP Membership Handbook. It provides detailed information about the program and should be your first stop to answer any general IMP questions. Rehearsal Timetable and Calendar of events Click Here (opens in new window) to view the IMP Weekly Rehearsal Timetable Click Here (opens in new window) to view the IMP online calendar. Members are encouraged to subscribe to this calendar. Absence notification Click Here (opens in new window) to notify the IMP and your conductor that you will be absent from a regular weekly rehearsal. For performances or special IMP events, including excursions, please email your ensemble (using the email address in the IMP Handbook). If this also includes a school absence, please also remember to inform the school via School Bytes or phone.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Instrumental Music Program"
+        },
+        {
+          "level": "h2",
+          "text": "Information for current members"
+        }
+      ],
+      "paragraphs": [
+        "The Instrumental Music Program (IMP) is the largest co-curricular program in the school, involving over 370 students, and is widely regarded as one of the finest programs of its kind in NSW. The 14 ensembles in the IMP include Orchestras, Wind Bands, Jazz Ensembles, Percussion Ensembles, and Choirs. These groups rehearse weekly, and contribute to over 80 performances each year. The IMP fosters a range of musical abilities, offering opportunities for students who already play an instrument, as well as a Training Band program, which involves around 40 students beginning a new wind or brass instrument in Year 7.",
+        "Handbook",
+        "Click Here (opens in new window) to view the IMP Membership Handbook. It provides detailed information about the program and should be your first stop to answer any general IMP questions.",
+        "Rehearsal Timetable and Calendar of events",
+        "Click Here (opens in new window) to view the IMP Weekly Rehearsal Timetable",
+        "Click Here (opens in new window) to view the IMP online calendar. Members are encouraged to subscribe to this calendar.",
+        "Absence notification",
+        "Click Here (opens in new window) to notify the IMP and your conductor that you will be absent from a regular weekly rehearsal.",
+        "For performances or special IMP events, including excursions, please email your ensemble (using the email address in the IMP Handbook). If this also includes a school absence, please also remember to inform the school via School Bytes or phone."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Click Here (opens in new window)",
+          "href": "https://docs.google.com/document/d/1NSufkWJ6kjS1yPftRWCZF9x50j4hdcIGEvng6OmZpYs/edit",
+          "absHref": "https://docs.google.com/document/d/1NSufkWJ6kjS1yPftRWCZF9x50j4hdcIGEvng6OmZpYs/edit",
+          "classes": ""
+        },
+        {
+          "text": "Click Here (opens in new window)",
+          "href": "https://docs.google.com/document/d/1xmg_NkbdttnINNYPpt5V-SstOAzXUScS9IicPDtGv14/edit",
+          "absHref": "https://docs.google.com/document/d/1xmg_NkbdttnINNYPpt5V-SstOAzXUScS9IicPDtGv14/edit",
+          "classes": ""
+        },
+        {
+          "text": "Click Here (opens in new window)",
+          "href": "https://calendar.google.com/calendar/u/0/embed?src=fortstreetimp@gmail.com&ctz=Australia/Sydney&pli=1",
+          "absHref": "https://calendar.google.com/calendar/u/0/embed?src=fortstreetimp@gmail.com&ctz=Australia/Sydney&pli=1",
+          "classes": ""
+        },
+        {
+          "text": "Click Here (opens in new window)",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSe-wh7YmcApgKULbBLVaeG_0jVaum0D9RCJbyx8K4bgiflifA/viewform",
+          "absHref": "https://docs.google.com/forms/d/e/1FAIpQLSe-wh7YmcApgKULbBLVaeG_0jVaum0D9RCJbyx8K4bgiflifA/viewform",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_11f764c44b41567c28b73110efedddb4289a7bb5b.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Instrumental Music Program performance",
+          "w": 2000,
+          "h": 1377
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Instrumental Music Program",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Instrumental Music Program (IMP) is the largest co-curricular program in the school, involving over 370 students, and is widely regarded as one of the finest programs of its kind in NSW. The 14 ensembles in the IMP include Orchestras, Wind Bands, Jazz Ensembles, Percussion Ensembles, and Choirs. These groups rehearse weekly, and contribute to over 80 performances each year. The IMP fosters a range of musical abilities, offering opportunities for students who already play an instrument, as well as a Training Band program, which involves around 40 students beginning a new wind or brass instrument in Year 7.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_11f764c44b41567c28b73110efedddb4289a7bb5b.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "Instrumental Music Program performance"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Information for current members",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Handbook",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Click Here (opens in new window) to view the IMP Membership Handbook. It provides detailed information about the program and should be your first stop to answer any general IMP questions.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Click Here (opens in new window)",
+              "display": "inline",
+              "href": "https://docs.google.com/document/d/1NSufkWJ6kjS1yPftRWCZF9x50j4hdcIGEvng6OmZpYs/edit",
+              "absHref": "https://docs.google.com/document/d/1NSufkWJ6kjS1yPftRWCZF9x50j4hdcIGEvng6OmZpYs/edit",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Click Here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "to view the IMP Membership Handbook. It provides detailed information about the program and should be your first stop to answer any general IMP questions.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Rehearsal Timetable and Calendar of events",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Click Here (opens in new window) to view the IMP Weekly Rehearsal Timetable",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Click Here (opens in new window)",
+              "display": "inline",
+              "href": "https://docs.google.com/document/d/1xmg_NkbdttnINNYPpt5V-SstOAzXUScS9IicPDtGv14/edit",
+              "absHref": "https://docs.google.com/document/d/1xmg_NkbdttnINNYPpt5V-SstOAzXUScS9IicPDtGv14/edit",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Click Here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "to view the IMP Weekly Rehearsal Timetable",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Click Here (opens in new window) to view the IMP online calendar. Members are encouraged to subscribe to this calendar.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Click Here (opens in new window)",
+              "display": "inline",
+              "href": "https://calendar.google.com/calendar/u/0/embed?src=fortstreetimp@gmail.com&ctz=Australia/Sydney&pli=1",
+              "absHref": "https://calendar.google.com/calendar/u/0/embed?src=fortstreetimp@gmail.com&ctz=Australia/Sydney&pli=1",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Click Here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "to view the IMP online calendar. Members are encouraged to subscribe to this calendar.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Absence notification",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Click Here (opens in new window) to notify the IMP and your conductor that you will be absent from a regular weekly rehearsal.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Click Here (opens in new window)",
+              "display": "inline",
+              "href": "https://docs.google.com/forms/d/e/1FAIpQLSe-wh7YmcApgKULbBLVaeG_0jVaum0D9RCJbyx8K4bgiflifA/viewform",
+              "absHref": "https://docs.google.com/forms/d/e/1FAIpQLSe-wh7YmcApgKULbBLVaeG_0jVaum0D9RCJbyx8K4bgiflifA/viewform",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Click Here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "to notify the IMP and your conductor that you will be absent from a regular weekly rehearsal.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For performances or special IMP events, including excursions, please email your ensemble (using the email address in the IMP Handbook). If this also includes a school absence, please also remember to inform the school via School Bytes or phone.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "New members Registration for 2026 Click Here (opens in new window) to register for the IMP in 2026. This registration form will open on Orientation Day (2 December 2025). Students should register up as soon as possible, and before the end of the school year in 2025, to aid in ensemble planning for 2026. Confirmation of IMP registration, and a welcome email with more information will be sent to students and families during the school holidays. Current IMP members do not need to re-apply. Online IMP Q&A session If you have any questions before signing up, or would like advice on which instrument to choose, ask one of the parent volunteers after the assembly on Orientation Day, or drop-in to the online Q&A session Wednesday 3 December 2025, 7:30pm-8:30pm. Students and parents are both welcome. A Google Meet link will be shared at Orientation Day. New Members Night All new IMP Members and parents must attend New Members Night, which will be held on Google Meet on Wednesday 28th January 2026 from 7:30pm-8:30pm. Details will be sent in your welcome email after you register for the IMP.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "New members"
+        },
+        {
+          "level": "h3",
+          "text": "Registration for 2026"
+        },
+        {
+          "level": "h3",
+          "text": "Online IMP Q&A session"
+        },
+        {
+          "level": "h3",
+          "text": "New Members Night"
+        }
+      ],
+      "paragraphs": [
+        "Click Here (opens in new window) to register for the IMP in 2026. This registration form will open on Orientation Day (2 December 2025). Students should register up as soon as possible, and before the end of the school year in 2025, to aid in ensemble planning for 2026. Confirmation of IMP registration, and a welcome email with more information will be sent to students and families during the school holidays. Current IMP members do not need to re-apply.",
+        "If you have any questions before signing up, or would like advice on which instrument to choose, ask one of the parent volunteers after the assembly on Orientation Day, or drop-in to the online Q&A session Wednesday 3 December 2025, 7:30pm-8:30pm. Students and parents are both welcome. A Google Meet link will be shared at Orientation Day.",
+        "All new IMP Members and parents must attend New Members Night, which will be held on Google Meet on Wednesday 28th January 2026 from 7:30pm-8:30pm. Details will be sent in your welcome email after you register for the IMP."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Click Here (opens in new window)",
+          "href": "https://forms.gle/ZYsw3wmdNJx1o2fZ6",
+          "absHref": "https://forms.gle/ZYsw3wmdNJx1o2fZ6",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "New members",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Registration for 2026",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Click Here (opens in new window) to register for the IMP in 2026. This registration form will open on Orientation Day (2 December 2025). Students should register up as soon as possible, and before the end of the school year in 2025, to aid in ensemble planning for 2026. Confirmation of IMP registration, and a welcome email with more information will be sent to students and families during the school holidays. Current IMP members do not need to re-apply.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Click Here (opens in new window)",
+              "display": "inline",
+              "href": "https://forms.gle/ZYsw3wmdNJx1o2fZ6",
+              "absHref": "https://forms.gle/ZYsw3wmdNJx1o2fZ6",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Click Here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "to register for the IMP in 2026. This registration form will open on Orientation Day (2 December 2025). Students should register up as soon as possible, and before the end of the school year in 2025, to aid in ensemble planning for 2026. Confirmation of IMP registration, and a welcome email with more information will be sent to students and families during the school holidays. Current IMP members do not need to re-apply.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Online IMP Q&A session",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you have any questions before signing up, or would like advice on which instrument to choose, ask one of the parent volunteers after the assembly on Orientation Day, or drop-in to the online Q&A session Wednesday 3 December 2025, 7:30pm-8:30pm. Students and parents are both welcome. A Google Meet link will be shared at Orientation Day.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "If you have any questions before signing up, or would like advice on which instrument to choose, ask one of the parent volunteers after the assembly on Orientation Day, or drop-in to the online Q&A session",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Wednesday 3 December 2025, 7:30pm-8:30pm",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ". Students and parents are both welcome. A Google Meet link will be shared at Orientation Day.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "New Members Night",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "All new IMP Members and parents must attend New Members Night, which will be held on Google Meet on Wednesday 28th January 2026 from 7:30pm-8:30pm. Details will be sent in your welcome email after you register for the IMP.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "All new IMP Members and parents must attend New Members Night, which will be held on Google Meet on",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Wednesday 28th January 2026 from 7:30pm-8:30pm",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ". Details will be sent in your welcome email after you register for the IMP.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Membership Fees and Individual Lessons The annual IMP Membership Fee for 2026 is $618 per student (this works out at $15.45 per week). Fees generally rise in line with CPI each year. This fee covers participation in the program irrespective of the number of ensembles a student joins. Students are encouraged to participate in more than one ensemble, and in particular, all students are strongly encouraged to join the Vocal Ensemble. IMP membership fees are charged to the students’ school account, and are payable by the end of Week 5, Term 1. Each student is required to take weekly lessons on their instrument with a tutor, in addition to participating in ensembles. Students may choose a private tutor outside school or attend tutorials with IMP instrumental tutors (subject to availability). Lessons with IMP tutors occur during school time, on a rotating timetable. Students must be actively involved in an IMP ensemble to be eligible for lessons with an IMP tutor. Fees for individual music lessons are paid directly to the tutor, and are not included in the IMP Membership Fee.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Membership Fees and Individual Lessons"
+        }
+      ],
+      "paragraphs": [
+        "The annual IMP Membership Fee for 2026 is $618 per student (this works out at $15.45 per week). Fees generally rise in line with CPI each year. This fee covers participation in the program irrespective of the number of ensembles a student joins. Students are encouraged to participate in more than one ensemble, and in particular, all students are strongly encouraged to join the Vocal Ensemble. IMP membership fees are charged to the students’ school account, and are payable by the end of Week 5, Term 1.",
+        "Each student is required to take weekly lessons on their instrument with a tutor, in addition to participating in ensembles. Students may choose a private tutor outside school or attend tutorials with IMP instrumental tutors (subject to availability). Lessons with IMP tutors occur during school time, on a rotating timetable. Students must be actively involved in an IMP ensemble to be eligible for lessons with an IMP tutor. Fees for individual music lessons are paid directly to the tutor, and are not included in the IMP Membership Fee."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Membership Fees and Individual Lessons",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The annual IMP Membership Fee for 2026 is $618 per student (this works out at $15.45 per week). Fees generally rise in line with CPI each year. This fee covers participation in the program irrespective of the number of ensembles a student joins. Students are encouraged to participate in more than one ensemble, and in particular, all students are strongly encouraged to join the Vocal Ensemble. IMP membership fees are charged to the students’ school account, and are payable by the end of Week 5, Term 1.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Each student is required to take weekly lessons on their instrument with a tutor, in addition to participating in ensembles. Students may choose a private tutor outside school or attend tutorials with IMP instrumental tutors (subject to availability). Lessons with IMP tutors occur during school time, on a rotating timetable. Students must be actively involved in an IMP ensemble to be eligible for lessons with an IMP tutor. Fees for individual music lessons are paid directly to the tutor, and are not included in the IMP Membership Fee.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Choosing an instrument, and instrument hire If you already play an instrument, simply register using the registration link above. If you are starting a new wind or brass instrument, remember that there are limited places for each instrument, and these are assigned on a first-come, first-served basis. You will have access to more opportunities if you choose an unusual or rare instrument. The IMP Coordinator assigns beginners an instrument based on their preferences, and the need to create balanced ensembles in the IMP - please don’t purchase a new instrument until your welcome email arrives and you know which instrument you have been assigned. Most students are expected to organise their own instruments but a limited number of instruments are available for hire from the school. For large instruments such as Tubas, Euphoniums, and Double Basses, which are difficult to transport, the IMP hires one instrument for use at home, and provides a second instrument free of charge for use at school. In general, the IMP does not hire out more commonly-played and lower-cost instruments such as flutes, clarinets, trumpets, and alto saxophones, although a limited number of positions are available in the Training Band on these instruments. Due to the nature of the IMP ensembles, there is no beginner strings program at Fort Street. Expensive or rare/unusual instruments are hired out at highly-subsidised rates. In 2026, the following Training Band positions are available:",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Choosing an instrument, and instrument hire"
+        }
+      ],
+      "paragraphs": [
+        "If you already play an instrument, simply register using the registration link above.",
+        "If you are starting a new wind or brass instrument, remember that there are limited places for each instrument, and these are assigned on a first-come, first-served basis. You will have access to more opportunities if you choose an unusual or rare instrument.",
+        "The IMP Coordinator assigns beginners an instrument based on their preferences, and the need to create balanced ensembles in the IMP - please don’t purchase a new instrument until your welcome email arrives and you know which instrument you have been assigned.",
+        "Most students are expected to organise their own instruments but a limited number of instruments are available for hire from the school. For large instruments such as Tubas, Euphoniums, and Double Basses, which are difficult to transport, the IMP hires one instrument for use at home, and provides a second instrument free of charge for use at school. In general, the IMP does not hire out more commonly-played and lower-cost instruments such as flutes, clarinets, trumpets, and alto saxophones, although a limited number of positions are available in the Training Band on these instruments. Due to the nature of the IMP ensembles, there is no beginner strings program at Fort Street.",
+        "Expensive or rare/unusual instruments are hired out at highly-subsidised rates. In 2026, the following Training Band positions are available:"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Choosing an instrument, and instrument hire",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you already play an instrument, simply register using the registration link above.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you are starting a new wind or brass instrument, remember that there are limited places for each instrument, and these are assigned on a first-come, first-served basis. You will have access to more opportunities if you choose an unusual or rare instrument.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The IMP Coordinator assigns beginners an instrument based on their preferences, and the need to create balanced ensembles in the IMP - please don’t purchase a new instrument until your welcome email arrives and you know which instrument you have been assigned.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Most students are expected to organise their own instruments but a limited number of instruments are available for hire from the school. For large instruments such as Tubas, Euphoniums, and Double Basses, which are difficult to transport, the IMP hires one instrument for use at home, and provides a second instrument free of charge for use at school. In general, the IMP does not hire out more commonly-played and lower-cost instruments such as flutes, clarinets, trumpets, and alto saxophones, although a limited number of positions are available in the Training Band on these instruments. Due to the nature of the IMP ensembles, there is no beginner strings program at Fort Street.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Expensive or rare/unusual instruments are hired out at highly-subsidised rates. In 2026, the following Training Band positions are available:",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white columns-container",
+      "visibleText": "2 Oboes (subsidised hire) 3 Flutes (limited hire instruments available) 3 Clarinets (no hire instruments available) 1 Bass Clarinet (subsidised hire) 1 Bassoon (subsidised hire) 2 Alto Saxophones (no hire available) 2 Tenor Saxophones (subsidised hire) 3 Trumpets (limited hire instruments available) 3 French Horns (subsidised hire) 3 Trombones (subsidised hire) 2 Euphoniums (subsidised hire, including a second practice instrument for home use) 2 Tubas (free hire, including a second practice instrument for home use) 1 Double Bass (free hire, including a second practice instrument for home use) 1 Percussion If all the above positions are filled, more positions on various instrument may be considered, taking into consideration the makeup and needs of the incoming cohort to create balanced ensembles (e.g. if a smaller than average number of current trumpet players enter Year 7, more trumpet positions will be offered in Training Band). When registering for the IMP students are encouraged to select instruments other than clarinet, flute, alto sax or trumpet in at least one of their 3 preferences. If you would like to see these instruments demonstrated by members of the USA Army Field Band Click Here (opens in new window) .",
+      "headings": [],
+      "paragraphs": [
+        "2 Oboes (subsidised hire)",
+        "3 Flutes (limited hire instruments available)",
+        "3 Clarinets (no hire instruments available)",
+        "1 Bass Clarinet (subsidised hire)",
+        "1 Bassoon (subsidised hire)",
+        "2 Alto Saxophones (no hire available)",
+        "2 Tenor Saxophones (subsidised hire)",
+        "3 Trumpets (limited hire instruments available)",
+        "3 French Horns (subsidised hire)",
+        "3 Trombones (subsidised hire)",
+        "2 Euphoniums (subsidised hire, including a second practice instrument for home use)",
+        "2 Tubas (free hire, including a second practice instrument for home use)",
+        "1 Double Bass (free hire, including a second practice instrument for home use)",
+        "1 Percussion",
+        "If all the above positions are filled, more positions on various instrument may be considered, taking into consideration the makeup and needs of the incoming cohort to create balanced ensembles (e.g. if a smaller than average number of current trumpet players enter Year 7, more trumpet positions will be offered in Training Band).",
+        "When registering for the IMP students are encouraged to select instruments other than clarinet, flute, alto sax or trumpet in at least one of their 3 preferences.",
+        "If you would like to see these instruments demonstrated by members of the USA Army Field Band Click Here (opens in new window) ."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Click Here (opens in new window)",
+          "href": "https://youtu.be/CCTeSjpDsIs?feature=shared",
+          "absHref": "https://youtu.be/CCTeSjpDsIs?feature=shared",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1388e09ac1c35be68602e3caa1d7fb166a788c1ab.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Students in the Instrumental Music Program",
+          "w": 2000,
+          "h": 1334
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "2 Oboes (subsidised hire)",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "3 Flutes (limited hire instruments available)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "3 Clarinets (no hire instruments available)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "1 Bass Clarinet (subsidised hire)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "1 Bassoon (subsidised hire)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "2 Alto Saxophones (no hire available)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "2 Tenor Saxophones (subsidised hire)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1388e09ac1c35be68602e3caa1d7fb166a788c1ab.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Students in the Instrumental Music Program",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "3 Trumpets (limited hire instruments available)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "3 French Horns (subsidised hire)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "3 Trombones (subsidised hire)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "2 Euphoniums (subsidised hire, including a second practice instrument for home use)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "2 Tubas (free hire, including a second practice instrument for home use)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "1 Double Bass (free hire, including a second practice instrument for home use)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "1 Percussion",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If all the above positions are filled, more positions on various instrument may be considered, taking into consideration the makeup and needs of the incoming cohort to create balanced ensembles (e.g. if a smaller than average number of current trumpet players enter Year 7, more trumpet positions will be offered in Training Band).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "When registering for the IMP students are encouraged to select instruments other than clarinet, flute, alto sax or trumpet in at least one of their 3 preferences.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you would like to see these instruments demonstrated by members of the USA Army Field Band Click Here (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "If you would like to see these instruments demonstrated by members of the USA Army Field Band",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Click Here (opens in new window)",
+              "display": "inline",
+              "href": "https://youtu.be/CCTeSjpDsIs?feature=shared",
+              "absHref": "https://youtu.be/CCTeSjpDsIs?feature=shared",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Click Here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Ensembles for new IMP members The following ensembles are available to incoming Year 7 Students: Training Band - for new players of wind and brass instruments. No previous musical experience is necessary. Concert Band - for students who already play wind, brass and percussion instruments Philharmonic Orchestra - for students who already play string instruments (wind and brass parts are auditioned in the middle of the year) Percussion Ensemble - for students who are taking weekly percussion lessons Vocal Ensemble - open to all IMP members, regardless of experience Big Band - entry by audition, subject to available positions - NB no prior jazz experience is necessary Parent Support Administration and artistic direction of the IMP is managed by the IMP Coordinator, Dr Matthew Manchester, and the IMP Administration Assistant, Eve Osborn. They are assisted by the IMP Committee (a parent subcommittee of the Fort Street P&C) who meet once per term to provide a parent voice for the IMP, assist with planning for concerts & IMP Camp, and oversee IMP fundraising. Without their help, such a large and diverse program would not be possible, so please consider becoming involved. Enquiries Email: fortstreetimp@gmail.com Dr Matthew Manchester IMP Coordinator",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Ensembles for new IMP members"
+        },
+        {
+          "level": "h2",
+          "text": "Parent Support"
+        }
+      ],
+      "paragraphs": [
+        "The following ensembles are available to incoming Year 7 Students:",
+        "Training Band - for new players of wind and brass instruments. No previous musical experience is necessary.",
+        "Concert Band - for students who already play wind, brass and percussion instruments",
+        "Philharmonic Orchestra - for students who already play string instruments (wind and brass parts are auditioned in the middle of the year)",
+        "Percussion Ensemble - for students who are taking weekly percussion lessons",
+        "Vocal Ensemble - open to all IMP members, regardless of experience",
+        "Big Band - entry by audition, subject to available positions - NB no prior jazz experience is necessary",
+        "Administration and artistic direction of the IMP is managed by the IMP Coordinator, Dr Matthew Manchester, and the IMP Administration Assistant, Eve Osborn. They are assisted by the IMP Committee (a parent subcommittee of the Fort Street P&C) who meet once per term to provide a parent voice for the IMP, assist with planning for concerts & IMP Camp, and oversee IMP fundraising. Without their help, such a large and diverse program would not be possible, so please consider becoming involved.",
+        "Enquiries",
+        "Email: fortstreetimp@gmail.com Dr Matthew Manchester IMP Coordinator"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Ensembles for new IMP members",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The following ensembles are available to incoming Year 7 Students:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Training Band - for new players of wind and brass instruments. No previous musical experience is necessary.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Training Band",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- for new players of wind and brass instruments. No previous musical experience is necessary.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Concert Band - for students who already play wind, brass and percussion instruments",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Concert Band",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- for students who already play wind, brass and percussion instruments",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Philharmonic Orchestra - for students who already play string instruments (wind and brass parts are auditioned in the middle of the year)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Philharmonic Orchestra",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- for students who already play string instruments (wind and brass parts are auditioned in the middle of the year)",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Percussion Ensemble - for students who are taking weekly percussion lessons",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Percussion Ensemble",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- for students who are taking weekly percussion lessons",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Vocal Ensemble - open to all IMP members, regardless of experience",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Vocal Ensemble",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- open to all IMP members, regardless of experience",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Big Band - entry by audition, subject to available positions - NB no prior jazz experience is necessary",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Big Band",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- entry by audition, subject to available positions - NB no prior jazz experience is necessary",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Parent Support",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Administration and artistic direction of the IMP is managed by the IMP Coordinator, Dr Matthew Manchester, and the IMP Administration Assistant, Eve Osborn. They are assisted by the IMP Committee (a parent subcommittee of the Fort Street P&C) who meet once per term to provide a parent voice for the IMP, assist with planning for concerts & IMP Camp, and oversee IMP fundraising. Without their help, such a large and diverse program would not be possible, so please consider becoming involved.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Enquiries",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Email: fortstreetimp@gmail.com Dr Matthew Manchester IMP Coordinator",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Email: fortstreetimp@gmail.com",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Dr Matthew Manchester",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "IMP Coordinator",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need to make a payment?"
+        }
+      ],
+      "paragraphs": [
+        "Our parent portal makes it easy to make a payment online.",
+        "Parent portal"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need to make a payment?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our parent portal makes it easy to make a payment online.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parent portal",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline-block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": "button primary"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": "button primary"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

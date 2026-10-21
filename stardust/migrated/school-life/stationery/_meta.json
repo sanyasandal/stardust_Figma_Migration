@@ -1,0 +1,56 @@
+{
+  "slug": "school-life_stationery",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M4",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "teaser-ti",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Stationery",
+    "description": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Stationery",
+    "description": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "2beba0f3ce23",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/stationery/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/stationery/_meta.json",
+  "driverVersion": "1"
+}

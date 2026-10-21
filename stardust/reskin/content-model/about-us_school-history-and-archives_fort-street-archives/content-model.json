@@ -1,0 +1,1204 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:20:08.824Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/fort-street-archives",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/about-us_school-history-and-archives_fort-street-archives.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Fort Street Archives",
+    "description": "Our Archives and Museum exists to preserve the rich history and colourful stories of our teachers and students, told through their experiences in the classroom and in the schoolyard, at work and play for over 170 years.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/fort-street-archives",
+    "ogTags": {
+      "og:title": "Fort Street Archives",
+      "og:description": "Our Archives and Museum exists to preserve the rich history and colourful stories of our teachers and students, told through their experiences in the classroom and in the schoolyard, at work and play for over 170 years.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/fort-street-archives",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1313dce8a284244ec3992009a7729ab44b375c3ea.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1313dce8a284244ec3992009a7729ab44b375c3ea.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Fort Street Archives",
+      "twitter:description": "Our Archives and Museum exists to preserve the rich history and colourful stories of our teachers and students, told through their experiences in the classroom and in the schoolyard, at work and play for over 170 years.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1313dce8a284244ec3992009a7729ab44b375c3ea.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Fort Street Archives Get to know our principal and staff, who work together to create a positive school culture. Enquiries are welcome from members of the Fort Street community and beyond. For this research service, a minimum donation to the Library Fund of $30 is requested. An additional amount may be requested if the enquiry requires substantial research or copying costs. Donations to the Library Fund are tax deductible. Payments can be made at the front office or online. Note: Under ‘Student Details’ fill in your details. Then under ‘Payment Options’ select ‘Other’ then type in ‘Library Fund Archives – your surname’. Library Fund Archive Donations (opens in new window) Donations Donations of Archival Material - The Fort Street Archive is delighted to accept donations of relevant material such as photographs, original objects or memorabilia that increase the richness of the collection. Please read the school’s Donation Policy and Agreement. Donate to a Project – Many reunion groups giving back to the school in some way. To donate money towards an archival or educational project at the school, please get in contact to view the current list of approved projects Financial Donations - To make a tax deductible financial donation to the archives, please follow the link to online payments. You will need to enter your name and surname in the student details and tick the box marked ‘other’ under payment options. Library Fund Archive Donations (opens in new window) Financial Donations To make a tax deductible financial donation to the archives please follow the link to online payments (opens in new window) . You will need to select Add Item from the bottom left hand corner. A pop up box will appear where you can select Fort Street Foundation Library Fund (tax deductible) and tick the box to the left. Then click on Add Item. You can then enter the amount you wish to pay and select Pay Now. After your payment is processed you will be emailed a receipt. Connect Link up with the wider Fort Street community interested in the history of the school and the local area by joining the ‘Lost Fort Street’ Facebook group. Lost Fort Street Instagram (opens in new window) Lost Fort Street Facebook (opens in new window) Research Fort Street Tours App – This app allows virtual heritage tours of the Fort Street school sites. This includes tours of the original 1815 Military Hospital at Observatory Hill before it became Fort Street Model School in 1849 (then Fort Street Girls High School). It also includes tours of the current Fort Street High School (previously Fort Street Boys High School) at Petersham, tours of the Ron Horan Museum and the collection of Honour Boards. You can download the award-winning Fort Street Tours app at either the Apple App Store (opens in new window) or Google Play (opens in new window) View a list of Distinguished Fortians here: FSHS Distinguished Fortians List (Updated November 2022) View a list of Fortians who have been awarded Australian Honours here: Fort Street Australian Honours (Updated February 2026) View a list of Fortian authors here: Fortian Authors List (Updated Jan 2021) View our historic Speech Day Programs here: FSBHS Speech Day Programs 1939 - 1974 FSHS Speech Day Programs 1935 - 1974 FSHS Speech Day Programs 1975 - 1999 FSHS Speech Day Programs 2000 - 2018 Volunteer Volunteers are welcomed and can undertake a variety of projects under the guidance of the Archivist. The collection comprises manuscripts, paper records, maps, plans, photographs, drawings, paintings, movies, audio and textiles. Conservation is ongoing and volunteers are encouraged to apply for a variety of limited and ongoing projects. Privacy Further information about privacy legislation and its application to the NSW Department of Education is detailed in the Department’s Privacy Management Plan. Privacy Management Plan (opens in new window) For more information Please contact our archivist Mr Iain Wallace (Thursday and Friday only) here (opens in new window) The Fort Street Museum See the notable archival exhibitions celebrating the achievements of Fortians from the past and present. The Fortian Digitised Discover this resource which has been chronicling the lives and achievements of students and staff since 1899.",
+  "coverage": {
+    "bodyTextLen": 5293,
+    "scopeTextLen": 4277,
+    "ratio": 0.808,
+    "h1Text": "Fort Street Archives",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Fort Street Archives Get to know our principal and staff, who work together to create a positive school culture. Enquiries are welcome from members of the Fort Street community and beyond. For this research service, a minimum donation to the Library Fund of $30 is requested. An additional amount may be requested if the enquiry requires substantial research or copying costs. Donations to the Library Fund are tax deductible. Payments can be made at the front office or online. Note: Under ‘Student Details’ fill in your details. Then under ‘Payment Options’ select ‘Other’ then type in ‘Library Fund Archives – your surname’. Library Fund Archive Donations (opens in new window) Donations Donations of Archival Material - The Fort Street Archive is delighted to accept donations of relevant material such as photographs, original objects or memorabilia that increase the richness of the collection. Please read the school’s Donation Policy and Agreement. Donate to a Project – Many reunion groups giving back to the school in some way. To donate money towards an archival or educational project at the school, please get in contact to view the current list of approved projects Financial Donations - To make a tax deductible financial donation to the archives, please follow the link to online payments. You will need to enter your name and surname in the student details and tick the box marked ‘other’ under payment options. Library Fund Archive Donations (opens in new window) Financial Donations To make a tax deductible financial donation to the archives please follow the link to online payments (opens in new window) . You will need to select Add Item from the bottom left hand corner. A pop up box will appear where you can select Fort Street Foundation Library Fund (tax deductible) and tick the box to the left. Then click on Add Item. You can then enter the amount you wish to pay and select Pay Now. After your payment is processed you will be emailed a receipt. Connect Link up with the wider Fort Street community interested in the history of the school and the local area by joining the ‘Lost Fort Street’ Facebook group. Lost Fort Street Instagram (opens in new window) Lost Fort Street Facebook (opens in new window) Research Fort Street Tours App – This app allows virtual heritage tours of the Fort Street school sites. This includes tours of the original 1815 Military Hospital at Observatory Hill before it became Fort Street Model School in 1849 (then Fort Street Girls High School). It also includes tours of the current Fort Street High School (previously Fort Street Boys High School) at Petersham, tours of the Ron Horan Museum and the collection of Honour Boards. You can download the award-winning Fort Street Tours app at either the Apple App Store (opens in new window) or Google Play (opens in new window) View a list of Distinguished Fortians here: FSHS Distinguished Fortians List (Updated November 2022) View a list of Fortians who have been awarded Australian Honours here: Fort Street Australian Honours (Updated February 2026) View a list of Fortian authors here: Fortian Authors List (Updated Jan 2021) View our historic Speech Day Programs here: FSBHS Speech Day Programs 1939 - 1974 FSHS Speech Day Programs 1935 - 1974 FSHS Speech Day Programs 1975 - 1999 FSHS Speech Day Programs 2000 - 2018 Volunteer Volunteers are welcomed and can undertake a variety of projects under the guidance of the Archivist. The collection comprises manuscripts, paper records, maps, plans, photographs, drawings, paintings, movies, audio and textiles. Conservation is ongoing and volunteers are encouraged to apply for a variety of limited and ongoing projects. Privacy Further information about privacy legislation and its application to the NSW Department of Education is detailed in the Department’s Privacy Management Plan. Privacy Management Plan (opens in new window)",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Fort Street Archives"
+        },
+        {
+          "level": "h2",
+          "text": "Donations"
+        },
+        {
+          "level": "h2",
+          "text": "Financial Donations"
+        },
+        {
+          "level": "h2",
+          "text": "Connect"
+        },
+        {
+          "level": "h2",
+          "text": "Research"
+        },
+        {
+          "level": "h2",
+          "text": "Volunteer"
+        },
+        {
+          "level": "h2",
+          "text": "Privacy"
+        }
+      ],
+      "paragraphs": [
+        "Get to know our principal and staff, who work together to create a positive school culture.",
+        "Enquiries are welcome from members of the Fort Street community and beyond. For this research service, a minimum donation to the Library Fund of $30 is requested. An additional amount may be requested if the enquiry requires substantial research or copying costs. Donations to the Library Fund are tax deductible.",
+        "Payments can be made at the front office or online.",
+        "Note: Under ‘Student Details’ fill in your details. Then under ‘Payment Options’ select ‘Other’ then type in ‘Library Fund Archives – your surname’.",
+        "Library Fund Archive Donations (opens in new window)",
+        "To make a tax deductible financial donation to the archives please follow the link to online payments (opens in new window) .",
+        "You will need to select Add Item from the bottom left hand corner.",
+        "A pop up box will appear where you can select Fort Street Foundation Library Fund (tax deductible) and tick the box to the left. Then click on Add Item.",
+        "You can then enter the amount you wish to pay and select Pay Now. After your payment is processed you will be emailed a receipt.",
+        "Link up with the wider Fort Street community interested in the history of the school and the local area by joining the ‘Lost Fort Street’ Facebook group.",
+        "Lost Fort Street Instagram (opens in new window)",
+        "Lost Fort Street Facebook (opens in new window)",
+        "Fort Street Tours App – This app allows virtual heritage tours of the Fort Street school sites. This includes tours of the original 1815 Military Hospital at Observatory Hill before it became Fort Street Model School in 1849 (then Fort Street Girls High School). It also includes tours of the current Fort Street High School (previously Fort Street Boys High School) at Petersham, tours of the Ron Horan Museum and the collection of Honour Boards. You can download the award-winning Fort Street Tours app at either the Apple App Store (opens in new window) or Google Play (opens in new window)",
+        "View a list of Distinguished Fortians here: FSHS Distinguished Fortians List (Updated November 2022)",
+        "View a list of Fortians who have been awarded Australian Honours here:",
+        "Fort Street Australian Honours",
+        "(Updated February 2026)",
+        "View a list of Fortian authors here: Fortian Authors List (Updated Jan 2021)",
+        "View our historic Speech Day Programs here:",
+        "FSBHS Speech Day Programs 1939 - 1974 FSHS Speech Day Programs 1935 - 1974 FSHS Speech Day Programs 1975 - 1999 FSHS Speech Day Programs 2000 - 2018",
+        "Volunteers are welcomed and can undertake a variety of projects under the guidance of the Archivist. The collection comprises manuscripts, paper records, maps, plans, photographs, drawings, paintings, movies, audio and textiles. Conservation is ongoing and volunteers are encouraged to apply for a variety of limited and ongoing projects.",
+        "Further information about privacy legislation and its application to the NSW Department of Education is detailed in the Department’s Privacy Management Plan.",
+        "Privacy Management Plan (opens in new window)"
+      ],
+      "listItems": [
+        "Donations of Archival Material - The Fort Street Archive is delighted to accept donations of relevant material such as photographs, original objects or memorabilia that increase the richness of the collection. Please read the school’s Donation Policy and Agreement.",
+        "Donate to a Project – Many reunion groups giving back to the school in some way. To donate money towards an archival or educational project at the school, please get in contact to view the current list of approved projects",
+        "Financial Donations - To make a tax deductible financial donation to the archives, please follow the link to online payments. You will need to enter your name and surname in the student details and tick the box marked ‘other’ under payment options. Library Fund Archive Donations (opens in new window)",
+        "Fort Street Tours App – This app allows virtual heritage tours of the Fort Street school sites. This includes tours of the original 1815 Military Hospital at Observatory Hill before it became Fort Street Model School in 1849 (then Fort Street Girls High School). It also includes tours of the current Fort Street High School (previously Fort Street Boys High School) at Petersham, tours of the Ron Horan Museum and the collection of Honour Boards. You can download the award-winning Fort Street Tours app at either the Apple App Store (opens in new window) or Google Play (opens in new window)",
+        "View a list of Distinguished Fortians here: FSHS Distinguished Fortians List (Updated November 2022)",
+        "View a list of Fortians who have been awarded Australian Honours here: Fort Street Australian Honours (Updated February 2026)",
+        "View a list of Fortian authors here: Fortian Authors List (Updated Jan 2021)",
+        "View our historic Speech Day Programs here: FSBHS Speech Day Programs 1939 - 1974 FSHS Speech Day Programs 1935 - 1974 FSHS Speech Day Programs 1975 - 1999 FSHS Speech Day Programs 2000 - 2018"
+      ],
+      "ctas": [
+        {
+          "text": "Library Fund Archive Donations (opens in new window)",
+          "href": "https://portal.schoolbytes.education/other-payment/1657",
+          "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+          "classes": "button primary"
+        },
+        {
+          "text": ". Library Fund Archive Donations (opens in new window)",
+          "href": "https://portal.schoolbytes.education/other-payment/1657",
+          "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+          "classes": ""
+        },
+        {
+          "text": "online payments (opens in new window)",
+          "href": "https://portal.schoolbytes.education/other-payment/1657",
+          "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+          "classes": ""
+        },
+        {
+          "text": "Lost Fort Street Instagram (opens in new window)",
+          "href": "https://www.instagram.com/lost.fort.street/",
+          "absHref": "https://www.instagram.com/lost.fort.street/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Lost Fort Street Facebook (opens in new window)",
+          "href": "https://www.facebook.com/groups/2023669614544302/",
+          "absHref": "https://www.facebook.com/groups/2023669614544302/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Apple App Store (opens in new window)",
+          "href": "https://apps.apple.com/us/app/fort-street-tours/id1470021496",
+          "absHref": "https://apps.apple.com/us/app/fort-street-tours/id1470021496",
+          "classes": ""
+        },
+        {
+          "text": "Google Play (opens in new window)",
+          "href": "https://play.google.com/store/apps/details?id=com.mytoursapp.android.app1782",
+          "absHref": "https://play.google.com/store/apps/details?id=com.mytoursapp.android.app1782",
+          "classes": ""
+        },
+        {
+          "text": "FSHS Distinguished Fortians List",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_Distinguished_Fortians_-_Nov_2022.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_Distinguished_Fortians_-_Nov_2022.pdf",
+          "classes": ""
+        },
+        {
+          "text": "Fort Street Australian Honours",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20Australian%20Honours%20Board%20-%20Feb%202026.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20Australian%20Honours%20Board%20-%20Feb%202026.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "Fortian Authors List",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Fortian_Authors_List_Jan_2021.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Fortian_Authors_List_Jan_2021.pdf",
+          "classes": ""
+        },
+        {
+          "text": "FSBHS Speech Day Programs 1939 - 1974",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSBHS_SPEECH_DAY_PROGRAMS_1939-1974.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSBHS_SPEECH_DAY_PROGRAMS_1939-1974.pdf",
+          "classes": ""
+        },
+        {
+          "text": "FSHS Speech Day Programs 1935 - 1974",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSGHS_SPEECH_DAY_PROGRAMS_1935-1974.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSGHS_SPEECH_DAY_PROGRAMS_1935-1974.pdf",
+          "classes": ""
+        },
+        {
+          "text": "FSHS Speech Day Programs 1975 - 1999",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_SPEECH_DAY_PROGRAMS_1975-1999.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_SPEECH_DAY_PROGRAMS_1975-1999.pdf",
+          "classes": ""
+        },
+        {
+          "text": "FSHS Speech Day Programs 2000 - 2018",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_SPEECH_DAY_PROGRAMS_2000-2018.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_SPEECH_DAY_PROGRAMS_2000-2018.pdf",
+          "classes": ""
+        },
+        {
+          "text": "Privacy Management Plan (opens in new window)",
+          "href": "http://www.dec.nsw.gov.au/about-us/plans-reports-and-statistics/privacy",
+          "absHref": "http://www.dec.nsw.gov.au/about-us/plans-reports-and-statistics/privacy",
+          "classes": "button primary"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1313dce8a284244ec3992009a7729ab44b375c3ea.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 650,
+          "h": 600
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1d2e9d9d11fd54e4a94f2f9ae56bbae85f3c1b02c.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 1265,
+          "h": 463
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_12aeeb890750ea14b0b78dadab07dacad4e41e4c5.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 528,
+          "h": 373
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Fort Street Archives",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1313dce8a284244ec3992009a7729ab44b375c3ea.jpg?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Get to know our principal and staff, who work together to create a positive school culture.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Enquiries are welcome from members of the Fort Street community and beyond. For this research service, a minimum donation to the Library Fund of $30 is requested. An additional amount may be requested if the enquiry requires substantial research or copying costs. Donations to the Library Fund are tax deductible.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Payments can be made at the front office or online.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Note: Under ‘Student Details’ fill in your details. Then under ‘Payment Options’ select ‘Other’ then type in ‘Library Fund Archives – your surname’.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Library Fund Archive Donations (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Library Fund Archive Donations (opens in new window)",
+              "display": "inline-block",
+              "href": "https://portal.schoolbytes.education/other-payment/1657",
+              "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Library Fund Archive Donations",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Donations",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Donations of Archival Material - The Fort Street Archive is delighted to accept donations of relevant material such as photographs, original objects or memorabilia that increase the richness of the collection. Please read the school’s Donation Policy and Agreement.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Donate to a Project – Many reunion groups giving back to the school in some way. To donate money towards an archival or educational project at the school, please get in contact to view the current list of approved projects",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Financial Donations - To make a tax deductible financial donation to the archives, please follow the link to online payments. You will need to enter your name and surname in the student details and tick the box marked ‘other’ under payment options. Library Fund Archive Donations (opens in new window)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Financial Donations - To make a tax deductible financial donation to the archives, please follow the link to online payments. You will need to enter your name and surname in the student details and tick the box marked ‘other’ under payment options",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": ". Library Fund Archive Donations (opens in new window)",
+              "display": "inline",
+              "href": "https://portal.schoolbytes.education/other-payment/1657",
+              "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": ". Library Fund Archive Donations",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Financial Donations",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "To make a tax deductible financial donation to the archives please follow the link to online payments (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "To make a tax deductible financial donation to the archives please follow the link to",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "online payments (opens in new window)",
+              "display": "inline",
+              "href": "https://portal.schoolbytes.education/other-payment/1657",
+              "absHref": "https://portal.schoolbytes.education/other-payment/1657",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "online payments",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "You will need to select Add Item from the bottom left hand corner.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "You will need to select",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Add Item",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "from the bottom left hand corner.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_1d2e9d9d11fd54e4a94f2f9ae56bbae85f3c1b02c.png?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "A pop up box will appear where you can select Fort Street Foundation Library Fund (tax deductible) and tick the box to the left. Then click on Add Item.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "A pop up box will appear where you can select",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Fort Street Foundation Library Fund (tax deductible)",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and tick the box to the left. Then click on",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Add Item.",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/media_12aeeb890750ea14b0b78dadab07dacad4e41e4c5.png?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "You can then enter the amount you wish to pay and select Pay Now. After your payment is processed you will be emailed a receipt.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "You can then enter the amount you wish to pay and select",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Pay Now.",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "After your payment is processed you will be emailed a receipt.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Connect",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Link up with the wider Fort Street community interested in the history of the school and the local area by joining the ‘Lost Fort Street’ Facebook group.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Lost Fort Street Instagram (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Lost Fort Street Instagram (opens in new window)",
+              "display": "inline-block",
+              "href": "https://www.instagram.com/lost.fort.street/",
+              "absHref": "https://www.instagram.com/lost.fort.street/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Lost Fort Street Instagram",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Lost Fort Street Facebook (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Lost Fort Street Facebook (opens in new window)",
+              "display": "inline-block",
+              "href": "https://www.facebook.com/groups/2023669614544302/",
+              "absHref": "https://www.facebook.com/groups/2023669614544302/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Lost Fort Street Facebook",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Research",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Fort Street Tours App – This app allows virtual heritage tours of the Fort Street school sites. This includes tours of the original 1815 Military Hospital at Observatory Hill before it became Fort Street Model School in 1849 (then Fort Street Girls High School). It also includes tours of the current Fort Street High School (previously Fort Street Boys High School) at Petersham, tours of the Ron Horan Museum and the collection of Honour Boards. You can download the award-winning Fort Street Tours app at either the Apple App Store (opens in new window) or Google Play (opens in new window)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "Fort Street Tours App – This app allows virtual heritage tours of the Fort Street school sites. This includes tours of the original 1815 Military Hospital at Observatory Hill before it became Fort Street Model School in 1849 (then Fort Street Girls High School). It also includes tours of the current Fort Street High School (previously Fort Street Boys High School) at Petersham, tours of the Ron Horan Museum and the collection of Honour Boards. You can download the award-winning Fort Street Tours app at either the Apple App Store (opens in new window) or Google Play (opens in new window)",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Fort Street Tours App – This app allows virtual heritage tours of the Fort Street school sites. This includes tours of the original 1815 Military Hospital at Observatory Hill before it became Fort Street Model School in 1849 (then Fort Street Girls High School). It also includes tours of the current Fort Street High School (previously Fort Street Boys High School) at Petersham, tours of the Ron Horan Museum and the collection of Honour Boards. You can download the award-winning Fort Street Tours app at either the",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "cta",
+                  "text": "Apple App Store (opens in new window)",
+                  "display": "inline",
+                  "href": "https://apps.apple.com/us/app/fort-street-tours/id1470021496",
+                  "absHref": "https://apps.apple.com/us/app/fort-street-tours/id1470021496",
+                  "classes": "",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Apple App Store",
+                      "parentTag": "a",
+                      "parentClass": "",
+                      "sep": ""
+                    },
+                    {
+                      "kind": "text",
+                      "text": "(opens in new window)",
+                      "parentTag": "span",
+                      "parentClass": "sr-only",
+                      "sep": " "
+                    }
+                  ],
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "or",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "cta",
+                  "text": "Google Play (opens in new window)",
+                  "display": "inline",
+                  "href": "https://play.google.com/store/apps/details?id=com.mytoursapp.android.app1782",
+                  "absHref": "https://play.google.com/store/apps/details?id=com.mytoursapp.android.app1782",
+                  "classes": "",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Google Play",
+                      "parentTag": "a",
+                      "parentClass": "",
+                      "sep": ""
+                    },
+                    {
+                      "kind": "text",
+                      "text": "(opens in new window)",
+                      "parentTag": "span",
+                      "parentClass": "sr-only",
+                      "sep": " "
+                    }
+                  ],
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "View a list of Distinguished Fortians here: FSHS Distinguished Fortians List (Updated November 2022)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "View a list of Distinguished Fortians here: FSHS Distinguished Fortians List (Updated November 2022)",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "View a list of",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "Distinguished Fortians",
+                  "parentTag": "strong",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "here:",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "cta",
+                  "text": "FSHS Distinguished Fortians List",
+                  "display": "inline",
+                  "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_Distinguished_Fortians_-_Nov_2022.pdf",
+                  "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_Distinguished_Fortians_-_Nov_2022.pdf",
+                  "classes": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "(Updated November 2022)",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "View a list of Fortians who have been awarded Australian Honours here: Fort Street Australian Honours (Updated February 2026)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "View a list of Fortians who have been awarded Australian Honours here:",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "View a list of Fortians who have been awarded",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "Australian Honours",
+                  "parentTag": "strong",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "here:",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fort Street Australian Honours",
+              "display": "inline",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "Fort Street Australian Honours",
+                  "display": "inline",
+                  "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20Australian%20Honours%20Board%20-%20Feb%202026.pdf",
+                  "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/Fort%20Street%20Australian%20Honours%20Board%20-%20Feb%202026.pdf",
+                  "classes": "button",
+                  "sep": ""
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "paragraph",
+              "text": "(Updated February 2026)",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "View a list of Fortian authors here: Fortian Authors List (Updated Jan 2021)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "View a list of Fortian authors here: Fortian Authors List (Updated Jan 2021)",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "View a list of",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "Fortian authors",
+                  "parentTag": "strong",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "here:",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "cta",
+                  "text": "Fortian Authors List",
+                  "display": "inline",
+                  "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Fortian_Authors_List_Jan_2021.pdf",
+                  "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Fortian_Authors_List_Jan_2021.pdf",
+                  "classes": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "(Updated Jan 2021)",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "View our historic Speech Day Programs here: FSBHS Speech Day Programs 1939 - 1974 FSHS Speech Day Programs 1935 - 1974 FSHS Speech Day Programs 1975 - 1999 FSHS Speech Day Programs 2000 - 2018",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "View our historic Speech Day Programs here:",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "View our historic",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "Speech Day Programs",
+                  "parentTag": "strong",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "here:",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "FSBHS Speech Day Programs 1939 - 1974 FSHS Speech Day Programs 1935 - 1974 FSHS Speech Day Programs 1975 - 1999 FSHS Speech Day Programs 2000 - 2018",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "cta",
+                  "text": "FSBHS Speech Day Programs 1939 - 1974",
+                  "display": "inline",
+                  "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSBHS_SPEECH_DAY_PROGRAMS_1939-1974.pdf",
+                  "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSBHS_SPEECH_DAY_PROGRAMS_1939-1974.pdf",
+                  "classes": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "cta",
+                  "text": "FSHS Speech Day Programs 1935 - 1974",
+                  "display": "inline",
+                  "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSGHS_SPEECH_DAY_PROGRAMS_1935-1974.pdf",
+                  "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSGHS_SPEECH_DAY_PROGRAMS_1935-1974.pdf",
+                  "classes": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "cta",
+                  "text": "FSHS Speech Day Programs 1975 - 1999",
+                  "display": "inline",
+                  "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_SPEECH_DAY_PROGRAMS_1975-1999.pdf",
+                  "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_SPEECH_DAY_PROGRAMS_1975-1999.pdf",
+                  "classes": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "cta",
+                  "text": "FSHS Speech Day Programs 2000 - 2018",
+                  "display": "inline",
+                  "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_SPEECH_DAY_PROGRAMS_2000-2018.pdf",
+                  "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS_SPEECH_DAY_PROGRAMS_2000-2018.pdf",
+                  "classes": "",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Volunteer",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Volunteers are welcomed and can undertake a variety of projects under the guidance of the Archivist. The collection comprises manuscripts, paper records, maps, plans, photographs, drawings, paintings, movies, audio and textiles. Conservation is ongoing and volunteers are encouraged to apply for a variety of limited and ongoing projects.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Privacy",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Further information about privacy legislation and its application to the NSW Department of Education is detailed in the Department’s Privacy Management Plan.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Privacy Management Plan (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Privacy Management Plan (opens in new window)",
+              "display": "inline-block",
+              "href": "http://www.dec.nsw.gov.au/about-us/plans-reports-and-statistics/privacy",
+              "absHref": "http://www.dec.nsw.gov.au/about-us/plans-reports-and-statistics/privacy",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Privacy Management Plan",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "For more information Please contact our archivist Mr Iain Wallace (Thursday and Friday only) here (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "For more information"
+        }
+      ],
+      "paragraphs": [
+        "Please contact our archivist Mr Iain Wallace (Thursday and Friday only) here (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "here (opens in new window)",
+          "href": "mailto:iain.wallace@det.nsw.edu.au",
+          "absHref": "mailto:iain.wallace@det.nsw.edu.au",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "For more information",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please contact our archivist Mr Iain Wallace (Thursday and Friday only) here (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Please contact our archivist Mr Iain Wallace (Thursday and Friday only)",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here (opens in new window)",
+              "display": "inline",
+              "href": "mailto:iain.wallace@det.nsw.edu.au",
+              "absHref": "mailto:iain.wallace@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "The Fort Street Museum See the notable archival exhibitions celebrating the achievements of Fortians from the past and present. The Fortian Digitised Discover this resource which has been chronicling the lives and achievements of students and staff since 1899.",
+      "headings": [],
+      "paragraphs": [
+        "See the notable archival exhibitions celebrating the achievements of Fortians from the past and present.",
+        "Discover this resource which has been chronicling the lives and achievements of students and staff since 1899."
+      ],
+      "listItems": [
+        "The Fort Street Museum See the notable archival exhibitions celebrating the achievements of Fortians from the past and present.",
+        "The Fortian Digitised Discover this resource which has been chronicling the lives and achievements of students and staff since 1899."
+      ],
+      "ctas": [
+        {
+          "text": "The Fort Street Museum",
+          "href": "/about-us/school-history-and-archives/the-fort-street-museum",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fort-street-museum",
+          "classes": ""
+        },
+        {
+          "text": "The Fortian Digitised",
+          "href": "/about-us/school-history-and-archives/the-fortian-digitised",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fortian-digitised",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "The Fort Street Museum See the notable archival exhibitions celebrating the achievements of Fortians from the past and present.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The Fort Street Museum",
+              "display": "inline",
+              "href": "/about-us/school-history-and-archives/the-fort-street-museum",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fort-street-museum",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "See the notable archival exhibitions celebrating the achievements of Fortians from the past and present.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "The Fortian Digitised Discover this resource which has been chronicling the lives and achievements of students and staff since 1899.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The Fortian Digitised",
+              "display": "inline",
+              "href": "/about-us/school-history-and-archives/the-fortian-digitised",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fortian-digitised",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover this resource which has been chronicling the lives and achievements of students and staff since 1899.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

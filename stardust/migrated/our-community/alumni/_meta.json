@@ -1,0 +1,56 @@
+{
+  "slug": "our-community_alumni",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M6",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Alumni",
+    "description": "Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Alumni",
+    "description": "Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "3c450c3a1140",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "our-community/alumni/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "our-community/alumni/_meta.json",
+  "driverVersion": "1"
+}

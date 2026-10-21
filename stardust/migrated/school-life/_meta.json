@@ -1,0 +1,54 @@
+{
+  "slug": "school-life",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "School life",
+    "description": "Find out more about school life at Fort Street High School.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "School life",
+    "description": "Find out more about school life at Fort Street High School.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "82027351e886",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,3822 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:21:02.801Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/learning-and-support_learning.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Learning",
+    "description": "At Fort Street High School, we follow the NSW curriculum. We offer a wide range of subjects to support every student’s learning journey. Our teachers use effective teaching strategies to help students reach their goals. We also provide learning support to assist students who need extra help, so all students can succeed.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+    "ogTags": {
+      "og:title": "Learning",
+      "og:description": "At Fort Street High School, we follow the NSW curriculum. We offer a wide range of subjects to support every student’s learning journey. Our teachers use effective teaching strategies to help students reach their goals. We also provide learning support to assist students who need extra help, so all students can succeed.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Learning",
+      "twitter:description": "At Fort Street High School, we follow the NSW curriculum. We offer a wide range of subjects to support every student’s learning journey. Our teachers use effective teaching strategies to help students reach their goals. We also provide learning support to assist students who need extra help, so all students can succeed.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Learning The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century. Enabling students to reach their full potential as informed global citizens requires students to participate in the school community which will develop in them a sense of perspective, balance and social justice. The school is responsive in meeting the learning needs of all students. There is a very strong encouragement for students to undertake extra-curricular activities as a way of supporting their development. Extra-curricular programs provide extraordinary opportunities for development in academic, cultural and sporting arenas. The dedicated teaching staff are afforded ongoing professional learning to ensure that gifted and talented students receive a differentiated curriculum with opportunities for acceleration and enrichment commensurate with gifted education best practices. Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences. At our school, we teach the NSW curriculum (opens in new window) and offer many different subjects to support each student’s learning. We know that development of skills in literacy and numeracy are the building blocks for learning and for everyday life. Our teachers use effective teaching strategies to help students achieve their goals. Why choose us for your child’s learning? Strong foundations We focus on the skills your child needs to succeed in school and beyond. This helps them feel confident and prepared for the future. High-quality education We offer a range of subjects to match what students enjoy and want to learn about. Our skilled teachers support every student to find what they love, do their best and succeed. Inclusive and personalised learning Our teachers adjust how they teach to suit your child’s needs, interests and learning pace. We make sure every student feels confident and supported. Extension opportunities Some students are ready for more challenges. We offer open-ended tasks, enrichment programs and support. We help all students to reach their full potential. What students learn Year 7 and 8 students follow a compulsory NSW curriculum (opens in new window) that is largely determined by the NSW Education Standards Authority (NESA). Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage. Students learn a wide range of subjects. They build skills, think creatively and prepare for life beyond school. Explore how we teach the NSW curriculum through key learning areas (opens in new window) . Junior School (Years 7-8) Stage 4: Years 7 and 8 Students study: English Mathematics Science History (Semesterised) Geography (Semesterised) Technology (Mandatory) Music Visual Arts Drama Personal Development, Health and Physical Education Languages (Chinese French, German, Japanese) Fortitude (Year 7 only) Fortunae (Wellbeing Lessons) Assessment Guidelines Advice Years 7 – 8 Assessment guidelines are provided for each Year group for Years 7 – 8. Individual task dates and deadlines are subject to change and students will be notified in advance of these changes. These are made available to students and parents/carers to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term. Please note: some subjects are semesterised including History and Geography. In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance. Middle School (Years 9 - 10) Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage. Stage 5: Years 9 and 10 All students study: English Mathematics Science Geography History Personal Development, Health and Physical Education Fortunae (Wellbeing lessons) Students also choose to study three elective subjects from: Commerce Chinese Computing Technology Design and Technology Drama Elective Geography Elective History Electronics Engineering Food Technology French German Graphics Technology Japanese Music Photographic and Digital Media Visual Arts Assessment Guidelines Advice Years 9 and 10 Curriculum and Assessment booklets are provided for students in Years 9 and 10 Individual task dates and deadlines are subject to change and students will be notified in advance of these changes. These are made available to students and parents/carers through the portal to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term. Please note: some subjects are semesterised including History and Geography. In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance. Senior School (Years 11-12) In Years 11 and 12 students are prepared for the NSW Higher School Certificate. A broad range of courses are offered and the curriculum has a clear path to university entrance. The NSW Education Standards Authority (NESA) requires students to study a minimum of 12 units in Year 11 and 10 units in Year 12. Senior Schooling consists of the Stage 6 Curriculum studied during Years 11 and 12. All students must study at least four different subjects totalling a minimum of 12 Units in Year 11 and 10 Units in Year 12 including 2 units of English. The English courses offered at Fort Street are Advanced or Extension courses. Curriculum choice patterns are formulated from student needs. A small number of students negotiate acceleration in one or more subjects. Students have accelerated in Biology, Business Studies, Chemistry, French, Music & Mathematics. All students in Years 11 and 12 also continue with Fortunae (wellbeing lessons). Subjects are chosen from: Ancient History Biology Chemistry Chinese in Context Design and Technology Drama Earth & Environmental Science Economics Engineering Studies English Extension 1 Food Technology French Continuers German Continuers Geography Japanese Continuers Legal Studies Mathematics Mathematics Extension 1 Modern History Music 2 Photography (1 Unit) * Personal Development, Health and Physical Education Philosophy (1 Unit) * Physics Software Engineering Studies of Religion (1 Unit) * Visual Arts * Year 11 only HSC Extension Courses (Year 12 only) History Chinese Japanese French German Music Mathematics Extension 2 English Extension 2 Science Extension Sport Fortians participate in planned physical activity in Years 7-10 timetabled PDHPE lessons as well as weekly sport which is mandatory for all students in Years 7-11. Participation in sport provides many benefits in terms of physical fitness, health benefits, cognitive development, personal wellbeing, and social integration. Sport Year 7 have two periods of sport timetabled each week, in addition to their PDHPE classes. Students work through a program to build their general fitness and skills in a range of sports. Years 8–11 participate in Sport on Tuesday afternoons. A wide range of sports are available including Badminton, Basketball, Cricket, European Handball, Fencing, Ice-Skating, Netball, Oztag, Soccer, Swimming, Tennis, Touch Football, Ultimate Frisbee, Volleyball, and Yoga. Year 8 students are required to choose a Grade Sport; students in Years 9-11 may choose between Grade, Recreational and House sports. • Grade Sport teams compete against other schools • Recreational Sports are run by outside instructors • House Sports are conducted by school staff Students select one sport for Summer (Terms 1 and 2) and another for Winter (Terms 3 and 4). The cost of grade and recreational sports varies and must be paid for in advance of each sport session. Students also have the opportunity to participate in Knockout Competitions. These teams are selected and coached by staff based on student interest, and compete against other schools until they are knocked out of the competition. Most teams have the opportunity to play two or three games a year. These games take place during normal school time. Grade Sport Fort Street competes in the Northern Suburbs Sports Zone. Summer grade sports include: basketball, cricket, touch football, ultimate frisbee, volleyball, softball and European handball. Winter grade sports include: basketball, Oztag, netball, volleyball, soccer, futsal and European handball. Recreational Sport These are activities where the primary purpose is participation, with the realted goals of improved physical fitness, fun, and social involvement. Recreational sports at Fort Street include tennis, ice skating, yoga, pilates, boxing, gym classes, futsal, basketball, ultimate frisbee, rock climbing and swimming. Library The recently renovated Fort Street High School Library provides a supportive, welcoming environment with resources and study spaces to meet the teaching and learning needs of our community. Our goal is to develop lifelong readers who appreciate literature and engage critically and ethically with information in all its forms. To facilitate this, our library has an extensive and constantly updated collection of journals, print and electronic books. Fort Street Library Our Teacher Librarian, Ms Page provides research support in class and encourages all students to develop a love of reading. Students are encouraged to suggest titles to add to the school library collection so that it best represents the varied interests of the school community. Ms Page is also available for individual research interviews to support students with their assignments. Opening hours Monday 8.45 – 4.10 Tuesday 8.30 – 3.30 Wednesday 8.30 – 4.10 Thursday 8.30 – 3.30 Friday 8.30 – 3.30 Homework centre Monday and Wednesdays after school until 4.10 students can get assistance with their homework. Chess Students are welcome every recess and lunch to play chess in the library. School Library catalogue Students can access the school library catalogue from their own device anywhere through their student portal. Wheelers eBooks Students can borrow eBooks to read on any device from our school library by logging in with their school username and password. The link is https://fortstreet.wheelers.co/ (opens in new window) Premier’s Reading Challenge “The Challenge aims to encourage a love of reading for leisure and pleasure in students, and to enable them to experience quality literature. It is not a competition but a challenge to each student to read, to read more and to read more widely. The Premier's Reading Challenge (opens in new window) (PRC) is open to all NSW students in Kindergarten to Year 9, in government, independent, Catholic and home schools.” Every student in Years 7, 8, 9 and 10 is eligible to participate in the challenge. To register for the Challenge, students need to log onto the Premier’s Reading Challenge website using their DEC login details, and start filling in the Student Reading Records from March 1st each year. Students need to read 20 books between September 1st each year and August 31st the following year. At least 10 books must be on the prescribed book list. Students who have completed four Challenges receive a Gold Certificate; students who complete seven Challenges receive a Platinum Certificate. Students who complete every Challenge from Year 3 to Year 9 receive a medal. There is a wide variety of reading genres from which to choose, including factual, poetry, drama, newspaper texts, humorous fiction, love stories, fantasy, picture books, science fiction, classics, to name a few. Contact: Ms Donna Page Teacher Librarian Library Religion and ethics At our school, students can take part in special religious education (SRE) or special education in ethics (SEE) classes, depending on what’s available. These classes are delivered by approved providers. When enrolling your child, you’ll be able to choose an option from the approved providers offered at our school. Students not attending SRE or SEE are given supervised alternative meaningful activities. You’re welcome to change your choice at any time. Just let us know by completing the online form (opens in new window) or by emailing the school. In accordance with Department of Education policy, Special Religious Education (SRE, previously known as Scripture) takes place at Fort Street High School every Thursday from 9:00am – 9:40pm. We currently offer three SRE options (see below). In Year 7, students who do not participate in SRE are supervised in independent reading or school work in the school Library. Students are not permitted to use devices during this time. Students from Years 8 – 10 students who do not attend SRE begin school in period 2. Option 1: Christian SRE Trained and authorised teachers from Petersham Anglican (All Saints) and Petersham Presbyterian (Joshua Tree) Churches seek to engage, guide, and equip students in their understanding of the Christian faith. The curriculum for Christian SRE comes from Christian Education Publications and is called Think Faith https://thinkfaith.com.au (opens in new window) We focus on the things that are common within Christian traditions and encourage the students to raise issues that are real to them. We believe it is important for gifted children to explore issues of faith, theology and Christian living at the level of their secular studies and are very excited to have the opportunity to do this at Fort Street. We hope you can encourage your child to participate. If you have any questions please contact Danny Ford, Minister at Joshua Tree Presbyterian Church, Petersham (danny@thejoshuatree.com.au (opens in new window) ) Option 2: Hindu SRE The Hindu Council of Australia was founded in 1998 with an aim to create a strong and unified Hindu community in Australia. Our SRE program provides students with an opportunity to connect with their rich spiritual and cultural heritage. A major focus of these classes is to create a supportive environment for students to experience the benefits of meditation and to explore the Vedic scriptures, such as the Bhagavad-Gita, in a way that is both deeply meaningful and relevant in modern Australian life. The Hindu SRE curriculum can be found here. (opens in new window) Meditation is a valuable life skill, which can help students to successfully manage their mental, emotional, spiritual and physical wellbeing. Benefits of meditation can include improved academic and learning skills, faster information processing, greater focus, more effective working memory, increased creativity and cognitive flexibility as well as reduced anxiety, stress and depression. From a spiritual perspective, meditation provides students the opportunity to develop a deep and fulfilling relationship with God and experience the sacred connection between themselves and others. Hinduism fosters the positive values of respect, tolerance, empathy, determination, resilience and service to others and encourages a healthy, balanced and meaningful life in harmony with community and the natural world. If you have any questions, please visit hinducouncil.com.au/sre (opens in new window) or email. Madya Lila, SRE Co-ordinator, Hindu Council of Australia at sre@hinducouncil.com.au (opens in new window) . Option 3: Special Education in Ethics (Years 7 and 8 only) Ethics classes are available to students in Years 7 and 8 only, and support students to develop well-reasoned decisions about ethical issues. Through the give-and-take of reasoned argument students learn to disagree respectfully, to challenge ideas and to support their arguments with considered evidence rather than according to habit or peer pressure. Trained volunteer ethics teachers present a range of stories, scenarios and questions to generate discussion. Ethics teachers are trained to impartially facilitate student discussions, helping students develop their critical thinking and collaborative inquiry skills. Ethics teachers support student learning by: · modelling the inquiry process – by asking questions and encouraging discussion · showing genuine curiosity and interest in the questions being discussed · staying neutral – ethics teachers are trained to keep their own views out of the discussion · creating a positive learning environment – by allowing students time to think and encouraging students to share ideas and give reasons. You can find out more information about Primary Ethics by visiting the Primary Ethics website; the curriculum can be found here (opens in new window) : For more information, visit the department’s website or contact us. Gifted education Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences. Curriculum Organisation Years 7 and 8 In Years 7 and 8, students study a mandatory curriculum of English, Mathematics, Science, History, Geography, PDHPE, Drama, Music, Visual Arts and Technology. Periods per fortnight by subject Subjects Year 7 Year 8 English 8 7 Maths 7 7 Science 7 7 Hist/Geo 6 6 PDHPE 3 5 Drama 4 0 Music 3 4 Visual Arts 3 4 Tech 6 6 Language 3 6 Fortunae 1 1 Fortitude 1 - Years 9 and 10 In Years 9 and 10, students continue mandatory studies in English, Mathematics, Science, History, Geography and PDHPE. Students also choose three elective subjects from a wide range of options including the Creative and Performing Arts, Languages and Technology faculties. Periods per fortnight by subject table Subjects Year 9 Year 10 English 8 8 Maths 7 7 Science 7 7 Hist/Geo 8 8 PDHPE 4 4 Elective 1 6 6 Elective 2 6 6 Elective 3 6 6 Years 11 and 12: The Higher School Certificate In Years 11 and 12, the only mandatory subject is English. Students choose their remaining courses (generally 6 courses in total for Year 11 and 5 for Year 12) according to their interest and abilities. Languages In Year 7 students study one semester each of an Asian and European language from the languages offered by the school (Chinese, French, German and Japanese). This serves as an introduction to language study. In Year 8, students choose one language in which to complete their mandatory 100 hours of language study. This may be one of the two languages they studied in Year 7, or a third language. Every effort is made to give students their first preference, although due to class size and timetabling restraints this is not often possible. Languages can be continued as elective subjects from Year 9 through to Year 12 (HSC). In special circumstances, languages not offered at the school (i.e. Italian, Korean, etc.) can be studied through the NSW School of Languages or Saturday School of Community Languages. Our learning approach Our school uses explicit teaching. This means we clearly tell students what they are learning, why it is important and how to do it step by step. Explicit teaching helps students understand new ideas by breaking them into smaller parts. Learning at our school is student-centred, inclusive and practical. We are committed to equity and access. We support all learning styles and needs. Our teachers use proven teaching strategies. They take part in ongoing professional development to stay up to date with best teaching practice. Our learning approach includes: real-world learning: hands-on tasks, group work and exploring new ideas technology: to help students learn and build digital skills flexible teaching: the right support for each student, with a focus on wellbeing community connections: through excursions and local programs. Helping students progress We support every student’s academic progress by: checking their progress and giving clear and timely feedback setting learning goals with each student giving extra help with personalised plans and support from specialist staff reporting on each student’s learning progress so parents and carers know how their child is doing providing targeted literacy and numeracy support in small groups making wellbeing part of everyday learning working with families to support learning at home and school helping students through transitions, like starting school or moving to a new stage of learning. Learn more about additional learning support at our school. \"The quality of the teaching staff is exceptional. They are passionate mentors who genuinely invest in each student's success, challenging them to think critically while providing strong support.\" Elizabeth— a parent of Fort Street High School Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school. Our principal and staff Get to know our principal and staff, who work together to create a positive school culture.",
+  "coverage": {
+    "bodyTextLen": 22223,
+    "scopeTextLen": 21367,
+    "ratio": 0.961,
+    "h1Text": "Learning",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Learning The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century. Enabling students to reach their full potential as informed global citizens requires students to participate in the school community which will develop in them a sense of perspective, balance and social justice. The school is responsive in meeting the learning needs of all students. There is a very strong encouragement for students to undertake extra-curricular activities as a way of supporting their development. Extra-curricular programs provide extraordinary opportunities for development in academic, cultural and sporting arenas. The dedicated teaching staff are afforded ongoing professional learning to ensure that gifted and talented students receive a differentiated curriculum with opportunities for acceleration and enrichment commensurate with gifted education best practices. Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences. At our school, we teach the NSW curriculum (opens in new window) and offer many different subjects to support each student’s learning. We know that development of skills in literacy and numeracy are the building blocks for learning and for everyday life. Our teachers use effective teaching strategies to help students achieve their goals.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Learning"
+        }
+      ],
+      "paragraphs": [
+        "The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century. Enabling students to reach their full potential as informed global citizens requires students to participate in the school community which will develop in them a sense of perspective, balance and social justice. The school is responsive in meeting the learning needs of all students.",
+        "There is a very strong encouragement for students to undertake extra-curricular activities as a way of supporting their development. Extra-curricular programs provide extraordinary opportunities for development in academic, cultural and sporting arenas. The dedicated teaching staff are afforded ongoing professional learning to ensure that gifted and talented students receive a differentiated curriculum with opportunities for acceleration and enrichment commensurate with gifted education best practices.",
+        "Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences.",
+        "At our school, we teach the NSW curriculum (opens in new window) and offer many different subjects to support each student’s learning. We know that development of skills in literacy and numeracy are the building blocks for learning and for everyday life. Our teachers use effective teaching strategies to help students achieve their goals."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "NSW curriculum (opens in new window)",
+          "href": "https://www.nsw.gov.au/education-and-training/nesa/curriculum",
+          "absHref": "https://www.nsw.gov.au/education-and-training/nesa/curriculum",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1335
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Learning",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1c9f7867e2df4ed6af3fe3bd3c1d6b437a72488f8.jpg?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Fort Street High School ethos is to engage Fortians in effective learning, developing teamwork and problem-solving to become critical, creative, ethical thinkers and leaders of the 21st century. Enabling students to reach their full potential as informed global citizens requires students to participate in the school community which will develop in them a sense of perspective, balance and social justice. The school is responsive in meeting the learning needs of all students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is a very strong encouragement for students to undertake extra-curricular activities as a way of supporting their development. Extra-curricular programs provide extraordinary opportunities for development in academic, cultural and sporting arenas. The dedicated teaching staff are afforded ongoing professional learning to ensure that gifted and talented students receive a differentiated curriculum with opportunities for acceleration and enrichment commensurate with gifted education best practices.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At our school, we teach the NSW curriculum (opens in new window) and offer many different subjects to support each student’s learning. We know that development of skills in literacy and numeracy are the building blocks for learning and for everyday life. Our teachers use effective teaching strategies to help students achieve their goals.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "At our school, we teach the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "NSW curriculum (opens in new window)",
+              "display": "inline",
+              "href": "https://www.nsw.gov.au/education-and-training/nesa/curriculum",
+              "absHref": "https://www.nsw.gov.au/education-and-training/nesa/curriculum",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "NSW curriculum",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and offer many different subjects to support each student’s learning. We know that development of skills in literacy and numeracy are the building blocks for learning and for everyday life. Our teachers use effective teaching strategies to help students achieve their goals.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Why choose us for your child’s learning? Strong foundations We focus on the skills your child needs to succeed in school and beyond. This helps them feel confident and prepared for the future. High-quality education We offer a range of subjects to match what students enjoy and want to learn about. Our skilled teachers support every student to find what they love, do their best and succeed. Inclusive and personalised learning Our teachers adjust how they teach to suit your child’s needs, interests and learning pace. We make sure every student feels confident and supported. Extension opportunities Some students are ready for more challenges. We offer open-ended tasks, enrichment programs and support. We help all students to reach their full potential.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Why choose us for your child’s learning?"
+        }
+      ],
+      "paragraphs": [
+        "We focus on the skills your child needs to succeed in school and beyond. This helps them feel confident and prepared for the future.",
+        "We offer a range of subjects to match what students enjoy and want to learn about. Our skilled teachers support every student to find what they love, do their best and succeed.",
+        "Our teachers adjust how they teach to suit your child’s needs, interests and learning pace. We make sure every student feels confident and supported.",
+        "Some students are ready for more challenges. We offer open-ended tasks, enrichment programs and support. We help all students to reach their full potential."
+      ],
+      "listItems": [
+        "Strong foundations We focus on the skills your child needs to succeed in school and beyond. This helps them feel confident and prepared for the future.",
+        "High-quality education We offer a range of subjects to match what students enjoy and want to learn about. Our skilled teachers support every student to find what they love, do their best and succeed.",
+        "Inclusive and personalised learning Our teachers adjust how they teach to suit your child’s needs, interests and learning pace. We make sure every student feels confident and supported.",
+        "Extension opportunities Some students are ready for more challenges. We offer open-ended tasks, enrichment programs and support. We help all students to reach their full potential."
+      ],
+      "ctas": [
+        {
+          "text": "Strong foundations",
+          "href": "/about-us/why-choose-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+          "classes": ""
+        },
+        {
+          "text": "High-quality education",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        },
+        {
+          "text": "Inclusive and personalised learning",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        },
+        {
+          "text": "Extension opportunities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Why choose us for your child’s learning?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Strong foundations We focus on the skills your child needs to succeed in school and beyond. This helps them feel confident and prepared for the future.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Strong foundations",
+              "display": "inline",
+              "href": "/about-us/why-choose-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "We focus on the skills your child needs to succeed in school and beyond. This helps them feel confident and prepared for the future.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "High-quality education We offer a range of subjects to match what students enjoy and want to learn about. Our skilled teachers support every student to find what they love, do their best and succeed.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "High-quality education",
+              "display": "inline",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "We offer a range of subjects to match what students enjoy and want to learn about. Our skilled teachers support every student to find what they love, do their best and succeed.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Inclusive and personalised learning Our teachers adjust how they teach to suit your child’s needs, interests and learning pace. We make sure every student feels confident and supported.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Inclusive and personalised learning",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Our teachers adjust how they teach to suit your child’s needs, interests and learning pace. We make sure every student feels confident and supported.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Extension opportunities Some students are ready for more challenges. We offer open-ended tasks, enrichment programs and support. We help all students to reach their full potential.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Extension opportunities",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Some students are ready for more challenges. We offer open-ended tasks, enrichment programs and support. We help all students to reach their full potential.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "What students learn Year 7 and 8 students follow a compulsory NSW curriculum (opens in new window) that is largely determined by the NSW Education Standards Authority (NESA). Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage. Students learn a wide range of subjects. They build skills, think creatively and prepare for life beyond school. Explore how we teach the NSW curriculum through key learning areas (opens in new window) . Junior School (Years 7-8) Stage 4: Years 7 and 8 Students study: English Mathematics Science History (Semesterised) Geography (Semesterised) Technology (Mandatory) Music Visual Arts Drama Personal Development, Health and Physical Education Languages (Chinese French, German, Japanese) Fortitude (Year 7 only) Fortunae (Wellbeing Lessons) Assessment Guidelines Advice Years 7 – 8 Assessment guidelines are provided for each Year group for Years 7 – 8. Individual task dates and deadlines are subject to change and students will be notified in advance of these changes. These are made available to students and parents/carers to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term. Please note: some subjects are semesterised including History and Geography. In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance. Middle School (Years 9 - 10) Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage. Stage 5: Years 9 and 10 All students study: English Mathematics Science Geography History Personal Development, Health and Physical Education Fortunae (Wellbeing lessons) Students also choose to study three elective subjects from: Commerce Chinese Computing Technology Design and Technology Drama Elective Geography Elective History Electronics Engineering Food Technology French German Graphics Technology Japanese Music Photographic and Digital Media Visual Arts Assessment Guidelines Advice Years 9 and 10 Curriculum and Assessment booklets are provided for students in Years 9 and 10 Individual task dates and deadlines are subject to change and students will be notified in advance of these changes. These are made available to students and parents/carers through the portal to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term. Please note: some subjects are semesterised including History and Geography. In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance. Senior School (Years 11-12) In Years 11 and 12 students are prepared for the NSW Higher School Certificate. A broad range of courses are offered and the curriculum has a clear path to university entrance. The NSW Education Standards Authority (NESA) requires students to study a minimum of 12 units in Year 11 and 10 units in Year 12. Senior Schooling consists of the Stage 6 Curriculum studied during Years 11 and 12. All students must study at least four different subjects totalling a minimum of 12 Units in Year 11 and 10 Units in Year 12 including 2 units of English. The English courses offered at Fort Street are Advanced or Extension courses. Curriculum choice patterns are formulated from student needs. A small number of students negotiate acceleration in one or more subjects. Students have accelerated in Biology, Business Studies, Chemistry, French, Music & Mathematics. All students in Years 11 and 12 also continue with Fortunae (wellbeing lessons). Subjects are chosen from: Ancient History Biology Chemistry Chinese in Context Design and Technology Drama Earth & Environmental Science Economics Engineering Studies English Extension 1 Food Technology French Continuers German Continuers Geography Japanese Continuers Legal Studies Mathematics Mathematics Extension 1 Modern History Music 2 Photography (1 Unit) * Personal Development, Health and Physical Education Philosophy (1 Unit) * Physics Software Engineering Studies of Religion (1 Unit) * Visual Arts * Year 11 only HSC Extension Courses (Year 12 only) History Chinese Japanese French German Music Mathematics Extension 2 English Extension 2 Science Extension Sport Fortians participate in planned physical activity in Years 7-10 timetabled PDHPE lessons as well as weekly sport which is mandatory for all students in Years 7-11. Participation in sport provides many benefits in terms of physical fitness, health benefits, cognitive development, personal wellbeing, and social integration. Sport Year 7 have two periods of sport timetabled each week, in addition to their PDHPE classes. Students work through a program to build their general fitness and skills in a range of sports. Years 8–11 participate in Sport on Tuesday afternoons. A wide range of sports are available including Badminton, Basketball, Cricket, European Handball, Fencing, Ice-Skating, Netball, Oztag, Soccer, Swimming, Tennis, Touch Football, Ultimate Frisbee, Volleyball, and Yoga. Year 8 students are required to choose a Grade Sport; students in Years 9-11 may choose between Grade, Recreational and House sports. • Grade Sport teams compete against other schools • Recreational Sports are run by outside instructors • House Sports are conducted by school staff Students select one sport for Summer (Terms 1 and 2) and another for Winter (Terms 3 and 4). The cost of grade and recreational sports varies and must be paid for in advance of each sport session. Students also have the opportunity to participate in Knockout Competitions. These teams are selected and coached by staff based on student interest, and compete against other schools until they are knocked out of the competition. Most teams have the opportunity to play two or three games a year. These games take place during normal school time. Grade Sport Fort Street competes in the Northern Suburbs Sports Zone. Summer grade sports include: basketball, cricket, touch football, ultimate frisbee, volleyball, softball and European handball. Winter grade sports include: basketball, Oztag, netball, volleyball, soccer, futsal and European handball. Recreational Sport These are activities where the primary purpose is participation, with the realted goals of improved physical fitness, fun, and social involvement. Recreational sports at Fort Street include tennis, ice skating, yoga, pilates, boxing, gym classes, futsal, basketball, ultimate frisbee, rock climbing and swimming. Library The recently renovated Fort Street High School Library provides a supportive, welcoming environment with resources and study spaces to meet the teaching and learning needs of our community. Our goal is to develop lifelong readers who appreciate literature and engage critically and ethically with information in all its forms. To facilitate this, our library has an extensive and constantly updated collection of journals, print and electronic books. Fort Street Library Our Teacher Librarian, Ms Page provides research support in class and encourages all students to develop a love of reading. Students are encouraged to suggest titles to add to the school library collection so that it best represents the varied interests of the school community. Ms Page is also available for individual research interviews to support students with their assignments. Opening hours Monday 8.45 – 4.10 Tuesday 8.30 – 3.30 Wednesday 8.30 – 4.10 Thursday 8.30 – 3.30 Friday 8.30 – 3.30 Homework centre Monday and Wednesdays after school until 4.10 students can get assistance with their homework. Chess Students are welcome every recess and lunch to play chess in the library. School Library catalogue Students can access the school library catalogue from their own device anywhere through their student portal. Wheelers eBooks Students can borrow eBooks to read on any device from our school library by logging in with their school username and password. The link is https://fortstreet.wheelers.co/ (opens in new window) Premier’s Reading Challenge “The Challenge aims to encourage a love of reading for leisure and pleasure in students, and to enable them to experience quality literature. It is not a competition but a challenge to each student to read, to read more and to read more widely. The Premier's Reading Challenge (opens in new window) (PRC) is open to all NSW students in Kindergarten to Year 9, in government, independent, Catholic and home schools.” Every student in Years 7, 8, 9 and 10 is eligible to participate in the challenge. To register for the Challenge, students need to log onto the Premier’s Reading Challenge website using their DEC login details, and start filling in the Student Reading Records from March 1st each year. Students need to read 20 books between September 1st each year and August 31st the following year. At least 10 books must be on the prescribed book list. Students who have completed four Challenges receive a Gold Certificate; students who complete seven Challenges receive a Platinum Certificate. Students who complete every Challenge from Year 3 to Year 9 receive a medal. There is a wide variety of reading genres from which to choose, including factual, poetry, drama, newspaper texts, humorous fiction, love stories, fantasy, picture books, science fiction, classics, to name a few. Contact: Ms Donna Page Teacher Librarian Library Religion and ethics At our school, students can take part in special religious education (SRE) or special education in ethics (SEE) classes, depending on what’s available. These classes are delivered by approved providers. When enrolling your child, you’ll be able to choose an option from the approved providers offered at our school. Students not attending SRE or SEE are given supervised alternative meaningful activities. You’re welcome to change your choice at any time. Just let us know by completing the online form (opens in new window) or by emailing the school. In accordance with Department of Education policy, Special Religious Education (SRE, previously known as Scripture) takes place at Fort Street High School every Thursday from 9:00am – 9:40pm. We currently offer three SRE options (see below). In Year 7, students who do not participate in SRE are supervised in independent reading or school work in the school Library. Students are not permitted to use devices during this time. Students from Years 8 – 10 students who do not attend SRE begin school in period 2. Option 1: Christian SRE Trained and authorised teachers from Petersham Anglican (All Saints) and Petersham Presbyterian (Joshua Tree) Churches seek to engage, guide, and equip students in their understanding of the Christian faith. The curriculum for Christian SRE comes from Christian Education Publications and is called Think Faith https://thinkfaith.com.au (opens in new window) We focus on the things that are common within Christian traditions and encourage the students to raise issues that are real to them. We believe it is important for gifted children to explore issues of faith, theology and Christian living at the level of their secular studies and are very excited to have the opportunity to do this at Fort Street. We hope you can encourage your child to participate. If you have any questions please contact Danny Ford, Minister at Joshua Tree Presbyterian Church, Petersham (danny@thejoshuatree.com.au (opens in new window) ) Option 2: Hindu SRE The Hindu Council of Australia was founded in 1998 with an aim to create a strong and unified Hindu community in Australia. Our SRE program provides students with an opportunity to connect with their rich spiritual and cultural heritage. A major focus of these classes is to create a supportive environment for students to experience the benefits of meditation and to explore the Vedic scriptures, such as the Bhagavad-Gita, in a way that is both deeply meaningful and relevant in modern Australian life. The Hindu SRE curriculum can be found here. (opens in new window) Meditation is a valuable life skill, which can help students to successfully manage their mental, emotional, spiritual and physical wellbeing. Benefits of meditation can include improved academic and learning skills, faster information processing, greater focus, more effective working memory, increased creativity and cognitive flexibility as well as reduced anxiety, stress and depression. From a spiritual perspective, meditation provides students the opportunity to develop a deep and fulfilling relationship with God and experience the sacred connection between themselves and others. Hinduism fosters the positive values of respect, tolerance, empathy, determination, resilience and service to others and encourages a healthy, balanced and meaningful life in harmony with community and the natural world. If you have any questions, please visit hinducouncil.com.au/sre (opens in new window) or email. Madya Lila, SRE Co-ordinator, Hindu Council of Australia at sre@hinducouncil.com.au (opens in new window) . Option 3: Special Education in Ethics (Years 7 and 8 only) Ethics classes are available to students in Years 7 and 8 only, and support students to develop well-reasoned decisions about ethical issues. Through the give-and-take of reasoned argument students learn to disagree respectfully, to challenge ideas and to support their arguments with considered evidence rather than according to habit or peer pressure. Trained volunteer ethics teachers present a range of stories, scenarios and questions to generate discussion. Ethics teachers are trained to impartially facilitate student discussions, helping students develop their critical thinking and collaborative inquiry skills. Ethics teachers support student learning by: · modelling the inquiry process – by asking questions and encouraging discussion · showing genuine curiosity and interest in the questions being discussed · staying neutral – ethics teachers are trained to keep their own views out of the discussion · creating a positive learning environment – by allowing students time to think and encouraging students to share ideas and give reasons. You can find out more information about Primary Ethics by visiting the Primary Ethics website; the curriculum can be found here (opens in new window) : For more information, visit the department’s website or contact us. Gifted education Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences. Curriculum Organisation Years 7 and 8 In Years 7 and 8, students study a mandatory curriculum of English, Mathematics, Science, History, Geography, PDHPE, Drama, Music, Visual Arts and Technology. Periods per fortnight by subject Subjects Year 7 Year 8 English 8 7 Maths 7 7 Science 7 7 Hist/Geo 6 6 PDHPE 3 5 Drama 4 0 Music 3 4 Visual Arts 3 4 Tech 6 6 Language 3 6 Fortunae 1 1 Fortitude 1 - Years 9 and 10 In Years 9 and 10, students continue mandatory studies in English, Mathematics, Science, History, Geography and PDHPE. Students also choose three elective subjects from a wide range of options including the Creative and Performing Arts, Languages and Technology faculties. Periods per fortnight by subject table Subjects Year 9 Year 10 English 8 8 Maths 7 7 Science 7 7 Hist/Geo 8 8 PDHPE 4 4 Elective 1 6 6 Elective 2 6 6 Elective 3 6 6 Years 11 and 12: The Higher School Certificate In Years 11 and 12, the only mandatory subject is English. Students choose their remaining courses (generally 6 courses in total for Year 11 and 5 for Year 12) according to their interest and abilities. Languages In Year 7 students study one semester each of an Asian and European language from the languages offered by the school (Chinese, French, German and Japanese). This serves as an introduction to language study. In Year 8, students choose one language in which to complete their mandatory 100 hours of language study. This may be one of the two languages they studied in Year 7, or a third language. Every effort is made to give students their first preference, although due to class size and timetabling restraints this is not often possible. Languages can be continued as elective subjects from Year 9 through to Year 12 (HSC). In special circumstances, languages not offered at the school (i.e. Italian, Korean, etc.) can be studied through the NSW School of Languages or Saturday School of Community Languages.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "What students learn"
+        },
+        {
+          "level": "h2",
+          "text": "Stage 4: Years 7 and 8"
+        },
+        {
+          "level": "h2",
+          "text": "Assessment Guidelines Advice Years 7 – 8"
+        },
+        {
+          "level": "h2",
+          "text": "Stage 5: Years 9 and 10"
+        },
+        {
+          "level": "h3",
+          "text": "All students study:"
+        },
+        {
+          "level": "h3",
+          "text": "Students also choose to study three elective subjects from:"
+        },
+        {
+          "level": "h2",
+          "text": "Assessment Guidelines Advice Years 9 and 10"
+        },
+        {
+          "level": "h2",
+          "text": "Subjects are chosen from:"
+        },
+        {
+          "level": "h2",
+          "text": "HSC Extension Courses (Year 12 only)"
+        },
+        {
+          "level": "h2",
+          "text": "Sport"
+        },
+        {
+          "level": "h4",
+          "text": "Year 7 have two periods of sport timetabled each week, in addition to their PDHPE classes. Students work through a program to build their general fitness and skills in a range of sports."
+        },
+        {
+          "level": "h3",
+          "text": "Grade Sport"
+        },
+        {
+          "level": "h3",
+          "text": "Recreational Sport"
+        },
+        {
+          "level": "h2",
+          "text": "Fort Street Library"
+        },
+        {
+          "level": "h3",
+          "text": "Opening hours"
+        },
+        {
+          "level": "h3",
+          "text": "Homework centre"
+        },
+        {
+          "level": "h3",
+          "text": "Chess"
+        },
+        {
+          "level": "h3",
+          "text": "School Library catalogue"
+        },
+        {
+          "level": "h3",
+          "text": "Wheelers eBooks"
+        },
+        {
+          "level": "h3",
+          "text": "Premier’s Reading Challenge"
+        },
+        {
+          "level": "h2",
+          "text": "Option 1: Christian SRE"
+        },
+        {
+          "level": "h2",
+          "text": "Option 2: Hindu SRE"
+        },
+        {
+          "level": "h2",
+          "text": "Option 3: Special Education in Ethics (Years 7 and 8 only)"
+        },
+        {
+          "level": "h2",
+          "text": "Years 7 and 8"
+        },
+        {
+          "level": "h5",
+          "text": "Subjects"
+        },
+        {
+          "level": "h5",
+          "text": "Year 7"
+        },
+        {
+          "level": "h5",
+          "text": "Year 8"
+        },
+        {
+          "level": "h5",
+          "text": "Subjects"
+        },
+        {
+          "level": "h5",
+          "text": "Year 9"
+        },
+        {
+          "level": "h5",
+          "text": "Year 10"
+        }
+      ],
+      "paragraphs": [
+        "Year 7 and 8 students follow a compulsory NSW curriculum (opens in new window) that is largely determined by the NSW Education Standards Authority (NESA). Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage.",
+        "Students learn a wide range of subjects. They build skills, think creatively and prepare for life beyond school.",
+        "Explore how we teach the NSW curriculum through key learning areas (opens in new window) .",
+        "Students study:",
+        "Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage.",
+        "In Years 11 and 12 students are prepared for the NSW Higher School Certificate. A broad range of courses are offered and the curriculum has a clear path to university entrance. The NSW Education Standards Authority (NESA) requires students to study a minimum of 12 units in Year 11 and 10 units in Year 12.",
+        "Senior Schooling consists of the Stage 6 Curriculum studied during Years 11 and 12. All students must study at least four different subjects totalling a minimum of 12 Units in Year 11 and 10 Units in Year 12 including 2 units of English. The English courses offered at Fort Street are Advanced or Extension courses.",
+        "Curriculum choice patterns are formulated from student needs. A small number of students negotiate acceleration in one or more subjects. Students have accelerated in Biology, Business Studies, Chemistry, French, Music & Mathematics.",
+        "All students in Years 11 and 12 also continue with Fortunae (wellbeing lessons).",
+        "* Year 11 only",
+        "Fortians participate in planned physical activity in Years 7-10 timetabled PDHPE lessons as well as weekly sport which is mandatory for all students in Years 7-11.",
+        "Participation in sport provides many benefits in terms of physical fitness, health benefits, cognitive development, personal wellbeing, and social integration.",
+        "Years 8–11 participate in Sport on Tuesday afternoons.",
+        "A wide range of sports are available including Badminton, Basketball, Cricket, European Handball, Fencing, Ice-Skating, Netball, Oztag, Soccer, Swimming, Tennis, Touch Football, Ultimate Frisbee, Volleyball, and Yoga. Year 8 students are required to choose a Grade Sport; students in Years 9-11 may choose between Grade, Recreational and House sports.",
+        "• Grade Sport teams compete against other schools",
+        "• Recreational Sports are run by outside instructors",
+        "• House Sports are conducted by school staff",
+        "Students select one sport for Summer (Terms 1 and 2) and another for Winter (Terms 3 and 4). The cost of grade and recreational sports varies and must be paid for in advance of each sport session.",
+        "Students also have the opportunity to participate in Knockout Competitions. These teams are selected and coached by staff based on student interest, and compete against other schools until they are knocked out of the competition. Most teams have the opportunity to play two or three games a year. These games take place during normal school time.",
+        "Fort Street competes in the Northern Suburbs Sports Zone.",
+        "Summer grade sports include: basketball, cricket, touch football, ultimate frisbee, volleyball, softball and European handball.",
+        "Winter grade sports include: basketball, Oztag, netball, volleyball, soccer, futsal and European handball.",
+        "These are activities where the primary purpose is participation, with the realted goals of improved physical fitness, fun, and social involvement.",
+        "Recreational sports at Fort Street include tennis, ice skating, yoga, pilates, boxing, gym classes, futsal, basketball, ultimate frisbee, rock climbing and swimming.",
+        "The recently renovated Fort Street High School Library provides a supportive, welcoming environment with resources and study spaces to meet the teaching and learning needs of our community. Our goal is to develop lifelong readers who appreciate literature and engage critically and ethically with information in all its forms. To facilitate this, our library has an extensive and constantly updated collection of journals, print and electronic books.",
+        "Our Teacher Librarian, Ms Page provides research support in class and encourages all students to develop a love of reading. Students are encouraged to suggest titles to add to the school library collection so that it best represents the varied interests of the school community. Ms Page is also available for individual research interviews to support students with their assignments.",
+        "Monday 8.45 – 4.10 Tuesday 8.30 – 3.30 Wednesday 8.30 – 4.10 Thursday 8.30 – 3.30 Friday 8.30 – 3.30",
+        "Monday and Wednesdays after school until 4.10 students can get assistance with their homework.",
+        "Students are welcome every recess and lunch to play chess in the library.",
+        "Students can access the school library catalogue from their own device anywhere through their student portal.",
+        "Students can borrow eBooks to read on any device from our school library by logging in with their school username and password. The link is https://fortstreet.wheelers.co/ (opens in new window)",
+        "“The Challenge aims to encourage a love of reading for leisure and pleasure in students, and to enable them to experience quality literature. It is not a competition but a challenge to each student to read, to read more and to read more widely. The Premier's Reading Challenge (opens in new window) (PRC) is open to all NSW students in Kindergarten to Year 9, in government, independent, Catholic and home schools.”",
+        "Every student in Years 7, 8, 9 and 10 is eligible to participate in the challenge.",
+        "To register for the Challenge, students need to log onto the Premier’s Reading Challenge website using their DEC login details, and start filling in the Student Reading Records from March 1st each year. Students need to read 20 books between September 1st each year and August 31st the following year. At least 10 books must be on the prescribed book list. Students who have completed four Challenges receive a Gold Certificate; students who complete seven Challenges receive a Platinum Certificate. Students who complete every Challenge from Year 3 to Year 9 receive a medal.",
+        "There is a wide variety of reading genres from which to choose, including factual, poetry, drama, newspaper texts, humorous fiction, love stories, fantasy, picture books, science fiction, classics, to name a few.",
+        "Contact: Ms Donna Page Teacher Librarian Library",
+        "At our school, students can take part in special religious education (SRE) or special education in ethics (SEE) classes, depending on what’s available. These classes are delivered by approved providers.",
+        "When enrolling your child, you’ll be able to choose an option from the approved providers offered at our school. Students not attending SRE or SEE are given supervised alternative meaningful activities.",
+        "You’re welcome to change your choice at any time. Just let us know by completing the online form (opens in new window) or by emailing the school.",
+        "In accordance with Department of Education policy, Special Religious Education (SRE, previously known as Scripture) takes place at Fort Street High School every Thursday from 9:00am – 9:40pm. We currently offer three SRE options (see below). In Year 7, students who do not participate in SRE are supervised in independent reading or school work in the school Library. Students are not permitted to use devices during this time. Students from Years 8 – 10 students who do not attend SRE begin school in period 2.",
+        "Trained and authorised teachers from Petersham Anglican (All Saints) and Petersham Presbyterian (Joshua Tree) Churches seek to engage, guide, and equip students in their understanding of the Christian faith. The curriculum for Christian SRE comes from Christian Education Publications and is called Think Faith https://thinkfaith.com.au (opens in new window)",
+        "We focus on the things that are common within Christian traditions and encourage the students to raise issues that are real to them. We believe it is important for gifted children to explore issues of faith, theology and Christian living at the level of their secular studies and are very excited to have the opportunity to do this at Fort Street. We hope you can encourage your child to participate.",
+        "If you have any questions please contact Danny Ford, Minister at Joshua Tree Presbyterian Church, Petersham (danny@thejoshuatree.com.au (opens in new window) )",
+        "The Hindu Council of Australia was founded in 1998 with an aim to create a strong and unified Hindu community in Australia. Our SRE program provides students with an opportunity to connect with their rich spiritual and cultural heritage. A major focus of these classes is to create a supportive environment for students to experience the benefits of meditation and to explore the Vedic scriptures, such as the Bhagavad-Gita, in a way that is both deeply meaningful and relevant in modern Australian life. The Hindu SRE curriculum can be found here. (opens in new window)",
+        "Meditation is a valuable life skill, which can help students to successfully manage their mental, emotional, spiritual and physical wellbeing. Benefits of meditation can include improved academic and learning skills, faster information processing, greater focus, more effective working memory, increased creativity and cognitive flexibility as well as reduced anxiety, stress and depression.",
+        "From a spiritual perspective, meditation provides students the opportunity to develop a deep and fulfilling relationship with God and experience the sacred connection between themselves and others.",
+        "Hinduism fosters the positive values of respect, tolerance, empathy, determination, resilience and service to others and encourages a healthy, balanced and meaningful life in harmony with community and the natural world.",
+        "If you have any questions, please visit hinducouncil.com.au/sre (opens in new window) or email. Madya Lila, SRE Co-ordinator, Hindu Council of Australia at sre@hinducouncil.com.au (opens in new window) .",
+        "Ethics classes are available to students in Years 7 and 8 only, and support students to develop well-reasoned decisions about ethical issues. Through the give-and-take of reasoned argument students learn to disagree respectfully, to challenge ideas and to support their arguments with considered evidence rather than according to habit or peer pressure.",
+        "Trained volunteer ethics teachers present a range of stories, scenarios and questions to generate discussion. Ethics teachers are trained to impartially facilitate student discussions, helping students develop their critical thinking and collaborative inquiry skills. Ethics teachers support student learning by:",
+        "· modelling the inquiry process – by asking questions and encouraging discussion",
+        "· showing genuine curiosity and interest in the questions being discussed",
+        "· staying neutral – ethics teachers are trained to keep their own views out of the discussion",
+        "· creating a positive learning environment – by allowing students time to think and encouraging students to share ideas and give reasons.",
+        "You can find out more information about Primary Ethics by visiting the Primary Ethics website; the curriculum can be found here (opens in new window) :",
+        "For more information, visit the department’s website or contact us.",
+        "Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences.",
+        "In Years 7 and 8, students study a mandatory curriculum of English, Mathematics, Science, History, Geography, PDHPE, Drama, Music, Visual Arts and Technology.",
+        "Periods per fortnight by subject",
+        "Years 9 and 10",
+        "In Years 9 and 10, students continue mandatory studies in English, Mathematics, Science, History, Geography and PDHPE. Students also choose three elective subjects from a wide range of options including the Creative and Performing Arts, Languages and Technology faculties.",
+        "Periods per fortnight by subject",
+        "Years 11 and 12: The Higher School Certificate",
+        "In Years 11 and 12, the only mandatory subject is English. Students choose their remaining courses (generally 6 courses in total for Year 11 and 5 for Year 12) according to their interest and abilities.",
+        "Languages",
+        "In Year 7 students study one semester each of an Asian and European language from the languages offered by the school (Chinese, French, German and Japanese). This serves as an introduction to language study.",
+        "In Year 8, students choose one language in which to complete their mandatory 100 hours of language study. This may be one of the two languages they studied in Year 7, or a third language. Every effort is made to give students their first preference, although due to class size and timetabling restraints this is not often possible.",
+        "Languages can be continued as elective subjects from Year 9 through to Year 12 (HSC). In special circumstances, languages not offered at the school (i.e. Italian, Korean, etc.) can be studied through the NSW School of Languages or Saturday School of Community Languages."
+      ],
+      "listItems": [
+        "English",
+        "Mathematics",
+        "Science",
+        "History (Semesterised)",
+        "Geography (Semesterised)",
+        "Technology (Mandatory)",
+        "Music",
+        "Visual Arts",
+        "Drama",
+        "Personal Development, Health and Physical Education",
+        "Languages (Chinese French, German, Japanese)",
+        "Fortitude (Year 7 only)",
+        "Fortunae (Wellbeing Lessons)",
+        "Assessment guidelines are provided for each Year group for Years 7 – 8.",
+        "Individual task dates and deadlines are subject to change and students will be notified in advance of these changes.",
+        "These are made available to students and parents/carers to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term.",
+        "Please note: some subjects are semesterised including History and Geography.",
+        "In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance.",
+        "English",
+        "Mathematics",
+        "Science",
+        "Geography",
+        "History",
+        "Personal Development, Health and Physical Education",
+        "Fortunae (Wellbeing lessons)",
+        "Commerce",
+        "Chinese",
+        "Computing Technology",
+        "Design and Technology",
+        "Drama",
+        "Elective Geography",
+        "Elective History",
+        "Electronics",
+        "Engineering",
+        "Food Technology",
+        "French",
+        "German",
+        "Graphics Technology",
+        "Japanese",
+        "Music",
+        "Photographic and Digital Media",
+        "Visual Arts",
+        "Curriculum and Assessment booklets are provided for students in Years 9 and 10",
+        "Individual task dates and deadlines are subject to change and students will be notified in advance of these changes.",
+        "These are made available to students and parents/carers through the portal to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term.",
+        "Please note: some subjects are semesterised including History and Geography.",
+        "In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance.",
+        "Ancient History",
+        "Biology",
+        "Chemistry",
+        "Chinese in Context",
+        "Design and Technology",
+        "Drama",
+        "Earth & Environmental Science",
+        "Economics",
+        "Engineering Studies",
+        "English Extension 1",
+        "Food Technology",
+        "French Continuers",
+        "German Continuers",
+        "Geography",
+        "Japanese Continuers",
+        "Legal Studies",
+        "Mathematics",
+        "Mathematics Extension 1",
+        "Modern History",
+        "Music 2",
+        "Photography (1 Unit) *",
+        "Personal Development, Health and Physical Education",
+        "Philosophy (1 Unit) *",
+        "Physics",
+        "Software Engineering",
+        "Studies of Religion (1 Unit) *",
+        "Visual Arts",
+        "History",
+        "Chinese",
+        "Japanese",
+        "French",
+        "German",
+        "Music",
+        "Mathematics Extension 2",
+        "English Extension 2",
+        "Science Extension"
+      ],
+      "ctas": [
+        {
+          "text": "NSW curriculum (opens in new window)",
+          "href": "https://www.nsw.gov.au/education-and-training/nesa/curriculum",
+          "absHref": "https://www.nsw.gov.au/education-and-training/nesa/curriculum",
+          "classes": ""
+        },
+        {
+          "text": "key learning areas (opens in new window)",
+          "href": "https://curriculum.nsw.edu.au/learning-areas",
+          "absHref": "https://curriculum.nsw.edu.au/learning-areas",
+          "classes": ""
+        },
+        {
+          "text": "https://fortstreet.wheelers.co/ (opens in new window)",
+          "href": "https://fortstreet.wheelers.co/",
+          "absHref": "https://fortstreet.wheelers.co/",
+          "classes": ""
+        },
+        {
+          "text": "Premier's Reading Challenge (opens in new window)",
+          "href": "https://online.det.nsw.edu.au/prc",
+          "absHref": "https://online.det.nsw.edu.au/prc",
+          "classes": ""
+        },
+        {
+          "text": "online form (opens in new window)",
+          "href": "https://online.schoolbytes.education/published_forms/6443/d0adc24a-44c8-4e3f-88a5-970cde8dadcc",
+          "absHref": "https://online.schoolbytes.education/published_forms/6443/d0adc24a-44c8-4e3f-88a5-970cde8dadcc",
+          "classes": ""
+        },
+        {
+          "text": "https://thinkfaith.com.au (opens in new window)",
+          "href": "https://thinkfaith.com.au/",
+          "absHref": "https://thinkfaith.com.au/",
+          "classes": ""
+        },
+        {
+          "text": "danny@thejoshuatree.com.au (opens in new window)",
+          "href": "mailto:danny@thejoshuatree.com.au",
+          "absHref": "mailto:danny@thejoshuatree.com.au",
+          "classes": ""
+        },
+        {
+          "text": "here. (opens in new window)",
+          "href": "https://hinducouncil.com.au/introduction-to-hindu-religion/",
+          "absHref": "https://hinducouncil.com.au/introduction-to-hindu-religion/",
+          "classes": ""
+        },
+        {
+          "text": "hinducouncil.com.au/sre (opens in new window)",
+          "href": "https://hinducouncil.com.au/introduction-to-hindu-religion/",
+          "absHref": "https://hinducouncil.com.au/introduction-to-hindu-religion/",
+          "classes": ""
+        },
+        {
+          "text": "sre@hinducouncil.com.au (opens in new window)",
+          "href": "mailto:sre@hinducouncil.com.au",
+          "absHref": "mailto:sre@hinducouncil.com.au",
+          "classes": ""
+        },
+        {
+          "text": "Primary Ethics website",
+          "href": "www.primaryethics.com.au",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/www.primaryethics.com.au",
+          "classes": ""
+        },
+        {
+          "text": "here (opens in new window)",
+          "href": "https://primaryethics.com.au/about-ethics-classes/our-curriculum/",
+          "absHref": "https://primaryethics.com.au/about-ethics-classes/our-curriculum/",
+          "classes": ""
+        },
+        {
+          "text": "department’s website",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/religion-and-ethics",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/religion-and-ethics",
+          "classes": ""
+        },
+        {
+          "text": "contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Junior School (Years 7-8)",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Middle School (Years 9 - 10)",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Senior School (Years 11-12)",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Sport",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Library",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Religion and ethics",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Gifted education",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Curriculum Organisation",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "English",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Maths",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Science",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Hist/Geo",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "PDHPE",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "3",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "5",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Drama",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "0",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Music",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "3",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Visual Arts",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "3",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Tech",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Language",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "3",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Fortunae",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "1",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "1",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Fortitude",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "1",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "-",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "table",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "English",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Maths",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Science",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Hist/Geo",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "PDHPE",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Elective 1",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Elective 2",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Elective 3",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "What students learn",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 7 and 8 students follow a compulsory NSW curriculum (opens in new window) that is largely determined by the NSW Education Standards Authority (NESA). Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Year 7 and 8 students follow a compulsory",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "NSW curriculum (opens in new window)",
+              "display": "inline",
+              "href": "https://www.nsw.gov.au/education-and-training/nesa/curriculum",
+              "absHref": "https://www.nsw.gov.au/education-and-training/nesa/curriculum",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "NSW curriculum",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "that is largely determined by the NSW Education Standards Authority (NESA). Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students learn a wide range of subjects. They build skills, think creatively and prepare for life beyond school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Explore how we teach the NSW curriculum through key learning areas (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Explore how we teach the NSW curriculum through",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "key learning areas (opens in new window)",
+              "display": "inline",
+              "href": "https://curriculum.nsw.edu.au/learning-areas",
+              "absHref": "https://curriculum.nsw.edu.au/learning-areas",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "key learning areas",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Junior School (Years 7-8)",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Stage 4: Years 7 and 8",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students study:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "English",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Mathematics",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Science",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "History (Semesterised)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "History",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "(Semesterised)",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Geography (Semesterised)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Geography",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "(Semesterised)",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Technology (Mandatory)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Technology",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "(Mandatory)",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Music",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Visual Arts",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Drama",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Personal Development, Health and Physical Education",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Languages (Chinese French, German, Japanese)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Fortitude (Year 7 only)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Fortitude",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "(Year 7 only)",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Fortunae (Wellbeing Lessons)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Assessment Guidelines Advice Years 7 – 8",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Assessment guidelines are provided for each Year group for Years 7 – 8.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Individual task dates and deadlines are subject to change and students will be notified in advance of these changes.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "These are made available to students and parents/carers to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Please note: some subjects are semesterised including History and Geography.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Middle School (Years 9 - 10)",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 9 and 10 students follow a combination of mandatory and elective subjects. From Year 9 onwards, students can choose an increasing number of elective subjects for each stage.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Stage 5: Years 9 and 10",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "All students study:",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "English",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Mathematics",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Science",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Geography",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "History",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Personal Development, Health and Physical Education",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Fortunae (Wellbeing lessons)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Students also choose to study three elective subjects from:",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Commerce",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Chinese",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Computing Technology",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Design and Technology",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Drama",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Elective Geography",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Elective History",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Electronics",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Engineering",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Food Technology",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "French",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "German",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Graphics Technology",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Japanese",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Music",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Photographic and Digital Media",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Visual Arts",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Assessment Guidelines Advice Years 9 and 10",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Curriculum and Assessment booklets are provided for students in Years 9 and 10",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Individual task dates and deadlines are subject to change and students will be notified in advance of these changes.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "These are made available to students and parents/carers through the portal to provide a guide as to the nature of tasks in each subject and outline when whole form tasks and tests take place in each term.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Please note: some subjects are semesterised including History and Geography.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "In some faculty and subject areas, there are only one or two common tasks and other additional tasks are set by the subject teacher for a specific class. Students will be notifed of these tasks in advance.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Senior School (Years 11-12)",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Years 11 and 12 students are prepared for the NSW Higher School Certificate. A broad range of courses are offered and the curriculum has a clear path to university entrance. The NSW Education Standards Authority (NESA) requires students to study a minimum of 12 units in Year 11 and 10 units in Year 12.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Senior Schooling consists of the Stage 6 Curriculum studied during Years 11 and 12. All students must study at least four different subjects totalling a minimum of 12 Units in Year 11 and 10 Units in Year 12 including 2 units of English. The English courses offered at Fort Street are Advanced or Extension courses.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Curriculum choice patterns are formulated from student needs. A small number of students negotiate acceleration in one or more subjects. Students have accelerated in Biology, Business Studies, Chemistry, French, Music & Mathematics.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "All students in Years 11 and 12 also continue with Fortunae (wellbeing lessons).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Subjects are chosen from:",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Ancient History",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Biology",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Chemistry",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Chinese in Context",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Design and Technology",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Drama",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Earth & Environmental Science",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Economics",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Engineering Studies",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "English Extension 1",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Food Technology",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "French Continuers",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "German Continuers",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Geography",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Japanese Continuers",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Legal Studies",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Mathematics",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Mathematics Extension 1",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Modern History",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Music 2",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Photography (1 Unit) *",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Personal Development, Health and Physical Education",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Philosophy (1 Unit) *",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Physics",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Software Engineering",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Studies of Religion (1 Unit) *",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Visual Arts",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "* Year 11 only",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "HSC Extension Courses (Year 12 only)",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "History",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Chinese",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Japanese",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "French",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "German",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Music",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Mathematics Extension 2",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "English Extension 2",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Science Extension",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Sport",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fortians participate in planned physical activity in Years 7-10 timetabled PDHPE lessons as well as weekly sport which is mandatory for all students in Years 7-11.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Participation in sport provides many benefits in terms of physical fitness, health benefits, cognitive development, personal wellbeing, and social integration.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Sport",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Year 7 have two periods of sport timetabled each week, in addition to their PDHPE classes. Students work through a program to build their general fitness and skills in a range of sports.",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Years 8–11 participate in Sport on Tuesday afternoons.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Years 8–11",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "participate in Sport on Tuesday afternoons.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "A wide range of sports are available including Badminton, Basketball, Cricket, European Handball, Fencing, Ice-Skating, Netball, Oztag, Soccer, Swimming, Tennis, Touch Football, Ultimate Frisbee, Volleyball, and Yoga. Year 8 students are required to choose a Grade Sport; students in Years 9-11 may choose between Grade, Recreational and House sports.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "A wide range of sports are available including Badminton, Basketball, Cricket, European Handball, Fencing, Ice-Skating, Netball, Oztag, Soccer, Swimming, Tennis, Touch Football, Ultimate Frisbee, Volleyball, and Yoga. Year 8 students are required to choose a",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Grade Sport",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "; students in Years 9-11 may choose between",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Grade",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ",",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Recreational",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "House",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "sports.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "• Grade Sport teams compete against other schools",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "•",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Grade Sport",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "teams compete against other schools",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "• Recreational Sports are run by outside instructors",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "•",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Recreational Sports",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "are run by outside instructors",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "• House Sports are conducted by school staff",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "•",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "House Sports",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "are conducted by school staff",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students select one sport for Summer (Terms 1 and 2) and another for Winter (Terms 3 and 4). The cost of grade and recreational sports varies and must be paid for in advance of each sport session.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students also have the opportunity to participate in Knockout Competitions. These teams are selected and coached by staff based on student interest, and compete against other schools until they are knocked out of the competition. Most teams have the opportunity to play two or three games a year. These games take place during normal school time.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Grade Sport",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street competes in the Northern Suburbs Sports Zone.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Summer grade sports include: basketball, cricket, touch football, ultimate frisbee, volleyball, softball and European handball.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Winter grade sports include: basketball, Oztag, netball, volleyball, soccer, futsal and European handball.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Recreational Sport",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "These are activities where the primary purpose is participation, with the realted goals of improved physical fitness, fun, and social involvement.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Recreational sports at Fort Street include tennis, ice skating, yoga, pilates, boxing, gym classes, futsal, basketball, ultimate frisbee, rock climbing and swimming.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Library",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The recently renovated Fort Street High School Library provides a supportive, welcoming environment with resources and study spaces to meet the teaching and learning needs of our community. Our goal is to develop lifelong readers who appreciate literature and engage critically and ethically with information in all its forms. To facilitate this, our library has an extensive and constantly updated collection of journals, print and electronic books.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Fort Street Library",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our Teacher Librarian, Ms Page provides research support in class and encourages all students to develop a love of reading. Students are encouraged to suggest titles to add to the school library collection so that it best represents the varied interests of the school community. Ms Page is also available for individual research interviews to support students with their assignments.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Opening hours",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Monday 8.45 – 4.10 Tuesday 8.30 – 3.30 Wednesday 8.30 – 4.10 Thursday 8.30 – 3.30 Friday 8.30 – 3.30",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Monday 8.45 – 4.10",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Tuesday 8.30 – 3.30",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Wednesday 8.30 – 4.10",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Thursday 8.30 – 3.30",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Friday 8.30 – 3.30",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Homework centre",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Monday and Wednesdays after school until 4.10 students can get assistance with their homework.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Chess",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students are welcome every recess and lunch to play chess in the library.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "School Library catalogue",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students can access the school library catalogue from their own device anywhere through their student portal.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Wheelers eBooks",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students can borrow eBooks to read on any device from our school library by logging in with their school username and password. The link is https://fortstreet.wheelers.co/ (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Students can borrow eBooks to read on any device from our school library by logging in with their school username and password. The link is",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "https://fortstreet.wheelers.co/ (opens in new window)",
+              "display": "inline",
+              "href": "https://fortstreet.wheelers.co/",
+              "absHref": "https://fortstreet.wheelers.co/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://fortstreet.wheelers.co/",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Premier’s Reading Challenge",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "“The Challenge aims to encourage a love of reading for leisure and pleasure in students, and to enable them to experience quality literature. It is not a competition but a challenge to each student to read, to read more and to read more widely. The Premier's Reading Challenge (opens in new window) (PRC) is open to all NSW students in Kindergarten to Year 9, in government, independent, Catholic and home schools.”",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "“The Challenge aims to encourage a love of reading for leisure and pleasure in students, and to enable them to experience quality literature. It is not a competition but a challenge to each student to read, to read more and to read more widely. The",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Premier's Reading Challenge (opens in new window)",
+              "display": "inline",
+              "href": "https://online.det.nsw.edu.au/prc",
+              "absHref": "https://online.det.nsw.edu.au/prc",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Premier's Reading Challenge",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "(PRC) is open to all NSW students in Kindergarten to Year 9, in government, independent, Catholic and home schools.”",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Every student in Years 7, 8, 9 and 10 is eligible to participate in the challenge.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "To register for the Challenge, students need to log onto the Premier’s Reading Challenge website using their DEC login details, and start filling in the Student Reading Records from March 1st each year. Students need to read 20 books between September 1st each year and August 31st the following year. At least 10 books must be on the prescribed book list. Students who have completed four Challenges receive a Gold Certificate; students who complete seven Challenges receive a Platinum Certificate. Students who complete every Challenge from Year 3 to Year 9 receive a medal.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is a wide variety of reading genres from which to choose, including factual, poetry, drama, newspaper texts, humorous fiction, love stories, fantasy, picture books, science fiction, classics, to name a few.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Donna Page Teacher Librarian Library",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Donna Page",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Teacher Librarian",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Library",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Religion and ethics",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At our school, students can take part in special religious education (SRE) or special education in ethics (SEE) classes, depending on what’s available. These classes are delivered by approved providers.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "When enrolling your child, you’ll be able to choose an option from the approved providers offered at our school. Students not attending SRE or SEE are given supervised alternative meaningful activities.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "You’re welcome to change your choice at any time. Just let us know by completing the online form (opens in new window) or by emailing the school.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "You’re welcome to change your choice at any time. Just let us know by completing the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "online form (opens in new window)",
+              "display": "inline",
+              "href": "https://online.schoolbytes.education/published_forms/6443/d0adc24a-44c8-4e3f-88a5-970cde8dadcc",
+              "absHref": "https://online.schoolbytes.education/published_forms/6443/d0adc24a-44c8-4e3f-88a5-970cde8dadcc",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "online form",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "or by emailing the school.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In accordance with Department of Education policy, Special Religious Education (SRE, previously known as Scripture) takes place at Fort Street High School every Thursday from 9:00am – 9:40pm. We currently offer three SRE options (see below). In Year 7, students who do not participate in SRE are supervised in independent reading or school work in the school Library. Students are not permitted to use devices during this time. Students from Years 8 – 10 students who do not attend SRE begin school in period 2.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Option 1: Christian SRE",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trained and authorised teachers from Petersham Anglican (All Saints) and Petersham Presbyterian (Joshua Tree) Churches seek to engage, guide, and equip students in their understanding of the Christian faith. The curriculum for Christian SRE comes from Christian Education Publications and is called Think Faith https://thinkfaith.com.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Trained and authorised teachers from Petersham Anglican (All Saints) and Petersham Presbyterian (Joshua Tree) Churches seek to engage, guide, and equip students in their understanding of the Christian faith. The curriculum for Christian SRE comes from Christian Education Publications and is called Think Faith",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "https://thinkfaith.com.au (opens in new window)",
+              "display": "inline",
+              "href": "https://thinkfaith.com.au/",
+              "absHref": "https://thinkfaith.com.au/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://thinkfaith.com.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We focus on the things that are common within Christian traditions and encourage the students to raise issues that are real to them. We believe it is important for gifted children to explore issues of faith, theology and Christian living at the level of their secular studies and are very excited to have the opportunity to do this at Fort Street. We hope you can encourage your child to participate.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you have any questions please contact Danny Ford, Minister at Joshua Tree Presbyterian Church, Petersham (danny@thejoshuatree.com.au (opens in new window) )",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "If you have any questions please contact Danny Ford, Minister at Joshua Tree Presbyterian Church, Petersham (",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "danny@thejoshuatree.com.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:danny@thejoshuatree.com.au",
+              "absHref": "mailto:danny@thejoshuatree.com.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "danny@thejoshuatree.com.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": ")",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Option 2: Hindu SRE",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Hindu Council of Australia was founded in 1998 with an aim to create a strong and unified Hindu community in Australia. Our SRE program provides students with an opportunity to connect with their rich spiritual and cultural heritage. A major focus of these classes is to create a supportive environment for students to experience the benefits of meditation and to explore the Vedic scriptures, such as the Bhagavad-Gita, in a way that is both deeply meaningful and relevant in modern Australian life. The Hindu SRE curriculum can be found here. (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The Hindu Council of Australia was founded in 1998 with an aim to create a strong and unified Hindu community in Australia. Our SRE program provides students with an opportunity to connect with their rich spiritual and cultural heritage. A major focus of these classes is to create a supportive environment for students to experience the benefits of meditation and to explore the Vedic scriptures, such as the Bhagavad-Gita, in a way that is both deeply meaningful and relevant in modern Australian life. The Hindu SRE curriculum can be found",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here. (opens in new window)",
+              "display": "inline",
+              "href": "https://hinducouncil.com.au/introduction-to-hindu-religion/",
+              "absHref": "https://hinducouncil.com.au/introduction-to-hindu-religion/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here.",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Meditation is a valuable life skill, which can help students to successfully manage their mental, emotional, spiritual and physical wellbeing. Benefits of meditation can include improved academic and learning skills, faster information processing, greater focus, more effective working memory, increased creativity and cognitive flexibility as well as reduced anxiety, stress and depression.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "From a spiritual perspective, meditation provides students the opportunity to develop a deep and fulfilling relationship with God and experience the sacred connection between themselves and others.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Hinduism fosters the positive values of respect, tolerance, empathy, determination, resilience and service to others and encourages a healthy, balanced and meaningful life in harmony with community and the natural world.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you have any questions, please visit hinducouncil.com.au/sre (opens in new window) or email. Madya Lila, SRE Co-ordinator, Hindu Council of Australia at sre@hinducouncil.com.au (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "If you have any questions, please visit",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "hinducouncil.com.au/sre (opens in new window)",
+              "display": "inline",
+              "href": "https://hinducouncil.com.au/introduction-to-hindu-religion/",
+              "absHref": "https://hinducouncil.com.au/introduction-to-hindu-religion/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "hinducouncil.com.au/sre",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "or email. Madya Lila, SRE Co-ordinator, Hindu Council of Australia at",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "sre@hinducouncil.com.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:sre@hinducouncil.com.au",
+              "absHref": "mailto:sre@hinducouncil.com.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "sre@hinducouncil.com.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Option 3: Special Education in Ethics (Years 7 and 8 only)",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ethics classes are available to students in Years 7 and 8 only, and support students to develop well-reasoned decisions about ethical issues. Through the give-and-take of reasoned argument students learn to disagree respectfully, to challenge ideas and to support their arguments with considered evidence rather than according to habit or peer pressure.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trained volunteer ethics teachers present a range of stories, scenarios and questions to generate discussion. Ethics teachers are trained to impartially facilitate student discussions, helping students develop their critical thinking and collaborative inquiry skills. Ethics teachers support student learning by:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "· modelling the inquiry process – by asking questions and encouraging discussion",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "· showing genuine curiosity and interest in the questions being discussed",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "· staying neutral – ethics teachers are trained to keep their own views out of the discussion",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "· creating a positive learning environment – by allowing students time to think and encouraging students to share ideas and give reasons.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "You can find out more information about Primary Ethics by visiting the Primary Ethics website; the curriculum can be found here (opens in new window) :",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "You can find out more information about Primary Ethics by visiting the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Primary Ethics website",
+              "display": "inline",
+              "href": "www.primaryethics.com.au",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/www.primaryethics.com.au",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "; the curriculum can be found",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here (opens in new window)",
+              "display": "inline",
+              "href": "https://primaryethics.com.au/about-ethics-classes/our-curriculum/",
+              "absHref": "https://primaryethics.com.au/about-ethics-classes/our-curriculum/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ":",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more information, visit the department’s website or contact us.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For more information, visit the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "department’s website",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/religion-and-ethics",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/religion-and-ethics",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "or",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "contact us",
+              "display": "inline",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Gifted education",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Curriculum Organisation",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Years 7 and 8",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Years 7 and 8, students study a mandatory curriculum of English, Mathematics, Science, History, Geography, PDHPE, Drama, Music, Visual Arts and Technology.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Periods per fortnight by subject",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Subjects",
+          "display": "block",
+          "level": "h5",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Year 7",
+          "display": "block",
+          "level": "h5",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Year 8",
+          "display": "block",
+          "level": "h5",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "English",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Maths",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Science",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Hist/Geo",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "PDHPE",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "3",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "5",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Drama",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "0",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Music",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "3",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Visual Arts",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "3",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Tech",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Language",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "3",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Fortunae",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "1",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "1",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Fortitude",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "1",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "-",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Years 9 and 10",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Years 9 and 10, students continue mandatory studies in English, Mathematics, Science, History, Geography and PDHPE. Students also choose three elective subjects from a wide range of options including the Creative and Performing Arts, Languages and Technology faculties.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Periods per fortnight by subject",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "table",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Subjects",
+          "display": "block",
+          "level": "h5",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Year 9",
+          "display": "block",
+          "level": "h5",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Year 10",
+          "display": "block",
+          "level": "h5",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "English",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Maths",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Science",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Hist/Geo",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "8",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "PDHPE",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "4",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Elective 1",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Elective 2",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Elective 3",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "6",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Years 11 and 12: The Higher School Certificate",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Years 11 and 12, the only mandatory subject is English. Students choose their remaining courses (generally 6 courses in total for Year 11 and 5 for Year 12) according to their interest and abilities.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Languages",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Year 7 students study one semester each of an Asian and European language from the languages offered by the school (Chinese, French, German and Japanese). This serves as an introduction to language study.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Year 8, students choose one language in which to complete their mandatory 100 hours of language study. This may be one of the two languages they studied in Year 7, or a third language. Every effort is made to give students their first preference, although due to class size and timetabling restraints this is not often possible.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Languages can be continued as elective subjects from Year 9 through to Year 12 (HSC). In special circumstances, languages not offered at the school (i.e. Italian, Korean, etc.) can be studied through the NSW School of Languages or Saturday School of Community Languages.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Our learning approach Our school uses explicit teaching. This means we clearly tell students what they are learning, why it is important and how to do it step by step. Explicit teaching helps students understand new ideas by breaking them into smaller parts. Learning at our school is student-centred, inclusive and practical. We are committed to equity and access. We support all learning styles and needs. Our teachers use proven teaching strategies. They take part in ongoing professional development to stay up to date with best teaching practice. Our learning approach includes: real-world learning: hands-on tasks, group work and exploring new ideas technology: to help students learn and build digital skills flexible teaching: the right support for each student, with a focus on wellbeing community connections: through excursions and local programs.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Our learning approach"
+        }
+      ],
+      "paragraphs": [
+        "Our school uses explicit teaching. This means we clearly tell students what they are learning, why it is important and how to do it step by step. Explicit teaching helps students understand new ideas by breaking them into smaller parts.",
+        "Learning at our school is student-centred, inclusive and practical. We are committed to equity and access. We support all learning styles and needs. Our teachers use proven teaching strategies. They take part in ongoing professional development to stay up to date with best teaching practice.",
+        "Our learning approach includes:"
+      ],
+      "listItems": [
+        "real-world learning: hands-on tasks, group work and exploring new ideas",
+        "technology: to help students learn and build digital skills",
+        "flexible teaching: the right support for each student, with a focus on wellbeing",
+        "community connections: through excursions and local programs."
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Our learning approach",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school uses explicit teaching. This means we clearly tell students what they are learning, why it is important and how to do it step by step. Explicit teaching helps students understand new ideas by breaking them into smaller parts.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learning at our school is student-centred, inclusive and practical. We are committed to equity and access. We support all learning styles and needs. Our teachers use proven teaching strategies. They take part in ongoing professional development to stay up to date with best teaching practice.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our learning approach includes:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "real-world learning: hands-on tasks, group work and exploring new ideas",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "real-world learning:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "hands-on tasks, group work and exploring new ideas",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "technology: to help students learn and build digital skills",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "technology:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "to help students learn and build digital skills",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "flexible teaching: the right support for each student, with a focus on wellbeing",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "flexible teaching:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "the right support for each student, with a focus on wellbeing",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "community connections: through excursions and local programs.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "community connections:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "through excursions and local programs.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Helping students progress We support every student’s academic progress by: checking their progress and giving clear and timely feedback setting learning goals with each student giving extra help with personalised plans and support from specialist staff reporting on each student’s learning progress so parents and carers know how their child is doing providing targeted literacy and numeracy support in small groups making wellbeing part of everyday learning working with families to support learning at home and school helping students through transitions, like starting school or moving to a new stage of learning. Learn more about additional learning support at our school.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Helping students progress"
+        }
+      ],
+      "paragraphs": [
+        "We support every student’s academic progress by:",
+        "Learn more about additional learning support at our school."
+      ],
+      "listItems": [
+        "checking their progress and giving clear and timely feedback",
+        "setting learning goals with each student",
+        "giving extra help with personalised plans and support from specialist staff",
+        "reporting on each student’s learning progress so parents and carers know how their child is doing",
+        "providing targeted literacy and numeracy support in small groups",
+        "making wellbeing part of everyday learning",
+        "working with families to support learning at home and school",
+        "helping students through transitions, like starting school or moving to a new stage of learning."
+      ],
+      "ctas": [
+        {
+          "text": "additional learning support",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Helping students progress",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We support every student’s academic progress by:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "checking their progress and giving clear and timely feedback",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "setting learning goals with each student",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "giving extra help with personalised plans and support from specialist staff",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "reporting on each student’s learning progress so parents and carers know how their child is doing",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "providing targeted literacy and numeracy support in small groups",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "making wellbeing part of everyday learning",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "working with families to support learning at home and school",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "helping students through transitions, like starting school or moving to a new stage of learning.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learn more about additional learning support at our school.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Learn more about",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "additional learning support",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "at our school.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "\"The quality of the teaching staff is exceptional. They are passionate mentors who genuinely invest in each student's success, challenging them to think critically while providing strong support.\" Elizabeth— a parent of Fort Street High School",
+      "headings": [],
+      "paragraphs": [
+        "\"The quality of the teaching staff is exceptional. They are passionate mentors who genuinely invest in each student's success, challenging them to think critically while providing strong support.\"",
+        "Elizabeth— a parent of Fort Street High School"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "\"The quality of the teaching staff is exceptional. They are passionate mentors who genuinely invest in each student's success, challenging them to think critically while providing strong support.\"",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Elizabeth— a parent of Fort Street High School",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school. Our principal and staff Get to know our principal and staff, who work together to create a positive school culture.",
+      "headings": [],
+      "paragraphs": [
+        "Discover clubs, sports and other activities your child can enjoy at school.",
+        "Get to know our principal and staff, who work together to create a positive school culture."
+      ],
+      "listItems": [
+        "Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school.",
+        "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture."
+      ],
+      "ctas": [
+        {
+          "text": "Student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Student opportunities and activities",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover clubs, sports and other activities your child can enjoy at school.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "inline",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get to know our principal and staff, who work together to create a positive school culture.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

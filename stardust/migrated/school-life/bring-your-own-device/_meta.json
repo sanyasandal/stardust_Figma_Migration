@@ -1,0 +1,60 @@
+{
+  "slug": "school-life_bring-your-own-device",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M6",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Bring your own device",
+    "description": "Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Bring your own device",
+    "description": "Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "2c302765bcfa",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/bring-your-own-device/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/bring-your-own-device/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,601 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:21:31.646Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/our-community_foundation-tertiary-bursaries.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Foundation Tertiary Bursaries",
+    "description": "The Ashford Sister's Tertiary Bursaries seek to support motivated individuals with demonstrated merit, who are facing financial hardship.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries",
+    "ogTags": {
+      "og:title": "Foundation Tertiary Bursaries",
+      "og:description": "The Ashford Sister's Tertiary Bursaries seek to support motivated individuals with demonstrated merit, who are facing financial hardship.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/default-meta-image.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/default-meta-image.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Foundation Tertiary Bursaries",
+      "twitter:description": "The Ashford Sister's Tertiary Bursaries seek to support motivated individuals with demonstrated merit, who are facing financial hardship.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/default-meta-image.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Fort Street Foundation Tertiary Bursary Application The Ashford Sister's Tertiary Bursaries seek to support motivated individuals with demonstrated merit, who are facing financial hardship. The bursaries provide financial assistance to Fortians completing Year 12 who intend to continue studying either at University, Private Institution or TAFE after finishing their HSC. The bursaries assist with the transition into and progress through post-school education e.g. University bachelor degrees, Private Institution bachelor degree, TAFE accredited apprenticeship or a TAFE Advanced Diploma. About the Bursary Each bursary offered consists of an annual payment of up to $3,000 provided at the commencement of each academic year, up to a maximum of 3 years. For students relocating from Sydney, an additional one-off payment of up to $2,000 may be provided to assist with initial relocation expenses. The value of the bursary offered to successful students will be based on their personal circumstances and choice of post-school education. How to Apply Please download and carefully read through the Application Information and Terms and Conditions. Application Information Tertiary Bursaries (PDF 288.05 KB) (opens in new window) Terms and Conditions (PDF 344KB) (opens in new window) 1. Complete the Online Application Form Complete the online application form using this link (opens in new window) ** Once you have finalised your online application you will also need to submit the documents via email to the school (opens in new window) or deliver to reception addressed to The School Principal or The Fort Street Foundation: 2. Teacher Supporting Statement Request a supporting statement from a FSHS teacher (teacher may complete directly online or download Teacher Supporting Statement here (opens in new window) ) 3. Independent Support statement Complete your independent supporting statement here. 4. Parent/Guardian Consent Complete a parent guardian consent form here. Applications need to be submitted by October 12, 2026. Newsletters Read our latest newsletter and stay connected with our school life. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 3063,
+    "scopeTextLen": 2185,
+    "ratio": 0.713,
+    "h1Text": "Fort Street Foundation Tertiary Bursary Application",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Fort Street Foundation Tertiary Bursary Application The Ashford Sister's Tertiary Bursaries seek to support motivated individuals with demonstrated merit, who are facing financial hardship. The bursaries provide financial assistance to Fortians completing Year 12 who intend to continue studying either at University, Private Institution or TAFE after finishing their HSC. The bursaries assist with the transition into and progress through post-school education e.g. University bachelor degrees, Private Institution bachelor degree, TAFE accredited apprenticeship or a TAFE Advanced Diploma. About the Bursary Each bursary offered consists of an annual payment of up to $3,000 provided at the commencement of each academic year, up to a maximum of 3 years. For students relocating from Sydney, an additional one-off payment of up to $2,000 may be provided to assist with initial relocation expenses. The value of the bursary offered to successful students will be based on their personal circumstances and choice of post-school education.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Fort Street Foundation Tertiary Bursary Application"
+        },
+        {
+          "level": "h2",
+          "text": "About the Bursary"
+        }
+      ],
+      "paragraphs": [
+        "The Ashford Sister's Tertiary Bursaries seek to support motivated individuals with demonstrated merit, who are facing financial hardship.",
+        "The bursaries provide financial assistance to Fortians completing Year 12 who intend to continue studying either at University, Private Institution or TAFE after finishing their HSC. The bursaries assist with the transition into and progress through post-school education e.g. University bachelor degrees, Private Institution bachelor degree, TAFE accredited apprenticeship or a TAFE Advanced Diploma.",
+        "Each bursary offered consists of an annual payment of up to $3,000 provided at the commencement of each academic year, up to a maximum of 3 years. For students relocating from Sydney, an additional one-off payment of up to $2,000 may be provided to assist with initial relocation expenses. The value of the bursary offered to successful students will be based on their personal circumstances and choice of post-school education."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Fort Street Foundation Tertiary Bursary Application",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Ashford Sister's Tertiary Bursaries seek to support motivated individuals with demonstrated merit, who are facing financial hardship.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The bursaries provide financial assistance to Fortians completing Year 12 who intend to continue studying either at University, Private Institution or TAFE after finishing their HSC. The bursaries assist with the transition into and progress through post-school education e.g. University bachelor degrees, Private Institution bachelor degree, TAFE accredited apprenticeship or a TAFE Advanced Diploma.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "About the Bursary",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Each bursary offered consists of an annual payment of up to $3,000 provided at the commencement of each academic year, up to a maximum of 3 years. For students relocating from Sydney, an additional one-off payment of up to $2,000 may be provided to assist with initial relocation expenses. The value of the bursary offered to successful students will be based on their personal circumstances and choice of post-school education.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "How to Apply Please download and carefully read through the Application Information and Terms and Conditions. Application Information Tertiary Bursaries (PDF 288.05 KB) (opens in new window) Terms and Conditions (PDF 344KB) (opens in new window) 1. Complete the Online Application Form Complete the online application form using this link (opens in new window) ** Once you have finalised your online application you will also need to submit the documents via email to the school (opens in new window) or deliver to reception addressed to The School Principal or The Fort Street Foundation: 2. Teacher Supporting Statement Request a supporting statement from a FSHS teacher (teacher may complete directly online or download Teacher Supporting Statement here (opens in new window) ) 3. Independent Support statement Complete your independent supporting statement here. 4. Parent/Guardian Consent Complete a parent guardian consent form here. Applications need to be submitted by October 12, 2026.",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "How to Apply"
+        },
+        {
+          "level": "h4",
+          "text": "1. Complete the Online Application Form"
+        },
+        {
+          "level": "h4",
+          "text": "2. Teacher Supporting Statement"
+        },
+        {
+          "level": "h4",
+          "text": "3. Independent Support statement"
+        },
+        {
+          "level": "h4",
+          "text": "4. Parent/Guardian Consent"
+        }
+      ],
+      "paragraphs": [
+        "Please download and carefully read through the Application Information and Terms and Conditions.",
+        "Application Information Tertiary Bursaries (PDF 288.05 KB) (opens in new window) Terms and Conditions (PDF 344KB) (opens in new window)",
+        "Complete the online application form using this link (opens in new window)",
+        "** Once you have finalised your online application you will also need to submit the documents via email to the school (opens in new window) or deliver to reception addressed to The School Principal or The Fort Street Foundation:",
+        "Request a supporting statement from a FSHS teacher (teacher may complete directly online or download Teacher Supporting Statement here (opens in new window) )",
+        "Complete your independent supporting statement here.",
+        "Complete a parent guardian consent form here.",
+        "Applications need to be submitted by October 12, 2026."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Application Information Tertiary Bursaries (PDF 288.05 KB) (opens in new window)",
+          "href": "https://acrobat.adobe.com/id/urn:aaid:sc:AP:08271763-b74a-4ae2-85fa-56b5ddebff3e",
+          "absHref": "https://acrobat.adobe.com/id/urn:aaid:sc:AP:08271763-b74a-4ae2-85fa-56b5ddebff3e",
+          "classes": ""
+        },
+        {
+          "text": "Terms and Conditions (PDF 344KB) (opens in new window)",
+          "href": "https://drive.google.com/file/d/1BSKocp4dkntxv2Y2DrJsK9nq31iVSvq2/view",
+          "absHref": "https://drive.google.com/file/d/1BSKocp4dkntxv2Y2DrJsK9nq31iVSvq2/view",
+          "classes": ""
+        },
+        {
+          "text": "link (opens in new window)",
+          "href": "https://forms.gle/jAtv1E5QrGk4REs66",
+          "absHref": "https://forms.gle/jAtv1E5QrGk4REs66",
+          "classes": ""
+        },
+        {
+          "text": "email to the school (opens in new window)",
+          "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "classes": ""
+        },
+        {
+          "text": "here (opens in new window)",
+          "href": "https://forms.gle/UsW6JjE178dTWdqS8",
+          "absHref": "https://forms.gle/UsW6JjE178dTWdqS8",
+          "classes": ""
+        },
+        {
+          "text": "here",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/our%20community/Independent%20Supporting%20Statement%20tertiary%20Bursaries.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/our%20community/Independent%20Supporting%20Statement%20tertiary%20Bursaries.pdf",
+          "classes": ""
+        },
+        {
+          "text": "here.",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Parent%20Guardian%20consent%20form%20Tertiary%20Bursary.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Parent%20Guardian%20consent%20form%20Tertiary%20Bursary.pdf",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "How to Apply",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please download and carefully read through the Application Information and Terms and Conditions.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Application Information Tertiary Bursaries (PDF 288.05 KB) (opens in new window) Terms and Conditions (PDF 344KB) (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Application Information Tertiary Bursaries (PDF 288.05 KB) (opens in new window)",
+              "display": "inline",
+              "href": "https://acrobat.adobe.com/id/urn:aaid:sc:AP:08271763-b74a-4ae2-85fa-56b5ddebff3e",
+              "absHref": "https://acrobat.adobe.com/id/urn:aaid:sc:AP:08271763-b74a-4ae2-85fa-56b5ddebff3e",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Application Information Tertiary Bursaries (PDF 288.05 KB)",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Terms and Conditions (PDF 344KB) (opens in new window)",
+              "display": "inline",
+              "href": "https://drive.google.com/file/d/1BSKocp4dkntxv2Y2DrJsK9nq31iVSvq2/view",
+              "absHref": "https://drive.google.com/file/d/1BSKocp4dkntxv2Y2DrJsK9nq31iVSvq2/view",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Terms and Conditions (PDF 344KB)",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "1. Complete the Online Application Form",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Complete the online application form using this link (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Complete the online application form using this",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "link (opens in new window)",
+              "display": "inline",
+              "href": "https://forms.gle/jAtv1E5QrGk4REs66",
+              "absHref": "https://forms.gle/jAtv1E5QrGk4REs66",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "link",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "** Once you have finalised your online application you will also need to submit the documents via email to the school (opens in new window) or deliver to reception addressed to The School Principal or The Fort Street Foundation:",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "** Once you have finalised your online application you will also need to submit the documents via",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "email to the school (opens in new window)",
+              "display": "inline",
+              "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "email to the school",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "or deliver to reception addressed to The School Principal or The Fort Street Foundation:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "2. Teacher Supporting Statement",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Request a supporting statement from a FSHS teacher (teacher may complete directly online or download Teacher Supporting Statement here (opens in new window) )",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Request a supporting statement from a FSHS teacher (teacher may complete directly online or download Teacher Supporting Statement",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here (opens in new window)",
+              "display": "inline",
+              "href": "https://forms.gle/UsW6JjE178dTWdqS8",
+              "absHref": "https://forms.gle/UsW6JjE178dTWdqS8",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ")",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "3. Independent Support statement",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Complete your independent supporting statement here.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Complete your independent supporting statement",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/our%20community/Independent%20Supporting%20Statement%20tertiary%20Bursaries.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/our%20community/Independent%20Supporting%20Statement%20tertiary%20Bursaries.pdf",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "4. Parent/Guardian Consent",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Complete a parent guardian consent form here.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Complete a parent guardian consent form",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here.",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Parent%20Guardian%20consent%20form%20Tertiary%20Bursary.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Parent%20Guardian%20consent%20form%20Tertiary%20Bursary.pdf",
+              "classes": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Applications need to be submitted by October 12, 2026.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Newsletters Read our latest newsletter and stay connected with our school life. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Read our latest newsletter and stay connected with our school life.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Newsletters Read our latest newsletter and stay connected with our school life.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Newsletters Read our latest newsletter and stay connected with our school life.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "inline",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read our latest newsletter and stay connected with our school life.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

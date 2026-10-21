@@ -1,0 +1,63 @@
+{
+  "slug": "about-us_enrol",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M9",
+    "M4",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Enrol",
+    "description": "At Fort Street High School, we welcome enrolments throughout the school year. Enrol today or talk to us to find out how your family can join our school community.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Enrol",
+    "description": "At Fort Street High School, we welcome enrolments throughout the school year. Enrol today or talk to us to find out how your family can join our school community.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol"
+  },
+  "migratedAt": "2026-10-21T13:26:42Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "4bcbf504bc94",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/enrol/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/enrol/_meta.json",
+  "driverVersion": "1"
+}

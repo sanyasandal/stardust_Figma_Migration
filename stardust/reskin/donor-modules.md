@@ -1,0 +1,21 @@
+# donor-modules.md — oneAZ v3.2 (Figma donor-dir) module vocabulary
+
+<!-- provenance: stardust:reskin Phase 1 · skills adobe/skills main cf07727 · donor stardust/reskin/donor-dir (Figma MCP export, node ids per row) · evidence stardust/canon-source/assets/screenshots/{home,content,components}-1440-full.png · synthesized: anatomy descriptions; authored: nothing beyond the screenshots -->
+
+Closed set for Phase 3 mapping. Every row cites the donor screenshot it was observed in and the Figma node it was exported from.
+
+| # | Module | Where seen | Description |
+|---|--------|-----------|-------------|
+| M1 | Header (utility + nav row) | home/content top (`home-1440-full.png` y 0–94) · Figma 12387:11888 | anatomy: utility bar right-aligned (small Lexia 12/16 links, language switch `EN \| FR`); nav row: logo left, centred Lexia 14 nav items with chevron dropdowns, search icon + outlined 4px Login button right; 1px Supporting-1 bottom rule |
+| M2 | Breadcrumb strip | content (`content-1440-full.png` y 78–110), components · Figma 12410:12885 | anatomy: full-bleed strip with hairline top/bottom; Inter 14/16 crumbs separated by ▸ triangles; current crumb magenta #d0006f |
+| M3 | Home Hero Branded | home top (`home-1440-full.png` y 78–435) · Figma 12950:24813 | anatomy: Supporting-1 grey band, 50/50; left = brand logo, display H1 (Lexia 56/60 plum), body-large lede (Inter 18/28), one primary button; right = full-height media object bleeding to band edges |
+| M4 | Teaser Text + Image | home (`home-1440-full.png` y 435–705) · Figma 12431:14270 | anatomy: 50/50 row, media left (square corners) / text right; H4 (Lexia 26/34 plum), body-large paragraph, primary button pinned to bottom of the text column |
+| M5 | Teaser Card (2-up grid) | home, content (`home-1440-full.png` y 705–1100) · Figma 12436:14706 inside 12542:1504 "2 Teasers" | anatomy: 8px-radius card, top media (≈183px), Supporting-1 grey body padded 20px; eyebrow (Inter 18/28 bold, body colour, sentence case), H4 card title in magenta #d0006f, body-large text, primary button; grid 2-up, 40px gap |
+| M6 | Title + Text (block content) | content (`content-1440-full.png` y 110–205 and 430–525) · Figma 12534:1405 | anatomy: section heading H2 (Lexia 46/50 plum), Inter 16/24 body paragraph(s) at full container measure; no media, no CTA |
+| M7 | Listing Card (horizontal) | content (`content-1440-full.png` y 205–365) · Figma 12534:1414 | anatomy: media left (280×160, square), text right: H3-ish title (Lexia 36/40 plum), Inter 16/24 body; bookmark icon top right; no card fill |
+| M8 | CTA Banner (panel with controls) | home (`home-1440-full.png` y 1100–1455), components · Figma 13370:1909 | anatomy: bordered panel; thumbnail left; H4 plum title, Inter 16/24 text, a form control (label + required mark + select with icon + supportive text), button row (primary / secondary / tertiary-underlined), trailing paragraph |
+| M9 | Accordion | content (`content-1440-full.png` y 365–415), components · Figma 12362:10348 | anatomy: title row Lexia 36/40 plum + chevron at right; hairline Supporting-1 divider below each item; body = Inter 16/24 prose |
+| M10 | Buttons | components top (`components-1440-full.png` y 0–92) · Figma 12084:109282 | anatomy: 42px high, 4px radius, Inter 16/24/700; primary (magenta fill, white label), secondary (white, magenta border+label), tertiary (white, grey #3c4242 border+label), text link (underlined, no box); optional leading/trailing chevrons; icon-only square variants |
+| M11 | Footer | home/content bottom (`home-1440-full.png` y 1455–1700) · Figma 12406:12186 | anatomy: white, hairline top; logo + 4-line blurb left (Inter 14), two link columns (Inter 16/24 body colour); bottom row: social icon row left, job-code (Inter 12/20/500) right |
+
+**Notes for reskin:** headings are Lexia **weight 400** (never bold), plum #830051 for page/section titles and magenta #d0006f for card titles; all casing is sentence case as authored (no `text-transform`); the only band colour is Supporting-1 #ebefee; surfaces are flat (no shadows), cards 8px radius, buttons 4px, media square; links in prose use the interaction magenta; chevrons/triangles are CSS/SVG glyphs, never text. Container 1180px, 40px gutters, 64px section rhythm (Figma `Spacing/xx-lg`).

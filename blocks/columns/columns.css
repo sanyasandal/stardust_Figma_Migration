@@ -1,12 +1,9 @@
-/* Columns — oneAZ Teaser / Text + Image (Figma 12431:14270) */
 .columns > div {
   display: flex;
   flex-direction: column;
-  gap: var(--az-space-x-big);
 }
 
 .columns img {
-  display: block;
   width: 100%;
 }
 
@@ -18,32 +15,15 @@
   order: 0;
 }
 
-.columns > div > div > :first-child {
-  margin-top: 0;
-}
-
-.columns h2,
-.columns h3 {
-  margin-bottom: var(--az-space-md);
-  font-size: var(--heading-font-size-m);
-  line-height: var(--heading-line-height-m);
-}
-
-.columns p {
-  margin: 0 0 var(--az-space-md);
-  font-size: var(--body-font-size-m);
-  line-height: var(--body-line-height-m);
-}
-
-.columns p.button-wrapper {
-  margin: var(--az-space-x-big) 0 0;
+.columns > div > .columns-img-col img {
+  display: block;
 }
 
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
     flex-direction: unset;
-    gap: var(--az-space-xxx-big);
+    gap: 24px;
   }
 
   .columns > div > div {

@@ -1,0 +1,63 @@
+{
+  "slug": "about-us_transition-to-high-school",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M6",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Transition to high school",
+    "description": "Support your child’s move from Year 6 to Year 7. Learn what to expect, how to prepare and how our school helps with the transition to high school.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Transition to high school",
+    "description": "Support your child’s move from Year 6 to Year 7. Learn what to expect, how to prepare and how our school helps with the transition to high school.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "b13f86b53fe7",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://fortstreet-h.schools.nsw.gov.au/enrol",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "about-us/transition-to-high-school/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/transition-to-high-school/_meta.json",
+  "driverVersion": "1"
+}

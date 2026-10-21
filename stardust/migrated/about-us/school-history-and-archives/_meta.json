@@ -1,0 +1,58 @@
+{
+  "slug": "about-us_school-history-and-archives",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M5",
+    "M4",
+    "M6"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-cards",
+    "teaser-ti",
+    "teaser-ti",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "School history and archives",
+    "description": "Our Archives and Museum exists to preserve the rich history and colourful stories of our teachers and students, told through their experiences in the classroom and in the schoolyard, at work and play for over 170 years.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "School history and archives",
+    "description": "Our Archives and Museum exists to preserve the rich history and colourful stories of our teachers and students, told through their experiences in the classroom and in the schoolyard, at work and play for over 170 years.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "e641aa2466c2",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/school-history-and-archives/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/school-history-and-archives/_meta.json",
+  "driverVersion": "1"
+}

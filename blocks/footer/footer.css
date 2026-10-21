@@ -1,82 +1,20 @@
-/* oneAZ Footer (Figma 12406:12186): white, 1px Supporting-1 rule, 1180 container */
 footer {
-  border-top: 1px solid var(--az-border-subtle);
-  background-color: var(--az-bg-supporting-2);
-  color: var(--az-text-body-1);
-  font-size: var(--body-font-size-s);
-  line-height: var(--body-line-height-s);
+  background-color: var(--light-color);
+  font-size: var(--body-font-size-xs);
 }
 
 footer .footer > div {
   margin: auto;
-  max-width: var(--az-container-width);
-  padding: var(--az-space-lg) var(--az-container-padding);
-}
-
-footer .footer .section + .section {
-  margin-top: var(--az-space-x-lg);
-  border-top: 1px solid var(--az-border-subtle);
-  padding-top: var(--az-space-x-big);
+  max-width: 1200px;
+  padding: 40px 24px 24px;
 }
 
 footer .footer p {
   margin: 0;
 }
 
-footer .footer .section:last-child p {
-  max-width: 880px;
-  color: var(--az-text-label-2);
-  font-size: var(--body-font-size-xs);
-  line-height: 20px;
-}
-
-footer .footer .section:first-child .default-content-wrapper > p:first-child {
-  margin-bottom: var(--az-space-x-big);
-  color: var(--az-text-title-1);
-  font-family: var(--heading-font-family);
-  font-size: 22px;
-  line-height: 28px;
-}
-
-footer .footer h6 {
-  margin: 0 0 var(--az-space-md);
-  color: var(--az-text-title-1);
-}
-
-footer .footer ul {
-  display: flex;
-  flex-direction: column;
-  gap: var(--az-space-md);
-  list-style: none;
-  margin: 0 0 var(--az-space-lg);
-  padding: 0;
-}
-
-footer .footer a:any-link {
-  color: var(--az-text-body-1);
-  text-decoration: none;
-}
-
-footer .footer a:hover {
-  color: var(--az-text-interaction);
-  text-decoration: underline;
-}
-
 @media (width >= 900px) {
-  footer .footer .section:first-child .default-content-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: auto 1fr;
-    grid-auto-flow: column;
-    justify-content: space-between;
-    column-gap: 45px;
-  }
-
-  footer .footer .section:first-child .default-content-wrapper > p:first-child {
-    grid-row: span 2;
-  }
-
-  footer .footer ul {
-    margin-bottom: 0;
+  footer .footer > div {
+    padding: 40px 32px 24px;
   }
 }

@@ -1,0 +1,860 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:22.739Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_student-opportunities-and-activities_academic-competitions.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Academic Competitions",
+    "description": "Fort Street High School students have the opportunity to particupate in a wide range of competitions and challenges that support student learning and enhance social and personal development.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions",
+    "ogTags": {
+      "og:title": "Academic Competitions",
+      "og:description": "Fort Street High School students have the opportunity to particupate in a wide range of competitions and challenges that support student learning and enhance social and personal development.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e7cf645fd05068ab7d4cef23661020e8c67cafe9.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e7cf645fd05068ab7d4cef23661020e8c67cafe9.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "students in the science lab"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Academic Competitions",
+      "twitter:description": "Fort Street High School students have the opportunity to particupate in a wide range of competitions and challenges that support student learning and enhance social and personal development.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e7cf645fd05068ab7d4cef23661020e8c67cafe9.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Academic Competitions Fort Street High School students have the opportunity to participate in a wide range of competitions and challenges that support student learning and enhance social and personal development. Competitions had throughout the year in a number of subject areas. Students are encouraged to participate in a wide range of competition to enrich the core learning experiences. Mathematics A wide variety of co-curricular enrichment and competitions are offered by the Maths Enrichment Program. All activities are designed to motivate, stimulate and develop mathematically interested and talented students. The Mathematics Enrichment Program offers the Mathematics Challenge for Young Australians and the Australian Mathematics Competition. Mathematics Challenge for Young Australians (MCYA) There are three independent stages in the Mathematics Challenge for Young Australians run by the Australian Mathematics Trust and Australian Intermediate Mathematical Olympiad, and administered by the school. Challenge Stage This consists of six problems that are completed over a three-week period from March to April. There is a cost involved with this activity. Enrichment Stage This consists of four different parallel series, namely Euler Series, Gauss Series, Noether Series and Polya Series, which must be completed over a 16 week period starting in May. There is a cost involved with this activity. Australian Intermediate Mathematics Olympiad (AIMO) A four hour examination for talented students, appropriate for those who have completed the Gauss and Noether stage, high achievers in the Australian Mathematics Competition and students who have acquired knowledge of Olympiad problem solving. There is a cost involved with this activity. The Australian Mathematics Competition (AMC) The AMC is for students of all standards. Students are asked to solve 30 problems in 75 minutes (Years 7–12). Contact: Mr Ali Razzaghi Head Teacher Mathematics Cohen Staffroom Science Students who have a passion for Science can participate in a diverse range of scientific competitions including: Australian Science Innovations “Australian Science Olympiads” in Biology, Chemistry, Earth and Environmental Science and Physics (selected interested students Years 10-11) RACI National Titration Competition (selected interested students Years 10-11) Young Scientist Awards (selected team and individual student research projects from Years 8-10) In partnership with the Inner West Community of Schools, interested Year 10 students can participate in the Science Challenge where they act as mentors to students from local primary schools in conducting research projects and investigations. During National Science Week selected Year 9 and Year 10 students will display research projects in the Fort Street Science Fair. These projects will be evaluated and judged by scientists from the community. Olympiad The Australian Science and Innovation Group run the Australian science Olympiad program. There are four areas of the program–Chemistry Physics, Biology, Earth and Environmental Science. Students investigate the ASI syllabus for their area of science and the syllabus is equivalent to the first year university course. Students carry out extensive study and preparation for an exam paper based on that syllabus. Students across Australia compete and the top 20 to 30 students in each subject area are invited to a summer school at either Canberra University or Melbourne University for a 2 week intensive science program. The top 5 students are then selected to represent Australia at international competition. Fort Street High School has had several students who have represented Australia in areas such as Physics and Chemistry Contact: Mr Brian Webb Head Teacher Science Rowe Staffroom Titration Competition The titration competition is open to students interested in Chemistry in year 10, 11 and 12. Titration is also part of the HSC course. It operates at the end of term 1 and the beginning of term 2 each year. Titration is an important aspect of analytical chemistry and the titration competition is developing student skills, and promoting further interest in science and chemistry in particular Contact: Mr Brian Webb Head Teacher – Science Rowe Staffroom Image: Senior Titration Team at Sydney University Mock Trial Year 11 students have the opportunity to experience the workings of the courts and the justice system by participating in hypothetical legal situations, pitting their skills against other schools. Contact: Mr Rod Carritt Teacher – Social Science Rowe Staffroom Mooting Mooting competitions simulate a court trial where students formulate and present legal submissions as barristers to a judge or magistrate. This is a fun and challenging process where students are provided with a summary of a legal case, legislation and relevant case law. They then work in teams and write submissions using appropriate terminology to diagnose legal issues. The process is completed over several hours and competition takes place over one or two days. Our mooting program includes a range of competition opportunities for Legal Studies students in year 11 and 12. Students are also introduced to foundational legal concepts and rhetorical skills in Commerce in year 10. Fort Street High School were finalists in the Bond University Student Mooting Competition. In 2021, the students were proud winners of the University of Western Sydney Michael Kirby Mooting Competition. Contact: Ms Jenny Xu Teacher Social Science/English Cohen Staffroom Premier’s Reading Challenge Every student in Years 7, 8 and 9 is eligible to participate in the challenge. To register for the Challenge, students need to log onto the Premier’s Reading Challenge website using their DEC login details, and start filling in the Student Reading Records from March 1st each year. Students need to read 20 books between September 1st each year and August 31st the following year. At least 10 books must be on the prescribed book list. Students who have completed four Challenges receive a Gold Certificate; students who complete seven Challenges receive a Platinum Certificate. Students who complete every Challenge from Year 3 to Year 9 receive a medal. There is a wide variety of reading genres from which to choose, including factual, poetry, drama, newspaper texts, humorous fiction, love stories, fantasy, picture books, science fiction, classics, to name a few. Contact: Donna Page Teacher Librarian School Library Tournament of the Minds Every year Fort St High School enters teams in this national competition. The categories are: Language Literature, Maths Engineering and Social Science and Technology. The school has a well-established reputation in the competition, dominating the regional results and often advancing to state level. Senior students mentor the junior students, and act as coordinators of the teams, providing advice and feedback. Fortians take time from their university life to provide additional support and feedback. Contact: Ms Mimi Trifunovic Teacher Mathematics Rowe Staffroom Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 8567,
+    "scopeTextLen": 7361,
+    "ratio": 0.859,
+    "h1Text": "Academic Competitions",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Academic Competitions Fort Street High School students have the opportunity to participate in a wide range of competitions and challenges that support student learning and enhance social and personal development. Competitions had throughout the year in a number of subject areas. Students are encouraged to participate in a wide range of competition to enrich the core learning experiences. Mathematics A wide variety of co-curricular enrichment and competitions are offered by the Maths Enrichment Program. All activities are designed to motivate, stimulate and develop mathematically interested and talented students. The Mathematics Enrichment Program offers the Mathematics Challenge for Young Australians and the Australian Mathematics Competition. Mathematics Challenge for Young Australians (MCYA) There are three independent stages in the Mathematics Challenge for Young Australians run by the Australian Mathematics Trust and Australian Intermediate Mathematical Olympiad, and administered by the school. Challenge Stage This consists of six problems that are completed over a three-week period from March to April. There is a cost involved with this activity. Enrichment Stage This consists of four different parallel series, namely Euler Series, Gauss Series, Noether Series and Polya Series, which must be completed over a 16 week period starting in May. There is a cost involved with this activity. Australian Intermediate Mathematics Olympiad (AIMO) A four hour examination for talented students, appropriate for those who have completed the Gauss and Noether stage, high achievers in the Australian Mathematics Competition and students who have acquired knowledge of Olympiad problem solving. There is a cost involved with this activity. The Australian Mathematics Competition (AMC) The AMC is for students of all standards. Students are asked to solve 30 problems in 75 minutes (Years 7–12). Contact: Mr Ali Razzaghi Head Teacher Mathematics Cohen Staffroom Science Students who have a passion for Science can participate in a diverse range of scientific competitions including: Australian Science Innovations “Australian Science Olympiads” in Biology, Chemistry, Earth and Environmental Science and Physics (selected interested students Years 10-11) RACI National Titration Competition (selected interested students Years 10-11) Young Scientist Awards (selected team and individual student research projects from Years 8-10) In partnership with the Inner West Community of Schools, interested Year 10 students can participate in the Science Challenge where they act as mentors to students from local primary schools in conducting research projects and investigations. During National Science Week selected Year 9 and Year 10 students will display research projects in the Fort Street Science Fair. These projects will be evaluated and judged by scientists from the community. Olympiad The Australian Science and Innovation Group run the Australian science Olympiad program. There are four areas of the program–Chemistry Physics, Biology, Earth and Environmental Science. Students investigate the ASI syllabus for their area of science and the syllabus is equivalent to the first year university course. Students carry out extensive study and preparation for an exam paper based on that syllabus. Students across Australia compete and the top 20 to 30 students in each subject area are invited to a summer school at either Canberra University or Melbourne University for a 2 week intensive science program. The top 5 students are then selected to represent Australia at international competition. Fort Street High School has had several students who have represented Australia in areas such as Physics and Chemistry Contact: Mr Brian Webb Head Teacher Science Rowe Staffroom Titration Competition The titration competition is open to students interested in Chemistry in year 10, 11 and 12. Titration is also part of the HSC course. It operates at the end of term 1 and the beginning of term 2 each year. Titration is an important aspect of analytical chemistry and the titration competition is developing student skills, and promoting further interest in science and chemistry in particular Contact: Mr Brian Webb Head Teacher – Science Rowe Staffroom Image: Senior Titration Team at Sydney University Mock Trial Year 11 students have the opportunity to experience the workings of the courts and the justice system by participating in hypothetical legal situations, pitting their skills against other schools. Contact: Mr Rod Carritt Teacher – Social Science Rowe Staffroom Mooting Mooting competitions simulate a court trial where students formulate and present legal submissions as barristers to a judge or magistrate. This is a fun and challenging process where students are provided with a summary of a legal case, legislation and relevant case law. They then work in teams and write submissions using appropriate terminology to diagnose legal issues. The process is completed over several hours and competition takes place over one or two days. Our mooting program includes a range of competition opportunities for Legal Studies students in year 11 and 12. Students are also introduced to foundational legal concepts and rhetorical skills in Commerce in year 10. Fort Street High School were finalists in the Bond University Student Mooting Competition. In 2021, the students were proud winners of the University of Western Sydney Michael Kirby Mooting Competition. Contact: Ms Jenny Xu Teacher Social Science/English Cohen Staffroom Premier’s Reading Challenge Every student in Years 7, 8 and 9 is eligible to participate in the challenge. To register for the Challenge, students need to log onto the Premier’s Reading Challenge website using their DEC login details, and start filling in the Student Reading Records from March 1st each year. Students need to read 20 books between September 1st each year and August 31st the following year. At least 10 books must be on the prescribed book list. Students who have completed four Challenges receive a Gold Certificate; students who complete seven Challenges receive a Platinum Certificate. Students who complete every Challenge from Year 3 to Year 9 receive a medal. There is a wide variety of reading genres from which to choose, including factual, poetry, drama, newspaper texts, humorous fiction, love stories, fantasy, picture books, science fiction, classics, to name a few. Contact: Donna Page Teacher Librarian School Library Tournament of the Minds Every year Fort St High School enters teams in this national competition. The categories are: Language Literature, Maths Engineering and Social Science and Technology. The school has a well-established reputation in the competition, dominating the regional results and often advancing to state level. Senior students mentor the junior students, and act as coordinators of the teams, providing advice and feedback. Fortians take time from their university life to provide additional support and feedback. Contact: Ms Mimi Trifunovic Teacher Mathematics Rowe Staffroom",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Academic Competitions"
+        },
+        {
+          "level": "h2",
+          "text": "Mathematics"
+        },
+        {
+          "level": "h3",
+          "text": "Mathematics Challenge for Young Australians (MCYA)"
+        },
+        {
+          "level": "h4",
+          "text": "Challenge Stage"
+        },
+        {
+          "level": "h4",
+          "text": "Enrichment Stage"
+        },
+        {
+          "level": "h4",
+          "text": "Australian Intermediate Mathematics Olympiad (AIMO)"
+        },
+        {
+          "level": "h4",
+          "text": "The Australian Mathematics Competition (AMC)"
+        },
+        {
+          "level": "h2",
+          "text": "Science"
+        },
+        {
+          "level": "h3",
+          "text": "Olympiad"
+        },
+        {
+          "level": "h2",
+          "text": "Titration Competition"
+        },
+        {
+          "level": "h2",
+          "text": "Mock Trial"
+        },
+        {
+          "level": "h2",
+          "text": "Mooting"
+        },
+        {
+          "level": "h2",
+          "text": "Premier’s Reading Challenge"
+        },
+        {
+          "level": "h2",
+          "text": "Tournament of the Minds"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street High School students have the opportunity to participate in a wide range of competitions and challenges that support student learning and enhance social and personal development. Competitions had throughout the year in a number of subject areas. Students are encouraged to participate in a wide range of competition to enrich the core learning experiences.",
+        "A wide variety of co-curricular enrichment and competitions are offered by the Maths Enrichment Program. All activities are designed to motivate, stimulate and develop mathematically interested and talented students. The Mathematics Enrichment Program offers the Mathematics Challenge for Young Australians and the Australian Mathematics Competition.",
+        "There are three independent stages in the Mathematics Challenge for Young Australians run by the Australian Mathematics Trust and Australian Intermediate Mathematical Olympiad, and administered by the school.",
+        "This consists of six problems that are completed over a three-week period from March to April.",
+        "There is a cost involved with this activity.",
+        "This consists of four different parallel series, namely Euler Series, Gauss Series, Noether Series and Polya Series, which must be completed over a 16 week period starting in May.",
+        "There is a cost involved with this activity.",
+        "A four hour examination for talented students, appropriate for those who have completed the Gauss and Noether stage, high achievers in the Australian Mathematics Competition and students who have acquired knowledge of Olympiad problem solving.",
+        "There is a cost involved with this activity.",
+        "The AMC is for students of all standards. Students are asked to solve 30 problems in 75 minutes (Years 7–12).",
+        "Contact: Mr Ali Razzaghi Head Teacher Mathematics Cohen Staffroom",
+        "Students who have a passion for Science can participate in a diverse range of scientific competitions including:",
+        "In partnership with the Inner West Community of Schools, interested Year 10 students can participate in the Science Challenge where they act as mentors to students from local primary schools in conducting research projects and investigations.",
+        "During National Science Week selected Year 9 and Year 10 students will display research projects in the Fort Street Science Fair. These projects will be evaluated and judged by scientists from the community.",
+        "The Australian Science and Innovation Group run the Australian science Olympiad program. There are four areas of the program–Chemistry Physics, Biology, Earth and Environmental Science. Students investigate the ASI syllabus for their area of science and the syllabus is equivalent to the first year university course. Students carry out extensive study and preparation for an exam paper based on that syllabus. Students across Australia compete and the top 20 to 30 students in each subject area are invited to a summer school at either Canberra University or Melbourne University for a 2 week intensive science program.",
+        "The top 5 students are then selected to represent Australia at international competition. Fort Street High School has had several students who have represented Australia in areas such as Physics and Chemistry",
+        "Contact: Mr Brian Webb Head Teacher Science Rowe Staffroom",
+        "The titration competition is open to students interested in Chemistry in year 10, 11 and 12. Titration is also part of the HSC course. It operates at the end of term 1 and the beginning of term 2 each year. Titration is an important aspect of analytical chemistry and the titration competition is developing student skills, and promoting further interest in science and chemistry in particular",
+        "Contact: Mr Brian Webb Head Teacher – Science Rowe Staffroom",
+        "Image: Senior Titration Team at Sydney University",
+        "Year 11 students have the opportunity to experience the workings of the courts and the justice system by participating in hypothetical legal situations, pitting their skills against other schools.",
+        "Contact: Mr Rod Carritt Teacher – Social Science Rowe Staffroom",
+        "Mooting competitions simulate a court trial where students formulate and present legal submissions as barristers to a judge or magistrate. This is a fun and challenging process where students are provided with a summary of a legal case, legislation and relevant case law. They then work in teams and write submissions using appropriate terminology to diagnose legal issues. The process is completed over several hours and competition takes place over one or two days. Our mooting program includes a range of competition opportunities for Legal Studies students in year 11 and 12. Students are also introduced to foundational legal concepts and rhetorical skills in Commerce in year 10. Fort Street High School were finalists in the Bond University Student Mooting Competition. In 2021, the students were proud winners of the University of Western Sydney Michael Kirby Mooting Competition.",
+        "Contact: Ms Jenny Xu Teacher Social Science/English Cohen Staffroom",
+        "Every student in Years 7, 8 and 9 is eligible to participate in the challenge.",
+        "To register for the Challenge, students need to log onto the Premier’s Reading Challenge website using their DEC login details, and start filling in the Student Reading Records from March 1st each year. Students need to read 20 books between September 1st each year and August 31st the following year. At least 10 books must be on the prescribed book list. Students who have completed four Challenges receive a Gold Certificate; students who complete seven Challenges receive a Platinum Certificate. Students who complete every Challenge from Year 3 to Year 9 receive a medal.",
+        "There is a wide variety of reading genres from which to choose, including factual, poetry, drama, newspaper texts, humorous fiction, love stories, fantasy, picture books, science fiction, classics, to name a few.",
+        "Contact: Donna Page Teacher Librarian School Library",
+        "Every year Fort St High School enters teams in this national competition. The categories are: Language Literature, Maths Engineering and Social Science and Technology.",
+        "The school has a well-established reputation in the competition, dominating the regional results and often advancing to state level. Senior students mentor the junior students, and act as coordinators of the teams, providing advice and feedback. Fortians take time from their university life to provide additional support and feedback.",
+        "Contact: Ms Mimi Trifunovic",
+        "Teacher Mathematics",
+        "Rowe Staffroom"
+      ],
+      "listItems": [
+        "Australian Science Innovations “Australian Science Olympiads” in Biology, Chemistry, Earth and Environmental Science and Physics (selected interested students Years 10-11)",
+        "RACI National Titration Competition (selected interested students Years 10-11)",
+        "Young Scientist Awards (selected team and individual student research projects from Years 8-10)"
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e7cf645fd05068ab7d4cef23661020e8c67cafe9.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "students in the science lab",
+          "w": 500,
+          "h": 300
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Academic Competitions",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e7cf645fd05068ab7d4cef23661020e8c67cafe9.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "students in the science lab"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School students have the opportunity to participate in a wide range of competitions and challenges that support student learning and enhance social and personal development. Competitions had throughout the year in a number of subject areas. Students are encouraged to participate in a wide range of competition to enrich the core learning experiences.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Mathematics",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "A wide variety of co-curricular enrichment and competitions are offered by the Maths Enrichment Program. All activities are designed to motivate, stimulate and develop mathematically interested and talented students. The Mathematics Enrichment Program offers the Mathematics Challenge for Young Australians and the Australian Mathematics Competition.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Mathematics Challenge for Young Australians (MCYA)",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There are three independent stages in the Mathematics Challenge for Young Australians run by the Australian Mathematics Trust and Australian Intermediate Mathematical Olympiad, and administered by the school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Challenge Stage",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "This consists of six problems that are completed over a three-week period from March to April.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is a cost involved with this activity.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Enrichment Stage",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "This consists of four different parallel series, namely Euler Series, Gauss Series, Noether Series and Polya Series, which must be completed over a 16 week period starting in May.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is a cost involved with this activity.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Australian Intermediate Mathematics Olympiad (AIMO)",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "A four hour examination for talented students, appropriate for those who have completed the Gauss and Noether stage, high achievers in the Australian Mathematics Competition and students who have acquired knowledge of Olympiad problem solving.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is a cost involved with this activity.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "The Australian Mathematics Competition (AMC)",
+          "display": "block",
+          "level": "h4",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The AMC is for students of all standards. Students are asked to solve 30 problems in 75 minutes (Years 7–12).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Ali Razzaghi Head Teacher Mathematics Cohen Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Ali Razzaghi",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Head Teacher Mathematics",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Cohen Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Science",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students who have a passion for Science can participate in a diverse range of scientific competitions including:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Australian Science Innovations “Australian Science Olympiads” in Biology, Chemistry, Earth and Environmental Science and Physics (selected interested students Years 10-11)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "RACI National Titration Competition (selected interested students Years 10-11)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Young Scientist Awards (selected team and individual student research projects from Years 8-10)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In partnership with the Inner West Community of Schools, interested Year 10 students can participate in the Science Challenge where they act as mentors to students from local primary schools in conducting research projects and investigations.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "During National Science Week selected Year 9 and Year 10 students will display research projects in the Fort Street Science Fair. These projects will be evaluated and judged by scientists from the community.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Olympiad",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Australian Science and Innovation Group run the Australian science Olympiad program. There are four areas of the program–Chemistry Physics, Biology, Earth and Environmental Science. Students investigate the ASI syllabus for their area of science and the syllabus is equivalent to the first year university course. Students carry out extensive study and preparation for an exam paper based on that syllabus. Students across Australia compete and the top 20 to 30 students in each subject area are invited to a summer school at either Canberra University or Melbourne University for a 2 week intensive science program.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The top 5 students are then selected to represent Australia at international competition. Fort Street High School has had several students who have represented Australia in areas such as Physics and Chemistry",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Brian Webb Head Teacher Science Rowe Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Brian Webb",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Head Teacher Science",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Rowe Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Titration Competition",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The titration competition is open to students interested in Chemistry in year 10, 11 and 12. Titration is also part of the HSC course. It operates at the end of term 1 and the beginning of term 2 each year. Titration is an important aspect of analytical chemistry and the titration competition is developing student skills, and promoting further interest in science and chemistry in particular",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Brian Webb Head Teacher – Science Rowe Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Brian Webb",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Head Teacher – Science",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Rowe Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Image: Senior Titration Team at Sydney University",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Mock Trial",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 11 students have the opportunity to experience the workings of the courts and the justice system by participating in hypothetical legal situations, pitting their skills against other schools.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Rod Carritt Teacher – Social Science Rowe Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Rod Carritt",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Teacher – Social Science",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Rowe Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Mooting",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mooting competitions simulate a court trial where students formulate and present legal submissions as barristers to a judge or magistrate. This is a fun and challenging process where students are provided with a summary of a legal case, legislation and relevant case law. They then work in teams and write submissions using appropriate terminology to diagnose legal issues. The process is completed over several hours and competition takes place over one or two days. Our mooting program includes a range of competition opportunities for Legal Studies students in year 11 and 12. Students are also introduced to foundational legal concepts and rhetorical skills in Commerce in year 10. Fort Street High School were finalists in the Bond University Student Mooting Competition. In 2021, the students were proud winners of the University of Western Sydney Michael Kirby Mooting Competition.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Jenny Xu Teacher Social Science/English Cohen Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Jenny Xu",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Teacher Social Science/English",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Cohen Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Premier’s Reading Challenge",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Every student in Years 7, 8 and 9 is eligible to participate in the challenge.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "To register for the Challenge, students need to log onto the Premier’s Reading Challenge website using their DEC login details, and start filling in the Student Reading Records from March 1st each year. Students need to read 20 books between September 1st each year and August 31st the following year. At least 10 books must be on the prescribed book list. Students who have completed four Challenges receive a Gold Certificate; students who complete seven Challenges receive a Platinum Certificate. Students who complete every Challenge from Year 3 to Year 9 receive a medal.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is a wide variety of reading genres from which to choose, including factual, poetry, drama, newspaper texts, humorous fiction, love stories, fantasy, picture books, science fiction, classics, to name a few.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Donna Page Teacher Librarian School Library",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Donna Page",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Teacher Librarian",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "School Library",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Tournament of the Minds",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Every year Fort St High School enters teams in this national competition. The categories are: Language Literature, Maths Engineering and Social Science and Technology.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school has a well-established reputation in the competition, dominating the regional results and often advancing to state level. Senior students mentor the junior students, and act as coordinators of the teams, providing advice and feedback. Fortians take time from their university life to provide additional support and feedback.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Mimi Trifunovic",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Mimi Trifunovic",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Teacher Mathematics",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Rowe Staffroom",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need to make a payment?"
+        }
+      ],
+      "paragraphs": [
+        "Our parent portal makes it easy to make a payment online.",
+        "Parent portal"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need to make a payment?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our parent portal makes it easy to make a payment online.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parent portal",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline-block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": "button primary"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": "button primary"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

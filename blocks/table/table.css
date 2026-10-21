@@ -1,47 +1,33 @@
-/* Table — oneAZ table colours: header #d8dfde, rows #fff / #ebefee */
-.table .table-scroll {
+.table {
+  max-width: 880px;
   overflow-x: auto;
+  margin: 0 0 32px;
 }
 
 .table table {
   width: 100%;
   border-collapse: collapse;
-  font-size: var(--body-font-size-s);
-  line-height: var(--body-line-height-s);
-  color: var(--az-text-body-1);
 }
 
-.table th,
 .table td {
-  padding: var(--az-space-sm) var(--az-space-md);
-  text-align: left;
+  padding: 12px 16px 12px 0;
+  border-bottom: 1px solid var(--border);
   vertical-align: top;
 }
 
-.table th {
-  background-color: var(--az-border-default);
-  font-weight: 600;
+.band .table td {
+  border-color: var(--page-bg);
 }
 
-.table tbody tr:nth-child(odd) {
-  background-color: var(--az-bg-supporting-2);
+.table td p {
+  margin: 0 0 4px;
 }
 
-.table tbody tr:nth-child(even) {
-  background-color: var(--az-bg-supporting-1);
+.table td p.button-wrapper {
+  margin: 0 0 4px;
 }
 
-.table.bordered th,
 .table.bordered td {
-  border: 1px solid var(--az-border-default);
-}
-
-.table td > :first-child,
-.table th > :first-child {
-  margin-top: 0;
-}
-
-.table td > :last-child,
-.table th > :last-child {
-  margin-bottom: 0;
+  border: 1px solid var(--border);
+  padding: 12px 16px;
 }

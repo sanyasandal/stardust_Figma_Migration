@@ -1,0 +1,456 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:01.384Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_lockers-and-lost-property.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Lockers and lost property",
+    "description": "Student hire of lockers and where to find lost property.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+    "ogTags": {
+      "og:title": "Lockers and lost property",
+      "og:description": "Student hire of lockers and where to find lost property.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1950703c74e3203964c773725abe803a9fad8cd79.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1950703c74e3203964c773725abe803a9fad8cd79.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "School lockers"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Lockers and lost property",
+      "twitter:description": "Student hire of lockers and where to find lost property.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1950703c74e3203964c773725abe803a9fad8cd79.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Lockers and lost property Lockers Lockers are available to hire from Reception. Hiring a locker from Year 7 through to Year 12 (6 years) with a padlock is $120.00 (non-refundable). If you lose your padlock, a fee of $20.00 is charged for a replacement padlock. Only the official school padlocks may be used on your locker; non-school padlocks are not to be used and will be removed. At the end of each year students are required to empty out their lockers for deep cleaning. They must take home their combination locks and keep them safe to be reused in the new school year. Lockers for Year 7 students A locker fee will be added to your Statement of Account as an \"optional\" charge. If the $120 fee is paid new Year 7 students will be allocated their locker number. Combination padlocks will be issued to students in Term 1, Week 2 2025. They must use the combination locks the school has provided. Lockers for New Students Students will be issued a combination lock. They must use the combination locks the school has provided. Any non-school lock used will be removed. Year Price Year 8 $100 Year 9 $80 Year 10 $60 Year 11 $40 Replacement locks are charged at $20. Lost Property To assist in getting lost items returned to your child please ensure all uniform items and personal belongings are clearly labelled with your childs full name. This is especially important for items like jackets, jumpers and valuable items like laptops and wireless headphones. Any labelled items handed to the office will be returned to students. If you have lost an item please check the lost property collection table at Reception. Valuables (phones, jewellery, laptops, ipads, instruments, watches, glasses, earbuds, keys, etc are kept inside the front office at Reception. Details of the item/s lost can be left with Reception staff and if handed in, students will be notified to collect. If you suspect that your lost item has been stolen, report the matter to the Deputy Principal responsible for your year as soon as possible. Money and Personal Property Students are responsible for looking after their own money and valuables which they should carry with them at all times. Money should not be left unattended in school bags outside classrooms, in changing rooms or in the playground. All personal property should be clearly labelled. Have a question for us? Our friendly office team can help. Contact us Enrol Ready to enrol? Find out how to apply online or in person. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 3489,
+    "scopeTextLen": 2533,
+    "ratio": 0.726,
+    "h1Text": "Lockers and lost property",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Lockers and lost property Lockers Lockers are available to hire from Reception. Hiring a locker from Year 7 through to Year 12 (6 years) with a padlock is $120.00 (non-refundable). If you lose your padlock, a fee of $20.00 is charged for a replacement padlock. Only the official school padlocks may be used on your locker; non-school padlocks are not to be used and will be removed. At the end of each year students are required to empty out their lockers for deep cleaning. They must take home their combination locks and keep them safe to be reused in the new school year. Lockers for Year 7 students A locker fee will be added to your Statement of Account as an \"optional\" charge. If the $120 fee is paid new Year 7 students will be allocated their locker number. Combination padlocks will be issued to students in Term 1, Week 2 2025. They must use the combination locks the school has provided. Lockers for New Students Students will be issued a combination lock. They must use the combination locks the school has provided. Any non-school lock used will be removed. Year Price Year 8 $100 Year 9 $80 Year 10 $60 Year 11 $40 Replacement locks are charged at $20. Lost Property To assist in getting lost items returned to your child please ensure all uniform items and personal belongings are clearly labelled with your childs full name. This is especially important for items like jackets, jumpers and valuable items like laptops and wireless headphones. Any labelled items handed to the office will be returned to students. If you have lost an item please check the lost property collection table at Reception. Valuables (phones, jewellery, laptops, ipads, instruments, watches, glasses, earbuds, keys, etc are kept inside the front office at Reception. Details of the item/s lost can be left with Reception staff and if handed in, students will be notified to collect. If you suspect that your lost item has been stolen, report the matter to the Deputy Principal responsible for your year as soon as possible. Money and Personal Property Students are responsible for looking after their own money and valuables which they should carry with them at all times. Money should not be left unattended in school bags outside classrooms, in changing rooms or in the playground. All personal property should be clearly labelled.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Lockers and lost property"
+        },
+        {
+          "level": "h2",
+          "text": "Lockers"
+        },
+        {
+          "level": "h3",
+          "text": "Lockers for Year 7 students"
+        },
+        {
+          "level": "h3",
+          "text": "Lockers for New Students"
+        },
+        {
+          "level": "h2",
+          "text": "Lost Property"
+        },
+        {
+          "level": "h2",
+          "text": "Money and Personal Property"
+        }
+      ],
+      "paragraphs": [
+        "Lockers are available to hire from Reception. Hiring a locker from Year 7 through to Year 12 (6 years) with a padlock is $120.00 (non-refundable). If you lose your padlock, a fee of $20.00 is charged for a replacement padlock. Only the official school padlocks may be used on your locker; non-school padlocks are not to be used and will be removed.",
+        "At the end of each year students are required to empty out their lockers for deep cleaning. They must take home their combination locks and keep them safe to be reused in the new school year.",
+        "A locker fee will be added to your Statement of Account as an \"optional\" charge. If the $120 fee is paid new Year 7 students will be allocated their locker number. Combination padlocks will be issued to students in Term 1, Week 2 2025. They must use the combination locks the school has provided.",
+        "Students will be issued a combination lock. They must use the combination locks the school has provided. Any non-school lock used will be removed.",
+        "Year",
+        "Price",
+        "Year 8",
+        "$100",
+        "Year 9",
+        "$80",
+        "Year 10",
+        "$60",
+        "Year 11",
+        "$40",
+        "Replacement locks are charged at $20.",
+        "To assist in getting lost items returned to your child please ensure all uniform items and personal belongings are clearly labelled with your childs full name. This is especially important for items like jackets, jumpers and valuable items like laptops and wireless headphones. Any labelled items handed to the office will be returned to students.",
+        "If you have lost an item please check the lost property collection table at Reception. Valuables (phones, jewellery, laptops, ipads, instruments, watches, glasses, earbuds, keys, etc are kept inside the front office at Reception.",
+        "Details of the item/s lost can be left with Reception staff and if handed in, students will be notified to collect. If you suspect that your lost item has been stolen, report the matter to the Deputy Principal responsible for your year as soon as possible.",
+        "Students are responsible for looking after their own money and valuables which they should carry with them at all times. Money should not be left unattended in school bags outside classrooms, in changing rooms or in the playground. All personal property should be clearly labelled."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1950703c74e3203964c773725abe803a9fad8cd79.png?width=2000&format=webply&optimize=medium",
+          "alt": "School lockers",
+          "w": 750,
+          "h": 511
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Lockers and lost property",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1950703c74e3203964c773725abe803a9fad8cd79.png?width=2000&format=webply&optimize=medium",
+              "alt": "School lockers"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Lockers",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Lockers are available to hire from Reception. Hiring a locker from Year 7 through to Year 12 (6 years) with a padlock is $120.00 (non-refundable). If you lose your padlock, a fee of $20.00 is charged for a replacement padlock. Only the official school padlocks may be used on your locker; non-school padlocks are not to be used and will be removed.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At the end of each year students are required to empty out their lockers for deep cleaning. They must take home their combination locks and keep them safe to be reused in the new school year.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Lockers for Year 7 students",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "A locker fee will be added to your Statement of Account as an \"optional\" charge. If the $120 fee is paid new Year 7 students will be allocated their locker number. Combination padlocks will be issued to students in Term 1, Week 2 2025. They must use the combination locks the school has provided.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Lockers for New Students",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students will be issued a combination lock. They must use the combination locks the school has provided. Any non-school lock used will be removed.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Price",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 8",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$100",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 9",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$80",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 10",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$60",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 11",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$40",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Replacement locks are charged at $20.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Lost Property",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "To assist in getting lost items returned to your child please ensure all uniform items and personal belongings are clearly labelled with your childs full name. This is especially important for items like jackets, jumpers and valuable items like laptops and wireless headphones. Any labelled items handed to the office will be returned to students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you have lost an item please check the lost property collection table at Reception. Valuables (phones, jewellery, laptops, ipads, instruments, watches, glasses, earbuds, keys, etc are kept inside the front office at Reception.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Details of the item/s lost can be left with Reception staff and if handed in, students will be notified to collect. If you suspect that your lost item has been stolen, report the matter to the Deputy Principal responsible for your year as soon as possible.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Money and Personal Property",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students are responsible for looking after their own money and valuables which they should carry with them at all times. Money should not be left unattended in school bags outside classrooms, in changing rooms or in the playground. All personal property should be clearly labelled.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Have a question for us? Our friendly office team can help. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Have a question for us?"
+        }
+      ],
+      "paragraphs": [
+        "Our friendly office team can help.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Have a question for us?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our friendly office team can help.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Enrol Ready to enrol? Find out how to apply online or in person. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Ready to enrol? Find out how to apply online or in person.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Enrol Ready to enrol? Find out how to apply online or in person.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Enrol",
+          "href": "/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/enrol",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Enrol Ready to enrol? Find out how to apply online or in person.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Enrol",
+              "display": "inline",
+              "href": "/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/enrol",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ready to enrol? Find out how to apply online or in person.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

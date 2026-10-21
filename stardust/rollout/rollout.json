@@ -1,0 +1,35 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-21T13:27:26.128Z",
+    "stardustVersion": "0.34.1"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://fortstreet-h.schools.nsw.gov.au",
+    "da": {
+      "org": "",
+      "site": "",
+      "ref": "main"
+    },
+    "liveHost": null
+  },
+  "lastRun": {
+    "at": "2026-10-21T13:27:26.128Z",
+    "pages": {
+      "total": 52,
+      "verified": 0,
+      "deployed": 0,
+      "pending": 52,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 8,
+      "converted": 0,
+      "pending": 8
+    },
+    "verifyFailures": 0
+  }
+}

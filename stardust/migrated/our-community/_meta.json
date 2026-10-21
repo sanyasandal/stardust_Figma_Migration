@@ -1,0 +1,56 @@
+{
+  "slug": "our-community",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "teaser-cards",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Our community",
+    "description": "Fort Street has a strong and supportive community of both past and present students and families.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Our community",
+    "description": "Fort Street has a strong and supportive community of both past and present students and families.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "f68fbe6a5d50",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "our-community/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "our-community/_meta.json",
+  "driverVersion": "1"
+}

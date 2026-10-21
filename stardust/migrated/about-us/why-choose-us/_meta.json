@@ -1,0 +1,64 @@
+{
+  "slug": "about-us_why-choose-us",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M6",
+    "M5",
+    "M8"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "teaser-cards",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Why choose us?",
+    "description": "At Fort Street High School, we are proud to be part of a strong public education system and welcome students from all backgrounds and cultures.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Why choose us?",
+    "description": "At Fort Street High School, we are proud to be part of a strong public education system and welcome students from all backgrounds and cultures.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "a94ab53d9015",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/why-choose-us/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/why-choose-us/_meta.json",
+  "driverVersion": "1"
+}

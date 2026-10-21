@@ -1,0 +1,616 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:21:13.179Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/our-community_alumni.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Alumni",
+    "description": "Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni",
+    "ogTags": {
+      "og:title": "Alumni",
+      "og:description": "Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_1d1a6d8246ac48fc1285efe376bb51d8dc35b3598.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_1d1a6d8246ac48fc1285efe376bb51d8dc35b3598.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "1968 group"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Alumni",
+      "twitter:description": "Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_1d1a6d8246ac48fc1285efe376bb51d8dc35b3598.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Alumni Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort. The school is committed to working with members of our community to archive and display important records, memorabilia and documents in our museum from all three schools throughout history. We encourage all members of our Alumni to stay connected to our school. Reunions With Fortians scattered across the globe, many reunions are held locally, nationally and internationally. We welcome Fortians back to The Fort and we would be delighted to support your reunion event, wherever it may be. Are you thinking of holding a reunion? Here is what Fort Street can do to help: Organise a visit to the Museum and a tour of the School at Petersham for your group. Advertise your reunion on our social media groups such as Lost Fort Street. Put a notice in the School Newsletter – The Mercurius. Be special guest at a school assembly. Possible archival material to recall fond memories. Give you contact details of past reunions groups. Reunions are a fantastic opportunity for Fortians to reconnect with others from their year group and with the current school. We offer reunion groups student led tours of the school, morning or afternoon tea with the Principal and other key members of staff and an opportunity to view our archives. Reunion groups can visit during the school day or out of hours by appointment. Tips for Organising a Reunion You can make the process as simple or as detailed as you wish, depending on how big an occasion you would like to make it. Here are tips to help make the process as smooth as possible. Who are you going to get to help you? The number of people you need will depend on how big an event you want to organise. Choose a date. Is it better early in the year or towards the middle? What influences the timing? Will anyone be coming from the country, interstate or overseas? How much notice will everyone need? Invite everyone you can possibly contact. What type of event best suits your age group? Think about the time of day, venue and type of event. Does anyone in the group have a disability that will affect your plans? Is this an event for partners, families, or just the Fortians? How is everyone going to pay? Will you have a separate bank account? If so, do you need one or two signatories? Do not forget to calculate the cost of calls, printing, stationery, decorations, etc. Make sure you cover your costs. If there are any extra funds, they can always be donated to the school to commemorate the event. The Archives team have a list of suggested items. Choosing a venue. What does the ticket price include? Does anyone in the group have a contact or own a venue you could use? What is the menu like? Will it suit those with special dietary requirements? How many people are you expecting? Is the space big enough? What about noise? Is there enough seating? What drinks are included in the ticket price? Will the venue let you decorate the space? Will it be at someone’s home? Do they have enough room – even if it rains? What about plates, cutlery, glasses, cups, chairs? Will a caterer need to be hired? Think about setting up and cleaning up as well. Make nametags for the event using current surnames and maiden names if possible. Get the word out. The more notice the better so people can organise their time. The wider your spread the better so you capture as many classmates as possible. Do you want to make a reunion booklet? Send out a questionnaire to collect data on those coming and on those unable to attend and put the info into a booklet with some old photos. Remember to send a copy of the booklet to the Fort Street Archives. Do you want an official photographer or will you rely on everyone taking their own photos? Remember to take many photos and get everyone’s contact details so you can email them a photo or two. Remember to email a few photos and an article to the Fort Street Archives team. Report to the school for the website and for the archives. The Fort Street community will love to read a short article and see a couple of photos of your event. Organise it so you can relax on the day. You do not want to be spending the whole time running around taking care of business. Enjoy the time together. If you would like to visit the school as part of your reunion activities or if have any reunion enquiries then please contact Mr Iain Wallace on 8585 1600 (Thursdays and/or Fridays) or at iain.wallace@det.nsw.edu.au. Senior Instrumental Music Program ensembles are always looking for performance opportunities, and are very keen to perform at Fortian events. These are some of the best student ensembles in NSW and include: Jazz Ensemble, Jazz Orchestra, Wind Ensemble, Chamber Choir and Symphony Orchestra. If you are interested in having an IMP ensemble perform at your alumni event, please email the IMP here (opens in new window) . Keep in touch Please update your details with us so we can stay connected and keep you up to date with upcoming events and other news. Email your details to Iain Wallace. (opens in new window) We are keen to develop an alumni network to welcome past students back to school for key events and to see how we can work together to support our students and our future plans at Fort Street. Share your story Fortians around the world are engaged in all kinds of exciting activities, and our current students and the wider school community are inspired by your careers, adventures and achievements. We would love to hear your news and see some photographs. These stories may be included in our newsletter, Mercurius, in our annual magazine, The Fortian, or on our website. Please send your stories and photos to Iain Wallace. (opens in new window) Newsletters Read our latest newsletter and stay connected with our school life. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 6777,
+    "scopeTextLen": 5922,
+    "ratio": 0.874,
+    "h1Text": "Alumni",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Alumni Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort. The school is committed to working with members of our community to archive and display important records, memorabilia and documents in our museum from all three schools throughout history. We encourage all members of our Alumni to stay connected to our school. Reunions With Fortians scattered across the globe, many reunions are held locally, nationally and internationally. We welcome Fortians back to The Fort and we would be delighted to support your reunion event, wherever it may be. Are you thinking of holding a reunion? Here is what Fort Street can do to help: Organise a visit to the Museum and a tour of the School at Petersham for your group. Advertise your reunion on our social media groups such as Lost Fort Street. Put a notice in the School Newsletter – The Mercurius. Be special guest at a school assembly. Possible archival material to recall fond memories. Give you contact details of past reunions groups. Reunions are a fantastic opportunity for Fortians to reconnect with others from their year group and with the current school. We offer reunion groups student led tours of the school, morning or afternoon tea with the Principal and other key members of staff and an opportunity to view our archives. Reunion groups can visit during the school day or out of hours by appointment. Tips for Organising a Reunion You can make the process as simple or as detailed as you wish, depending on how big an occasion you would like to make it. Here are tips to help make the process as smooth as possible. Who are you going to get to help you? The number of people you need will depend on how big an event you want to organise. Choose a date. Is it better early in the year or towards the middle? What influences the timing? Will anyone be coming from the country, interstate or overseas? How much notice will everyone need? Invite everyone you can possibly contact. What type of event best suits your age group? Think about the time of day, venue and type of event. Does anyone in the group have a disability that will affect your plans? Is this an event for partners, families, or just the Fortians? How is everyone going to pay? Will you have a separate bank account? If so, do you need one or two signatories? Do not forget to calculate the cost of calls, printing, stationery, decorations, etc. Make sure you cover your costs. If there are any extra funds, they can always be donated to the school to commemorate the event. The Archives team have a list of suggested items. Choosing a venue. What does the ticket price include? Does anyone in the group have a contact or own a venue you could use? What is the menu like? Will it suit those with special dietary requirements? How many people are you expecting? Is the space big enough? What about noise? Is there enough seating? What drinks are included in the ticket price? Will the venue let you decorate the space? Will it be at someone’s home? Do they have enough room – even if it rains? What about plates, cutlery, glasses, cups, chairs? Will a caterer need to be hired? Think about setting up and cleaning up as well. Make nametags for the event using current surnames and maiden names if possible. Get the word out. The more notice the better so people can organise their time. The wider your spread the better so you capture as many classmates as possible. Do you want to make a reunion booklet? Send out a questionnaire to collect data on those coming and on those unable to attend and put the info into a booklet with some old photos. Remember to send a copy of the booklet to the Fort Street Archives. Do you want an official photographer or will you rely on everyone taking their own photos? Remember to take many photos and get everyone’s contact details so you can email them a photo or two. Remember to email a few photos and an article to the Fort Street Archives team. Report to the school for the website and for the archives. The Fort Street community will love to read a short article and see a couple of photos of your event. Organise it so you can relax on the day. You do not want to be spending the whole time running around taking care of business. Enjoy the time together. If you would like to visit the school as part of your reunion activities or if have any reunion enquiries then please contact Mr Iain Wallace on 8585 1600 (Thursdays and/or Fridays) or at iain.wallace@det.nsw.edu.au. Senior Instrumental Music Program ensembles are always looking for performance opportunities, and are very keen to perform at Fortian events. These are some of the best student ensembles in NSW and include: Jazz Ensemble, Jazz Orchestra, Wind Ensemble, Chamber Choir and Symphony Orchestra. If you are interested in having an IMP ensemble perform at your alumni event, please email the IMP here (opens in new window) . Keep in touch Please update your details with us so we can stay connected and keep you up to date with upcoming events and other news. Email your details to Iain Wallace. (opens in new window) We are keen to develop an alumni network to welcome past students back to school for key events and to see how we can work together to support our students and our future plans at Fort Street.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Alumni"
+        },
+        {
+          "level": "h2",
+          "text": "Reunions"
+        },
+        {
+          "level": "h2",
+          "text": "Tips for Organising a Reunion"
+        },
+        {
+          "level": "h2",
+          "text": "Keep in touch"
+        }
+      ],
+      "paragraphs": [
+        "Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort. The school is committed to working with members of our community to archive and display important records, memorabilia and documents in our museum from all three schools throughout history. We encourage all members of our Alumni to stay connected to our school.",
+        "With Fortians scattered across the globe, many reunions are held locally, nationally and internationally. We welcome Fortians back to The Fort and we would be delighted to support your reunion event, wherever it may be.",
+        "Are you thinking of holding a reunion? Here is what Fort Street can do to help:",
+        "Reunions are a fantastic opportunity for Fortians to reconnect with others from their year group and with the current school.",
+        "We offer reunion groups student led tours of the school, morning or afternoon tea with the Principal and other key members of staff and an opportunity to view our archives. Reunion groups can visit during the school day or out of hours by appointment.",
+        "If you would like to visit the school as part of your reunion activities or if have any reunion enquiries then please contact Mr Iain Wallace on 8585 1600 (Thursdays and/or Fridays) or at iain.wallace@det.nsw.edu.au.",
+        "Senior Instrumental Music Program ensembles are always looking for performance opportunities, and are very keen to perform at Fortian events. These are some of the best student ensembles in NSW and include: Jazz Ensemble, Jazz Orchestra, Wind Ensemble, Chamber Choir and Symphony Orchestra. If you are interested in having an IMP ensemble perform at your alumni event, please email the IMP here (opens in new window) .",
+        "Please update your details with us so we can stay connected and keep you up to date with upcoming events and other news. Email your details to Iain Wallace. (opens in new window)",
+        "We are keen to develop an alumni network to welcome past students back to school for key events and to see how we can work together to support our students and our future plans at Fort Street."
+      ],
+      "listItems": [
+        "Organise a visit to the Museum and a tour of the School at Petersham for your group.",
+        "Advertise your reunion on our social media groups such as Lost Fort Street.",
+        "Put a notice in the School Newsletter – The Mercurius.",
+        "Be special guest at a school assembly.",
+        "Possible archival material to recall fond memories.",
+        "Give you contact details of past reunions groups.",
+        "You can make the process as simple or as detailed as you wish, depending on how big an occasion you would like to make it. Here are tips to help make the process as smooth as possible.",
+        "Who are you going to get to help you? The number of people you need will depend on how big an event you want to organise.",
+        "Choose a date. Is it better early in the year or towards the middle? What influences the timing? Will anyone be coming from the country, interstate or overseas? How much notice will everyone need? Invite everyone you can possibly contact.",
+        "What type of event best suits your age group? Think about the time of day, venue and type of event. Does anyone in the group have a disability that will affect your plans?",
+        "Is this an event for partners, families, or just the Fortians?",
+        "How is everyone going to pay? Will you have a separate bank account? If so, do you need one or two signatories? Do not forget to calculate the cost of calls, printing, stationery, decorations, etc. Make sure you cover your costs. If there are any extra funds, they can always be donated to the school to commemorate the event. The Archives team have a list of suggested items.",
+        "Choosing a venue. What does the ticket price include? Does anyone in the group have a contact or own a venue you could use? What is the menu like? Will it suit those with special dietary requirements? How many people are you expecting? Is the space big enough? What about noise? Is there enough seating? What drinks are included in the ticket price? Will the venue let you decorate the space?",
+        "Will it be at someone’s home? Do they have enough room – even if it rains? What about plates, cutlery, glasses, cups, chairs? Will a caterer need to be hired? Think about setting up and cleaning up as well.",
+        "Make nametags for the event using current surnames and maiden names if possible.",
+        "Get the word out. The more notice the better so people can organise their time. The wider your spread the better so you capture as many classmates as possible.",
+        "Do you want to make a reunion booklet? Send out a questionnaire to collect data on those coming and on those unable to attend and put the info into a booklet with some old photos. Remember to send a copy of the booklet to the Fort Street Archives.",
+        "Do you want an official photographer or will you rely on everyone taking their own photos? Remember to take many photos and get everyone’s contact details so you can email them a photo or two. Remember to email a few photos and an article to the Fort Street Archives team.",
+        "Report to the school for the website and for the archives. The Fort Street community will love to read a short article and see a couple of photos of your event.",
+        "Organise it so you can relax on the day. You do not want to be spending the whole time running around taking care of business. Enjoy the time together."
+      ],
+      "ctas": [
+        {
+          "text": "email the IMP here (opens in new window)",
+          "href": "mailto:fortstreetimp@gmail.com",
+          "absHref": "mailto:fortstreetimp@gmail.com",
+          "classes": ""
+        },
+        {
+          "text": "Iain Wallace. (opens in new window)",
+          "href": "mailto:iain.wallace@det.nsw.edu.au",
+          "absHref": "mailto:iain.wallace@det.nsw.edu.au",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_1d1a6d8246ac48fc1285efe376bb51d8dc35b3598.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "1968 group",
+          "w": 650,
+          "h": 600
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Alumni",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Welcome to the Fort Street Alumni Community. Fortians are forever connected by their shared experiences at the Fort. The school is committed to working with members of our community to archive and display important records, memorabilia and documents in our museum from all three schools throughout history. We encourage all members of our Alumni to stay connected to our school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_1d1a6d8246ac48fc1285efe376bb51d8dc35b3598.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "1968 group"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Reunions",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "With Fortians scattered across the globe, many reunions are held locally, nationally and internationally. We welcome Fortians back to The Fort and we would be delighted to support your reunion event, wherever it may be.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Are you thinking of holding a reunion? Here is what Fort Street can do to help:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Organise a visit to the Museum and a tour of the School at Petersham for your group.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Advertise your reunion on our social media groups such as Lost Fort Street.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Put a notice in the School Newsletter – The Mercurius.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Be special guest at a school assembly.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Possible archival material to recall fond memories.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Give you contact details of past reunions groups.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reunions are a fantastic opportunity for Fortians to reconnect with others from their year group and with the current school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We offer reunion groups student led tours of the school, morning or afternoon tea with the Principal and other key members of staff and an opportunity to view our archives. Reunion groups can visit during the school day or out of hours by appointment.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Tips for Organising a Reunion",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "You can make the process as simple or as detailed as you wish, depending on how big an occasion you would like to make it. Here are tips to help make the process as smooth as possible.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Who are you going to get to help you? The number of people you need will depend on how big an event you want to organise.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Choose a date. Is it better early in the year or towards the middle? What influences the timing? Will anyone be coming from the country, interstate or overseas? How much notice will everyone need? Invite everyone you can possibly contact.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "What type of event best suits your age group? Think about the time of day, venue and type of event. Does anyone in the group have a disability that will affect your plans?",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Is this an event for partners, families, or just the Fortians?",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "How is everyone going to pay? Will you have a separate bank account? If so, do you need one or two signatories? Do not forget to calculate the cost of calls, printing, stationery, decorations, etc. Make sure you cover your costs. If there are any extra funds, they can always be donated to the school to commemorate the event. The Archives team have a list of suggested items.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Choosing a venue. What does the ticket price include? Does anyone in the group have a contact or own a venue you could use? What is the menu like? Will it suit those with special dietary requirements? How many people are you expecting? Is the space big enough? What about noise? Is there enough seating? What drinks are included in the ticket price? Will the venue let you decorate the space?",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Will it be at someone’s home? Do they have enough room – even if it rains? What about plates, cutlery, glasses, cups, chairs? Will a caterer need to be hired? Think about setting up and cleaning up as well.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Make nametags for the event using current surnames and maiden names if possible.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Get the word out. The more notice the better so people can organise their time. The wider your spread the better so you capture as many classmates as possible.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Do you want to make a reunion booklet? Send out a questionnaire to collect data on those coming and on those unable to attend and put the info into a booklet with some old photos. Remember to send a copy of the booklet to the Fort Street Archives.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Do you want an official photographer or will you rely on everyone taking their own photos? Remember to take many photos and get everyone’s contact details so you can email them a photo or two. Remember to email a few photos and an article to the Fort Street Archives team.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Report to the school for the website and for the archives. The Fort Street community will love to read a short article and see a couple of photos of your event.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Organise it so you can relax on the day. You do not want to be spending the whole time running around taking care of business. Enjoy the time together.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you would like to visit the school as part of your reunion activities or if have any reunion enquiries then please contact Mr Iain Wallace on 8585 1600 (Thursdays and/or Fridays) or at iain.wallace@det.nsw.edu.au.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Senior Instrumental Music Program ensembles are always looking for performance opportunities, and are very keen to perform at Fortian events. These are some of the best student ensembles in NSW and include: Jazz Ensemble, Jazz Orchestra, Wind Ensemble, Chamber Choir and Symphony Orchestra. If you are interested in having an IMP ensemble perform at your alumni event, please email the IMP here (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Senior Instrumental Music Program ensembles are always looking for performance opportunities, and are very keen to perform at Fortian events. These are some of the best student ensembles in NSW and include: Jazz Ensemble, Jazz Orchestra, Wind Ensemble, Chamber Choir and Symphony Orchestra. If you are interested in having an IMP ensemble perform at your alumni event, please",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "email the IMP here (opens in new window)",
+              "display": "inline",
+              "href": "mailto:fortstreetimp@gmail.com",
+              "absHref": "mailto:fortstreetimp@gmail.com",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "email the IMP here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Keep in touch",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please update your details with us so we can stay connected and keep you up to date with upcoming events and other news. Email your details to Iain Wallace. (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Please update your details with us so we can stay connected and keep you up to date with upcoming events and other news. Email your details to",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Iain Wallace. (opens in new window)",
+              "display": "inline",
+              "href": "mailto:iain.wallace@det.nsw.edu.au",
+              "absHref": "mailto:iain.wallace@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Iain Wallace.",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We are keen to develop an alumni network to welcome past students back to school for key events and to see how we can work together to support our students and our future plans at Fort Street.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Share your story Fortians around the world are engaged in all kinds of exciting activities, and our current students and the wider school community are inspired by your careers, adventures and achievements. We would love to hear your news and see some photographs. These stories may be included in our newsletter, Mercurius, in our annual magazine, The Fortian, or on our website. Please send your stories and photos to Iain Wallace. (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Share your story"
+        }
+      ],
+      "paragraphs": [
+        "Fortians around the world are engaged in all kinds of exciting activities, and our current students and the wider school community are inspired by your careers, adventures and achievements. We would love to hear your news and see some photographs. These stories may be included in our newsletter, Mercurius, in our annual magazine, The Fortian, or on our website.",
+        "Please send your stories and photos to Iain Wallace. (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Iain Wallace. (opens in new window)",
+          "href": "mailto:iain.wallace@det.nsw.edu.au",
+          "absHref": "mailto:iain.wallace@det.nsw.edu.au",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Share your story",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fortians around the world are engaged in all kinds of exciting activities, and our current students and the wider school community are inspired by your careers, adventures and achievements. We would love to hear your news and see some photographs. These stories may be included in our newsletter, Mercurius, in our annual magazine, The Fortian, or on our website.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please send your stories and photos to Iain Wallace. (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Please send your stories and photos to",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Iain Wallace. (opens in new window)",
+              "display": "inline",
+              "href": "mailto:iain.wallace@det.nsw.edu.au",
+              "absHref": "mailto:iain.wallace@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Iain Wallace.",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Newsletters Read our latest newsletter and stay connected with our school life. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Read our latest newsletter and stay connected with our school life.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Newsletters Read our latest newsletter and stay connected with our school life.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Newsletters Read our latest newsletter and stay connected with our school life.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "inline",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read our latest newsletter and stay connected with our school life.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

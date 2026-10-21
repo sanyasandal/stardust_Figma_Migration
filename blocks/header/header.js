@@ -21,7 +21,7 @@ function closeOnEscape(e) {
     } else if (!isDesktop.matches) {
       // eslint-disable-next-line no-use-before-define
       toggleMenu(nav, navSections);
-      nav.querySelector('button').focus();
+      nav.querySelector('.nav-hamburger button').focus();
     }
   }
 }
@@ -87,27 +87,26 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
 }
 
 /**
- * Builds the oneAZ breadcrumb (Figma 12410:12837) from the nav links.
+ * Builds the oneAZ breadcrumb (M2) from the URL path, titling ancestors from nav links.
  * @param {Element} nav The decorated nav
- * @returns {Element|null} The breadcrumb element, or null on the home page
+ * @returns {Element|null}
  */
 function buildBreadcrumb(nav) {
-  const homeLink = nav.querySelector('.nav-brand a[href]');
-  const homePath = homeLink ? new URL(homeLink.href).pathname.replace(/\/$/, '') : '';
-  const current = window.location.pathname.replace(/(\/index)?\/?$/, '');
-  if (!current || current === homePath || !current.startsWith(`${homePath}/`)) return null;
-
-  const titles = {};
+  const brand = nav.querySelector('.nav-brand a[href]');
+  const home = brand ? new URL(brand.href, window.location).pathname.replace(/\/$/, '') : '';
+  const path = window.location.pathname.replace(/\/$/, '');
+  if (path === home || !path.startsWith(`${home}/`)) return null;
+  const titles = new Map();
   nav.querySelectorAll('a[href]').forEach((a) => {
-    const path = new URL(a.href, window.location).pathname.replace(/\/$/, '');
-    if (!titles[path]) titles[path] = a.textContent.trim();
+    titles.set(new URL(a.href, window.location).pathname.replace(/\/$/, ''), a.textContent.trim());
   });
-  const titleCase = (slug) => slug.replace(/-/g, ' ').replace(/^./, (c) => c.toUpperCase());
-
+  const parts = path.slice(home.length + 1).split('/');
+  const crumb = document.createElement('nav');
+  crumb.className = 'breadcrumb';
+  crumb.setAttribute('aria-label', 'Breadcrumb');
   const ol = document.createElement('ol');
-  const addCrumb = (label, href) => {
+  const add = (label, href) => {
     const li = document.createElement('li');
-    li.className = 'crumb';
     if (href) {
       const a = document.createElement('a');
       a.href = href;
@@ -119,21 +118,17 @@ function buildBreadcrumb(nav) {
     }
     ol.append(li);
   };
-  addCrumb('Home', `${homePath}/`);
-  const segments = current.slice(homePath.length + 1).split('/');
-  segments.forEach((seg, i) => {
-    const path = `${homePath}/${segments.slice(0, i + 1).join('/')}`;
-    const isLast = i === segments.length - 1;
-    const h1 = isLast ? document.querySelector('main h1') : null;
-    const label = (h1 && h1.textContent.trim()) || titles[path] || titleCase(seg);
-    addCrumb(label, isLast ? null : path);
+  add('Home', `${home}/`);
+  parts.forEach((part, i) => {
+    const p = `${home}/${parts.slice(0, i + 1).join('/')}`;
+    const fallback = part.replace(/-/g, ' ').replace(/^./, (c) => c.toUpperCase());
+    if (i === parts.length - 1) {
+      const h1 = document.querySelector('main h1');
+      add(titles.get(p) || (h1 && h1.textContent.trim()) || fallback);
+    } else add(titles.get(p) || fallback, p);
   });
-
-  const breadcrumb = document.createElement('nav');
-  breadcrumb.className = 'breadcrumb';
-  breadcrumb.setAttribute('aria-label', 'Breadcrumb');
-  breadcrumb.append(ol);
-  return breadcrumb;
+  crumb.append(ol);
+  return crumb;
 }
 
 /**
@@ -150,6 +145,7 @@ export default async function decorate(block) {
   block.textContent = '';
   const nav = document.createElement('nav');
   nav.id = 'nav';
+  nav.setAttribute('aria-label', 'Main');
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
 
   const classes = ['brand', 'sections', 'tools'];
@@ -159,10 +155,17 @@ export default async function decorate(block) {
   });
 
   const navBrand = nav.querySelector('.nav-brand');
-  const brandLink = navBrand.querySelector('.button');
-  if (brandLink) {
-    brandLink.className = '';
-    brandLink.closest('.button-container').className = '';
+  if (navBrand) {
+    const brandLink = navBrand.querySelector('a');
+    if (brandLink) {
+      brandLink.className = 'brand';
+      const wrapper = brandLink.closest('.button-wrapper, .button-container');
+      if (wrapper) wrapper.className = '';
+      const mark = document.createElement('span');
+      mark.className = 'brand-mark';
+      mark.setAttribute('aria-hidden', 'true');
+      brandLink.prepend(mark);
+    }
   }
 
   const navSections = nav.querySelector('.nav-sections');
@@ -171,24 +174,31 @@ export default async function decorate(block) {
       const subList = navSection.querySelector(':scope > ul');
       if (!subList) return;
       navSection.classList.add('nav-drop');
-      // wrap the dropdown label in a button so it is announced as expandable
+      // the authored label link stays a link; a sibling chevron button toggles the drop-down
+      const label = navSection.querySelector(':scope > a, :scope > p > a');
       const button = document.createElement('button');
       button.type = 'button';
       button.setAttribute('aria-expanded', false);
-      [...navSection.childNodes].forEach((node) => {
-        if (node !== subList) button.append(node);
-      });
-      navSection.prepend(button);
+      button.setAttribute('aria-label', `${label ? label.textContent.trim() : 'Section'} menu`);
+      if (!label) {
+        [...navSection.childNodes].forEach((node) => {
+          if (node !== subList) button.append(node);
+        });
+      }
+      subList.before(button);
       button.addEventListener('click', () => {
         const expanded = button.getAttribute('aria-expanded') === 'true';
-        if (isDesktop.matches) {
-          button.focus();
-          toggleAllNavSections(navSections);
-        }
+        if (isDesktop.matches) toggleAllNavSections(navSections);
         button.setAttribute('aria-expanded', !expanded);
       });
     });
   }
+
+  // utility bar (oneAZ header top row) is the authored tools section
+  const utility = document.createElement('div');
+  utility.className = 'nav-utility';
+  const navTools = nav.querySelector('.nav-tools');
+  if (navTools) utility.append(navTools);
 
   // hamburger for mobile
   const hamburger = document.createElement('div');
@@ -197,7 +207,7 @@ export default async function decorate(block) {
       <span class="nav-hamburger-icon"></span>
     </button>`;
   hamburger.addEventListener('click', () => toggleMenu(nav, navSections));
-  nav.prepend(hamburger);
+  nav.append(hamburger);
   nav.setAttribute('aria-expanded', 'false');
   // prevent mobile nav behavior on window resize
   toggleMenu(nav, navSections, isDesktop.matches);
@@ -206,8 +216,7 @@ export default async function decorate(block) {
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
-  block.append(navWrapper);
-
-  const breadcrumb = buildBreadcrumb(nav);
-  if (breadcrumb) block.append(breadcrumb);
+  block.append(utility, navWrapper);
+  const crumb = buildBreadcrumb(nav);
+  if (crumb) block.append(crumb);
 }

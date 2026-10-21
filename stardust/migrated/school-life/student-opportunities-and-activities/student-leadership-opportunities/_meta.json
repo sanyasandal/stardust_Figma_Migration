@@ -1,0 +1,60 @@
+{
+  "slug": "school-life_student-opportunities-and-activities_student-leadership-opportunities",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M9",
+    "M6",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Student Leadership Opportunities",
+    "description": "Student leadership opportunities at Fort Street High School include our student representative council (SRC), peer support groups, Duke of Edinburgh leadership, and the careers adviser university programs.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Student Leadership Opportunities",
+    "description": "Student leadership opportunities at Fort Street High School include our student representative council (SRC), peer support groups, Duke of Edinburgh leadership, and the careers adviser university programs.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "e955dd1fe33a",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/student-opportunities-and-activities/student-leadership-opportunities/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/student-opportunities-and-activities/student-leadership-opportunities/_meta.json",
+  "driverVersion": "1"
+}

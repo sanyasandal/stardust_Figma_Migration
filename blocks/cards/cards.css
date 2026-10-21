@@ -1,102 +1,101 @@
-/* Cards — oneAZ Teaser Card (Figma 12436:14706) */
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: var(--az-space-x-big);
+  grid-template-columns: 1fr;
+  gap: 40px;
 }
 
 .cards > ul > li {
-  display: flex;
-  flex-direction: column;
-  border-radius: var(--az-radius-xl);
-  background-color: var(--az-bg-supporting-1);
+  margin: 0;
   overflow: hidden;
+  border-radius: var(--radius-card);
+  background-color: var(--band-bg);
 }
 
-.cards .cards-card-image {
-  line-height: 0;
+.band .cards > ul > li {
+  background-color: var(--page-bg);
 }
 
-.cards > ul > li img {
-  display: block;
+.cards .cards-card-image img {
   width: 100%;
-  height: 220px;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
 .cards .cards-card-body {
-  display: flex;
-  flex-direction: column;
-  gap: var(--az-space-md);
-  padding: var(--az-space-x-big);
-  font-size: var(--body-font-size-m);
-  line-height: var(--body-line-height-m);
+  padding: 24px;
 }
 
-.cards .cards-card-body > * {
-  margin: 0;
+.cards .cards-card-body > :last-child {
+  margin-bottom: 0;
 }
 
-.cards .cards-card-body h2,
-.cards .cards-card-body h3,
-.cards .cards-card-body h4 {
-  color: var(--az-text-title-2);
-  font-size: var(--heading-font-size-m);
-  line-height: var(--heading-line-height-m);
-}
-
-.cards .cards-card-body h2 a:any-link,
-.cards .cards-card-body h3 a:any-link,
-.cards .cards-card-body h4 a:any-link {
-  color: inherit;
+/* card title: the first link-only line renders as the oneAZ card heading */
+.cards .cards-card-body > p:first-child > a:only-child,
+.cards .cards-card-body > p:first-child > strong > a:only-child {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--card-title-fg);
   text-decoration: none;
 }
 
-.cards .cards-card-body h2 a:hover,
-.cards .cards-card-body h3 a:hover,
-.cards .cards-card-body h4 a:hover {
-  text-decoration: underline;
+.cards .cards-card-body > p:first-child > a:only-child:hover {
+  color: var(--accent-hover);
 }
 
-/* supplementary (quick links): compact teaser, white card on 1px border */
-.cards.supplementary > ul {
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+.cards .cards-card-body p a {
+  overflow-wrap: anywhere;
 }
 
-.cards.supplementary > ul > li {
-  border: 1px solid var(--az-border-default);
-  background-color: var(--az-bg-supporting-2);
+/* M7 Listing Card — horizontal media/body */
+.cards.listing > ul {
+  gap: 24px;
 }
 
-.cards.supplementary > ul > li img {
-  height: 160px;
+.cards.listing > ul > li {
+  background-color: var(--page-bg);
 }
 
-.cards.supplementary .cards-card-body {
-  gap: var(--az-space-x-sm);
-  padding: var(--az-space-md) var(--az-space-x-big) var(--az-space-x-big);
-  font-size: var(--body-font-size-s);
-  line-height: var(--body-line-height-s);
+.cards.listing .cards-card-body :is(h2, h3) {
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--card-title-fg);
 }
 
-.cards.supplementary .cards-card-body h2,
-.cards.supplementary .cards-card-body h3,
-.cards.supplementary .cards-card-body h4 {
-  font-size: var(--heading-font-size-s);
-  line-height: var(--heading-line-height-s);
+.cards.listing .cards-card-image img {
+  height: 100%;
+  aspect-ratio: 4 / 3;
 }
 
 @media (width >= 900px) {
   .cards > ul {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--az-space-xxx-big);
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .cards.supplementary > ul {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--az-space-x-big);
+  .cards.listing > ul {
+    grid-template-columns: 1fr;
+  }
+
+  .cards.listing > ul > li {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 32px;
+  }
+
+  .cards.listing > ul > li.no-image {
+    grid-template-columns: 1fr;
+  }
+
+  .cards.listing .cards-card-body {
+    padding: 24px 24px 8px 0;
+  }
+
+  .cards.listing > ul > li.no-image .cards-card-body {
+    padding-left: 24px;
   }
 }

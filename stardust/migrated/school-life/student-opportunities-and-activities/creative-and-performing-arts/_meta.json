@@ -1,0 +1,56 @@
+{
+  "slug": "school-life_student-opportunities-and-activities_creative-and-performing-arts",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Creative and Performing Arts",
+    "description": "Fort Street High School provides multiple avenues for the creative arts, from visual arts, drama, and theatre sports.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Creative and Performing Arts",
+    "description": "Fort Street High School provides multiple avenues for the creative arts, from visual arts, drama, and theatre sports.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "736b99a728ba",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/student-opportunities-and-activities/creative-and-performing-arts/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/student-opportunities-and-activities/creative-and-performing-arts/_meta.json",
+  "driverVersion": "1"
+}

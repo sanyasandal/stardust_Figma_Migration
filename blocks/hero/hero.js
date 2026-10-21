@@ -1,25 +1,17 @@
 /**
- * Hero — oneAZ "Home Hero Branded" (Figma 12950:24813).
- * Accepts the picture and the text in any rows/cells; splits them into
- * a content column and a media column.
- * @param {Element} block The hero block element
+ * hero — oneAZ "Home Hero Branded" (M3).
+ * Authored: one row, [body cell | image cell] in any order. Queried, not indexed (#42).
+ * @param {Element} block
  */
 export default function decorate(block) {
-  const content = document.createElement('div');
-  content.className = 'hero-content';
-  const media = document.createElement('div');
-  media.className = 'hero-media';
-
-  [...block.querySelectorAll(':scope > div > div')].forEach((cell) => {
-    cell.querySelectorAll('picture').forEach((picture) => {
-      const parent = picture.parentElement;
-      media.append(picture);
-      if (parent !== cell && !parent.textContent.trim() && !parent.children.length) parent.remove();
-    });
-    content.append(...cell.childNodes);
+  const cells = [...block.querySelectorAll(':scope > div > div')];
+  const media = cells.find((c) => c.querySelector('picture') && !c.querySelector('h1,h2,h3,h4,h5,h6'));
+  cells.forEach((cell) => {
+    cell.classList.add(cell === media ? 'hero-media' : 'hero-body');
   });
-
-  if (!media.children.length) block.classList.add('no-media');
-  block.replaceChildren(content);
-  if (media.children.length) block.append(media);
+  const img = media && media.querySelector('img');
+  if (img) {
+    img.loading = 'eager';
+    img.fetchPriority = 'high';
+  }
 }

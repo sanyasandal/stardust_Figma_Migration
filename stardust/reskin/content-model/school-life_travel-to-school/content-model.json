@@ -1,0 +1,1946 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:44.904Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_travel-to-school.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Travel to school",
+    "description": "At Fort Street High School, there are a range of safe transport options. Check our location map, driving details and public transport options to help make the journey to school safe and easy. We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+    "ogTags": {
+      "og:title": "Travel to school",
+      "og:description": "At Fort Street High School, there are a range of safe transport options. Check our location map, driving details and public transport options to help make the journey to school safe and easy. We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_114d8d396fd3c9a2583c3c42bb095078ae6fca916.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_114d8d396fd3c9a2583c3c42bb095078ae6fca916.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Travel to school",
+      "twitter:description": "At Fort Street High School, there are a range of safe transport options. Check our location map, driving details and public transport options to help make the journey to school safe and easy. We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_114d8d396fd3c9a2583c3c42bb095078ae6fca916.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Travel to school Planning your school travel is easy. There are a range of safe transport options to get to our school. Check our location map, driving details and public transport options to help make the journey to school safe and easy. Fort Street High School is located in the heart of Sydney's Inner West in the suburb of Petersham, 20 minutes west of the CBD, and close to Sydney University and the University of Technology. Our central location, and being situated close to Petersham Station and Parramatta Road, means that we are well served by public transport. Location map We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM. Skip Google Map Use School Finder to confirm if you live in our local intake area. Getting to and from school safely As a parent or carer, it’s your responsibility to get your child to and from school safely. Student safety is our priority. Keep our school community safe by: driving and parking safely, even if it means parking further away and walking the rest of the way to school being a good role model never calling your child from across the road using the safest place to cross the road. For independent travellers Talk safe travel with your high-school-aged child including:walking to school safelystarting high school safelypublic transport safety7 reasons to actively travel to and from schoolwearing a helmetskateboarding safely. Subsidised school travel Transport for NSW (opens in new window) provides subsidies to assist school students. The School Student Transport Scheme (opens in new window) provides eligible students with free or subsidised travel on public transport between home and school .The School Drive Subsidy (opens in new window) may help towards the costs of driving children to school if you live in an area where there is no public transport. School Student Travel (This information was correct as of October 2024) Students may be eligible for free or subsidised travel to and from school under the School Student Transport Scheme (SSTS). https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel (opens in new window) The scheme includes: Free travel to and from home and school on approved metro, train, bus, ferry and light rail services during school term. Discounted travel on buses between home and school with a School Term Bus Pass (opens in new window) https://transportnsw.info/school-term-bus-pass (opens in new window) Subsidised Travel to and from school in private vehicles in areas where there is no public transport available Students with a disability who are unable to travel to and from school under the School Student Transport Scheme may be eligible for assistance under the Department of Education Assisted School Travel Program. Find out more on the Department of Education website https://education.nsw.gov.au/public-schools/astp What will my free school travel pass look like? Depending on where they are travelling, students may receive a free school travel pass, School Opal card or both. Free school travel passes and School Term Bus Passes are issued by operators to students travelling on buses outside the Opal network. Some operators in rural and regional areas may choose not to issue passes to students. School Opal cards are issued for free school travel and for School Term Bus Passes by Transport for NSW for travel on metro, train, bus, ferry and light rail trips in the Opal network. Secondary school students from Years 7-12 are eligible if: They are a resident of NSW or an overseas student who is eligible for free government education, The straight line distance from their home address to school is more than 2 km, or The walking distance from home to school is 2.9 km or further. If you don’t qualify for free school travel, you may be able to buy a School Term Bus Pass. A School Term Bus Pass offers discounted travel on buses between home and school for the whole school term. A School Term Bus Pass is valid for travel between home and school on school days only, via the most direct route. It is only valid for one bus operator. Students who have been rejected for other reasons other than the radial or walking distance cannot apply for a School Term Bus Pass. They will need to apply for a Child/Youth Opal card (opens in new window) Apply online for all school travel passes You must apply online for all school travel passes, using a single application form for your complete journey. This can be done online at https://transportnsw.info/school-travel-apply (opens in new window) School Endorsement After you have submitted your application, the school will check the details you have entered match those they have on record and will endorse it. Processing Your Application Transport for NSW will then process your application. The application process may take several weeks and you will be informed of the outcome of your application by email. If your application is successful for travel inside the Opal network, a School Opal card will be sent to your nominated address. Using Your School Travel Pass School travel passes can only be used for approved travel on school days between the student’s home and school between 6.30am and 7pm. Student must comply with the Student Codes of Conduct (opens in new window) . Plan Your Trip to School https://transportnsw.info/trip#/trip or phone 131 500 (opens in new window) Bus routes Board or Alight 412 Campsie to City Martin Place via Earlwood Petersham Station 413 Campsie to Central Pitt Street Parramatta Road 440 Bondi Junction to Rozelle Parramatta Road 461X Burwood to City Domain (Express Service) Parramatta Road 480 Strathfield to Central Pitt St via Homebush Road Parramatta Road 483 Strathfield to Central Pitt St via South Strathfield Parramatta Road 504 Chiswick to Central Pitt Street Norton Street 438X Abbotsford to City Martin Place (Express Service) Norton Street 445 Campsie to Balmain via Market Place Leichhardt Norton and Crystal Streets School Special Bus routes Board or Alight 682s Leichhardt/Balmain Fort Street High School to Gladstone Park Balmain680 School Excursions on the Opal network – Child /Youth Opal card required For school excursions when students are required to travel on the Opal network they must have and use their own Child/Youth Opal card. Parents/Guardians should ensure there are sufficient funds on their child’s card to cover the excursion travel expenses. Students aged 16 years and older must carry their NSW/ACT Senior Secondary Student concession card. These are issued by the school as proof of concession entitlement. Further Information Timetable/General Information 131 500 https://apps.transport.nsw.gov.au/ssts (opens in new window) Lost Property https://transportnsw.info/contact-us/lost-property#/ (opens in new window) Apply for a travel pass Eligible students can get a free travel pass under the School Student Transport Scheme. Apply for a travel pass today. Travel pass (opens in new window) Driving and parking The start and end of the school day are busy times for pedestrians and drivers outside schools. When driving and parking near our school, please: ensure you park safely in school zones follow speed signs do not make U-turns or 3-point turns outside the school. Parking on school grounds There is no parking available on school grounds. Need help getting to school? If your child has a disability or additional needs, they may be eligible for the Assisted School Travel Program. Contact us to learn more or get help planning your child's journey to school. Contact us Bell times Learn about our start and finish times, breaks and activities. Additional learning support Find out how we support students with disability or additional learning needs.",
+  "coverage": {
+    "bodyTextLen": 8685,
+    "scopeTextLen": 7738,
+    "ratio": 0.891,
+    "h1Text": "Travel to school",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Travel to school Planning your school travel is easy. There are a range of safe transport options to get to our school. Check our location map, driving details and public transport options to help make the journey to school safe and easy. Fort Street High School is located in the heart of Sydney's Inner West in the suburb of Petersham, 20 minutes west of the CBD, and close to Sydney University and the University of Technology. Our central location, and being situated close to Petersham Station and Parramatta Road, means that we are well served by public transport.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Travel to school"
+        }
+      ],
+      "paragraphs": [
+        "Planning your school travel is easy. There are a range of safe transport options to get to our school. Check our location map, driving details and public transport options to help make the journey to school safe and easy.",
+        "Fort Street High School is located in the heart of Sydney's Inner West in the suburb of Petersham, 20 minutes west of the CBD, and close to Sydney University and the University of Technology.",
+        "Our central location, and being situated close to Petersham Station and Parramatta Road, means that we are well served by public transport."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Travel to school",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Planning your school travel is easy. There are a range of safe transport options to get to our school. Check our location map, driving details and public transport options to help make the journey to school safe and easy.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School is located in the heart of Sydney's Inner West in the suburb of Petersham, 20 minutes west of the CBD, and close to Sydney University and the University of Technology.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our central location, and being situated close to Petersham Station and Parramatta Road, means that we are well served by public transport.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Our",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "central location,",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and being situated",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "close to Petersham Station and Parramatta Road,",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "means that we are",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "well served by public transport.",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section embed-container",
+      "visibleText": "Location map We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM. Skip Google Map Use School Finder to confirm if you live in our local intake area.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Location map"
+        }
+      ],
+      "paragraphs": [
+        "We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM.",
+        "Use School Finder to confirm if you live in our local intake area."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Skip Google Map",
+          "href": "#after-map",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school#after-map",
+          "classes": "skip-map-link"
+        },
+        {
+          "text": "School Finder",
+          "href": "https://schoolfinder.education.nsw.gov.au/",
+          "absHref": "https://schoolfinder.education.nsw.gov.au/",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Location map",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "cta",
+          "text": "Skip Google Map",
+          "display": "block",
+          "href": "#after-map",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school#after-map",
+          "classes": "skip-map-link",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Use School Finder to confirm if you live in our local intake area.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Use",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "School Finder",
+              "display": "inline",
+              "href": "https://schoolfinder.education.nsw.gov.au/",
+              "absHref": "https://schoolfinder.education.nsw.gov.au/",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "to confirm if you live in our local intake area.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "Getting to and from school safely As a parent or carer, it’s your responsibility to get your child to and from school safely. Student safety is our priority. Keep our school community safe by: driving and parking safely, even if it means parking further away and walking the rest of the way to school being a good role model never calling your child from across the road using the safest place to cross the road. For independent travellers Talk safe travel with your high-school-aged child including:walking to school safelystarting high school safelypublic transport safety7 reasons to actively travel to and from schoolwearing a helmetskateboarding safely. Subsidised school travel Transport for NSW (opens in new window) provides subsidies to assist school students. The School Student Transport Scheme (opens in new window) provides eligible students with free or subsidised travel on public transport between home and school .The School Drive Subsidy (opens in new window) may help towards the costs of driving children to school if you live in an area where there is no public transport. School Student Travel (This information was correct as of October 2024) Students may be eligible for free or subsidised travel to and from school under the School Student Transport Scheme (SSTS). https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel (opens in new window) The scheme includes: Free travel to and from home and school on approved metro, train, bus, ferry and light rail services during school term. Discounted travel on buses between home and school with a School Term Bus Pass (opens in new window) https://transportnsw.info/school-term-bus-pass (opens in new window) Subsidised Travel to and from school in private vehicles in areas where there is no public transport available Students with a disability who are unable to travel to and from school under the School Student Transport Scheme may be eligible for assistance under the Department of Education Assisted School Travel Program. Find out more on the Department of Education website https://education.nsw.gov.au/public-schools/astp",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Getting to and from school safely"
+        },
+        {
+          "level": "h2",
+          "text": "For independent travellers"
+        },
+        {
+          "level": "h2",
+          "text": "Subsidised school travel"
+        },
+        {
+          "level": "h2",
+          "text": "School Student Travel"
+        }
+      ],
+      "paragraphs": [
+        "As a parent or carer, it’s your responsibility to get your child to and from school safely. Student safety is our priority. Keep our school community safe by: driving and parking safely, even if it means parking further away and walking the rest of the way to school being a good role model never calling your child from across the road using the safest place to cross the road.",
+        "Talk safe travel with your high-school-aged child including:walking to school safelystarting high school safelypublic transport safety7 reasons to actively travel to and from schoolwearing a helmetskateboarding safely.",
+        "Transport for NSW (opens in new window) provides subsidies to assist school students. The School Student Transport Scheme (opens in new window) provides eligible students with free or subsidised travel on public transport between home and school .The School Drive Subsidy (opens in new window) may help towards the costs of driving children to school if you live in an area where there is no public transport.",
+        "(This information was correct as of October 2024)",
+        "Students may be eligible for free or subsidised travel to and from school under the School Student Transport Scheme (SSTS).",
+        "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel (opens in new window)",
+        "The scheme includes:"
+      ],
+      "listItems": [
+        "Free travel to and from home and school on approved metro, train, bus, ferry and light rail services during school term.",
+        "Discounted travel on buses between home and school with a School Term Bus Pass (opens in new window) https://transportnsw.info/school-term-bus-pass (opens in new window)",
+        "Subsidised Travel to and from school in private vehicles in areas where there is no public transport available",
+        "Students with a disability who are unable to travel to and from school under the School Student Transport Scheme may be eligible for assistance under the Department of Education Assisted School Travel Program. Find out more on the Department of Education website https://education.nsw.gov.au/public-schools/astp"
+      ],
+      "ctas": [
+        {
+          "text": "driving and parking safely",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/road-safety-education/safe-travel/driving-and-parking-safely-near-your-school",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/road-safety-education/safe-travel/driving-and-parking-safely-near-your-school",
+          "classes": ""
+        },
+        {
+          "text": "walking to school safely",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/walking-to-school-safely",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/walking-to-school-safely",
+          "classes": ""
+        },
+        {
+          "text": "starting high school safely",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/starting-high-school-safely",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/starting-high-school-safely",
+          "classes": ""
+        },
+        {
+          "text": "public transport safety",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/public-transport-safety",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/public-transport-safety",
+          "classes": ""
+        },
+        {
+          "text": "7 reasons to actively travel to and from school",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/switch-it-up",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/switch-it-up",
+          "classes": ""
+        },
+        {
+          "text": "wearing a helmet",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/always-wear-a-helmet",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/always-wear-a-helmet",
+          "classes": ""
+        },
+        {
+          "text": "skateboarding safely",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/skateboarding-safely",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/skateboarding-safely",
+          "classes": ""
+        },
+        {
+          "text": "Transport for NSW (opens in new window)",
+          "href": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/child-student-concessions",
+          "absHref": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/child-student-concessions",
+          "classes": ""
+        },
+        {
+          "text": "School Student Transport Scheme (opens in new window)",
+          "href": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel",
+          "absHref": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel",
+          "classes": ""
+        },
+        {
+          "text": "School Drive Subsidy (opens in new window)",
+          "href": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel/apply-for-school-drive-subsidy",
+          "absHref": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel/apply-for-school-drive-subsidy",
+          "classes": ""
+        },
+        {
+          "text": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel (opens in new window)",
+          "href": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel",
+          "absHref": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel",
+          "classes": ""
+        },
+        {
+          "text": "School Term Bus Pass (opens in new window)",
+          "href": "https://apps.transport.nsw.gov.au/ssts/#/termBusPass",
+          "absHref": "https://apps.transport.nsw.gov.au/ssts/#/termBusPass",
+          "classes": ""
+        },
+        {
+          "text": "https://transportnsw.info/school-term-bus-pass (opens in new window)",
+          "href": "https://transportnsw.info/school-term-bus-pass",
+          "absHref": "https://transportnsw.info/school-term-bus-pass",
+          "classes": ""
+        },
+        {
+          "text": "https://education.nsw.gov.au/public-schools/astp",
+          "href": "https://education.nsw.gov.au/public-schools/astp",
+          "absHref": "https://education.nsw.gov.au/public-schools/astp",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Getting to and from school safely",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "As a parent or carer, it’s your responsibility to get your child to and from school safely. Student safety is our priority. Keep our school community safe by: driving and parking safely, even if it means parking further away and walking the rest of the way to school being a good role model never calling your child from across the road using the safest place to cross the road.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "As a parent or carer, it’s your responsibility to get your child to and from school safely. Student safety is our priority. Keep our school community safe by:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "driving and parking safely",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/road-safety-education/safe-travel/driving-and-parking-safely-near-your-school",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/road-safety-education/safe-travel/driving-and-parking-safely-near-your-school",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ", even if it means parking further away and walking the rest of the way to school being a good role model never calling your child from across the road using the safest place to cross the road.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "For independent travellers",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Talk safe travel with your high-school-aged child including:walking to school safelystarting high school safelypublic transport safety7 reasons to actively travel to and from schoolwearing a helmetskateboarding safely.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Talk safe travel with your high-school-aged child including:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "walking to school safely",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/walking-to-school-safely",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/walking-to-school-safely",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "starting high school safely",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/starting-high-school-safely",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/starting-high-school-safely",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "public transport safety",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/public-transport-safety",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/public-transport-safety",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "7 reasons to actively travel to and from school",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/switch-it-up",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/switch-it-up",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "wearing a helmet",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/always-wear-a-helmet",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/always-wear-a-helmet",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "skateboarding safely",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/skateboarding-safely",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/learning-across-the-curriculum/road-safety-education/safe-travel/reminding-secondary-students-of-safe-behaviours/skateboarding-safely",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Subsidised school travel",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Transport for NSW (opens in new window) provides subsidies to assist school students. The School Student Transport Scheme (opens in new window) provides eligible students with free or subsidised travel on public transport between home and school .The School Drive Subsidy (opens in new window) may help towards the costs of driving children to school if you live in an area where there is no public transport.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Transport for NSW (opens in new window)",
+              "display": "inline",
+              "href": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/child-student-concessions",
+              "absHref": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/child-student-concessions",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Transport for NSW",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "provides subsidies to assist school students. The",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "School Student Transport Scheme (opens in new window)",
+              "display": "inline",
+              "href": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel",
+              "absHref": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "School Student Transport Scheme",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "provides eligible students with free or subsidised travel on public transport between home and school .The",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "School Drive Subsidy (opens in new window)",
+              "display": "inline",
+              "href": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel/apply-for-school-drive-subsidy",
+              "absHref": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel/apply-for-school-drive-subsidy",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "School Drive Subsidy",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "may help towards the costs of driving children to school if you live in an area where there is no public transport.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "School Student Travel",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "(This information was correct as of October 2024)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students may be eligible for free or subsidised travel to and from school under the School Student Transport Scheme (SSTS).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel (opens in new window)",
+              "display": "inline",
+              "href": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel",
+              "absHref": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://transportnsw.info/tickets-opal/ticket-eligibility-concessions/school-student-travel",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The scheme includes:",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The scheme includes",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": ":",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Free travel to and from home and school on approved metro, train, bus, ferry and light rail services during school term.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Discounted travel on buses between home and school with a School Term Bus Pass (opens in new window) https://transportnsw.info/school-term-bus-pass (opens in new window)",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Discounted travel on buses between home and school with a",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "School Term Bus Pass (opens in new window)",
+              "display": "inline",
+              "href": "https://apps.transport.nsw.gov.au/ssts/#/termBusPass",
+              "absHref": "https://apps.transport.nsw.gov.au/ssts/#/termBusPass",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "School Term Bus Pass",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "https://transportnsw.info/school-term-bus-pass (opens in new window)",
+              "display": "inline",
+              "href": "https://transportnsw.info/school-term-bus-pass",
+              "absHref": "https://transportnsw.info/school-term-bus-pass",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://transportnsw.info/school-term-bus-pass",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Subsidised Travel to and from school in private vehicles in areas where there is no public transport available",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students with a disability who are unable to travel to and from school under the School Student Transport Scheme may be eligible for assistance under the Department of Education Assisted School Travel Program. Find out more on the Department of Education website https://education.nsw.gov.au/public-schools/astp",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Students with a disability who are unable to travel to and from school under the School Student Transport Scheme may be eligible for assistance under the Department of Education Assisted School Travel Program. Find out more on the Department of Education website",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "https://education.nsw.gov.au/public-schools/astp",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/public-schools/astp",
+              "absHref": "https://education.nsw.gov.au/public-schools/astp",
+              "classes": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "What will my free school travel pass look like? Depending on where they are travelling, students may receive a free school travel pass, School Opal card or both.",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "What will my free school travel pass look like?"
+        }
+      ],
+      "paragraphs": [
+        "Depending on where they are travelling, students may receive a free school travel pass, School Opal card or both."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "What will my free school travel pass look like?",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Depending on where they are travelling, students may receive a free school travel pass, School Opal card or both.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white columns-container",
+      "visibleText": "Free school travel passes and School Term Bus Passes are issued by operators to students travelling on buses outside the Opal network. Some operators in rural and regional areas may choose not to issue passes to students.",
+      "headings": [],
+      "paragraphs": [
+        "Free school travel passes and School Term Bus Passes are issued by operators to students travelling on buses outside the Opal network. Some operators in rural and regional areas may choose not to issue passes to students."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_114d8d396fd3c9a2583c3c42bb095078ae6fca916.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 200,
+          "h": 134
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "Free school travel passes and School Term Bus Passes are issued by operators to students travelling on buses outside the Opal network. Some operators in rural and regional areas may choose not to issue passes to students.",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_114d8d396fd3c9a2583c3c42bb095078ae6fca916.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white columns-container",
+      "visibleText": "School Opal cards are issued for free school travel and for School Term Bus Passes by Transport for NSW for travel on metro, train, bus, ferry and light rail trips in the Opal network.",
+      "headings": [],
+      "paragraphs": [
+        "School Opal cards are issued for free school travel and for School Term Bus Passes by Transport for NSW for travel on metro, train, bus, ferry and light rail trips in the Opal network."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_114fbf8f775c6dee8eef8a74172c529d380cb188b.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 300,
+          "h": 190
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_114fbf8f775c6dee8eef8a74172c529d380cb188b.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Opal cards are issued for free school travel and for School Term Bus Passes by Transport for NSW for travel on metro, train, bus, ferry and light rail trips in the Opal network.",
+          "display": "block",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Secondary school students from Years 7-12 are eligible if: They are a resident of NSW or an overseas student who is eligible for free government education, The straight line distance from their home address to school is more than 2 km, or The walking distance from home to school is 2.9 km or further. If you don’t qualify for free school travel, you may be able to buy a School Term Bus Pass. A School Term Bus Pass offers discounted travel on buses between home and school for the whole school term. A School Term Bus Pass is valid for travel between home and school on school days only, via the most direct route. It is only valid for one bus operator. Students who have been rejected for other reasons other than the radial or walking distance cannot apply for a School Term Bus Pass. They will need to apply for a Child/Youth Opal card (opens in new window) Apply online for all school travel passes You must apply online for all school travel passes, using a single application form for your complete journey. This can be done online at https://transportnsw.info/school-travel-apply (opens in new window) School Endorsement After you have submitted your application, the school will check the details you have entered match those they have on record and will endorse it. Processing Your Application Transport for NSW will then process your application. The application process may take several weeks and you will be informed of the outcome of your application by email. If your application is successful for travel inside the Opal network, a School Opal card will be sent to your nominated address. Using Your School Travel Pass School travel passes can only be used for approved travel on school days between the student’s home and school between 6.30am and 7pm. Student must comply with the Student Codes of Conduct (opens in new window) . Plan Your Trip to School https://transportnsw.info/trip#/trip or phone 131 500 (opens in new window) Bus routes Board or Alight 412 Campsie to City Martin Place via Earlwood Petersham Station 413 Campsie to Central Pitt Street Parramatta Road 440 Bondi Junction to Rozelle Parramatta Road 461X Burwood to City Domain (Express Service) Parramatta Road 480 Strathfield to Central Pitt St via Homebush Road Parramatta Road 483 Strathfield to Central Pitt St via South Strathfield Parramatta Road 504 Chiswick to Central Pitt Street Norton Street 438X Abbotsford to City Martin Place (Express Service) Norton Street 445 Campsie to Balmain via Market Place Leichhardt Norton and Crystal Streets School Special Bus routes Board or Alight 682s Leichhardt/Balmain Fort Street High School to Gladstone Park Balmain680 School Excursions on the Opal network – Child /Youth Opal card required For school excursions when students are required to travel on the Opal network they must have and use their own Child/Youth Opal card. Parents/Guardians should ensure there are sufficient funds on their child’s card to cover the excursion travel expenses. Students aged 16 years and older must carry their NSW/ACT Senior Secondary Student concession card. These are issued by the school as proof of concession entitlement. Further Information Timetable/General Information 131 500 https://apps.transport.nsw.gov.au/ssts (opens in new window) Lost Property https://transportnsw.info/contact-us/lost-property#/ (opens in new window)",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Apply online for all school travel passes"
+        },
+        {
+          "level": "h3",
+          "text": "School Endorsement"
+        },
+        {
+          "level": "h3",
+          "text": "Processing Your Application"
+        },
+        {
+          "level": "h3",
+          "text": "Using Your School Travel Pass"
+        },
+        {
+          "level": "h3",
+          "text": "School Excursions on the Opal network – Child /Youth Opal card required"
+        },
+        {
+          "level": "h3",
+          "text": "Further Information"
+        }
+      ],
+      "paragraphs": [
+        "Secondary school students from Years 7-12 are eligible if:",
+        "If you don’t qualify for free school travel, you may be able to buy a School Term Bus Pass.",
+        "A School Term Bus Pass offers discounted travel on buses between home and school for the whole school term. A School Term Bus Pass is valid for travel between home and school on school days only, via the most direct route. It is only valid for one bus operator. Students who have been rejected for other reasons other than the radial or walking distance cannot apply for a School Term Bus Pass. They will need to apply for a Child/Youth Opal card (opens in new window)",
+        "You must apply online for all school travel passes, using a single application form for your complete journey. This can be done online at https://transportnsw.info/school-travel-apply (opens in new window)",
+        "After you have submitted your application, the school will check the details you have entered match those they have on record and will endorse it.",
+        "Transport for NSW will then process your application. The application process may take several weeks and you will be informed of the outcome of your application by email. If your application is successful for travel inside the Opal network, a School Opal card will be sent to your nominated address.",
+        "School travel passes can only be used for approved travel on school days between the student’s home and school between 6.30am and 7pm. Student must comply with the Student Codes of Conduct (opens in new window) .",
+        "Plan Your Trip to School https://transportnsw.info/trip#/trip or phone 131 500 (opens in new window)",
+        "Bus routes",
+        "Board or Alight",
+        "412",
+        "Campsie to City Martin Place via Earlwood",
+        "Petersham Station",
+        "413",
+        "Campsie to Central Pitt Street",
+        "Parramatta Road",
+        "440",
+        "Bondi Junction to Rozelle",
+        "Parramatta Road",
+        "461X",
+        "Burwood to City Domain (Express Service)",
+        "Parramatta Road",
+        "480",
+        "Strathfield to Central Pitt St via Homebush Road",
+        "Parramatta Road",
+        "483",
+        "Strathfield to Central Pitt St via South Strathfield",
+        "Parramatta Road",
+        "504",
+        "Chiswick to Central Pitt Street",
+        "Norton Street",
+        "438X",
+        "Abbotsford to City Martin Place (Express Service)",
+        "Norton Street",
+        "445",
+        "Campsie to Balmain via Market Place Leichhardt",
+        "Norton and Crystal Streets",
+        "School Special",
+        "Bus routes",
+        "Board or Alight",
+        "682s",
+        "Leichhardt/Balmain",
+        "Fort Street High School to Gladstone Park Balmain680",
+        "For school excursions when students are required to travel on the Opal network they must have and use their own Child/Youth Opal card. Parents/Guardians should ensure there are sufficient funds on their child’s card to cover the excursion travel expenses. Students aged 16 years and older must carry their NSW/ACT Senior Secondary Student concession card. These are issued by the school as proof of concession entitlement.",
+        "Timetable/General Information 131 500 https://apps.transport.nsw.gov.au/ssts (opens in new window)",
+        "Lost Property https://transportnsw.info/contact-us/lost-property#/ (opens in new window)"
+      ],
+      "listItems": [
+        "They are a resident of NSW or an overseas student who is eligible for free government education,",
+        "The straight line distance from their home address to school is more than 2 km, or",
+        "The walking distance from home to school is 2.9 km or further."
+      ],
+      "ctas": [
+        {
+          "text": "apply for a Child/Youth Opal card (opens in new window)",
+          "href": "https://transportnsw.info/tickets-opal/opal/get-opal-card",
+          "absHref": "https://transportnsw.info/tickets-opal/opal/get-opal-card",
+          "classes": ""
+        },
+        {
+          "text": "https://transportnsw.info/school-travel-apply (opens in new window)",
+          "href": "https://transportnsw.info/school-travel-apply",
+          "absHref": "https://transportnsw.info/school-travel-apply",
+          "classes": ""
+        },
+        {
+          "text": "Student Codes of Conduct (opens in new window)",
+          "href": "https://apps.transport.nsw.gov.au/ssts/studentCodesOfConduct",
+          "absHref": "https://apps.transport.nsw.gov.au/ssts/studentCodesOfConduct",
+          "classes": ""
+        },
+        {
+          "text": "https://transportnsw.info/trip#/trip or phone 131 500 (opens in new window)",
+          "href": "https://transportnsw.info/trip#/trip%20or%20phone%20131%20500",
+          "absHref": "https://transportnsw.info/trip#/trip%20or%20phone%20131%20500",
+          "classes": ""
+        },
+        {
+          "text": "https://apps.transport.nsw.gov.au/ssts (opens in new window)",
+          "href": "https://fk0cp4z1.r.ap-southeast-2.awstrack.me/L0/https:%2F%2Fapps.transport.nsw.gov.au%2Fssts/1/0108017c54232a81-a8675dbb-df07-45d9-bdb9-e6240d51f269-000000/XIOKR1oF4Np_BM77zKj39u9Iisc=19",
+          "absHref": "https://fk0cp4z1.r.ap-southeast-2.awstrack.me/L0/https:%2F%2Fapps.transport.nsw.gov.au%2Fssts/1/0108017c54232a81-a8675dbb-df07-45d9-bdb9-e6240d51f269-000000/XIOKR1oF4Np_BM77zKj39u9Iisc=19",
+          "classes": ""
+        },
+        {
+          "text": "https://transportnsw.info/contact-us/lost-property#/ (opens in new window)",
+          "href": "https://transportnsw.info/contact-us/lost-property#/",
+          "absHref": "https://transportnsw.info/contact-us/lost-property#/",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "Secondary school students from Years 7-12 are eligible if:",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Secondary school students from Years 7-12",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "are eligible if:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "They are a resident of NSW or an overseas student who is eligible for free government education,",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The straight line distance from their home address to school is more than 2 km, or",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The walking distance from home to school is 2.9 km or further.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you don’t qualify for free school travel, you may be able to buy a School Term Bus Pass.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "A School Term Bus Pass offers discounted travel on buses between home and school for the whole school term. A School Term Bus Pass is valid for travel between home and school on school days only, via the most direct route. It is only valid for one bus operator. Students who have been rejected for other reasons other than the radial or walking distance cannot apply for a School Term Bus Pass. They will need to apply for a Child/Youth Opal card (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "A School Term Bus Pass offers discounted travel on buses between home and school for the whole school term. A School Term Bus Pass is valid for travel between home and school on school days only, via the most direct route. It is only valid for one bus operator. Students who have been rejected for other reasons other than the radial or walking distance cannot apply for a School Term Bus Pass. They will need to",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "apply for a Child/Youth Opal card (opens in new window)",
+              "display": "inline",
+              "href": "https://transportnsw.info/tickets-opal/opal/get-opal-card",
+              "absHref": "https://transportnsw.info/tickets-opal/opal/get-opal-card",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "apply for a Child/Youth Opal card",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Apply online for all school travel passes",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "You must apply online for all school travel passes, using a single application form for your complete journey. This can be done online at https://transportnsw.info/school-travel-apply (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "You must apply online for all school travel passes, using a single application form for your complete journey. This can be done online at",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "https://transportnsw.info/school-travel-apply (opens in new window)",
+              "display": "inline",
+              "href": "https://transportnsw.info/school-travel-apply",
+              "absHref": "https://transportnsw.info/school-travel-apply",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://transportnsw.info/school-travel-apply",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "School Endorsement",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "After you have submitted your application, the school will check the details you have entered match those they have on record and will endorse it.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Processing Your Application",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Transport for NSW will then process your application. The application process may take several weeks and you will be informed of the outcome of your application by email. If your application is successful for travel inside the Opal network, a School Opal card will be sent to your nominated address.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Using Your School Travel Pass",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School travel passes can only be used for approved travel on school days between the student’s home and school between 6.30am and 7pm. Student must comply with the Student Codes of Conduct (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "School travel passes can only be used for approved travel on school days between the student’s home and school between 6.30am and 7pm. Student must comply with the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Student Codes of Conduct (opens in new window)",
+              "display": "inline",
+              "href": "https://apps.transport.nsw.gov.au/ssts/studentCodesOfConduct",
+              "absHref": "https://apps.transport.nsw.gov.au/ssts/studentCodesOfConduct",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Student Codes of Conduct",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Plan Your Trip to School https://transportnsw.info/trip#/trip or phone 131 500 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Plan Your Trip to School",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "https://transportnsw.info/trip#/trip or phone 131 500 (opens in new window)",
+              "display": "inline",
+              "href": "https://transportnsw.info/trip#/trip%20or%20phone%20131%20500",
+              "absHref": "https://transportnsw.info/trip#/trip%20or%20phone%20131%20500",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://transportnsw.info/trip#/trip or phone 131 500",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bus routes",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Board or Alight",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "412",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Campsie to City Martin Place via Earlwood",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Petersham Station",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "413",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Campsie to Central Pitt Street",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parramatta Road",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "440",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bondi Junction to Rozelle",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parramatta Road",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "461X",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Burwood to City Domain (Express Service)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parramatta Road",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "480",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strathfield to Central Pitt St via Homebush Road",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parramatta Road",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "483",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strathfield to Central Pitt St via South Strathfield",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parramatta Road",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "504",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Chiswick to Central Pitt Street",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Norton Street",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "438X",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Abbotsford to City Martin Place (Express Service)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Norton Street",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "445",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Campsie to Balmain via Market Place Leichhardt",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Norton and Crystal Streets",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Special",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bus routes",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Board or Alight",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "682s",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Leichhardt/Balmain",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School to Gladstone Park Balmain680",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "School Excursions on the Opal network – Child /Youth Opal card required",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For school excursions when students are required to travel on the Opal network they must have and use their own Child/Youth Opal card. Parents/Guardians should ensure there are sufficient funds on their child’s card to cover the excursion travel expenses. Students aged 16 years and older must carry their NSW/ACT Senior Secondary Student concession card. These are issued by the school as proof of concession entitlement.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Further Information",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Timetable/General Information 131 500 https://apps.transport.nsw.gov.au/ssts (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Timetable/General Information 131 500",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "https://apps.transport.nsw.gov.au/ssts (opens in new window)",
+              "display": "inline",
+              "href": "https://fk0cp4z1.r.ap-southeast-2.awstrack.me/L0/https:%2F%2Fapps.transport.nsw.gov.au%2Fssts/1/0108017c54232a81-a8675dbb-df07-45d9-bdb9-e6240d51f269-000000/XIOKR1oF4Np_BM77zKj39u9Iisc=19",
+              "absHref": "https://fk0cp4z1.r.ap-southeast-2.awstrack.me/L0/https:%2F%2Fapps.transport.nsw.gov.au%2Fssts/1/0108017c54232a81-a8675dbb-df07-45d9-bdb9-e6240d51f269-000000/XIOKR1oF4Np_BM77zKj39u9Iisc=19",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://apps.transport.nsw.gov.au/ssts",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Lost Property https://transportnsw.info/contact-us/lost-property#/ (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Lost Property",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "https://transportnsw.info/contact-us/lost-property#/ (opens in new window)",
+              "display": "inline",
+              "href": "https://transportnsw.info/contact-us/lost-property#/",
+              "absHref": "https://transportnsw.info/contact-us/lost-property#/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://transportnsw.info/contact-us/lost-property#/",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert columns-container",
+      "visibleText": "Apply for a travel pass Eligible students can get a free travel pass under the School Student Transport Scheme. Apply for a travel pass today. Travel pass (opens in new window)",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Apply for a travel pass"
+        }
+      ],
+      "paragraphs": [
+        "Eligible students can get a free travel pass under the School Student Transport Scheme. Apply for a travel pass today.",
+        "Travel pass (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Travel pass (opens in new window)",
+          "href": "https://www.service.nsw.gov.au/transaction/apply-for-a-school-travel-pass",
+          "absHref": "https://www.service.nsw.gov.au/transaction/apply-for-a-school-travel-pass",
+          "classes": "button"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_15124adb48c3d4ede901a753e834e4da10759318a.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "students",
+          "w": 2000,
+          "h": 1335
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_15124adb48c3d4ede901a753e834e4da10759318a.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "students",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Apply for a travel pass",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Eligible students can get a free travel pass under the School Student Transport Scheme. Apply for a travel pass today.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Travel pass (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Travel pass (opens in new window)",
+              "display": "inline-block",
+              "href": "https://www.service.nsw.gov.au/transaction/apply-for-a-school-travel-pass",
+              "absHref": "https://www.service.nsw.gov.au/transaction/apply-for-a-school-travel-pass",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Travel pass",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s09",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Driving and parking The start and end of the school day are busy times for pedestrians and drivers outside schools. When driving and parking near our school, please: ensure you park safely in school zones follow speed signs do not make U-turns or 3-point turns outside the school. Parking on school grounds There is no parking available on school grounds.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Driving and parking"
+        },
+        {
+          "level": "h3",
+          "text": "Parking on school grounds"
+        }
+      ],
+      "paragraphs": [
+        "The start and end of the school day are busy times for pedestrians and drivers outside schools.",
+        "When driving and parking near our school, please:",
+        "There is no parking available on school grounds."
+      ],
+      "listItems": [
+        "ensure you park safely in school zones",
+        "follow speed signs",
+        "do not make U-turns or 3-point turns outside the school."
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Driving and parking",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The start and end of the school day are busy times for pedestrians and drivers outside schools.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "When driving and parking near our school, please:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "ensure you park safely in school zones",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "follow speed signs",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "do not make U-turns or 3-point turns outside the school.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Parking on school grounds",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There is no parking available on school grounds.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s10",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need help getting to school? If your child has a disability or additional needs, they may be eligible for the Assisted School Travel Program. Contact us to learn more or get help planning your child's journey to school. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need help getting to school?"
+        }
+      ],
+      "paragraphs": [
+        "If your child has a disability or additional needs, they may be eligible for the Assisted School Travel Program. Contact us to learn more or get help planning your child's journey to school.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Assisted School Travel Program",
+          "href": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/astp",
+          "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/astp",
+          "classes": ""
+        },
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need help getting to school?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "If your child has a disability or additional needs, they may be eligible for the Assisted School Travel Program. Contact us to learn more or get help planning your child's journey to school.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "If your child has a disability or additional needs, they may be eligible for the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Assisted School Travel Program",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/astp",
+              "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/astp",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ". Contact us to learn more or get help planning your child's journey to school.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s11",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Bell times Learn about our start and finish times, breaks and activities. Additional learning support Find out how we support students with disability or additional learning needs.",
+      "headings": [],
+      "paragraphs": [
+        "Learn about our start and finish times, breaks and activities.",
+        "Find out how we support students with disability or additional learning needs."
+      ],
+      "listItems": [
+        "Bell times Learn about our start and finish times, breaks and activities.",
+        "Additional learning support Find out how we support students with disability or additional learning needs."
+      ],
+      "ctas": [
+        {
+          "text": "Bell times",
+          "href": "/school-life/bell-times",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+          "classes": ""
+        },
+        {
+          "text": "Additional learning support",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Bell times Learn about our start and finish times, breaks and activities.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bell times",
+              "display": "inline",
+              "href": "/school-life/bell-times",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn about our start and finish times, breaks and activities.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Additional learning support Find out how we support students with disability or additional learning needs.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Additional learning support",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out how we support students with disability or additional learning needs.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

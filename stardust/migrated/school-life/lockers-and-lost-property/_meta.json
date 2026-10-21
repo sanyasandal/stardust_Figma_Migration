@@ -1,0 +1,62 @@
+{
+  "slug": "school-life_lockers-and-lost-property",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "NM1",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Lockers and lost property",
+    "description": "Student hire of lockers and where to find lost property.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Lockers and lost property",
+    "description": "Student hire of lockers and where to find lost property.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "a085f32f7024",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://fortstreet-h.schools.nsw.gov.au/enrol",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "school-life/lockers-and-lost-property/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/lockers-and-lost-property/_meta.json",
+  "driverVersion": "1"
+}

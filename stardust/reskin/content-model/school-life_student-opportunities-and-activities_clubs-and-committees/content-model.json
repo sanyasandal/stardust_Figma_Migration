@@ -1,0 +1,536 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:28.075Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_student-opportunities-and-activities_clubs-and-committees.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Clubs and Committees",
+    "description": "At Fort Street High School, we have multiple clubs and committees for students to get involved in. They help students build new skills, make friends and explore new interests.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees",
+    "ogTags": {
+      "og:title": "Clubs and Committees",
+      "og:description": "At Fort Street High School, we have multiple clubs and committees for students to get involved in. They help students build new skills, make friends and explore new interests.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1206a9e1fb0efcb68a9125546fd4e68f44eea470c.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1206a9e1fb0efcb68a9125546fd4e68f44eea470c.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "students during group discussion"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Clubs and Committees",
+      "twitter:description": "At Fort Street High School, we have multiple clubs and committees for students to get involved in. They help students build new skills, make friends and explore new interests.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1206a9e1fb0efcb68a9125546fd4e68f44eea470c.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Clubs and Committees Charity, Volunteering and Other Amnesty Committee A group for students who want to challenge injustice wherever it happens, and stand for equality, freedom and justice. A crew of Fortians dedicate time each week to discussing and campaigning for social and political justice, and enjoy the satisfaction of knowing that they are making a real difference. On Friday lunch in W23. Contact: Ms Hurrell (Cohen Staffroom) Girl Up Girl Up is a global initiative dedicated to promoting gender equity and amplifying the voices of girls and women, particularly in spaces where they are often marginalised or underrepresented. Founded by the United Nations Foundation, the organisation empowers young people—primarily girls aged 13 to 24—to become leaders, advocates, and changemakers in their communities and beyond. Through education, advocacy, and grassroots leadership, Girl Up equips its members to challenge systemic inequalities and create a more inclusive and equitable world. At Fort Street, Girl Up is led by Year 12 students, who establish a safe, inclusive, and empowering environment for female-identifying students. Their leadership fosters a space where students can openly discuss challenges, share experiences, and seek mentorship and guidance. Fortnightly gatherings provide an opportunity to discuss shared experiences, set personal and collective goals, and cultivate a strong sense of community. On Monday Week A at Lunch, Contact: Ms Nolan (Rowe Staff Room) Meditation Group Tuesday mornings 8.15-8.30am in the SSO room. Contact: Mr Dooley (Student Support Office) Reconciliation Committee Join other interested students to discuss how FSHS can contribute to reconciliation. Meets in Library Seminar 1 every Thursday lunch. Contact: Daniel Rees, SRC STIVE For over 20 years, Fort Street has supported a student led and mentored, voluntary Christian program called STIVE – abbreviated from “students alive”. The group meets every Friday lunchtime in the staff common room (Wilkins level 1 near Museum) and offers Christian focused learning and fellowship for all Fortians who wish to attend. It is a Department of Education policy that all students who wish to attend voluntary student activities of a religious nature need to have parent permission. Contact: Mr Pawley (Cohen Staffroom) Student 2 Student Reading Program FSHS has been involved in the Smith Families’ student2student reading program for many years. Students can volunteer to be a reading buddy for a younger student in another school who has been assessed as being up to two years behind in their reading development and wanting additional support to improve their learning. The Fort Street buddy listens to an allocated younger student read over the telephone two to three times a week for at least 20 minutes. The student then records each phone call and reports on the progress. Contact: Ms Maddox (Cohen Staffroom) Breakfast Club Breakfast is provided for students in the staff common room (lower level of the Wilkins Building near the Ron Horan Museum) every Thursday from 8.30-9.30am. Contact: Ms Dooley (Student Support Office) Composting Team This group is coordinated by Ms Catalan in the Rowe staffroom. The composters have a fortnightly roster, and their duties are acknowledged by house points. Contact: Ms Catalan (Rowe Staffroom) Diversity Committee Diversity committee work to create an inclusive environment at FSHS that celebrates diversity of gender, sexuality, neurotype and ability. Please join us to advocate for these and any other diversity issues you care about. Everyone is welcome. On Wednesday Lunch in W19. Contact: Ms Dooley (Student Support Office) Environment Committee This committee is for students with a passion for the environment and leadership to work cooperatively on projects to lower the school’s ecological footprint and to improve general environmental outcomes. This group meets every Thursday lunchtime either in the Flexible Learning Space or on the sandstone steps on the oval. Contact: Ms Maddox (Rowe Staffroom) Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 5529,
+    "scopeTextLen": 4324,
+    "ratio": 0.782,
+    "h1Text": "Clubs and Committees",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Clubs and Committees Charity, Volunteering and Other Amnesty Committee A group for students who want to challenge injustice wherever it happens, and stand for equality, freedom and justice. A crew of Fortians dedicate time each week to discussing and campaigning for social and political justice, and enjoy the satisfaction of knowing that they are making a real difference. On Friday lunch in W23. Contact: Ms Hurrell (Cohen Staffroom) Girl Up Girl Up is a global initiative dedicated to promoting gender equity and amplifying the voices of girls and women, particularly in spaces where they are often marginalised or underrepresented. Founded by the United Nations Foundation, the organisation empowers young people—primarily girls aged 13 to 24—to become leaders, advocates, and changemakers in their communities and beyond. Through education, advocacy, and grassroots leadership, Girl Up equips its members to challenge systemic inequalities and create a more inclusive and equitable world. At Fort Street, Girl Up is led by Year 12 students, who establish a safe, inclusive, and empowering environment for female-identifying students. Their leadership fosters a space where students can openly discuss challenges, share experiences, and seek mentorship and guidance. Fortnightly gatherings provide an opportunity to discuss shared experiences, set personal and collective goals, and cultivate a strong sense of community. On Monday Week A at Lunch, Contact: Ms Nolan (Rowe Staff Room) Meditation Group Tuesday mornings 8.15-8.30am in the SSO room. Contact: Mr Dooley (Student Support Office) Reconciliation Committee Join other interested students to discuss how FSHS can contribute to reconciliation. Meets in Library Seminar 1 every Thursday lunch. Contact: Daniel Rees, SRC STIVE For over 20 years, Fort Street has supported a student led and mentored, voluntary Christian program called STIVE – abbreviated from “students alive”. The group meets every Friday lunchtime in the staff common room (Wilkins level 1 near Museum) and offers Christian focused learning and fellowship for all Fortians who wish to attend. It is a Department of Education policy that all students who wish to attend voluntary student activities of a religious nature need to have parent permission. Contact: Mr Pawley (Cohen Staffroom) Student 2 Student Reading Program FSHS has been involved in the Smith Families’ student2student reading program for many years. Students can volunteer to be a reading buddy for a younger student in another school who has been assessed as being up to two years behind in their reading development and wanting additional support to improve their learning. The Fort Street buddy listens to an allocated younger student read over the telephone two to three times a week for at least 20 minutes. The student then records each phone call and reports on the progress. Contact: Ms Maddox (Cohen Staffroom) Breakfast Club Breakfast is provided for students in the staff common room (lower level of the Wilkins Building near the Ron Horan Museum) every Thursday from 8.30-9.30am. Contact: Ms Dooley (Student Support Office) Composting Team This group is coordinated by Ms Catalan in the Rowe staffroom. The composters have a fortnightly roster, and their duties are acknowledged by house points. Contact: Ms Catalan (Rowe Staffroom) Diversity Committee Diversity committee work to create an inclusive environment at FSHS that celebrates diversity of gender, sexuality, neurotype and ability. Please join us to advocate for these and any other diversity issues you care about. Everyone is welcome. On Wednesday Lunch in W19. Contact: Ms Dooley (Student Support Office) Environment Committee This committee is for students with a passion for the environment and leadership to work cooperatively on projects to lower the school’s ecological footprint and to improve general environmental outcomes. This group meets every Thursday lunchtime either in the Flexible Learning Space or on the sandstone steps on the oval. Contact: Ms Maddox (Rowe Staffroom)",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Clubs and Committees"
+        },
+        {
+          "level": "h2",
+          "text": "Charity, Volunteering and Other"
+        },
+        {
+          "level": "h3",
+          "text": "Amnesty Committee"
+        },
+        {
+          "level": "h3",
+          "text": "Girl Up"
+        },
+        {
+          "level": "h3",
+          "text": "Meditation Group"
+        },
+        {
+          "level": "h3",
+          "text": "Reconciliation Committee"
+        },
+        {
+          "level": "h3",
+          "text": "STIVE"
+        },
+        {
+          "level": "h3",
+          "text": "Student 2 Student Reading Program"
+        },
+        {
+          "level": "h3",
+          "text": "Breakfast Club"
+        },
+        {
+          "level": "h3",
+          "text": "Composting Team"
+        },
+        {
+          "level": "h3",
+          "text": "Diversity Committee"
+        },
+        {
+          "level": "h3",
+          "text": "Environment Committee"
+        }
+      ],
+      "paragraphs": [
+        "A group for students who want to challenge injustice wherever it happens, and stand for equality, freedom and justice. A crew of Fortians dedicate time each week to discussing and campaigning for social and political justice, and enjoy the satisfaction of knowing that they are making a real difference.",
+        "On Friday lunch in W23. Contact: Ms Hurrell (Cohen Staffroom)",
+        "Girl Up is a global initiative dedicated to promoting gender equity and amplifying the voices of girls and women, particularly in spaces where they are often marginalised or underrepresented. Founded by the United Nations Foundation, the organisation empowers young people—primarily girls aged 13 to 24—to become leaders, advocates, and changemakers in their communities and beyond. Through education, advocacy, and grassroots leadership, Girl Up equips its members to challenge systemic inequalities and create a more inclusive and equitable world.",
+        "At Fort Street, Girl Up is led by Year 12 students, who establish a safe, inclusive, and empowering environment for female-identifying students. Their leadership fosters a space where students can openly discuss challenges, share experiences, and seek mentorship and guidance. Fortnightly gatherings provide an opportunity to discuss shared experiences, set personal and collective goals, and cultivate a strong sense of community.",
+        "On Monday Week A at Lunch, Contact: Ms Nolan (Rowe Staff Room)",
+        "Tuesday mornings 8.15-8.30am in the SSO room.",
+        "Contact: Mr Dooley (Student Support Office)",
+        "Join other interested students to discuss how FSHS can contribute to reconciliation. Meets in Library Seminar 1 every Thursday lunch.",
+        "Contact: Daniel Rees, SRC",
+        "For over 20 years, Fort Street has supported a student led and mentored, voluntary Christian program called STIVE – abbreviated from “students alive”. The group meets every Friday lunchtime in the staff common room (Wilkins level 1 near Museum) and offers Christian focused learning and fellowship for all Fortians who wish to attend. It is a Department of Education policy that all students who wish to attend voluntary student activities of a religious nature need to have parent permission.",
+        "Contact: Mr Pawley (Cohen Staffroom)",
+        "FSHS has been involved in the Smith Families’ student2student reading program for many years. Students can volunteer to be a reading buddy for a younger student in another school who has been assessed as being up to two years behind in their reading development and wanting additional support to improve their learning. The Fort Street buddy listens to an allocated younger student read over the telephone two to three times a week for at least 20 minutes. The student then records each phone call and reports on the progress.",
+        "Contact: Ms Maddox (Cohen Staffroom)",
+        "Breakfast is provided for students in the staff common room (lower level of the Wilkins Building near the Ron Horan Museum) every Thursday from 8.30-9.30am.",
+        "Contact: Ms Dooley (Student Support Office)",
+        "This group is coordinated by Ms Catalan in the Rowe staffroom. The composters have a fortnightly roster, and their duties are acknowledged by house points.",
+        "Contact: Ms Catalan (Rowe Staffroom)",
+        "Diversity committee work to create an inclusive environment at FSHS that celebrates diversity of gender, sexuality, neurotype and ability. Please join us to advocate for these and any other diversity issues you care about. Everyone is welcome.",
+        "On Wednesday Lunch in W19. Contact: Ms Dooley (Student Support Office)",
+        "This committee is for students with a passion for the environment and leadership to work cooperatively on projects to lower the school’s ecological footprint and to improve general environmental outcomes. This group meets every Thursday lunchtime either in the Flexible Learning Space or on the sandstone steps on the oval.",
+        "Contact: Ms Maddox (Rowe Staffroom)"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1206a9e1fb0efcb68a9125546fd4e68f44eea470c.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "students during group discussion",
+          "w": 500,
+          "h": 300
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Clubs and Committees",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Charity, Volunteering and Other",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1206a9e1fb0efcb68a9125546fd4e68f44eea470c.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "students during group discussion"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Amnesty Committee",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "A group for students who want to challenge injustice wherever it happens, and stand for equality, freedom and justice. A crew of Fortians dedicate time each week to discussing and campaigning for social and political justice, and enjoy the satisfaction of knowing that they are making a real difference.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "On Friday lunch in W23. Contact: Ms Hurrell (Cohen Staffroom)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Girl Up",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Girl Up is a global initiative dedicated to promoting gender equity and amplifying the voices of girls and women, particularly in spaces where they are often marginalised or underrepresented. Founded by the United Nations Foundation, the organisation empowers young people—primarily girls aged 13 to 24—to become leaders, advocates, and changemakers in their communities and beyond. Through education, advocacy, and grassroots leadership, Girl Up equips its members to challenge systemic inequalities and create a more inclusive and equitable world.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At Fort Street, Girl Up is led by Year 12 students, who establish a safe, inclusive, and empowering environment for female-identifying students. Their leadership fosters a space where students can openly discuss challenges, share experiences, and seek mentorship and guidance. Fortnightly gatherings provide an opportunity to discuss shared experiences, set personal and collective goals, and cultivate a strong sense of community.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "On Monday Week A at Lunch, Contact: Ms Nolan (Rowe Staff Room)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Meditation Group",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tuesday mornings 8.15-8.30am in the SSO room.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Dooley (Student Support Office)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Reconciliation Committee",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Join other interested students to discuss how FSHS can contribute to reconciliation. Meets in Library Seminar 1 every Thursday lunch.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Daniel Rees, SRC",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "STIVE",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For over 20 years, Fort Street has supported a student led and mentored, voluntary Christian program called STIVE – abbreviated from “students alive”. The group meets every Friday lunchtime in the staff common room (Wilkins level 1 near Museum) and offers Christian focused learning and fellowship for all Fortians who wish to attend. It is a Department of Education policy that all students who wish to attend voluntary student activities of a religious nature need to have parent permission.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Pawley (Cohen Staffroom)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Student 2 Student Reading Program",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "FSHS has been involved in the Smith Families’ student2student reading program for many years. Students can volunteer to be a reading buddy for a younger student in another school who has been assessed as being up to two years behind in their reading development and wanting additional support to improve their learning. The Fort Street buddy listens to an allocated younger student read over the telephone two to three times a week for at least 20 minutes. The student then records each phone call and reports on the progress.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Maddox (Cohen Staffroom)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Breakfast Club",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Breakfast is provided for students in the staff common room (lower level of the Wilkins Building near the Ron Horan Museum) every Thursday from 8.30-9.30am.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Dooley (Student Support Office)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Composting Team",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "This group is coordinated by Ms Catalan in the Rowe staffroom. The composters have a fortnightly roster, and their duties are acknowledged by house points.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Catalan (Rowe Staffroom)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Diversity Committee",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Diversity committee work to create an inclusive environment at FSHS that celebrates diversity of gender, sexuality, neurotype and ability. Please join us to advocate for these and any other diversity issues you care about. Everyone is welcome.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "On Wednesday Lunch in W19. Contact: Ms Dooley (Student Support Office)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Environment Committee",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "This committee is for students with a passion for the environment and leadership to work cooperatively on projects to lower the school’s ecological footprint and to improve general environmental outcomes. This group meets every Thursday lunchtime either in the Flexible Learning Space or on the sandstone steps on the oval.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Maddox (Rowe Staffroom)",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need to make a payment?"
+        }
+      ],
+      "paragraphs": [
+        "Our parent portal makes it easy to make a payment online.",
+        "Parent portal"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need to make a payment?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our parent portal makes it easy to make a payment online.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parent portal",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline-block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": "button primary"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": "button primary"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

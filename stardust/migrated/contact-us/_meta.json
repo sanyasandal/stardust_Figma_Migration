@@ -1,0 +1,61 @@
+{
+  "slug": "contact-us",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M4",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "title-text",
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Contact us",
+    "description": "Fort Street High School, We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM. Email us at fortstreet-h.school@det.nsw.edu.au and call us on 9569 4355.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Contact us",
+    "description": "Fort Street High School, We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM. Email us at fortstreet-h.school@det.nsw.edu.au and call us on 9569 4355.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/contact-us"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "520209b2654b",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "contact-us/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "contact-us/_meta.json",
+  "driverVersion": "1"
+}

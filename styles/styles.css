@@ -1,156 +1,78 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * stardust:deploy — oneAZ Design System v3.2 foundation (Figma rsZQmpVzuyn0KhCDA3WN60).
+ * Tokens ported verbatim from stardust/reskin/canon.css :root (donor-tokens.json).
  */
 
-/*
- * Design tokens: oneAZ Design System v3.2 (Figma rsZQmpVzuyn0KhCDA3WN60)
- * Colors frame 12084:109340, Font Styles frame 12042:106827, Spacing 12072:107022.
- */
 :root {
-  /* oneAZ backgrounds */
-  --az-bg-core-1: #830051;
-  --az-bg-core-2: #4f0031;
-  --az-bg-core-3: #d0006f;
-  --az-bg-secondary-1: #f0ab00;
-  --az-bg-secondary-2: #9db0ac;
-  --az-bg-secondary-3: #3c4242;
-  --az-bg-supporting-1: #ebefee;
-  --az-bg-supporting-2: #fff;
+  /* colors */
+  --page-bg: rgb(255 255 255);
+  --heading-fg: rgb(131 0 81);
+  --body-fg: rgb(60 66 66);
+  --muted-fg: rgb(101 105 105);
+  --accent: rgb(208 0 111);
+  --accent-hover: rgb(131 0 81);
+  --band-bg: rgb(235 239 238);
+  --card-title-fg: rgb(208 0 111);
+  --border: rgb(235 239 238);
 
-  /* oneAZ text */
-  --az-text-body-1: #3c4242;
-  --az-text-body-2: #fff;
-  --az-text-title-1: #830051;
-  --az-text-title-2: #d0006f;
-  --az-text-interaction: #d0006f;
-  --az-text-label-1: #8d8f8f;
-  --az-text-label-2: #656969;
+  /* fonts */
+  --font-body: inter, inter-fallback, sans-serif;
+  --font-heading: lexia, georgia, serif;
 
-  /* oneAZ buttons */
-  --az-button-primary-bg: #d0006f;
-  --az-button-primary-text: #fff;
-  --az-button-secondary-bg: #fff;
-  --az-button-secondary-text: #d0006f;
-  --az-button-tertiary-text: #3c4242;
-
-  /* oneAZ borders */
-  --az-border-subtle: #ebefee;
-  --az-border-default: #d8dfde;
-
-  /* boilerplate aliases (kept so untouched blocks inherit the donor surface) */
-  --background-color: var(--az-bg-supporting-2);
-  --light-color: var(--az-bg-supporting-1);
-  --dark-color: var(--az-bg-core-1);
-  --text-color: var(--az-text-body-1);
-  --link-color: var(--az-text-interaction);
-  --link-hover-color: var(--az-bg-core-1);
-
-  /* fonts: Lexia is licensed, not bundled; fallback is a metric-adjusted serif */
-  --body-font-family: inter, inter-fallback, 'Helvetica Neue', arial, sans-serif;
-  --heading-font-family: lexia, lexia-fallback, georgia, serif;
-
-  /* body sizes (Inter) */
-  --body-font-size-m: 18px;
-  --body-line-height-m: 28px;
-  --body-font-size-s: 16px;
-  --body-line-height-s: 24px;
-  --body-font-size-xxs: 14px;
-  --body-line-height-xxs: 16px;
-  --body-font-size-xs: 12px;
-  --body-line-height-xs: 16px;
-
-  /* heading sizes (Lexia) — mobile values scaled from the desktop ramp */
-  --heading-font-size-xxl: 40px;
-  --heading-line-height-xxl: 44px;
-  --heading-font-size-xl: 34px;
-  --heading-line-height-xl: 40px;
-  --heading-font-size-l: 28px;
-  --heading-line-height-l: 34px;
-  --heading-font-size-m: 24px;
-  --heading-line-height-m: 30px;
-  --heading-font-size-s: 22px;
-  --heading-line-height-s: 28px;
-  --heading-font-size-xs: 14px;
-  --heading-line-height-xs: 16px;
-
-  /* spacing */
-  --az-space-xx-sm: 4px;
-  --az-space-x-sm: 8px;
-  --az-space-sm: 12px;
-  --az-space-md: 16px;
-  --az-space-x-big: 24px;
-  --az-space-xxx-big: 32px;
-  --az-space-lg: 40px;
-  --az-space-x-lg: 48px;
-  --az-space-xx-lg: 64px;
-  --az-space-xxx-lg: 80px;
-
-  /* radii */
-  --az-radius-md: 4px;
-  --az-radius-xl: 8px;
-  --az-radius-3xl: 16px;
+  /* type scale (donor desktop) */
+  --h1-size: 56px;
+  --h1-lh: 60px;
+  --h2-size: 46px;
+  --h2-lh: 50px;
+  --h3-size: 36px;
+  --h3-lh: 40px;
+  --h4-size: 26px;
+  --h4-lh: 34px;
+  --h5-size: 24px;
+  --h5-lh: 28px;
 
   /* layout */
-  --az-container-width: 1180px;
-  --az-container-padding: 16px;
-
-  /* nav height */
-  --nav-height: 64px;
+  --container: 1180px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --radius-card: 8px;
+  --radius-btn: 4px;
+  --nav-height: 94px;
+  --utility-height: 36px;
 }
 
-/* fallback fonts */
 @font-face {
   font-family: inter-fallback;
   size-adjust: 107%;
   src: local('Arial');
 }
 
-@font-face {
-  font-family: lexia-fallback;
-  size-adjust: 96%;
-  src: local('Georgia');
-}
-
-@media (width >= 768px) {
+@media (width >= 900px) {
   :root {
-    --az-container-padding: 40px;
+    --gutter: 40px;
   }
 }
 
-@media (width >= 900px) {
+@media (width < 900px) {
   :root {
-    --nav-height: 80px;
-
-    /* heading sizes: oneAZ desktop ramp H1–H6 */
-    --heading-font-size-xxl: 56px;
-    --heading-line-height-xxl: 60px;
-    --heading-font-size-xl: 46px;
-    --heading-line-height-xl: 50px;
-    --heading-font-size-l: 36px;
-    --heading-line-height-l: 40px;
-    --heading-font-size-m: 26px;
-    --heading-line-height-m: 34px;
-    --heading-font-size-s: 24px;
-    --heading-line-height-s: 28px;
+    --h1-size: 40px;
+    --h1-lh: 44px;
+    --h2-size: 34px;
+    --h2-lh: 40px;
+    --h3-size: 28px;
+    --h3-lh: 34px;
   }
 }
 
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-s);
-  line-height: var(--body-line-height-s);
+  background-color: var(--page-bg);
+  color: var(--body-fg);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 body.appear {
@@ -158,7 +80,7 @@ body.appear {
 }
 
 header {
-  height: var(--nav-height);
+  min-height: calc(var(--nav-height) + var(--utility-height));
 }
 
 header .header,
@@ -177,51 +99,37 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  color: var(--az-text-title-1);
-  font-family: var(--heading-font-family);
+  margin: 0 0 16px;
+  font-family: var(--font-heading);
   font-weight: 400;
+  color: var(--heading-fg);
   scroll-margin: 40px;
 }
 
 h1 {
-  font-size: var(--heading-font-size-xxl);
-  line-height: var(--heading-line-height-xxl);
+  font-size: var(--h1-size);
+  line-height: var(--h1-lh);
 }
 
 h2 {
-  font-size: var(--heading-font-size-xl);
-  line-height: var(--heading-line-height-xl);
+  font-size: var(--h2-size);
+  line-height: var(--h2-lh);
 }
 
 h3 {
-  font-size: var(--heading-font-size-l);
-  line-height: var(--heading-line-height-l);
+  font-size: var(--h3-size);
+  line-height: var(--h3-lh);
 }
 
 h4 {
-  font-size: var(--heading-font-size-m);
-  line-height: var(--heading-line-height-m);
+  font-size: var(--h4-size);
+  line-height: var(--h4-lh);
 }
 
-h5 {
-  font-size: var(--heading-font-size-s);
-  line-height: var(--heading-line-height-s);
-}
-
+h5,
 h6 {
-  font-size: var(--heading-font-size-xs);
-  font-weight: 700;
-  line-height: var(--heading-line-height-xs);
-}
-
-h1 strong,
-h2 strong,
-h3 strong,
-h4 strong,
-h5 strong {
-  font-weight: inherit;
+  font-size: var(--h5-size);
+  line-height: var(--h5-lh);
 }
 
 p,
@@ -230,25 +138,16 @@ ol,
 ul,
 pre,
 blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+  margin: 0 0 16px;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+main ul,
+main ol {
+  padding-left: 24px;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
-}
-
-main > div {
-  margin: 40px 16px;
+main li {
+  margin: 0 0 8px;
 }
 
 input,
@@ -258,138 +157,67 @@ button {
   font: inherit;
 }
 
-/* links (oneAZ Links 12928:23404) */
+/* links */
 a:any-link {
-  color: var(--link-color);
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  color: var(--accent);
   overflow-wrap: break-word;
 }
 
 a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
+  color: var(--accent-hover);
 }
 
-/* buttons (oneAZ Button 12077:109023): 42px, 4px radius, Inter Bold 16/24 */
+/* buttons — oneAZ primary (authored <strong><a>) / secondary (<em><a>) */
 p.button-wrapper {
-  margin: 16px 0 0;
+  margin: 24px 0 16px;
 }
 
 a.button:any-link,
 button.button {
   box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  display: inline-block;
   max-width: 100%;
-  min-height: 42px;
   margin: 0;
-  border: 1px solid transparent;
-  border-radius: var(--az-radius-md);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-btn);
   padding: 8px 16px;
-  font: inherit;
+  font-family: var(--font-body);
   font-size: 16px;
-  font-weight: 700;
   line-height: 24px;
+  font-weight: 700;
   text-decoration: none;
   cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
 }
 
 a.button.primary,
+a.button.accent,
 button.button.primary {
-  border-color: var(--az-button-primary-bg);
-  background-color: var(--az-button-primary-bg);
-  color: var(--az-button-primary-text);
+  background-color: var(--accent);
+  color: var(--page-bg);
 }
 
 a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--az-bg-core-1);
-  background-color: var(--az-bg-core-1);
-  color: var(--az-button-primary-text);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--az-text-label-1);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--az-button-secondary-text);
-  background-color: var(--az-button-secondary-bg);
-  color: var(--az-button-secondary-text);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--az-bg-core-1);
-  background-color: var(--az-bg-supporting-1);
-  color: var(--az-bg-core-1);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--az-text-label-1);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--az-bg-core-1);
-  background-color: var(--az-bg-core-1);
-  color: var(--az-button-primary-text);
-}
-
 a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--az-bg-core-2);
-  background-color: var(--az-bg-core-2);
+a.button.primary:focus-visible,
+button.button.primary:hover {
+  border-color: var(--accent-hover);
+  background-color: var(--accent-hover);
+  color: var(--page-bg);
 }
 
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--az-text-label-1);
+a.button.secondary {
+  background-color: transparent;
+  color: var(--accent);
+}
+
+a.button.secondary:hover {
+  border-color: var(--accent-hover);
+  color: var(--accent-hover);
 }
 
 main img {
+  display: block;
   max-width: 100%;
-  width: auto;
   height: auto;
 }
 
@@ -404,75 +232,51 @@ main img {
   width: 100%;
 }
 
-/* sections */
+/* sections — oneAZ section rhythm (64px) and 1180px container */
 main > .section {
-  margin: var(--az-space-xx-lg) 0;
+  padding: var(--section-y) 0;
 }
 
 main > .section > div {
-  max-width: var(--az-container-width);
-  margin: auto;
-  padding: 0 var(--az-container-padding);
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  box-sizing: content-box;
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
+main > .section > div + div {
+  margin-top: 24px;
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 var(--az-container-padding);
-  }
+main > .section:empty {
+  display: none;
 }
 
-@media (width >= 1260px) {
-  main > .section > div {
-    padding: 0;
-  }
+/* M6 Title + Text: prose measure */
+main .default-content-wrapper > * {
+  max-width: 880px;
 }
 
-/* section metadata: source "off white" / "light" → oneAZ Supporting 1 */
-main .section.light,
-main .section.highlight,
-main .section.off-white {
-  background-color: var(--az-bg-supporting-1);
-  margin: 0;
-  padding: var(--az-space-xx-lg) 0;
+main .default-content-wrapper h1 {
+  margin-bottom: 24px;
 }
 
-/* source "dark" → oneAZ Core 1 brand panel with inverse text */
-main .section.dark {
-  background-color: var(--az-bg-core-1);
-  color: var(--az-text-body-2);
-  margin: 0;
-  padding: var(--az-space-xx-lg) 0;
+/* band — grey section background (oneAZ "Background light") */
+main .section.band {
+  background-color: var(--band-bg);
 }
 
-main .section.dark h1,
-main .section.dark h2,
-main .section.dark h3,
-main .section.dark h4,
-main .section.dark a:any-link:not(.button) {
-  color: var(--az-text-body-2);
+/* M8 CTA banner — centred prose panel */
+main .section.cta .default-content-wrapper {
+  text-align: center;
 }
 
-main .section.dark a.button.primary {
-  border-color: var(--az-button-secondary-bg);
-  background-color: var(--az-button-secondary-bg);
-  color: var(--az-button-secondary-text);
+main .section.cta .default-content-wrapper > * {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-main .section.dark a.button.primary:hover,
-main .section.dark a.button.primary:focus-visible {
-  border-color: var(--az-bg-supporting-1);
-  background-color: var(--az-bg-supporting-1);
-  color: var(--az-bg-core-1);
-}
-
-main .section.white {
-  background-color: var(--az-bg-supporting-2);
-}
-
-main > .section > .default-content-wrapper > h2:first-child {
-  margin-top: 0;
+main {
+  overflow-wrap: anywhere;
 }

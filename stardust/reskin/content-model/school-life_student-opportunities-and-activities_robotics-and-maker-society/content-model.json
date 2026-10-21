@@ -1,0 +1,358 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:37.707Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_student-opportunities-and-activities_robotics-and-maker-society.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Robotics and Maker Society",
+    "description": "Robotics is a student led club where teams learn about robots and how to build them using a range of technologies. The teams compete against each other at school and then progress to the Robocup Junior competition.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+    "ogTags": {
+      "og:title": "Robotics and Maker Society",
+      "og:description": "Robotics is a student led club where teams learn about robots and how to build them using a range of technologies. The teams compete against each other at school and then progress to the Robocup Junior competition.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1c17c5301e818bca65a84d6b0f1d75e56265be4b5.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1c17c5301e818bca65a84d6b0f1d75e56265be4b5.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "students testing their robot"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Robotics and Maker Society",
+      "twitter:description": "Robotics is a student led club where teams learn about robots and how to build them using a range of technologies. The teams compete against each other at school and then progress to the Robocup Junior competition.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1c17c5301e818bca65a84d6b0f1d75e56265be4b5.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Robotics and Maker Society This is a student led club where teams learn about robots and how to build them using a range of technologies. The teams compete against each other at school and then progress to the Robocup Junior competition. The club meets every Thursday afternoon from 3:15 to 4:30pm. There is a cost to join this club and students can get more information including a permission note from any of the Technology teachers in the Rowe staffroom or they can email fshsrobotics@gmail.com Maker Society The Fort Street High School Maker Society provides a Maker space and a social hub to inspire students to start their own technology based projects. Activities include beginner workshops for various technology platforms, show-and-tell, weekly open maker space access, long-term team-based challenges, as well as inter-school competition and prize entries. Some of the competitions our society currently conducts include: Zero Robotics RoboCup Junior The F1 in SchoolsTM Technology Challenge The Australian STEM Video Game Challenge Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 2519,
+    "scopeTextLen": 1308,
+    "ratio": 0.519,
+    "h1Text": "Robotics and Maker Society",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Robotics and Maker Society This is a student led club where teams learn about robots and how to build them using a range of technologies. The teams compete against each other at school and then progress to the Robocup Junior competition. The club meets every Thursday afternoon from 3:15 to 4:30pm. There is a cost to join this club and students can get more information including a permission note from any of the Technology teachers in the Rowe staffroom or they can email fshsrobotics@gmail.com Maker Society The Fort Street High School Maker Society provides a Maker space and a social hub to inspire students to start their own technology based projects. Activities include beginner workshops for various technology platforms, show-and-tell, weekly open maker space access, long-term team-based challenges, as well as inter-school competition and prize entries. Some of the competitions our society currently conducts include: Zero Robotics RoboCup Junior The F1 in SchoolsTM Technology Challenge The Australian STEM Video Game Challenge",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Robotics and Maker Society"
+        },
+        {
+          "level": "h2",
+          "text": "Maker Society"
+        }
+      ],
+      "paragraphs": [
+        "This is a student led club where teams learn about robots and how to build them using a range of technologies. The teams compete against each other at school and then progress to the Robocup Junior competition. The club meets every Thursday afternoon from 3:15 to 4:30pm. There is a cost to join this club and students can get more information including a permission note from any of the Technology teachers in the Rowe staffroom or they can email fshsrobotics@gmail.com",
+        "The Fort Street High School Maker Society provides a Maker space and a social hub to inspire students to start their own technology based projects. Activities include beginner workshops for various technology platforms, show-and-tell, weekly open maker space access, long-term team-based challenges, as well as inter-school competition and prize entries. Some of the competitions our society currently conducts include:",
+        "Zero Robotics",
+        "RoboCup Junior",
+        "The F1 in SchoolsTM Technology Challenge",
+        "The Australian STEM Video Game Challenge"
+      ],
+      "listItems": [
+        "Zero Robotics",
+        "RoboCup Junior",
+        "The F1 in SchoolsTM Technology Challenge",
+        "The Australian STEM Video Game Challenge"
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1c17c5301e818bca65a84d6b0f1d75e56265be4b5.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "students testing their robot",
+          "w": 602,
+          "h": 401
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Robotics and Maker Society",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1c17c5301e818bca65a84d6b0f1d75e56265be4b5.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "students testing their robot"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "This is a student led club where teams learn about robots and how to build them using a range of technologies. The teams compete against each other at school and then progress to the Robocup Junior competition. The club meets every Thursday afternoon from 3:15 to 4:30pm. There is a cost to join this club and students can get more information including a permission note from any of the Technology teachers in the Rowe staffroom or they can email fshsrobotics@gmail.com",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Maker Society",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Fort Street High School Maker Society provides a Maker space and a social hub to inspire students to start their own technology based projects. Activities include beginner workshops for various technology platforms, show-and-tell, weekly open maker space access, long-term team-based challenges, as well as inter-school competition and prize entries. Some of the competitions our society currently conducts include:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Zero Robotics",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "Zero Robotics",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "RoboCup Junior",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "RoboCup Junior",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The F1 in SchoolsTM Technology Challenge",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "The F1 in SchoolsTM Technology Challenge",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The Australian STEM Video Game Challenge",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "paragraph",
+              "text": "The Australian STEM Video Game Challenge",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need to make a payment?"
+        }
+      ],
+      "paragraphs": [
+        "Our parent portal makes it easy to make a payment online.",
+        "Parent portal"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need to make a payment?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our parent portal makes it easy to make a payment online.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parent portal",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline-block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": "button primary"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": "button primary"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

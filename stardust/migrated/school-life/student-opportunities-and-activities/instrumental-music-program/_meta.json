@@ -1,0 +1,62 @@
+{
+  "slug": "school-life_student-opportunities-and-activities_instrumental-music-program",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M6",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Instrumental Music Program",
+    "description": "The Instrumental Music Program (IMP) is the largest co-curricular program in the school, involving over 370 students, and is widely regarded as one of the finest programs of its kind in NSW.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Instrumental Music Program",
+    "description": "The Instrumental Music Program (IMP) is the largest co-curricular program in the school, involving over 370 students, and is widely regarded as one of the finest programs of its kind in NSW.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "397a87128f14",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/student-opportunities-and-activities/instrumental-music-program/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/student-opportunities-and-activities/instrumental-music-program/_meta.json",
+  "driverVersion": "1"
+}

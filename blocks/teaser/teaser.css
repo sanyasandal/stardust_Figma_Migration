@@ -1,0 +1,26 @@
+.teaser > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.teaser .teaser-media img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.teaser .teaser-body > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 900px) {
+  .teaser > div {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .teaser.reverse .teaser-media {
+    order: -1;
+  }
+}
