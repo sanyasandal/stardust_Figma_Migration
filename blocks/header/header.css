@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 /* oneAZ header (M1): utility bar + brand/main nav; breadcrumb (M2) */
 header .header {
   font-family: var(--font-body);
