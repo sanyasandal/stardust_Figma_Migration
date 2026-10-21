@@ -76,3 +76,35 @@
 - foundation, newsletters, student-opportunities: the LIVE source serves `<img src="about:error">` (verified in `.plain.html`)
   → source-defect residual; the broken img is omitted at deploy (media-reconcile "omit").
 - Ledger `stardust/reskin/ledger.json`: 49 pass, 3 pass-with-residual, 0 fail. `migrate.mjs` re-run: 52 placed, 0 refused.
+
+## deploy + library + QA + fidelity — DA preview 54/54, block library, benchmark (2026-10-21)
+
+**Prompt:** (continuing hands-off) deploy, block library via excat `block-library-creator`, fidelity, report.
+
+**Decisions:**
+- ENCODE (named deviation, `stardust/.work/deploy/encode.mjs`) → `content/fortstreet/**` 52 pages + nav + footer; sanitise.js on every file; davids-model-lint PASS; delivery-lint 0 P0.
+- `deploy-batch.mjs --no-publish` on branch `fs-oneaz`: 54 ok, 0 failed (delivery verified on aem.page).
+- Block library (excat skill, DA path): 8 blocks; metadata.json, samples (5 b1, 3 b2), blocks.json; config already pointed at it.
+- Browser QA (52 pages @1440): blocks loaded, 0 broken images, 0 overflow; Brightcove iframe console errors are third-party.
+- Fixes: hero media fill (CSS); ENCODE unwraps punctuation-only `<em>/<strong>` (DA round-tripped `<em>.</em>` as `*.*`) — 3 pages re-encoded and re-deployed.
+- Fidelity measured three ways (target vs EDS, source vs EDS, text) + 17 Figma-token checks (17/17).
+
+**Artifacts touched:**
+- content/fortstreet/**, content/library/**, blocks/*/metadata.json, blocks/hero/hero.css
+- report/{benchmark-report.md, prompts.md, migration-steps.md, fidelity.json, tokens.json, usage.json, screenshots/}
+
+**Open questions:**
+- Lexia licence (headings use Georgia fallback); publish to aem.live is the owner's call.
+
+## fidelity follow-up — mobile overflow fix, final numbers (2026-10-21)
+
+**Prompt:** "how many pages left?" — none; 52/52 migrated and on DA. Finishing the report.
+
+**Decisions:**
+- Fidelity pass found `/contact-us` overflowing at 390 px (unbreakable Maps URL inside a teaser): `teaser.css` gets `min-width:0` + `overflow-wrap:anywhere` on links; pushed, re-captured, re-measured (65.2 → 81.8 %).
+- QA re-run at 390 and 768 on all 52 pages: 0 overflow, 0 broken images; Brightcove-iframe console noise on 2 pages only.
+- `metrics.py` SSIM vectorised with numpy (same maths; 57 s instead of >10 min).
+- Final: design fidelity 80.9 % (shift-tolerant), strict 69.9 %, original→EDS 57.8 % (reskin), text 97.0 %, tokens 17/17.
+
+**Artifacts touched:**
+- blocks/teaser/teaser.css, report/*, stardust/.work/{deploy/qa*.txt,fidelity/*}

@@ -1,7 +1,9 @@
 // Captures source / reskin-target / EDS for each page at 1440x900 and 390x844.
 import { chromium } from 'playwright';
 import { mkdirSync, writeFileSync } from 'fs';
-const PAGES = ['/', '/about-us', '/about-us/enrol', '/about-us/hsc-results', '/learning-and-support/wellbeing', '/school-life/events', '/contact-us'];
+const ALL = ['/', '/about-us', '/about-us/enrol', '/about-us/hsc-results', '/learning-and-support/wellbeing', '/school-life/events', '/contact-us'];
+const PAGES = process.argv[2] ? ALL.filter((p) => p === process.argv[2]) : ALL;
+const KINDS = process.argv[3] ? process.argv[3].split(',') : ['source', 'target', 'eds'];
 const SRC = 'https://fortstreet-h.schools.nsw.gov.au';
 const TGT = 'http://localhost:8111';
 const EDS = 'https://fs-oneaz--stardust-figma-migration--sanyasandal.aem.page/fortstreet';
@@ -12,7 +14,7 @@ const meta = [];
 for (const p of PAGES) {
   const slug = p === '/' ? 'index' : p.slice(1).replace(/\//g, '_');
   for (const [w, h] of VPS) {
-    for (const [kind, base] of [['source', SRC], ['target', TGT], ['eds', EDS]]) {
+    for (const [kind, base] of [['source', SRC], ['target', TGT], ['eds', EDS]].filter(([k]) => KINDS.includes(k))) {
       const url = base + (kind === 'target' ? (p === '/' ? '/' : `${p}/`) : p);
       const ctx = await b.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 1 });
       const page = await ctx.newPage();
@@ -32,5 +34,5 @@ for (const p of PAGES) {
   }
 }
 await b.close();
-writeFileSync('capture-meta.json', JSON.stringify(meta, null, 1));
+if (!process.argv[2]) writeFileSync('capture-meta.json', JSON.stringify(meta, null, 1));
 console.log('done');

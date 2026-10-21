@@ -16,23 +16,38 @@ def pad(a, b):
         c = Image.new('L', (W, h), 255); c.paste(x, (0, 0)); return c
     return p(a), p(b)
 
+import numpy as np
+
+def _blocks(arr, win):
+    h, w = arr.shape
+    h2, w2 = h - h % win, w - w % win
+    return arr[:h2, :w2].reshape(h2 // win, win, w2 // win, win).swapaxes(1, 2).reshape(-1, win * win)
+
 def ssim(a, b, win=8):
-    pa, pb = list(a.getdata()), list(b.getdata())
-    w, h = a.size
+    """Blockwise SSIM over non-overlapping win x win windows (numpy-vectorised; same maths as the PIL version)."""
     C1, C2 = (0.01 * 255) ** 2, (0.03 * 255) ** 2
-    tot = n = 0
-    for y in range(0, h - win + 1, win):
-        for x in range(0, w - win + 1, win):
-            xs = [pa[(y + j) * w + x + i] for j in range(win) for i in range(win)]
-            ys = [pb[(y + j) * w + x + i] for j in range(win) for i in range(win)]
-            m = win * win
-            mx, my = sum(xs) / m, sum(ys) / m
-            vx = sum((v - mx) ** 2 for v in xs) / m
-            vy = sum((v - my) ** 2 for v in ys) / m
-            cxy = sum((xs[k] - mx) * (ys[k] - my) for k in range(m)) / m
-            tot += ((2 * mx * my + C1) * (2 * cxy + C2)) / ((mx * mx + my * my + C1) * (vx + vy + C2))
-            n += 1
-    return tot / n
+    xa = _blocks(np.asarray(a, dtype=np.float64), win); xb = _blocks(np.asarray(b, dtype=np.float64), win)
+    mx, my = xa.mean(1), xb.mean(1)
+    vx, vy = xa.var(1), xb.var(1)
+    cxy = ((xa - mx[:, None]) * (xb - my[:, None])).mean(1)
+    v = ((2 * mx * my + C1) * (2 * cxy + C2)) / ((mx * mx + my * my + C1) * (vx + vy + C2))
+    return float(v.mean())
+
+def banded_ssim(a, b, band=8, search=40):
+    """Shift-tolerant SSIM: each 8px band of A takes its best vertical match in B within +/-search px
+    (analysis scale; 40px = ~240px at 1440). Penalises real differences, not accumulated drift."""
+    A = np.asarray(a, dtype=np.float64); B = np.asarray(b, dtype=np.float64)
+    vals = []
+    for y in range(0, A.shape[0] - band + 1, band):
+        ba = Image.fromarray(A[y:y + band].astype(np.uint8))
+        best = 0.0
+        for dy in range(-search, search + 1, 2):
+            yy = y + dy
+            if yy < 0 or yy + band > B.shape[0]: continue
+            v = ssim(ba, Image.fromarray(B[yy:yy + band].astype(np.uint8)))
+            if v > best: best = v
+        vals.append(best)
+    return sum(vals) / len(vals)
 
 def mad_sim(a, b):
     d = ImageChops.difference(a, b)
@@ -63,12 +78,14 @@ def compare(sa, sb, side_out=None, label=('A', 'B')):
     res = {
         'ssim_full': ssim(full_a, full_b), 'mad_full': mad_sim(full_a, full_b),
         'ssim_fold': ssim(fa, fb), 'mad_fold': mad_sim(fa, fb),
+        'ssim_banded': banded_ssim(load(sa), load(sb)),
         'colour': colour_sim(sa, sb),
         'h_a': Image.open(sa).height, 'h_b': Image.open(sb).height,
     }
     res['height_ratio'] = min(res['h_a'], res['h_b']) / max(res['h_a'], res['h_b'])
-    # composite fidelity: structure 40, pixel 20, colour 20, layout-length 20
-    res['fidelity'] = 100 * (0.4 * res['ssim_full'] + 0.2 * res['mad_full'] + 0.2 * res['colour'] + 0.2 * res['height_ratio'])
+    # composite fidelity: structure 40 (banded SSIM; strict variant uses full-page SSIM), pixel 20, colour 20, layout-length 20
+    res['fidelity_strict'] = 100 * (0.4 * res['ssim_full'] + 0.2 * res['mad_full'] + 0.2 * res['colour'] + 0.2 * res['height_ratio'])
+    res['fidelity'] = 100 * (0.4 * res['ssim_banded'] + 0.2 * res['mad_full'] + 0.2 * res['colour'] + 0.2 * res['height_ratio'])
     if side_out:
         A, B = Image.open(sa).convert('RGB'), Image.open(sb).convert('RGB')
         h = min(max(A.height, B.height), 6000)
@@ -94,5 +111,5 @@ if __name__ == '__main__':
         r['source'] = compare(f('source'), f('eds'), f'{out}/{slug}-{w}-source-vs-eds.png')
         r['text'], r['words_src'], r['words_eds'] = text_sim(open(f('source').replace('.png', '.txt')).read(), open(f('eds').replace('.png', '.txt')).read())
         rows.append(r)
-        print(f"{slug:32} {w:5} design={r['design']['fidelity']:.1f} (ssim {r['design']['ssim_full']:.3f}) source-visual={r['source']['fidelity']:.1f} text={100*r['text']:.1f}%")
+        print(f"{slug:32} {w:5} design={r['design']['fidelity']:.1f}/{r['design']['fidelity_strict']:.1f} (bssim {r['design']['ssim_banded']:.3f}) source={r['source']['fidelity']:.1f}/{r['source']['fidelity_strict']:.1f} col={r['source']['colour']:.2f} text={100*r['text']:.1f}%")
     json.dump(rows, open('fidelity.json', 'w'), indent=1)

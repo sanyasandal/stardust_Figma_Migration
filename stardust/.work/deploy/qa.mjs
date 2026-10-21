@@ -3,10 +3,11 @@ import { readFileSync, writeFileSync } from 'fs';
 const HOST = 'https://fs-oneaz--stardust-figma-migration--sanyasandal.aem.page';
 const paths = readFileSync('paths.txt', 'utf8').trim().split('\n').filter((p) => !/\/(nav|footer)$/.test(p));
 const only = process.argv[2] ? paths.filter((p) => p.includes(process.argv[2])) : paths;
+const VW = Number(process.env.QA_W || 1440);
 const b = await chromium.launch();
 const out = [];
 for (const p of only) {
-  const page = await b.newPage({ viewport: { width: 1440, height: 900 } });
+  const page = await b.newPage({ viewport: { width: VW, height: VW < 600 ? 844 : 900 } });
   const errs = [];
   page.on('console', (m) => { if (m.type() === 'error') errs.push(m.text().slice(0, 120)); });
   page.on('pageerror', (e) => errs.push(`EXC ${e.message.slice(0, 120)}`));
@@ -31,4 +32,4 @@ for (const p of only) {
   await page.close();
 }
 await b.close();
-writeFileSync(process.argv[2] ? 'qa-one.json' : 'qa.json', JSON.stringify(out, null, 1));
+writeFileSync(process.argv[2] ? 'qa-one.json' : (VW === 1440 ? 'qa.json' : `qa-${VW}.json`), JSON.stringify(out, null, 1));

@@ -1,0 +1,15 @@
+about-us                           390 design=85.5/72.5 (bssim 0.871) source=46.6/41.4 col=0.20 text=94.9%
+about-us                          1440 design=88.1/71.6 (bssim 0.906) source=57.1/50.3 col=0.40 text=94.9%
+about-us_enrol                     390 design=69.8/65.1 (bssim 0.552) source=54.4/51.5 col=0.41 text=96.9%
+about-us_enrol                    1440 design=82.6/72.3 (bssim 0.758) source=65.9/59.7 col=0.54 text=96.9%
+about-us_hsc-results               390 design=84.1/72.5 (bssim 0.727) source=48.4/43.1 col=0.25 text=99.9%
+about-us_hsc-results              1440 design=92.6/75.5 (bssim 0.929) source=54.3/50.6 col=0.32 text=99.9%
+contact-us                         390 design=81.8/71.2 (bssim 0.736) source=63.0/56.2 col=0.54 text=94.8%
+contact-us                        1440 design=91.9/79.0 (bssim 0.917) source=75.3/66.6 col=0.68 text=94.8%
+index                              390 design=72.9/61.4 (bssim 0.676) source=50.9/45.2 col=0.28 text=97.4%
+index                             1440 design=83.9/66.6 (bssim 0.860) source=52.0/47.2 col=0.38 text=97.8%
+learning-and-support_wellbeing     390 design=63.6/61.1 (bssim 0.483) source=59.6/54.3 col=0.51 text=95.9%
+learning-and-support_wellbeing    1440 design=75.6/73.0 (bssim 0.645) source=66.4/62.9 col=0.69 text=95.9%
+school-life_events                 390 design=78.3/64.4 (bssim 0.800) source=53.4/49.9 col=0.39 text=99.0%
+school-life_events                1440 design=81.3/72.4 (bssim 0.748) source=61.8/58.4 col=0.56 text=99.4%
+exit=0

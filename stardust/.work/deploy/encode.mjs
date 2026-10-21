@@ -47,6 +47,10 @@ function clean(el, pagePath) {
     }
     a.textContent = a.textContent.replace(/\s+$/, '');
   });
+  // punctuation-only emphasis (<em>.</em>) round-trips through DA as literal "*.*" — unwrap, keep the text
+  el.querySelectorAll('em, strong, i, b').forEach((n) => {
+    if (!n.children.length && /^[\s\p{P}]*$/u.test(n.textContent)) n.replaceWith(...n.childNodes);
+  });
   [el, ...el.querySelectorAll('*')].forEach((n) => {
     [...n.attributes].forEach((a) => { if (a.name === 'class' || a.name.startsWith('data-') || a.name.startsWith('aria-') || a.name === 'type' || a.name === 'target' || a.name === 'rel' || a.name === 'id' || a.name === 'style') n.removeAttribute(a.name); });
   });
