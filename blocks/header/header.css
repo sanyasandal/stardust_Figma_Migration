@@ -309,3 +309,60 @@ header nav .nav-tools {
     display: none;
   }
 }
+
+/* Breadcrumb — oneAZ Breadcrumb (Figma 12410:12837, 12410:12885) */
+header:has(.breadcrumb) {
+  height: auto;
+}
+
+header nav.breadcrumb {
+  margin-top: var(--nav-height);
+  border-top: 1px solid var(--az-border-subtle);
+  border-bottom: 1px solid var(--az-border-subtle);
+  background-color: var(--az-bg-supporting-2);
+}
+
+header nav.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--az-space-x-sm);
+  max-width: var(--az-container-width);
+  margin: 0 auto;
+  padding: var(--az-space-sm) var(--az-container-padding);
+  list-style: none;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-xxs);
+  line-height: var(--body-line-height-xxs);
+  color: var(--az-text-body-1);
+}
+
+header nav.breadcrumb > ol > li.crumb {
+  display: flex;
+  align-items: center;
+  gap: var(--az-space-x-sm);
+}
+
+header nav.breadcrumb > ol > li.crumb + li::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-right: 1.5px solid var(--az-text-body-1);
+  border-bottom: 1.5px solid var(--az-text-body-1);
+  transform: rotate(-45deg);
+  margin: 0 var(--az-space-x-sm) 0 var(--az-space-xx-sm);
+}
+
+header nav.breadcrumb ol a:any-link {
+  color: var(--az-text-body-1);
+  text-decoration: none;
+}
+
+header nav.breadcrumb ol a:hover {
+  color: var(--az-text-interaction);
+  text-decoration: underline;
+}
+
+header nav.breadcrumb ol [aria-current='page'] {
+  color: var(--az-text-interaction);
+}

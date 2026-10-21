@@ -1,0 +1,60 @@
+/* Accordion — oneAZ Accordion (Figma 12360:10285, 12362:10348, 12362:10353) */
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion details {
+  border-bottom: 1px solid var(--az-border-subtle);
+}
+
+.accordion details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--az-space-x-big);
+  padding: var(--az-space-sm) 0;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-l);
+  line-height: var(--heading-line-height-l);
+  color: var(--az-text-title-1);
+}
+
+.accordion details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion details summary::after {
+  content: '';
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  margin-right: var(--az-space-xx-sm);
+  border-right: 2px solid var(--az-text-body-1);
+  border-bottom: 2px solid var(--az-text-body-1);
+  transform: rotate(45deg) translateY(-3px);
+  transition: transform 0.2s;
+}
+
+.accordion details[open] summary::after {
+  transform: rotate(-135deg) translateY(-3px);
+}
+
+.accordion details summary:hover,
+.accordion details summary:focus-visible {
+  color: var(--az-text-interaction);
+}
+
+.accordion .accordion-item-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--az-space-md);
+  padding: var(--az-space-md) 0 var(--az-space-x-big);
+  border-top: 1px solid var(--az-border-subtle);
+}
+
+.accordion .accordion-item-body > * {
+  margin: 0;
+}

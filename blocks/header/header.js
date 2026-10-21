@@ -87,6 +87,56 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
 }
 
 /**
+ * Builds the oneAZ breadcrumb (Figma 12410:12837) from the nav links.
+ * @param {Element} nav The decorated nav
+ * @returns {Element|null} The breadcrumb element, or null on the home page
+ */
+function buildBreadcrumb(nav) {
+  const homeLink = nav.querySelector('.nav-brand a[href]');
+  const homePath = homeLink ? new URL(homeLink.href).pathname.replace(/\/$/, '') : '';
+  const current = window.location.pathname.replace(/(\/index)?\/?$/, '');
+  if (!current || current === homePath || !current.startsWith(`${homePath}/`)) return null;
+
+  const titles = {};
+  nav.querySelectorAll('a[href]').forEach((a) => {
+    const path = new URL(a.href, window.location).pathname.replace(/\/$/, '');
+    if (!titles[path]) titles[path] = a.textContent.trim();
+  });
+  const titleCase = (slug) => slug.replace(/-/g, ' ').replace(/^./, (c) => c.toUpperCase());
+
+  const ol = document.createElement('ol');
+  const addCrumb = (label, href) => {
+    const li = document.createElement('li');
+    li.className = 'crumb';
+    if (href) {
+      const a = document.createElement('a');
+      a.href = href;
+      a.textContent = label;
+      li.append(a);
+    } else {
+      li.textContent = label;
+      li.setAttribute('aria-current', 'page');
+    }
+    ol.append(li);
+  };
+  addCrumb('Home', `${homePath}/`);
+  const segments = current.slice(homePath.length + 1).split('/');
+  segments.forEach((seg, i) => {
+    const path = `${homePath}/${segments.slice(0, i + 1).join('/')}`;
+    const isLast = i === segments.length - 1;
+    const h1 = isLast ? document.querySelector('main h1') : null;
+    const label = (h1 && h1.textContent.trim()) || titles[path] || titleCase(seg);
+    addCrumb(label, isLast ? null : path);
+  });
+
+  const breadcrumb = document.createElement('nav');
+  breadcrumb.className = 'breadcrumb';
+  breadcrumb.setAttribute('aria-label', 'Breadcrumb');
+  breadcrumb.append(ol);
+  return breadcrumb;
+}
+
+/**
  * loads and decorates the header, mainly the nav
  * @param {Element} block The header block element
  */
@@ -157,4 +207,7 @@ export default async function decorate(block) {
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
   block.append(navWrapper);
+
+  const breadcrumb = buildBreadcrumb(nav);
+  if (breadcrumb) block.append(breadcrumb);
 }
