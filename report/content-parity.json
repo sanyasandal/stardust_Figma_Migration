@@ -1,0 +1,200 @@
+{
+ "text_word_similarity": 98.64,
+ "src_words": 590,
+ "mig_words": 584,
+ "images_src": 15,
+ "images_mig": 15,
+ "images_common": 15,
+ "images_missing": [],
+ "links_src": 13,
+ "links_mig": 14,
+ "links_common": 13,
+ "links_missing": [],
+ "links_added": [
+  "https://www.facebook.com/fortstreethighschool"
+ ],
+ "headings_src": [
+  [
+   "h1",
+   "Welcome to Fort Street High School"
+  ],
+  [
+   "h2",
+   "The Fort Street High School difference"
+  ],
+  [
+   "h3",
+   "Our vision for student achievement"
+  ],
+  [
+   "h3",
+   "Extensive range of student opportunities and activities"
+  ],
+  [
+   "h3",
+   "Wellbeing at Fort Street is for all students"
+  ],
+  [
+   "h2",
+   "Principal's message"
+  ],
+  [
+   "h2",
+   "Fort Fest is on Friday 18 September, 3:15pm - 8:30pm."
+  ],
+  [
+   "h3",
+   ""
+  ],
+  [
+   "h2",
+   "School tours and open evenings"
+  ],
+  [
+   "h2",
+   "Quick links"
+  ],
+  [
+   "h3",
+   "Parent portals"
+  ],
+  [
+   "h3",
+   "Student and Parent Calendar"
+  ],
+  [
+   "h3",
+   "Forms"
+  ],
+  [
+   "h3",
+   "Instrumental Music Program (IMP)"
+  ],
+  [
+   "h3",
+   "Duke of Edinburgh"
+  ],
+  [
+   "h3",
+   "Newsletters"
+  ],
+  [
+   "h2",
+   "Ready to apply?"
+  ],
+  [
+   "h2",
+   "Key dates"
+  ],
+  [
+   "h2",
+   "Stay connected on our socials"
+  ]
+ ],
+ "headings_mig": [
+  [
+   "h1",
+   "Welcome to Fort Street High School"
+  ],
+  [
+   "h2",
+   "The Fort Street High School difference"
+  ],
+  [
+   "h3",
+   "Our vision for student achievement"
+  ],
+  [
+   "h3",
+   "Extensive range of student opportunities and activities"
+  ],
+  [
+   "h3",
+   "Wellbeing at Fort Street is for all students"
+  ],
+  [
+   "h2",
+   "Principal's message"
+  ],
+  [
+   "h2",
+   "Fort Fest is on Friday 18 September, 3:15pm - 8:30pm."
+  ],
+  [
+   "h2",
+   "School tours and open evenings"
+  ],
+  [
+   "h2",
+   "Quick links"
+  ],
+  [
+   "h3",
+   "Parent portals"
+  ],
+  [
+   "h3",
+   "Student and Parent Calendar"
+  ],
+  [
+   "h3",
+   "Forms"
+  ],
+  [
+   "h3",
+   "Instrumental Music Program (IMP)"
+  ],
+  [
+   "h3",
+   "Duke of Edinburgh"
+  ],
+  [
+   "h3",
+   "Newsletters"
+  ],
+  [
+   "h2",
+   "Ready to apply?"
+  ],
+  [
+   "h2",
+   "Key dates"
+  ],
+  [
+   "h2",
+   "Stay connected on our socials"
+  ]
+ ],
+ "word_diffs": [
+  [
+   "delete",
+   "background dark",
+   ""
+  ],
+  [
+   "delete",
+   "background white",
+   ""
+  ],
+  [
+   "delete",
+   "background off white",
+   ""
+  ],
+  [
+   "delete",
+   "background dark",
+   ""
+  ],
+  [
+   "delete",
+   "background dark",
+   ""
+  ],
+  [
+   "insert",
+   "",
+   "https www facebook com fortstreethighschool"
+  ]
+ ]
+}
