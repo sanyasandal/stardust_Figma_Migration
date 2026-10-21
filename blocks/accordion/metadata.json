@@ -1,0 +1,34 @@
+{
+  "variantName": "accordion",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2026-10-21T13:46:13.053Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "faq",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "title-body-expandable",
+    "imageCount": 0
+  },
+  "usage": {
+    "pagesUsing": [
+      "fortstreet/about-us/enrol",
+      "fortstreet/about-us/policies-and-reports",
+      "fortstreet/about-us/school-history-and-archives/the-fortian-digitised",
+      "fortstreet/learning-and-support/additional-learning-support",
+      "fortstreet/learning-and-support/high-potential-and-gifted-education",
+      "fortstreet/learning-and-support/learning",
+      "fortstreet/learning-and-support/wellbeing",
+      "fortstreet/our-community/pandc",
+      "fortstreet/school-life/newsletters",
+      "fortstreet/school-life/student-opportunities-and-activities",
+      "fortstreet/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+      "fortstreet/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+      "fortstreet/school-life/uniform"
+    ],
+    "reuseCount": 13,
+    "lastUsed": "2026-10-21T13:46:13.053Z"
+  }
+}

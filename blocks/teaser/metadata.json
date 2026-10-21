@@ -1,0 +1,58 @@
+{
+  "variantName": "teaser",
+  "baseBlock": "teaser",
+  "version": "1.0.0",
+  "created": "2026-10-21T13:46:13.053Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "feature-teaser",
+    "imagePattern": "img-side"
+  },
+  "contentPattern": {
+    "structure": "body-image-split",
+    "imageCount": 1
+  },
+  "variants": [
+    "reverse"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "fortstreet/about-us/enrol",
+      "fortstreet/about-us/facilities-and-resources",
+      "fortstreet/about-us/our-principal-and-staff",
+      "fortstreet/about-us/policies-and-reports",
+      "fortstreet/about-us/school-history-and-archives",
+      "fortstreet/about-us/school-history-and-archives/the-fortian-digitised",
+      "fortstreet/about-us/transition-to-high-school",
+      "fortstreet/about-us/why-choose-us",
+      "fortstreet/contact-us",
+      "fortstreet/index",
+      "fortstreet/learning-and-support/additional-learning-support",
+      "fortstreet/learning-and-support/careers",
+      "fortstreet/learning-and-support/high-potential-and-gifted-education",
+      "fortstreet/learning-and-support/learning",
+      "fortstreet/learning-and-support/wellbeing",
+      "fortstreet/our-community/alumni",
+      "fortstreet/our-community/foundation",
+      "fortstreet/our-community/pandc",
+      "fortstreet/school-life/bell-times",
+      "fortstreet/school-life/bring-your-own-device",
+      "fortstreet/school-life/canteen",
+      "fortstreet/school-life/events",
+      "fortstreet/school-life/house-and-merit-system",
+      "fortstreet/school-life/parent-portal",
+      "fortstreet/school-life/stationery",
+      "fortstreet/school-life/student-opportunities-and-activities/academic-competitions",
+      "fortstreet/school-life/student-opportunities-and-activities/clubs-and-committees",
+      "fortstreet/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+      "fortstreet/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+      "fortstreet/school-life/student-opportunities-and-activities/instrumental-music-program",
+      "fortstreet/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+      "fortstreet/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+      "fortstreet/school-life/travel-to-school",
+      "fortstreet/school-life/uniform"
+    ],
+    "reuseCount": 34,
+    "lastUsed": "2026-10-21T13:46:13.053Z"
+  }
+}

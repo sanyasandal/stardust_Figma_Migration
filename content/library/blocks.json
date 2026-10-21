@@ -1,11 +1,11 @@
 {
-  "total": 6,
+  "total": 8,
   "offset": 0,
-  "limit": 6,
+  "limit": 8,
   "data": [
     {
-      "name": "Banner",
-      "path": "https://content.da.live/sanyasandal/stardust-figma-migration/library/blocks/banner"
+      "name": "Accordion",
+      "path": "https://content.da.live/sanyasandal/stardust-figma-migration/library/blocks/accordion"
     },
     {
       "name": "Cards",
@@ -16,8 +16,8 @@
       "path": "https://content.da.live/sanyasandal/stardust-figma-migration/library/blocks/columns"
     },
     {
-      "name": "Facebook Feed",
-      "path": "https://content.da.live/sanyasandal/stardust-figma-migration/library/blocks/facebook-feed"
+      "name": "Embed",
+      "path": "https://content.da.live/sanyasandal/stardust-figma-migration/library/blocks/embed"
     },
     {
       "name": "Fragment",
@@ -26,6 +26,14 @@
     {
       "name": "Hero",
       "path": "https://content.da.live/sanyasandal/stardust-figma-migration/library/blocks/hero"
+    },
+    {
+      "name": "Table",
+      "path": "https://content.da.live/sanyasandal/stardust-figma-migration/library/blocks/table"
+    },
+    {
+      "name": "Teaser",
+      "path": "https://content.da.live/sanyasandal/stardust-figma-migration/library/blocks/teaser"
     }
   ],
   ":type": "sheet"

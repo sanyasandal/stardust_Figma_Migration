@@ -1,0 +1,22 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-10-21T13:46:13.053Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "page-intro",
+    "imagePattern": "img-right"
+  },
+  "contentPattern": {
+    "structure": "body-image-split",
+    "imageCount": 1
+  },
+  "usage": {
+    "pagesUsing": [
+      "fortstreet/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-21T13:46:13.053Z"
+  }
+}

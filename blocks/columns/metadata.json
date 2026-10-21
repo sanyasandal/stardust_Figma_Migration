@@ -1,0 +1,13 @@
+{
+  "variantName": "columns",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-10-21T13:46:13.053Z",
+  "visualCharacteristics": {
+    "purpose": "multi-column-layout"
+  },
+  "contentPattern": {
+    "structure": "cells-per-row",
+    "imageCount": 1
+  }
+}

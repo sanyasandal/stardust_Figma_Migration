@@ -40,7 +40,14 @@
     padding: 48px;
   }
 
+  .hero .hero-media,
+  .hero .hero-media picture {
+    display: block;
+    height: 100%;
+  }
+
   .hero .hero-media img {
+    display: block;
     height: 100%;
     min-height: 420px;
     aspect-ratio: auto;
