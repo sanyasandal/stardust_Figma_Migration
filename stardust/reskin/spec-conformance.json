@@ -1,0 +1,178 @@
+{
+ "checks": [
+  {
+   "category": "Color",
+   "spec": "Title 1 #830051",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Color",
+   "spec": "Interaction #d0006f",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Color",
+   "spec": "Supporting-1 #ebefee",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Color",
+   "spec": "Body #3c4242",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Color",
+   "spec": "Button primary #d0006f",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Typography",
+   "spec": "Heading family Lexia",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Typography",
+   "spec": "Body family Inter",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Typography",
+   "spec": "Body 18/28",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Typography",
+   "spec": "H1 desktop 56/60",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Typography",
+   "spec": "H2 desktop 46/50",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Typography",
+   "spec": "Heading weight 400",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Layout",
+   "spec": "Container 1180px",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Layout",
+   "spec": "Gutter 40px ≥768",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Button radius 4px",
+   "file": "styles/styles.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Hero panel #ebefee",
+   "file": "blocks/hero/hero.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Hero 574px columns",
+   "file": "blocks/hero/hero.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Hero min-height 428",
+   "file": "blocks/hero/hero.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Teaser card radius 8",
+   "file": "blocks/cards/cards.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Teaser card image 220px",
+   "file": "blocks/cards/cards.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Teaser card padding 24",
+   "file": "blocks/cards/cards.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Teaser card title 26/34 #d0006f",
+   "file": "blocks/cards/cards.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Text+Image gap 32",
+   "file": "blocks/columns/columns.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "CTA banner 4px #b2b4b4 border",
+   "file": "blocks/banner/banner.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "CTA banner padding 40",
+   "file": "blocks/banner/banner.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "CTA banner thumb 120px",
+   "file": "blocks/banner/banner.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Header 1px #ebefee rule",
+   "file": "blocks/header/header.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Footer 3×300 columns",
+   "file": "blocks/footer/footer.css",
+   "pass": true
+  },
+  {
+   "category": "Component",
+   "spec": "Footer legal 12px",
+   "file": "blocks/footer/footer.css",
+   "pass": true
+  }
+ ],
+ "summary": {
+  "Color": "5/5",
+  "Typography": "6/6",
+  "Layout": "2/2",
+  "Component": "15/15"
+ }
+}

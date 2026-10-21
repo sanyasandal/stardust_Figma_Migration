@@ -1,0 +1,30 @@
+{
+  "flow": "reskin",
+  "handsOff": true,
+  "designSource": {
+    "kind": "figma",
+    "provenance": "figma-mcp",
+    "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+    "entryNode": "6400:21997",
+    "mode": "web-kit"
+  },
+  "contentSource": {
+    "url": "https://fortstreet-h.schools.nsw.gov.au/",
+    "platform": "aem-eds (existing EDS site)"
+  },
+  "target": {
+    "org": "sanyasandal",
+    "repo": "stardust_Figma_Migration",
+    "branch": "ssandal-adobe-stardust-figma-migration-fortstreet"
+  },
+  "stages": {
+    "capture": "done",
+    "direct": "done",
+    "map": "done",
+    "build": "done",
+    "content": "authored-locally (DA writes blocked)",
+    "preview": "code-bus static draft /drafts/fortstreet.html",
+    "qa": "see report/"
+  },
+  "startedAt": "2026-10-21T10:39:36Z"
+}

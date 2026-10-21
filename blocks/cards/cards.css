@@ -1,19 +1,19 @@
+/* Cards — oneAZ Teaser Card (Figma 12436:14706) */
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--az-space-x-big);
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
-}
-
-.cards .cards-card-body {
-  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--az-radius-xl);
+  background-color: var(--az-bg-supporting-1);
+  overflow: hidden;
 }
 
 .cards .cards-card-image {
@@ -21,7 +21,81 @@
 }
 
 .cards > ul > li img {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 220px;
   object-fit: cover;
+}
+
+.cards .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--az-space-md);
+  padding: var(--az-space-x-big);
+  font-size: var(--body-font-size-m);
+  line-height: var(--body-line-height-m);
+}
+
+.cards .cards-card-body > * {
+  margin: 0;
+}
+
+.cards .cards-card-body h2,
+.cards .cards-card-body h3,
+.cards .cards-card-body h4 {
+  color: var(--az-text-title-2);
+  font-size: var(--heading-font-size-m);
+  line-height: var(--heading-line-height-m);
+}
+
+.cards .cards-card-body h2 a:any-link,
+.cards .cards-card-body h3 a:any-link,
+.cards .cards-card-body h4 a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cards .cards-card-body h2 a:hover,
+.cards .cards-card-body h3 a:hover,
+.cards .cards-card-body h4 a:hover {
+  text-decoration: underline;
+}
+
+/* supplementary (quick links): compact teaser, white card on 1px border */
+.cards.supplementary > ul {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.cards.supplementary > ul > li {
+  border: 1px solid var(--az-border-default);
+  background-color: var(--az-bg-supporting-2);
+}
+
+.cards.supplementary > ul > li img {
+  height: 160px;
+}
+
+.cards.supplementary .cards-card-body {
+  gap: var(--az-space-x-sm);
+  padding: var(--az-space-md) var(--az-space-x-big) var(--az-space-x-big);
+  font-size: var(--body-font-size-s);
+  line-height: var(--body-line-height-s);
+}
+
+.cards.supplementary .cards-card-body h2,
+.cards.supplementary .cards-card-body h3,
+.cards.supplementary .cards-card-body h4 {
+  font-size: var(--heading-font-size-s);
+  line-height: var(--heading-line-height-s);
+}
+
+@media (width >= 900px) {
+  .cards > ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--az-space-xxx-big);
+  }
+
+  .cards.supplementary > ul {
+    gap: var(--az-space-x-big);
+  }
 }
