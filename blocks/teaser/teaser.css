@@ -5,6 +5,14 @@
   align-items: center;
 }
 
+.teaser > div > div {
+  min-width: 0;
+}
+
+.teaser .teaser-body a {
+  overflow-wrap: anywhere;
+}
+
 .teaser .teaser-media img {
   width: 100%;
   aspect-ratio: 4 / 3;
