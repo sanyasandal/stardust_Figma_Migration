@@ -191,7 +191,7 @@ Built with the user-supplied excat **`block-library-creator`** skill:
 | 4 upload | DA `library/blocks/*.html` + `blocks.json` → 200/201 (the skill leaves this to the excat app; done via the DA source API here) |
 | 5 config | site config already had the `library` sheet → `Blocks` → `…/library/blocks.json`; left unchanged |
 
-| 6 images fix | The skill's placeholder images were uploaded to `content.da.live`, which returns 401 to the unauthenticated `<img>` loads the DA library panel makes, so the samples showed no images. All library docs + `blocks.json` were previewed (`admin.hlx.page/preview`), which ingested the placeholders into the public media bus; the 4 samples with images (hero, cards, teaser, columns) now point at `…aem.page/media_<hash>.png` (200, public). |
+| 6 real images | The skill replaces every sample image with a generic placeholder, so the library showed red placeholder graphics, not site photos. The 9 sample images were replaced with the real Fort Street photos from the rows each sample was taken from (hero ← home; cards ← about-us + museum; teaser ← enrol + principal; columns ← home), uploaded into DA at `library/blocks/images/` and referenced by their `content.da.live` URLs (DA serves these to signed-in authors via its auth cookie). Docs re-previewed; all 9 render on `main` and `fs-oneaz`. |
 
 Excluded: `header`, `footer` (page chrome), `widget` (internal auto-block).
 

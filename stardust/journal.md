@@ -118,3 +118,14 @@
 
 **Artifacts touched:**
 - DA library/blocks/{hero,cards,teaser,columns}.html, content/library/blocks/*.plain.html, report/{benchmark-report,migration-steps}.md
+
+## 2026 — Block library: real photos (correction to previous entry)
+
+**Prompt:** "why images are not pushed into the block library ?"
+
+- Correction: the previous entry blamed `content.da.live` 401s. DA sets an auth cookie for signed-in authors (`.gimme_cookie`), so DA-hosted images display; the 401 came from testing with an unauthenticated `curl`.
+- Actual gap: the excat skill's samples carry generic placeholders only; no site photos were ever in the library.
+- Fix: 9 real photos (from the same rows the samples were taken from) uploaded to DA `library/blocks/images/`, samples point at them via `content.da.live`, placeholders deleted, hero `<em>.</em>` removed, docs re-previewed; verified 9/9 images load on `main` and `fs-oneaz`.
+
+**Artifacts touched:**
+- DA library/blocks/{hero,cards,teaser,columns}.html + images/, content/library/blocks/**, report/{benchmark-report,migration-steps}.md, report/benchmark-report.html

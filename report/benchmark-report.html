@@ -805,7 +805,7 @@ Usage was queried from the Copilot CLI session store at 2026-10-21T14:07Z; it co
 </tr>
 </tbody>
 </table>
-<p>| 6 images fix | The skill's placeholder images were uploaded to <code>content.da.live</code>, which returns 401 to the unauthenticated <code>&lt;img&gt;</code> loads the DA library panel makes, so the samples showed no images. All library docs + <code>blocks.json</code> were previewed (<code>admin.hlx.page/preview</code>), which ingested the placeholders into the public media bus; the 4 samples with images (hero, cards, teaser, columns) now point at <code>…aem.page/media_&lt;hash&gt;.png</code> (200, public). |</p>
+<p>| 6 real images | The skill replaces every sample image with a generic placeholder, so the library showed red placeholder graphics, not site photos. The 9 sample images were replaced with the real Fort Street photos from the rows each sample was taken from (hero ← home; cards ← about-us + museum; teaser ← enrol + principal; columns ← home), uploaded into DA at <code>library/blocks/images/</code> and referenced by their <code>content.da.live</code> URLs (DA serves these to signed-in authors via its auth cookie). Docs re-previewed; all 9 render on <code>main</code> and <code>fs-oneaz</code>. |</p>
 <p>Excluded: <code>header</code>, <code>footer</code> (page chrome), <code>widget</code> (internal auto-block).</p>
 <h2>4. Token usage, cost and time</h2>
 <p>Source: the Copilot CLI local session store (<code>assistant_usage_events</code>, session <code>250ef28c-a00f-4946-81dd-a4dac81deda4</code>) — actual recorded values, queried at report time.</p>
@@ -1479,7 +1479,7 @@ Appended live as each step completes.</p>
 <td>Final numbers</td>
 <td><code>metrics.py</code> (shift-tolerant SSIM composite), session usage store</td>
 <td>Design fidelity <strong>80.9 %</strong>, original→EDS 57.8 %, text 97.0 %, tokens 17/17; usage and cost in <code>report/usage.json</code>.</td>
-<td><code>report/benchmark-report.md</code></td>
+<td><code>report/benchmark-report.md</code>, <code>report/benchmark-report.html</code></td>
 </tr>
 <tr>
 <td>28</td>
@@ -1487,6 +1487,13 @@ Appended live as each step completes.</p>
 <td>DA source API + <code>admin.hlx.page/preview</code></td>
 <td>Library samples referenced placeholders on <code>content.da.live</code> (401 without auth → blank in the DA library panel), and the docs had never been previewed. Previewed all 8 docs + <code>blocks.json</code> (placeholders ingested to the public media bus), rewrote the img <code>src</code> in hero/cards/teaser/columns to the public <code>aem.page/media_&lt;hash&gt;.png</code> URLs, PUT back to DA, re-previewed (4/4 200, images present in <code>.plain.html</code>).</td>
 <td>DA <code>library/blocks/*.html</code>, <code>content/library/blocks/*.plain.html</code></td>
+</tr>
+<tr>
+<td>29</td>
+<td>Real photos in the block library (corrects step 28)</td>
+<td>DA source API + <code>admin.hlx.page/preview</code></td>
+<td>Step 28's cause was wrong: DA gives signed-in authors a <code>content.da.live</code> cookie, so DA-hosted images do show; the 401 was only from an unauthenticated <code>curl</code>. The real gap: the skill's samples only had placeholder graphics. Uploaded the 9 real photos the samples came from to DA <code>library/blocks/images/{hero-1,cards-1..5,teaser-1,teaser-2,columns-1}</code>, pointed the samples at them, removed the placeholders, fixed a stray <code>&lt;em&gt;.&lt;/em&gt;</code> in the hero sample, re-previewed (all 9 images load).</td>
+<td>DA <code>library/blocks/**</code>, <code>content/library/blocks/**</code></td>
 </tr>
 </tbody>
 </table></div>
