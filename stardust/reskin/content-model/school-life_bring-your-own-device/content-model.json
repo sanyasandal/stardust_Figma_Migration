@@ -1,0 +1,669 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:21:51.085Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_bring-your-own-device.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Bring your own device",
+    "description": "Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+    "ogTags": {
+      "og:title": "Bring your own device",
+      "og:description": "Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1b409b17da3bdbffcd791a17f7a6ddff45b3327dd.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1b409b17da3bdbffcd791a17f7a6ddff45b3327dd.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Fort Street students sitting at a laptop outside"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Bring your own device",
+      "twitter:description": "Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1b409b17da3bdbffcd791a17f7a6ddff45b3327dd.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Bring your own device Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis. Introduction Fort Street High School has adopted a Bring Your Own Device (BYOD) approach to allow student use of personal electronic devices at school. The term “device” refers to any brand laptop or tablet owned by the student, and which has the capability of connecting to the department’s Wi-Fi network. Students are not allowed to use a mobile phone as their primary school device for classroom use. The school policy on phones is “off and away”- phones are turned off and placed in bags during school hours. What device should you bring to school? Students should bring an affordable laptop that meets the list of minumum requirements in the checklist below. It is also recommended that students have a protective case for their device as they are responsible for their own equipment. What things should you look for in a device for learning? Our recommended specifications are developed from the requirements of devices to use for NAPLAN Online. The department’s Wi-Fi network installed in high schools operates on the 802.11n 5Ghz standard. Devices that do not support this standard will not be able to connect. The device should be: Laptop or a 2 in 1 device Battery Life of 6+ hours Light weight, under 1.5 kg Larger than 11\" screen Dual Band Wi-Fi with a/g/b/n Other preferred requirements: Not an iPad or Android Tablet. We have found that these devices lack the functionality for the classroom. Screen resolution of at least 1024x768 Ability to connect earphones/head phones, NOT wireless Physical keyboard Mouse or other pointing device (For Windows Devices - minimums) Windows, 8 GB RAM, 1Ghz processor, 256 GB of free hard drive space (For Mac Devices - minimums) OS X 10.9* 8 GB RAM, 1Ghz processor, 256 GB of free hard drive space For further assistance, please send any questions via email fortstreet-h.school@det.nsw.edu.au (opens in new window) Access to the department’s Wi-Fi network and resources Internet access through the department’s Wi-Fi network will be provided on departmental sites at no cost to students who are enrolled in NSW public schools. Acceptable use of devices The principal will retain the right to determine what is, and is not, appropriate use of devices at the school within the bounds of the department’s policies and NSW privacy and other legislation. Students must comply with departmental and school policies concerning the use of devices at school. Students must not create, transmit, retransmit or participate in the circulation of content that attempts to bypass any software security mechanisms implemented by the department, its Information Technology Directorate or the school. Students must not copy, transmit or retransmit any material that is protected by copyright, without prior permission from the copyright owner. Students must not take photos or make video or audio recordings of any individual or group without the express written permission of each individual being and the permission of an appropriate supervising staff member. Students must not use the department’s network services to seek out, access, store or send any material of an offensive, obscene, pornographic, threatening, abusive or defamatory nature. Such use may result in disciplinary and/or legal action. Students and their parents or carers are advised that activity on the internet is recorded and that these records may be used in investigations, court proceedings or for other legal reasons. Where a teacher has reasonable grounds to suspect that a device is being used contrary to these guidelines, the staff member may confiscate the device to be returned at the end of the lesson, at the end of the school day, or for parents to collect from the school. The consequences of any breaches of the school’s BYOD policy will be determined by the Principal in accordance with relevant Department policies. Depending on the nature of the breach, school disciplinary action may be appropriate, or in extreme circumstances referral to the police. Need help with your device? Our friendly office team can help you get in touch. Contact us Policies and reports Read about our policies and procedures for electronic devices. Learning Discover what students learn in our classrooms and how we help them progress.",
+  "coverage": {
+    "bodyTextLen": 5478,
+    "scopeTextLen": 4526,
+    "ratio": 0.826,
+    "h1Text": "Bring your own device",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Bring your own device Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Bring your own device"
+        }
+      ],
+      "paragraphs": [
+        "Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1b409b17da3bdbffcd791a17f7a6ddff45b3327dd.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Fort Street students sitting at a laptop outside",
+          "w": 1280,
+          "h": 1181
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Bring your own device",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students at Fort Street High School are able to bring their own computing device to school. This allows for richer learning experiences across all subjects. It also enables teaching staff use technology to immerse students in real world examples on a daily basis.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1b409b17da3bdbffcd791a17f7a6ddff45b3327dd.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "Fort Street students sitting at a laptop outside"
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Introduction Fort Street High School has adopted a Bring Your Own Device (BYOD) approach to allow student use of personal electronic devices at school. The term “device” refers to any brand laptop or tablet owned by the student, and which has the capability of connecting to the department’s Wi-Fi network. Students are not allowed to use a mobile phone as their primary school device for classroom use. The school policy on phones is “off and away”- phones are turned off and placed in bags during school hours. What device should you bring to school? Students should bring an affordable laptop that meets the list of minumum requirements in the checklist below. It is also recommended that students have a protective case for their device as they are responsible for their own equipment.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Introduction"
+        },
+        {
+          "level": "h3",
+          "text": "What device should you bring to school?"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street High School has adopted a Bring Your Own Device (BYOD) approach to allow student use of personal electronic devices at school.",
+        "The term “device” refers to any brand laptop or tablet owned by the student, and which has the capability of connecting to the department’s Wi-Fi network. Students are not allowed to use a mobile phone as their primary school device for classroom use. The school policy on phones is “off and away”- phones are turned off and placed in bags during school hours.",
+        "Students should bring an affordable laptop that meets the list of minumum requirements in the checklist below. It is also recommended that students have a protective case for their device as they are responsible for their own equipment."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Introduction",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School has adopted a Bring Your Own Device (BYOD) approach to allow student use of personal electronic devices at school.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Fort Street High School has adopted a",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Bring Your Own Device",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "(BYOD) approach to allow student use of personal electronic devices at school.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The term “device” refers to any brand laptop or tablet owned by the student, and which has the capability of connecting to the department’s Wi-Fi network. Students are not allowed to use a mobile phone as their primary school device for classroom use. The school policy on phones is “off and away”- phones are turned off and placed in bags during school hours.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "What device should you bring to school?",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students should bring an affordable laptop that meets the list of minumum requirements in the checklist below. It is also recommended that students have a protective case for their device as they are responsible for their own equipment.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "What things should you look for in a device for learning? Our recommended specifications are developed from the requirements of devices to use for NAPLAN Online. The department’s Wi-Fi network installed in high schools operates on the 802.11n 5Ghz standard. Devices that do not support this standard will not be able to connect. The device should be: Laptop or a 2 in 1 device Battery Life of 6+ hours Light weight, under 1.5 kg Larger than 11\" screen Dual Band Wi-Fi with a/g/b/n Other preferred requirements: Not an iPad or Android Tablet. We have found that these devices lack the functionality for the classroom. Screen resolution of at least 1024x768 Ability to connect earphones/head phones, NOT wireless Physical keyboard Mouse or other pointing device (For Windows Devices - minimums) Windows, 8 GB RAM, 1Ghz processor, 256 GB of free hard drive space (For Mac Devices - minimums) OS X 10.9* 8 GB RAM, 1Ghz processor, 256 GB of free hard drive space For further assistance, please send any questions via email fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "What things should you look for in a device for learning?"
+        }
+      ],
+      "paragraphs": [
+        "Our recommended specifications are developed from the requirements of devices to use for NAPLAN Online. The department’s Wi-Fi network installed in high schools operates on the 802.11n 5Ghz standard. Devices that do not support this standard will not be able to connect.",
+        "The device should be:",
+        "Other preferred requirements:",
+        "For further assistance, please send any questions via email fortstreet-h.school@det.nsw.edu.au (opens in new window)"
+      ],
+      "listItems": [
+        "Laptop or a 2 in 1 device",
+        "Battery Life of 6+ hours",
+        "Light weight, under 1.5 kg",
+        "Larger than 11\" screen",
+        "Dual Band Wi-Fi with a/g/b/n",
+        "Not an iPad or Android Tablet. We have found that these devices lack the functionality for the classroom.",
+        "Screen resolution of at least 1024x768",
+        "Ability to connect earphones/head phones, NOT wireless",
+        "Physical keyboard",
+        "Mouse or other pointing device",
+        "(For Windows Devices - minimums) Windows, 8 GB RAM, 1Ghz processor, 256 GB of free hard drive space",
+        "(For Mac Devices - minimums) OS X 10.9* 8 GB RAM, 1Ghz processor, 256 GB of free hard drive space"
+      ],
+      "ctas": [
+        {
+          "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "What things should you look for in a device for learning?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our recommended specifications are developed from the requirements of devices to use for NAPLAN Online. The department’s Wi-Fi network installed in high schools operates on the 802.11n 5Ghz standard. Devices that do not support this standard will not be able to connect.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The device should be:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Laptop or a 2 in 1 device",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Battery Life of 6+ hours",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Light weight, under 1.5 kg",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Larger than 11\" screen",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Dual Band Wi-Fi with a/g/b/n",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Other preferred requirements:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Not an iPad or Android Tablet. We have found that these devices lack the functionality for the classroom.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Not an iPad or Android Tablet.",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "We have found that these devices lack the functionality for the classroom.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Screen resolution of at least 1024x768",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Ability to connect earphones/head phones, NOT wireless",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Physical keyboard",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Mouse or other pointing device",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "(For Windows Devices - minimums) Windows, 8 GB RAM, 1Ghz processor, 256 GB of free hard drive space",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "(For Mac Devices - minimums) OS X 10.9* 8 GB RAM, 1Ghz processor, 256 GB of free hard drive space",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For further assistance, please send any questions via email fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For further assistance, please send any questions via email",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "fortstreet-h.school@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Access to the department’s Wi-Fi network and resources Internet access through the department’s Wi-Fi network will be provided on departmental sites at no cost to students who are enrolled in NSW public schools. Acceptable use of devices The principal will retain the right to determine what is, and is not, appropriate use of devices at the school within the bounds of the department’s policies and NSW privacy and other legislation. Students must comply with departmental and school policies concerning the use of devices at school. Students must not create, transmit, retransmit or participate in the circulation of content that attempts to bypass any software security mechanisms implemented by the department, its Information Technology Directorate or the school. Students must not copy, transmit or retransmit any material that is protected by copyright, without prior permission from the copyright owner. Students must not take photos or make video or audio recordings of any individual or group without the express written permission of each individual being and the permission of an appropriate supervising staff member. Students must not use the department’s network services to seek out, access, store or send any material of an offensive, obscene, pornographic, threatening, abusive or defamatory nature. Such use may result in disciplinary and/or legal action. Students and their parents or carers are advised that activity on the internet is recorded and that these records may be used in investigations, court proceedings or for other legal reasons. Where a teacher has reasonable grounds to suspect that a device is being used contrary to these guidelines, the staff member may confiscate the device to be returned at the end of the lesson, at the end of the school day, or for parents to collect from the school. The consequences of any breaches of the school’s BYOD policy will be determined by the Principal in accordance with relevant Department policies. Depending on the nature of the breach, school disciplinary action may be appropriate, or in extreme circumstances referral to the police.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Access to the department’s Wi-Fi network and resources"
+        },
+        {
+          "level": "h2",
+          "text": "Acceptable use of devices"
+        }
+      ],
+      "paragraphs": [
+        "Internet access through the department’s Wi-Fi network will be provided on departmental sites at no cost to students who are enrolled in NSW public schools.",
+        "The principal will retain the right to determine what is, and is not, appropriate use of devices at the school within the bounds of the department’s policies and NSW privacy and other legislation.",
+        "Where a teacher has reasonable grounds to suspect that a device is being used contrary to these guidelines, the staff member may confiscate the device to be returned at the end of the lesson, at the end of the school day, or for parents to collect from the school.",
+        "The consequences of any breaches of the school’s BYOD policy will be determined by the Principal in accordance with relevant Department policies. Depending on the nature of the breach, school disciplinary action may be appropriate, or in extreme circumstances referral to the police."
+      ],
+      "listItems": [
+        "Students must comply with departmental and school policies concerning the use of devices at school.",
+        "Students must not create, transmit, retransmit or participate in the circulation of content that attempts to bypass any software security mechanisms implemented by the department, its Information Technology Directorate or the school.",
+        "Students must not copy, transmit or retransmit any material that is protected by copyright, without prior permission from the copyright owner.",
+        "Students must not take photos or make video or audio recordings of any individual or group without the express written permission of each individual being and the permission of an appropriate supervising staff member.",
+        "Students must not use the department’s network services to seek out, access, store or send any material of an offensive, obscene, pornographic, threatening, abusive or defamatory nature. Such use may result in disciplinary and/or legal action.",
+        "Students and their parents or carers are advised that activity on the internet is recorded and that these records may be used in investigations, court proceedings or for other legal reasons."
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Access to the department’s Wi-Fi network and resources",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Internet access through the department’s Wi-Fi network will be provided on departmental sites at no cost to students who are enrolled in NSW public schools.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Acceptable use of devices",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The principal will retain the right to determine what is, and is not, appropriate use of devices at the school within the bounds of the department’s policies and NSW privacy and other legislation.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students must comply with departmental and school policies concerning the use of devices at school.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students must not create, transmit, retransmit or participate in the circulation of content that attempts to bypass any software security mechanisms implemented by the department, its Information Technology Directorate or the school.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students must not copy, transmit or retransmit any material that is protected by copyright, without prior permission from the copyright owner.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students must not take photos or make video or audio recordings of any individual or group without the express written permission of each individual being and the permission of an appropriate supervising staff member.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students must not use the department’s network services to seek out, access, store or send any material of an offensive, obscene, pornographic, threatening, abusive or defamatory nature. Such use may result in disciplinary and/or legal action.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students and their parents or carers are advised that activity on the internet is recorded and that these records may be used in investigations, court proceedings or for other legal reasons.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where a teacher has reasonable grounds to suspect that a device is being used contrary to these guidelines, the staff member may confiscate the device to be returned at the end of the lesson, at the end of the school day, or for parents to collect from the school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The consequences of any breaches of the school’s BYOD policy will be determined by the Principal in accordance with relevant Department policies. Depending on the nature of the breach, school disciplinary action may be appropriate, or in extreme circumstances referral to the police.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need help with your device? Our friendly office team can help you get in touch. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need help with your device?"
+        }
+      ],
+      "paragraphs": [
+        "Our friendly office team can help you get in touch.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need help with your device?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our friendly office team can help you get in touch.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Policies and reports Read about our policies and procedures for electronic devices. Learning Discover what students learn in our classrooms and how we help them progress.",
+      "headings": [],
+      "paragraphs": [
+        "Read about our policies and procedures for electronic devices.",
+        "Discover what students learn in our classrooms and how we help them progress."
+      ],
+      "listItems": [
+        "Policies and reports Read about our policies and procedures for electronic devices.",
+        "Learning Discover what students learn in our classrooms and how we help them progress."
+      ],
+      "ctas": [
+        {
+          "text": "Policies and reports",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": ""
+        },
+        {
+          "text": "Learning",
+          "href": "/learning-and-support/learning",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Policies and reports Read about our policies and procedures for electronic devices.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "inline",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read about our policies and procedures for electronic devices.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Learning Discover what students learn in our classrooms and how we help them progress.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Learning",
+              "display": "inline",
+              "href": "/learning-and-support/learning",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover what students learn in our classrooms and how we help them progress.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

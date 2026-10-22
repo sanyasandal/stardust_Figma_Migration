@@ -1,0 +1,69 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin Phase 1 (bounded donor capture, donor-sources.md § Two first-class token-sourcing paths)",
+    "skillsRef": "adobe/skills main cf07727",
+    "input": "--donor-dir stardust/reskin/donor-dir (oneAZ v3.2 Figma frames exported to static HTML; served http://localhost:8767/)",
+    "synthesized": "button spec flattened per § composite-button trap; sectionPaddingY/containerPadding authored from Figma variables because the exported frames are stacked edge-to-edge with no section spacing",
+    "read": ["stardust/.work/reskin/donor-sample.json", "stardust/.work/reskin/figma-vars.json", "stardust/reskin/donor-dir/_export-log.json"]
+  },
+  "donor": "stardust/reskin/donor-dir (served http://localhost:8767/)",
+  "curatedFrom": "Playwright computed-style sampling of home.html, content.html, components.html at 1440 (stardust/.work/reskin/sample-donor.mjs → donor-sample.json); Figma variable defs on node 12552:3653 for spacing (figma-vars.json)",
+  "note": "Pinned reference pages: home.html for the home family (hero, teaser text+image, teaser cards, CTA banner); content.html for the content family (breadcrumb, page title, title+text, listing card, accordion). components.html is corroboration (button variants 12084:109282). All three agree on every primary token — no chimera risk.",
+  "palette": {
+    "pageBg": "rgb(255, 255, 255)",
+    "pageBgNote": "donor body computes transparent over the white canvas; Figma Background/Supporting 2 = #ffffff is the page surface, so the renderer sets it explicitly",
+    "headingFg": "rgb(131, 0, 81)",
+    "bodyFg": "rgb(60, 66, 66)",
+    "mutedFg": "rgb(101, 105, 105)",
+    "accent": "rgb(208, 0, 111)",
+    "accentHover": "rgb(131, 0, 81)",
+    "accentHoverNote": "Figma button variants export the Default state only; hover authored as Core-1 #830051 (Background/Core 1) — flagged, not sampled",
+    "darkBandBg": "rgb(131, 0, 81)",
+    "darkBandFg": "rgb(255, 255, 255)",
+    "lightBandBg": "rgb(235, 239, 238)",
+    "cardTitleFg": "rgb(208, 0, 111)",
+    "borderSubtle": "rgb(235, 239, 238)"
+  },
+  "type": {
+    "family": "Inter, sans-serif",
+    "headingFamily": "Lexia, sans-serif",
+    "familyNote": "Lexia is a licensed face (not bundled); Inter is not loaded either. Both adopted as the exact token strings, rendering in the local sans fallback — same as the donor-dir render.",
+    "display": { "fontFamily": "Lexia, sans-serif", "fontSize": "56px", "lineHeight": "60px", "fontWeight": "400", "color": "rgb(131, 0, 81)" },
+    "h2": { "fontFamily": "Lexia, sans-serif", "fontSize": "46px", "lineHeight": "50px", "fontWeight": "400", "color": "rgb(131, 0, 81)" },
+    "h3": { "fontFamily": "Lexia, sans-serif", "fontSize": "36px", "lineHeight": "40px", "fontWeight": "400", "color": "rgb(131, 0, 81)" },
+    "h4": { "fontFamily": "Lexia, sans-serif", "fontSize": "26px", "lineHeight": "34px", "fontWeight": "400", "color": "rgb(131, 0, 81)" },
+    "h5": { "fontFamily": "Lexia, sans-serif", "fontSize": "24px", "lineHeight": "28px", "fontWeight": "400" },
+    "body": { "fontSize": "16px", "lineHeight": "24px", "fontWeight": "400" },
+    "bodyLarge": { "fontSize": "18px", "lineHeight": "28px", "fontWeight": "400" },
+    "details": { "fontSize": "12px", "lineHeight": "16px", "fontWeight": "400", "color": "rgb(101, 105, 105)" },
+    "eyebrow": { "fontSize": "18px", "lineHeight": "28px", "fontWeight": "700", "color": "rgb(60, 66, 66)", "style": "sentence case ('Event') — no uppercase transform" },
+    "nav": { "fontFamily": "Lexia, sans-serif", "fontSize": "14px", "lineHeight": "16px", "fontWeight": "400" },
+    "breadcrumb": { "fontSize": "14px", "lineHeight": "16px", "color": "rgb(60, 66, 66)", "currentColor": "rgb(208, 0, 111)" }
+  },
+  "layout": {
+    "containerMaxWidth": "1180px",
+    "containerPadding": "0 40px",
+    "containerPaddingNote": "Figma Container/padding-lg = 40",
+    "sectionPaddingY": "64px",
+    "sectionPaddingYNote": "Figma Spacing/xx-lg = 64 (exported frames carry no inter-section spacing)",
+    "navHeight": "94px",
+    "grid": "1180 container; teaser cards 2-up 570px + 40px gap (Figma 12542:1504 '2 Teasers'); text+image 50/50 with 40px gap; footer 3 columns"
+  },
+  "buttons": {
+    "primary": { "background": "rgb(208, 0, 111)", "color": "rgb(255, 255, 255)", "borderRadius": "4px", "padding": "8px 16px", "fontSize": "16px", "fontWeight": "700", "lineHeight": "24px", "border": "1px solid rgb(208, 0, 111)", "height": "42px", "note": "flattened composite: outer box carries bg/border/radius/height 42 with padding 0 16px; inner span carries the Inter 16/24/700 white label. Vertical padding 8px = (42 - 24 - 2x1) / 2." },
+    "secondary": { "background": "rgb(255, 255, 255)", "color": "rgb(208, 0, 111)", "borderRadius": "4px", "padding": "8px 16px", "fontSize": "16px", "fontWeight": "700", "border": "1px solid rgb(208, 0, 111)" },
+    "tertiary": { "background": "rgb(255, 255, 255)", "color": "rgb(60, 66, 66)", "borderRadius": "4px", "padding": "8px 16px", "fontSize": "16px", "fontWeight": "700", "border": "1px solid rgb(60, 66, 66)" }
+  },
+  "radii": { "card": "8px", "button": "4px", "media": "0px" },
+  "shadows": { "cardResting": "none", "cardFloating": "none" },
+  "motifs": [
+    "Supporting-1 grey (#ebefee) panels: hero text panel, teaser card body, breadcrumb strip — the only band colour; no dark bands in the kit",
+    "Two-tone headings: page/section titles Title-1 plum #830051; card titles Title-2 magenta #d0006f",
+    "Serif-display (Lexia) headings at weight 400 over Inter body — no bold headings",
+    "Flat surfaces: no shadows; 8px card radius, 4px button radius, square media",
+    "Header: thin utility bar (Contact Us · EN | FR) above a white nav row with chevron dropdowns, search icon and outlined Login button",
+    "Breadcrumb: Home ▸ label ▸ current (current in magenta)",
+    "Accordion: Lexia 36px title row with chevron, hairline divider",
+    "Footer: logo + blurb left, two link columns, social icon row, job-code bottom right"
+  ]
+}

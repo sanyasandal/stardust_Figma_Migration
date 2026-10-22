@@ -1,0 +1,1128 @@
+{
+  "provenance": {
+    "tool": "excatfigma get_design_context (Figma Dev Mode code export)",
+    "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+    "fileName": "oneAZ Design System v3.2",
+    "exportedAt": "2026-10-21T13:00:06+00:00",
+    "conversion": "_src/build.py (mechanical JSX -> HTML; Tailwind Play CDN; :root Figma variables)",
+    "assetUrlsExpire": "Figma asset URLs (figma-alpha-api S3) are valid for 14 days from export"
+  },
+  "screenshots": {
+    "saved": false,
+    "note": "excatfigma get_screenshot returns the image inline to the agent only; it exposes no file path or byte stream, so Figma PNGs could not be saved to _figma/. Screenshots were still fetched and used for visual comparison during verification."
+  },
+  "cssVariables": {
+    "--Background-Supporting-1": "#ebefee",
+    "--Background-Supporting-2": "#ffffff",
+    "--Button-Primary-Background": "#d0006f",
+    "--Button-Primary-Text": "#ffffff",
+    "--Button-Secondary-Background": "#ffffff",
+    "--Button-Secondary-Text": "#d0006f",
+    "--Button-Tertiary-Background": "#ffffff",
+    "--Button-Tertiary-Text": "#3c4242",
+    "--Forms-Border-1": "#ebefee",
+    "--Text-Body-1": "#3c4242",
+    "--Text-Interaction": "#d0006f",
+    "--Text-Label-2": "#656969",
+    "--Text-Title-1": "#830051",
+    "--Text-Title-2": "#d0006f"
+  },
+  "cssVariableConflicts": {},
+  "pages": {
+    "home.html": {
+      "sections": [
+        {
+          "section": "Header",
+          "slug": "header",
+          "nodeId": "12387:11888",
+          "parentNodeId": "12387:11655",
+          "screenshotFile": null
+        },
+        {
+          "section": "Home Hero Branded",
+          "slug": "home-hero-branded",
+          "nodeId": "12950:24813",
+          "parentNodeId": "12950:24869",
+          "screenshotFile": null
+        },
+        {
+          "section": "Teaser Text+Image",
+          "slug": "teaser-text-image",
+          "nodeId": "12431:14270",
+          "parentNodeId": "12431:14303",
+          "screenshotFile": null
+        },
+        {
+          "section": "Teaser Card",
+          "slug": "teaser-card",
+          "nodeId": "12436:14706",
+          "parentNodeId": "12436:14752",
+          "screenshotFile": null
+        },
+        {
+          "section": "CTA Banner",
+          "slug": "cta-banner",
+          "nodeId": "13370:1909",
+          "parentNodeId": "13370:1922",
+          "screenshotFile": null
+        },
+        {
+          "section": "Footer",
+          "slug": "footer",
+          "nodeId": "12406:12186",
+          "parentNodeId": "12406:12220",
+          "screenshotFile": null
+        }
+      ],
+      "fixes": [
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11076;12385:11073;12379:10693",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3/4-style",
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11045;12379:11036",
+          "fix": "single-side stroke: border-[1px] -> border-0 border-r-[1px]"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11045;12379:11036;12379:10706",
+          "fix": "removed bg-[var(--Text-Interaction,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3/4-style",
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11045;12379:11039",
+          "fix": "single-side stroke: border-[1px] -> border-0 border-l-[1px]"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11045;12379:11039;12379:10693",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10746;12370:10625",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10746;12370:10626",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10750;12370:10625",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10750;12370:10626",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10754;12370:10637",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10760;12370:10525;12084:109216",
+          "fix": "removed bg-[var(--Button-Secondary-Text,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": 3,
+          "section": "home-hero-branded",
+          "nodeId": "12950:24817",
+          "fix": "absolute -> relative (parent is flex auto-layout)",
+          "parentNodeId": "12950:24813"
+        },
+        {
+          "rule": "3-style",
+          "section": "home-hero-branded",
+          "nodeId": "12950:24819",
+          "fix": "raster <img> pinned to Figma node size 219x116 (was \"relative flex flex-col gap-[10px] py-[32px] w-fit h-fit shrink-0\"; padding baked into raster removed)"
+        },
+        {
+          "rule": 4,
+          "section": "home-hero-branded",
+          "nodeId": "12950:24787",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "home-hero-branded",
+          "nodeId": "12950:24788",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "home-hero-branded",
+          "nodeId": "I12950:24789;12077:109144",
+          "fix": "removed bg-[var(--Button-Primary-Text,#ffffff)] from text node (same as text colour)"
+        },
+        {
+          "rule": 3,
+          "section": "teaser-text-image",
+          "nodeId": "12431:14241",
+          "fix": "absolute -> relative (parent is flex auto-layout)",
+          "parentNodeId": "12431:14270"
+        },
+        {
+          "rule": 3,
+          "section": "teaser-text-image",
+          "nodeId": "12431:14245",
+          "fix": "absolute -> relative (parent is flex auto-layout)",
+          "parentNodeId": "12431:14270"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-text-image",
+          "nodeId": "I12534:1355;12529:1209",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "teaser-text-image",
+          "nodeId": "I12534:1355;12529:1209",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "12534:1355"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-text-image",
+          "nodeId": "12431:14243",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-text-image",
+          "nodeId": "I12431:14252;12077:109144",
+          "fix": "removed bg-[var(--Button-Primary-Text,#ffffff)] from text node (same as text colour)"
+        },
+        {
+          "rule": 3,
+          "section": "teaser-card",
+          "nodeId": "12436:14660",
+          "fix": "absolute -> relative (parent is flex auto-layout)",
+          "parentNodeId": "12436:14706"
+        },
+        {
+          "rule": 3,
+          "section": "teaser-card",
+          "nodeId": "12436:14661",
+          "fix": "absolute -> relative (parent is flex auto-layout)",
+          "parentNodeId": "12436:14706"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;13024:844;13024:834",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12534:1264;12529:1209",
+          "fix": "removed bg-[var(--Text-Title-2,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12534:1264;12529:1209",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "I12436:14698;12534:1264"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12436:14675",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12436:14676;12077:109144",
+          "fix": "removed bg-[var(--Button-Primary-Text,#ffffff)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "13370:1867",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "13370:1909"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1456;12529:1209",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1456;12529:1209",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "13370:1456"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1865;12534:1254",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1865;12534:1254",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "13370:1865"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12128:3190",
+          "fix": "raster <img> pinned to Figma node size 111x24 (was \"relative flex flex-row items-center gap-[2px] w-fit h-fit shrink-0\"; padding baked into raster removed)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12128:3256",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "I13370:1868;12128:3188"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12128:3256",
+          "fix": "raster <img> pinned to Figma node size Nonex24 (was \"relative flex flex-row items-center gap-[8px] flex-1 min-w-0 h-fit shrink-0\"; padding baked into raster removed)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12160:3278",
+          "fix": "raster <img> pinned to Figma node size 20x20 (was \"relative flex flex-row items-center gap-[2px] w-fit h-fit shrink-0\"; padding baked into raster removed)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12128:3258",
+          "fix": "removed bg-[var(--Text-Label-2,#656969)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1892;13028:1785;12077:109144",
+          "fix": "removed bg-[var(--Button-Primary-Text,#ffffff)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1892;13028:1786;12084:109167",
+          "fix": "removed bg-[var(--Button-Secondary-Text,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1892;13028:1787;12084:109180",
+          "fix": "removed bg-[var(--Button-Tertiary-Text,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1905;12534:1254",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1905;12534:1254",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "13370:1905"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12143",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12149",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12150",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12151",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12152",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12160",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12161",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12162",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12163",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "footer",
+          "nodeId": "12406:12170",
+          "fix": "raster <img> pinned to Figma node size 164x20 (was \"relative flex flex-row items-center gap-[16px] w-fit h-fit shrink-0\"; padding baked into raster removed)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12181",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        }
+      ]
+    },
+    "content.html": {
+      "sections": [
+        {
+          "section": "Header",
+          "slug": "header",
+          "nodeId": "12387:11888",
+          "parentNodeId": "12387:11655",
+          "screenshotFile": null
+        },
+        {
+          "section": "Breadcrumb",
+          "slug": "breadcrumb",
+          "nodeId": "12410:12885",
+          "parentNodeId": null,
+          "screenshotFile": null
+        },
+        {
+          "section": "Block Content / Title + Text",
+          "slug": "block-content-title-text",
+          "nodeId": "12534:1405",
+          "parentNodeId": "12552:3653",
+          "screenshotFile": null
+        },
+        {
+          "section": "Block Content / Listing Card",
+          "slug": "block-content-listing-card",
+          "nodeId": "12534:1414",
+          "parentNodeId": "12552:3653",
+          "screenshotFile": null
+        },
+        {
+          "section": "Accordion (expanded)",
+          "slug": "accordion",
+          "nodeId": "12362:10348",
+          "parentNodeId": null,
+          "screenshotFile": null
+        },
+        {
+          "section": "Teaser Card",
+          "slug": "teaser-card",
+          "nodeId": "12436:14706",
+          "parentNodeId": "12436:14752",
+          "screenshotFile": null
+        },
+        {
+          "section": "Footer",
+          "slug": "footer",
+          "nodeId": "12406:12186",
+          "parentNodeId": "12406:12220",
+          "screenshotFile": null
+        }
+      ],
+      "fixes": [
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11076;12385:11073;12379:10693",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3/4-style",
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11045;12379:11036",
+          "fix": "single-side stroke: border-[1px] -> border-0 border-r-[1px]"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11045;12379:11036;12379:10706",
+          "fix": "removed bg-[var(--Text-Interaction,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3/4-style",
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11045;12379:11039",
+          "fix": "single-side stroke: border-[1px] -> border-0 border-l-[1px]"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12385:11045;12379:11039;12379:10693",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10746;12370:10625",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10746;12370:10626",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10750;12370:10625",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10750;12370:10626",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10754;12370:10637",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "header",
+          "nodeId": "I12387:11888;12379:10760;12370:10525;12084:109216",
+          "fix": "removed bg-[var(--Button-Secondary-Text,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "breadcrumb",
+          "nodeId": "I12410:12853;12410:12838",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "breadcrumb",
+          "nodeId": "12410:12850",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "breadcrumb",
+          "nodeId": "I12410:12856;12410:12838",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "breadcrumb",
+          "nodeId": "12410:12858",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "breadcrumb",
+          "nodeId": "I12410:12860;12410:12844",
+          "fix": "removed bg-[var(--Text-Interaction,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "block-content-title-text",
+          "nodeId": "I12534:1395;12529:1207",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "block-content-title-text",
+          "nodeId": "I12534:1395;12529:1207",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "12534:1395"
+        },
+        {
+          "rule": 4,
+          "section": "block-content-title-text",
+          "nodeId": "I12534:1397;12534:1254",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "block-content-title-text",
+          "nodeId": "I12534:1397;12534:1254",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "12534:1397"
+        },
+        {
+          "rule": "3-style",
+          "section": "block-content-listing-card",
+          "nodeId": "12534:1422",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "12534:1414"
+        },
+        {
+          "rule": 4,
+          "section": "block-content-listing-card",
+          "nodeId": "I12534:1415;12529:1208",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "block-content-listing-card",
+          "nodeId": "I12534:1415;12529:1208",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "12534:1415"
+        },
+        {
+          "rule": 4,
+          "section": "block-content-listing-card",
+          "nodeId": "I12534:1416;12534:1254",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "block-content-listing-card",
+          "nodeId": "I12534:1416;12534:1254",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "12534:1416"
+        },
+        {
+          "rule": 4,
+          "section": "accordion",
+          "nodeId": "12362:10350",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "accordion",
+          "nodeId": "12362:10350",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "12362:10349"
+        },
+        {
+          "rule": "3-style",
+          "section": "accordion",
+          "nodeId": "12362:10351",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "accordion",
+          "nodeId": "I12850:21898;12534:1395;12529:1207",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "accordion",
+          "nodeId": "I12850:21898;12534:1395;12529:1207",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "I12850:21898;12534:1395"
+        },
+        {
+          "rule": 4,
+          "section": "accordion",
+          "nodeId": "I12850:21898;12534:1397;12534:1254",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "accordion",
+          "nodeId": "I12850:21898;12534:1397;12534:1254",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "I12850:21898;12534:1397"
+        },
+        {
+          "rule": 3,
+          "section": "teaser-card",
+          "nodeId": "12436:14660",
+          "fix": "absolute -> relative (parent is flex auto-layout)",
+          "parentNodeId": "12436:14706"
+        },
+        {
+          "rule": 3,
+          "section": "teaser-card",
+          "nodeId": "12436:14661",
+          "fix": "absolute -> relative (parent is flex auto-layout)",
+          "parentNodeId": "12436:14706"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;13024:844;13024:834",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12534:1264;12529:1209",
+          "fix": "removed bg-[var(--Text-Title-2,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12534:1264;12529:1209",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "I12436:14698;12534:1264"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12436:14675",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12436:14676;12077:109144",
+          "fix": "removed bg-[var(--Button-Primary-Text,#ffffff)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12143",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12149",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12150",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12151",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12152",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12160",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12161",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12162",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12163",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "footer",
+          "nodeId": "12406:12170",
+          "fix": "raster <img> pinned to Figma node size 164x20 (was \"relative flex flex-row items-center gap-[16px] w-fit h-fit shrink-0\"; padding baked into raster removed)"
+        },
+        {
+          "rule": 4,
+          "section": "footer",
+          "nodeId": "12406:12181",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        }
+      ]
+    },
+    "components.html": {
+      "sections": [
+        {
+          "section": "Button variants",
+          "slug": "buttons",
+          "nodeId": "12084:109282",
+          "parentNodeId": "12077:109023",
+          "screenshotFile": null
+        },
+        {
+          "section": "Teaser Card",
+          "slug": "teaser-card",
+          "nodeId": "12436:14706",
+          "parentNodeId": "12436:14752",
+          "screenshotFile": null
+        },
+        {
+          "section": "Breadcrumb",
+          "slug": "breadcrumb",
+          "nodeId": "12410:12885",
+          "parentNodeId": null,
+          "screenshotFile": null
+        },
+        {
+          "section": "Accordion (expanded)",
+          "slug": "accordion",
+          "nodeId": "12362:10348",
+          "parentNodeId": null,
+          "screenshotFile": null
+        },
+        {
+          "section": "CTA Banner",
+          "slug": "cta-banner",
+          "nodeId": "13370:1909",
+          "parentNodeId": "13370:1922",
+          "screenshotFile": null
+        }
+      ],
+      "fixes": [
+        {
+          "rule": "3-style",
+          "section": "buttons",
+          "nodeId": "I12084:109270;12077:109145",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "buttons",
+          "nodeId": "I12084:109270;12077:109144",
+          "fix": "removed bg-[var(--Button-Primary-Text,#ffffff)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "buttons",
+          "nodeId": "I12084:109270;12077:109148",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": "3-style",
+          "section": "buttons",
+          "nodeId": "I12084:109276;12084:109166",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "buttons",
+          "nodeId": "I12084:109276;12084:109167",
+          "fix": "removed bg-[var(--Button-Secondary-Text,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "buttons",
+          "nodeId": "I12084:109276;12084:109168",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": "3-style",
+          "section": "buttons",
+          "nodeId": "I12084:109283;12084:109173",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "buttons",
+          "nodeId": "I12084:109283;12084:109174",
+          "fix": "removed bg-[var(--Button-Tertiary-Text,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "buttons",
+          "nodeId": "I12084:109283;12084:109175",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": "3-style",
+          "section": "buttons",
+          "nodeId": "I12084:109289;12084:109179",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "buttons",
+          "nodeId": "I12084:109289;12084:109180",
+          "fix": "removed bg-[var(--Button-Tertiary-Text,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "buttons",
+          "nodeId": "I12084:109289;12084:109181",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 3,
+          "section": "teaser-card",
+          "nodeId": "12436:14660",
+          "fix": "absolute -> relative (parent is flex auto-layout)",
+          "parentNodeId": "12436:14706"
+        },
+        {
+          "rule": 3,
+          "section": "teaser-card",
+          "nodeId": "12436:14661",
+          "fix": "absolute -> relative (parent is flex auto-layout)",
+          "parentNodeId": "12436:14706"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;13024:844;13024:834",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12534:1264;12529:1209",
+          "fix": "removed bg-[var(--Text-Title-2,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12534:1264;12529:1209",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "I12436:14698;12534:1264"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12436:14675",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "teaser-card",
+          "nodeId": "I12436:14698;12436:14676;12077:109144",
+          "fix": "removed bg-[var(--Button-Primary-Text,#ffffff)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "breadcrumb",
+          "nodeId": "I12410:12853;12410:12838",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "breadcrumb",
+          "nodeId": "12410:12850",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "breadcrumb",
+          "nodeId": "I12410:12856;12410:12838",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "breadcrumb",
+          "nodeId": "12410:12858",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "breadcrumb",
+          "nodeId": "I12410:12860;12410:12844",
+          "fix": "removed bg-[var(--Text-Interaction,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "accordion",
+          "nodeId": "12362:10350",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "accordion",
+          "nodeId": "12362:10350",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "12362:10349"
+        },
+        {
+          "rule": "3-style",
+          "section": "accordion",
+          "nodeId": "12362:10351",
+          "fix": "removed style transform rotate(-3.141592653589793deg) (radians-as-deg; rotation already baked into raster)"
+        },
+        {
+          "rule": 4,
+          "section": "accordion",
+          "nodeId": "I12850:21898;12534:1395;12529:1207",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "accordion",
+          "nodeId": "I12850:21898;12534:1395;12529:1207",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "I12850:21898;12534:1395"
+        },
+        {
+          "rule": 4,
+          "section": "accordion",
+          "nodeId": "I12850:21898;12534:1397;12534:1254",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "accordion",
+          "nodeId": "I12850:21898;12534:1397;12534:1254",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "I12850:21898;12534:1397"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "13370:1867",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "13370:1909"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1456;12529:1209",
+          "fix": "removed bg-[var(--Text-Title-1,#830051)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1456;12529:1209",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "13370:1456"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1865;12534:1254",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1865;12534:1254",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "13370:1865"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12128:3190",
+          "fix": "raster <img> pinned to Figma node size 111x24 (was \"relative flex flex-row items-center gap-[2px] w-fit h-fit shrink-0\"; padding baked into raster removed)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12128:3256",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "I13370:1868;12128:3188"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12128:3256",
+          "fix": "raster <img> pinned to Figma node size Nonex24 (was \"relative flex flex-row items-center gap-[8px] flex-1 min-w-0 h-fit shrink-0\"; padding baked into raster removed)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12160:3278",
+          "fix": "raster <img> pinned to Figma node size 20x20 (was \"relative flex flex-row items-center gap-[2px] w-fit h-fit shrink-0\"; padding baked into raster removed)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1868;12128:3258",
+          "fix": "removed bg-[var(--Text-Label-2,#656969)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1892;13028:1785;12077:109144",
+          "fix": "removed bg-[var(--Button-Primary-Text,#ffffff)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1892;13028:1786;12084:109167",
+          "fix": "removed bg-[var(--Button-Secondary-Text,#d0006f)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1892;13028:1787;12084:109180",
+          "fix": "removed bg-[var(--Button-Tertiary-Text,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": 4,
+          "section": "cta-banner",
+          "nodeId": "I13370:1905;12534:1254",
+          "fix": "removed bg-[var(--Text-Body-1,#3c4242)] from text node (same as text colour)"
+        },
+        {
+          "rule": "3-style",
+          "section": "cta-banner",
+          "nodeId": "I13370:1905;12534:1254",
+          "fix": "w-full -> flex-1 min-w-0 (fill container in flex-row parent)",
+          "parentNodeId": "13370:1905"
+        }
+      ]
+    },
+    "index.html": {
+      "sections": [],
+      "fixes": []
+    }
+  },
+  "assemblyNotes": [
+    "Teaser card row gap 40px taken from Figma \"Element type=2 Teasers, Breakpoint=Desktop\" (12542:1504).",
+    "class=\"container\" (max-width 1180px, centred) used only around frames that are themselves 1180px wide (Block Content elements, Teaser Text+Image 574+32+574, Button variants row, teaser card rows); Tailwind's own container plugin disabled to avoid conflict.",
+    "Fonts Lexia/Inter are not loaded (not part of the Figma export); the exported font stacks are kept verbatim.",
+    "Block Content (12552:3653) is a documentation frame; desktop variants of its .Block Element set (12534:1413) exported: Title + Text (12534:1405) and Listing Card (12534:1414).",
+    "Button (12077:109023) is a page; exported the \"Button variants\" row 12084:109282 (primary, secondary, tertiary, link + icon-only, default state)."
+  ]
+}

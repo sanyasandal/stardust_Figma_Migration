@@ -1,0 +1,62 @@
+{
+  "slug": "learning-and-support_wellbeing",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M9",
+    "NM1",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Wellbeing",
+    "description": "At Fort Street High School, student wellbeing and learning support go hand in hand. We want every student to feel safe, included and ready to learn.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Wellbeing",
+    "description": "At Fort Street High School, student wellbeing and learning support go hand in hand. We want every student to feel safe, included and ready to learn.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing"
+  },
+  "migratedAt": "2026-10-21T13:26:42Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "9dc44863700b",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "learning-and-support/wellbeing/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "learning-and-support/wellbeing/_meta.json",
+  "driverVersion": "1"
+}

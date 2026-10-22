@@ -1,0 +1,62 @@
+{
+  "slug": "about-us_policies-and-reports",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M6",
+    "M9",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "title-text",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Policies and reports",
+    "description": "At Fort Street High School, our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year.  Our polices address attendance, absences, behaviour, uniform and how we respond to your concerns.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Policies and reports",
+    "description": "At Fort Street High School, our policies and reports help families understand how our school works. Our annual report and school plan show what we’ve done and how we’re improving each year.  Our polices address attendance, absences, behaviour, uniform and how we respond to your concerns.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports"
+  },
+  "migratedAt": "2026-10-21T13:26:42Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "0f5447077ed9",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/policies-and-reports/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/policies-and-reports/_meta.json",
+  "driverVersion": "1"
+}

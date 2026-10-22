@@ -1,0 +1,841 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:21:27.195Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/learning-and-support_high-potential-and-gifted-education.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Inspire – High potential and gifted education",
+    "description": "At our school, we recognise that some students learn more quickly or shine in areas such as creativity, leadership, or sport, and we nurture these strengths through tailored lessons and activities that help advanced learners grow and thrive.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+    "ogTags": {
+      "og:title": "Inspire – High potential and gifted education",
+      "og:description": "At our school, we recognise that some students learn more quickly or shine in areas such as creativity, leadership, or sport, and we nurture these strengths through tailored lessons and activities that help advanced learners grow and thrive.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_12ed40a41a209954e5ad8d79b8ecbf68fb632cc4a.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_12ed40a41a209954e5ad8d79b8ecbf68fb632cc4a.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Inspire – High potential and gifted education",
+      "twitter:description": "At our school, we recognise that some students learn more quickly or shine in areas such as creativity, leadership, or sport, and we nurture these strengths through tailored lessons and activities that help advanced learners grow and thrive.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_12ed40a41a209954e5ad8d79b8ecbf68fb632cc4a.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Inspire – High potential and gifted education Some students learn faster and more easily than others. These students may shine in creativity, thinking, leadership or sport. At our school, we recognise and nurture these strengths early. We support advanced learners with great lessons and activities to help them grow and thrive. Why choose us for your high potential or gifted child? Fort Street High School values the importance of Inspire – High potential and gifted education (HPGE) and ensures that programs and lessons are adjusted to maximise the talents of our students across a range of fields. Staff meet three times a term as part of Professional Learning Community (PLC) groups to ensure that the key principles of HPGE policy are adopted to meet the needs of our student body across four key learning domains; whether that is creative, intellectual, physical or socio-emotional. Our staff value the importance of creating appropriate learning environments and making deliberate adjustments to content to ensure that our students can achieve their potential across a range of pursuits. The success of our approach to HPGE policy can be demonstrated through our achievements across a wide range at Fort Street High School including: Nominations in HSC Showcases - On Stage (Drama), Encore (Music) and Shape (Design and Technology). Participation in the Duke of Edinburgh program Annual School Musical productions and Senior Drama Productions An Instrumental Music Program with over 300 students enrolled Maker Society and Robotics Competitions Students representing Fort Street High Schools in Zone, Regional and State Swimming, Athletics and Cross Country Carnivals CHS sports teams in Volleyball, Basketball, Rugby, Netball, Cricket, Touch Football, Soccer and Tennis A large number of student led Committee's including - the Environment, Diversity and Amnesty Committees Weekly Fortunae classes Raise Mentoring Opportunities for students to participate in competitions such as Tournament of the Minds, Science, History, Geography and Maths Competitions What is high potential and gifted education? Inspire – High potential and gifted education (HPGE) is how our school supports students with advanced learning needs. We do this through: effective teaching strategies like enrichment, extension and acceleration tailored support during lessons that stretch, challenge and inspire access to a wide range of opportunities both within and beyond our school. Our high potential and gifted education opportunities Our students engage with HPGE education in the classroom, in our school, and across NSW. In our classroom We are committed to recognising and nurturing high potential and gifted students, ensuring every student has the opportunity to thrive at our school. Our supportive classroom environments promote a sense of belonging and encourage risk-taking, creativity and collaboration. Our teachers engage in professional learning to support the diverse needs of all students, including our high potential and gifted learners. Across our school Our school offers a range of whole-school programs that support student growth. Our school identifies and supports students with high potential through targeted enrichment, extension and extra-curricular opportunities such as debating, competitions, critical thinking workshops, and STEM and coding clubs. All our students, including high potential and gifted students, are encouraged to take on leadership roles through student representative council leadership, mentoring programs and peer coaching. Student talent is celebrated and extended through school musicals, drama groups, visual arts showcases, music ensembles and creative writing groups. Our students can take part in inter school sports compeitions, carnivals, house competitions and gala days. Across NSW Our students participate in a wide range of statewide programs to extend and enrich student potential. We provide access to local, state and national competitions and events to help students explore and extend their talents. Academic competitions Combined High Schools Competitions Music ensembles 1 2 Help for your high potential child If your child shows signs of high potential, contact us. We can share how our HPGE support can guide their learning journey. Contact us Student opportunities and activities Discover the opportunities our students have at our school. Learning Find out about our approach to learning and supporting students to progress",
+  "coverage": {
+    "bodyTextLen": 5377,
+    "scopeTextLen": 4484,
+    "ratio": 0.834,
+    "h1Text": "Inspire – High potential and gifted education",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Inspire – High potential and gifted education Some students learn faster and more easily than others. These students may shine in creativity, thinking, leadership or sport. At our school, we recognise and nurture these strengths early. We support advanced learners with great lessons and activities to help them grow and thrive.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Inspire – High potential and gifted education"
+        }
+      ],
+      "paragraphs": [
+        "Some students learn faster and more easily than others. These students may shine in creativity, thinking, leadership or sport.",
+        "At our school, we recognise and nurture these strengths early. We support advanced learners with great lessons and activities to help them grow and thrive."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Inspire – High potential and gifted education",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Some students learn faster and more easily than others. These students may shine in creativity, thinking, leadership or sport.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At our school, we recognise and nurture these strengths early. We support advanced learners with great lessons and activities to help them grow and thrive.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Why choose us for your high potential or gifted child?",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Why choose us for your high potential or gifted child?"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_12ed40a41a209954e5ad8d79b8ecbf68fb632cc4a.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 741,
+          "h": 511
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Why choose us for your high potential or gifted child?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_12ed40a41a209954e5ad8d79b8ecbf68fb632cc4a.png?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "Fort Street High School values the importance of Inspire – High potential and gifted education (HPGE) and ensures that programs and lessons are adjusted to maximise the talents of our students across a range of fields. Staff meet three times a term as part of Professional Learning Community (PLC) groups to ensure that the key principles of HPGE policy are adopted to meet the needs of our student body across four key learning domains; whether that is creative, intellectual, physical or socio-emotional. Our staff value the importance of creating appropriate learning environments and making deliberate adjustments to content to ensure that our students can achieve their potential across a range of pursuits. The success of our approach to HPGE policy can be demonstrated through our achievements across a wide range at Fort Street High School including: Nominations in HSC Showcases - On Stage (Drama), Encore (Music) and Shape (Design and Technology). Participation in the Duke of Edinburgh program Annual School Musical productions and Senior Drama Productions An Instrumental Music Program with over 300 students enrolled Maker Society and Robotics Competitions Students representing Fort Street High Schools in Zone, Regional and State Swimming, Athletics and Cross Country Carnivals CHS sports teams in Volleyball, Basketball, Rugby, Netball, Cricket, Touch Football, Soccer and Tennis A large number of student led Committee's including - the Environment, Diversity and Amnesty Committees Weekly Fortunae classes Raise Mentoring Opportunities for students to participate in competitions such as Tournament of the Minds, Science, History, Geography and Maths Competitions",
+      "headings": [],
+      "paragraphs": [
+        "Fort Street High School values the importance of Inspire – High potential and gifted education (HPGE) and ensures that programs and lessons are adjusted to maximise the talents of our students across a range of fields.",
+        "Staff meet three times a term as part of Professional Learning Community (PLC) groups to ensure that the key principles of HPGE policy are adopted to meet the needs of our student body across four key learning domains; whether that is creative, intellectual, physical or socio-emotional. Our staff value the importance of creating appropriate learning environments and making deliberate adjustments to content to ensure that our students can achieve their potential across a range of pursuits.",
+        "The success of our approach to HPGE policy can be demonstrated through our achievements across a wide range at Fort Street High School including:"
+      ],
+      "listItems": [
+        "Nominations in HSC Showcases - On Stage (Drama), Encore (Music) and Shape (Design and Technology).",
+        "Participation in the Duke of Edinburgh program",
+        "Annual School Musical productions and Senior Drama Productions",
+        "An Instrumental Music Program with over 300 students enrolled",
+        "Maker Society and Robotics Competitions",
+        "Students representing Fort Street High Schools in Zone, Regional and State Swimming, Athletics and Cross Country Carnivals",
+        "CHS sports teams in Volleyball, Basketball, Rugby, Netball, Cricket, Touch Football, Soccer and Tennis",
+        "A large number of student led Committee's including - the Environment, Diversity and Amnesty Committees",
+        "Weekly Fortunae classes",
+        "Raise Mentoring",
+        "Opportunities for students to participate in competitions such as Tournament of the Minds, Science, History, Geography and Maths Competitions"
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School values the importance of Inspire – High potential and gifted education (HPGE) and ensures that programs and lessons are adjusted to maximise the talents of our students across a range of fields.",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Staff meet three times a term as part of Professional Learning Community (PLC) groups to ensure that the key principles of HPGE policy are adopted to meet the needs of our student body across four key learning domains; whether that is creative, intellectual, physical or socio-emotional. Our staff value the importance of creating appropriate learning environments and making deliberate adjustments to content to ensure that our students can achieve their potential across a range of pursuits.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The success of our approach to HPGE policy can be demonstrated through our achievements across a wide range at Fort Street High School including:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Nominations in HSC Showcases - On Stage (Drama), Encore (Music) and Shape (Design and Technology).",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Participation in the Duke of Edinburgh program",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Annual School Musical productions and Senior Drama Productions",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "An Instrumental Music Program with over 300 students enrolled",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Maker Society and Robotics Competitions",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students representing Fort Street High Schools in Zone, Regional and State Swimming, Athletics and Cross Country Carnivals",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "CHS sports teams in Volleyball, Basketball, Rugby, Netball, Cricket, Touch Football, Soccer and Tennis",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "A large number of student led Committee's including - the Environment, Diversity and Amnesty Committees",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Weekly Fortunae classes",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Raise Mentoring",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Opportunities for students to participate in competitions such as Tournament of the Minds, Science, History, Geography and Maths Competitions",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container gallery-container",
+      "visibleText": "What is high potential and gifted education? Inspire – High potential and gifted education (HPGE) is how our school supports students with advanced learning needs. We do this through: effective teaching strategies like enrichment, extension and acceleration tailored support during lessons that stretch, challenge and inspire access to a wide range of opportunities both within and beyond our school. Our high potential and gifted education opportunities Our students engage with HPGE education in the classroom, in our school, and across NSW. In our classroom We are committed to recognising and nurturing high potential and gifted students, ensuring every student has the opportunity to thrive at our school. Our supportive classroom environments promote a sense of belonging and encourage risk-taking, creativity and collaboration. Our teachers engage in professional learning to support the diverse needs of all students, including our high potential and gifted learners. Across our school Our school offers a range of whole-school programs that support student growth. Our school identifies and supports students with high potential through targeted enrichment, extension and extra-curricular opportunities such as debating, competitions, critical thinking workshops, and STEM and coding clubs. All our students, including high potential and gifted students, are encouraged to take on leadership roles through student representative council leadership, mentoring programs and peer coaching. Student talent is celebrated and extended through school musicals, drama groups, visual arts showcases, music ensembles and creative writing groups. Our students can take part in inter school sports compeitions, carnivals, house competitions and gala days. Across NSW Our students participate in a wide range of statewide programs to extend and enrich student potential. We provide access to local, state and national competitions and events to help students explore and extend their talents. Academic competitions Combined High Schools Competitions Music ensembles 1 2",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "What is high potential and gifted education?"
+        },
+        {
+          "level": "h2",
+          "text": "Our high potential and gifted education opportunities"
+        }
+      ],
+      "paragraphs": [
+        "Inspire – High potential and gifted education (HPGE) is how our school supports students with advanced learning needs.",
+        "We do this through:",
+        "Our students engage with HPGE education in the classroom, in our school, and across NSW.",
+        "Academic competitions",
+        "Combined High Schools Competitions",
+        "Music ensembles"
+      ],
+      "listItems": [
+        "effective teaching strategies like enrichment, extension and acceleration",
+        "tailored support during lessons that stretch, challenge and inspire",
+        "access to a wide range of opportunities both within and beyond our school.",
+        "We are committed to recognising and nurturing high potential and gifted students, ensuring every student has the opportunity to thrive at our school.",
+        "Our supportive classroom environments promote a sense of belonging and encourage risk-taking, creativity and collaboration.",
+        "Our teachers engage in professional learning to support the diverse needs of all students, including our high potential and gifted learners.",
+        "Our school offers a range of whole-school programs that support student growth.",
+        "Our school identifies and supports students with high potential through targeted enrichment, extension and extra-curricular opportunities such as debating, competitions, critical thinking workshops, and STEM and coding clubs.",
+        "All our students, including high potential and gifted students, are encouraged to take on leadership roles through student representative council leadership, mentoring programs and peer coaching.",
+        "Student talent is celebrated and extended through school musicals, drama groups, visual arts showcases, music ensembles and creative writing groups.",
+        "Our students can take part in inter school sports compeitions, carnivals, house competitions and gala days.",
+        "Our students participate in a wide range of statewide programs to extend and enrich student potential.",
+        "We provide access to local, state and national competitions and events to help students explore and extend their talents.",
+        "Academic competitions",
+        "Combined High Schools Competitions",
+        "Music ensembles",
+        "1",
+        "2"
+      ],
+      "ctas": [
+        {
+          "text": "effective teaching strategies",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/high-potential-and-gifted-education/supporting-educators/implement",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/high-potential-and-gifted-education/supporting-educators/implement",
+          "classes": ""
+        },
+        {
+          "text": "tailored support",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        },
+        {
+          "text": "wide range of opportunities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_15ab72c706e9ef96b9b9aa52a354cc1b375da2ecc.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 563
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_150aebd2d3065de8186f44095c9e955875be521bb.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 563
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1006d3e2acc24d3da5e760c70d1eb0860c22fa39a.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "",
+          "w": 619,
+          "h": 460
+        }
+      ],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "In our classroom",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Across our school",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Across NSW",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "What is high potential and gifted education?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Inspire – High potential and gifted education (HPGE) is how our school supports students with advanced learning needs.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Inspire – High potential and gifted education (HPGE)",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "is how our school supports students with advanced learning needs.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We do this through:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "effective teaching strategies like enrichment, extension and acceleration",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "effective teaching strategies",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/high-potential-and-gifted-education/supporting-educators/implement",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/high-potential-and-gifted-education/supporting-educators/implement",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "like enrichment, extension and acceleration",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "tailored support during lessons that stretch, challenge and inspire",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "tailored support",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "during lessons that stretch, challenge and inspire",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "access to a wide range of opportunities both within and beyond our school.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "access to a",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "wide range of opportunities",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "both within and beyond our school.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Our high potential and gifted education opportunities",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our students engage with HPGE education in the classroom, in our school, and across NSW.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "In our classroom",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "We are committed to recognising and nurturing high potential and gifted students, ensuring every student has the opportunity to thrive at our school.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our supportive classroom environments promote a sense of belonging and encourage risk-taking, creativity and collaboration.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our teachers engage in professional learning to support the diverse needs of all students, including our high potential and gifted learners.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Across our school",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our school offers a range of whole-school programs that support student growth.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our school identifies and supports students with high potential through targeted enrichment, extension and extra-curricular opportunities such as debating, competitions, critical thinking workshops, and STEM and coding clubs.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "All our students, including high potential and gifted students, are encouraged to take on leadership roles through student representative council leadership, mentoring programs and peer coaching.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Student talent is celebrated and extended through school musicals, drama groups, visual arts showcases, music ensembles and creative writing groups.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our students can take part in inter school sports compeitions, carnivals, house competitions and gala days.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Across NSW",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Our students participate in a wide range of statewide programs to extend and enrich student potential.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "We provide access to local, state and national competitions and events to help students explore and extend their talents.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Academic competitions",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_15ab72c706e9ef96b9b9aa52a354cc1b375da2ecc.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Academic competitions",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Combined High Schools Competitions",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_150aebd2d3065de8186f44095c9e955875be521bb.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Combined High Schools Competitions",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Music ensembles",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1006d3e2acc24d3da5e760c70d1eb0860c22fa39a.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Music ensembles",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "1",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "2",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Help for your high potential child If your child shows signs of high potential, contact us. We can share how our HPGE support can guide their learning journey. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Help for your high potential child"
+        }
+      ],
+      "paragraphs": [
+        "If your child shows signs of high potential, contact us. We can share how our HPGE support can guide their learning journey.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "signs of high potential",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/high-potential-and-gifted-education/supporting-parents-and-carers",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/high-potential-and-gifted-education/supporting-parents-and-carers",
+          "classes": ""
+        },
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Help for your high potential child",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "If your child shows signs of high potential, contact us. We can share how our HPGE support can guide their learning journey.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "If your child shows",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "signs of high potential",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/high-potential-and-gifted-education/supporting-parents-and-carers",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/high-potential-and-gifted-education/supporting-parents-and-carers",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ", contact us. We can share how our HPGE support can guide their learning journey.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Student opportunities and activities Discover the opportunities our students have at our school. Learning Find out about our approach to learning and supporting students to progress",
+      "headings": [],
+      "paragraphs": [
+        "Discover the opportunities our students have at our school.",
+        "Find out about our approach to learning and supporting students to progress"
+      ],
+      "listItems": [
+        "Student opportunities and activities Discover the opportunities our students have at our school.",
+        "Learning Find out about our approach to learning and supporting students to progress"
+      ],
+      "ctas": [
+        {
+          "text": "Student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Learning",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Student opportunities and activities Discover the opportunities our students have at our school.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Student opportunities and activities",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover the opportunities our students have at our school.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Learning Find out about our approach to learning and supporting students to progress",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Learning",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about our approach to learning and supporting students to progress",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

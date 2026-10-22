@@ -1,0 +1,1448 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:34.671Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_student-opportunities-and-activities_duke-of-edinburgh-award.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Duke of Edinburgh Award",
+    "description": "Fort Street High School is proud to deliver the Duke of Edinburgh’s International Award (Duke of Ed). As an award centre, we support our young people to achieve personal growth and collaboration through developing their voluntary service, physical recreation and skills.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+    "ogTags": {
+      "og:title": "Duke of Edinburgh Award",
+      "og:description": "Fort Street High School is proud to deliver the Duke of Edinburgh’s International Award (Duke of Ed). As an award centre, we support our young people to achieve personal growth and collaboration through developing their voluntary service, physical recreation and skills.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_14ee031ca18afb0d5b061c6bd9798a384d204f4a2.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_14ee031ca18afb0d5b061c6bd9798a384d204f4a2.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Duke of Edinburgh Award",
+      "twitter:description": "Fort Street High School is proud to deliver the Duke of Edinburgh’s International Award (Duke of Ed). As an award centre, we support our young people to achieve personal growth and collaboration through developing their voluntary service, physical recreation and skills.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_14ee031ca18afb0d5b061c6bd9798a384d204f4a2.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "The Duke of Edinburgh International Award Fort Street High School is proud to deliver The Duke of Edinburgh’s International Award (Duke of Ed). As a Duke of Ed centre, we support our young people to achieve personal growth and collaboration through developing their voluntary service, physical recreation and skills. Aligned with our learner exit profile, Duke of Ed facilitates independent learning, leadership and community engagement while celebrating the spirit of adventure and enjoying our natural environment. Students voluntarily dedicate their time to the award, individually tailoring their own rewarding award experience. The Duke of Ed is a prestigious, structured and internationally recognised framework fostering the resilience and excellence of young people. About the The Duke of Ed Award Requirements of the Award Fortians in Year 9 will start with the Bronze Award. All year 9 students are strongly encouraged to participate and the year 9 camp is dedicated to the adventurous journey component. Once they are 14 and 9 months and have completed the Bronze Award students can, if they choose, progress to the Silver Award. Students who are at least 16 years old and have completed their Silver Award can progress to the Gold Award. For the Bronze DOE, you participate in three activities for one hour a week (or up to 4 hours per month) for 3 months (13 weeks) For the Silver DOE, you participate in each activity for one hour a week for 6 months (26 weeks). For the Gold DOE, you participate in each activity for one hour a week for 12 months (52 weeks) and you also participate in a residential project. Each activity requires a regular commitment, not an intense project over a few days. You organise and participate in activities of your choice. Following are some suggestions of activities that you can choose inside and outside of school. Assessor information is provided for in-school activities. If you choose to participate in an activity outside of school your assessor: cannot be a parent or relative will need to have a Working With Children Check (WWCC) number will need to complete the Appendix 11 and Assessor Commencement Guide (ACG) forms if they are not registered with the school. A list of assessors already registered with the school, and who therefore do not require Appendix 11 and Assessor Commencement Guides is here. A checklist of requirements to register in the Duke of Edinburgh’s Award, including the payment and paperwork required is available here. Adventurous Journey The Adventurous Journey involves preliminary training, followed by a practice and then a qualifying expedition. The Bronze journey is two days in length, Silver journeys are three days and Gold journeys are four days. The Bronze Adventurous Journey will include the following: a training day at school run by the student Duke of Edinburgh’s Award Leadership Team, which goes through navigation and route planning, first aid and emergency management, cooking, leadership, equipment and putting up a tent. a four-day camp at Somerset Outdoor Learning Centre, comprising a two-day practice journey and a two-day qualifying journey. Students will be hiking in groups, carrying all required equipment in a provided rucksack, and sleeping in tents. Suggestions of activities and Assessors that are available at school Skills Skill Contact Art Studio Ms Capel and Ms Cho, Rowe Staffroom Debating Mr Tennent, Cohen Staffroom English Enrichment Mr McMahon, Cohen Staffroom IMP Mr Manchester, Rowe Staffroom Philosophy Mr DeJong, Cohen Staffroom Robotics/Makers Society Mr Patane, Rowe Staffroom Theatre Sports Ms Capel Service Service Contact Amnesty Ms Hurrell, Rowe Staffroom Environmental Committee Ms Maddox, Rowe Staffroom Diversity Ms Dooley, SSO room SRC Mr Shakibaei, Rowe Staffroom Student2Student reading program Ms Elizabeth Maddox, Rowe Staffroom Duke of Ed Leadership Ms Jenny Xu, Cohen Staffroom Physical Recreation Activity Contact Grade sport Mr Feng, Rowe Staffroom Sport co-curricular Clubs Mr Sarif, Rowe Staffroom Skills Service Physical Recreation Adventurous Journey The Adventurous Journey involves preliminary training, followed by a practice and then a qualifying expedition. Source: Duke of Ed Handbook Australia | The Duke of Edinburgh's Award Australia (opens in new window) Why should I get involved in the Duke of Edinburgh’s Award program? It’s fun, an opportunity to challenge yourself and have adventures! It helps you achieve the Fort Street exit profile It helps you develop and demonstrate the skills sought after by employers, universities and scholarship providers, such as problem solving, teamwork, communication, adaptability, resilience, organisation, creativity and leadership. It improves your academic performance and mental health. 1 2 3 2026 Duke of Ed Staff Team Coordinator Ms Xu Bronze Award Leader Ms Xu, Mr Sarif Silver Award Leader Ms Xu, Mr Sarif Gold Award Leader Ms Thompson Front Office Staff Ms Kaloudis, Ms Kuenne Want to know more? Contact Ms Xu - Duke of Ed Coordinator Phone: 8585 1600 Email: jenny.xu15@det.nsw.edu.au (opens in new window) Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 6490,
+    "scopeTextLen": 5282,
+    "ratio": 0.814,
+    "h1Text": "The Duke of Edinburgh International Award",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "The Duke of Edinburgh International Award Fort Street High School is proud to deliver The Duke of Edinburgh’s International Award (Duke of Ed). As a Duke of Ed centre, we support our young people to achieve personal growth and collaboration through developing their voluntary service, physical recreation and skills. Aligned with our learner exit profile, Duke of Ed facilitates independent learning, leadership and community engagement while celebrating the spirit of adventure and enjoying our natural environment. Students voluntarily dedicate their time to the award, individually tailoring their own rewarding award experience. The Duke of Ed is a prestigious, structured and internationally recognised framework fostering the resilience and excellence of young people. About the The Duke of Ed Award",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "The Duke of Edinburgh International Award"
+        },
+        {
+          "level": "h2",
+          "text": "About the The Duke of Ed Award"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street High School is proud to deliver The Duke of Edinburgh’s International Award (Duke of Ed). As a Duke of Ed centre, we support our young people to achieve personal growth and collaboration through developing their voluntary service, physical recreation and skills. Aligned with our learner exit profile, Duke of Ed facilitates independent learning, leadership and community engagement while celebrating the spirit of adventure and enjoying our natural environment. Students voluntarily dedicate their time to the award, individually tailoring their own rewarding award experience. The Duke of Ed is a prestigious, structured and internationally recognised framework fostering the resilience and excellence of young people."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_14ee031ca18afb0d5b061c6bd9798a384d204f4a2.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 940,
+          "h": 940
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_13ced7172bebba0a1d393c532218e60ccf3a70def.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 1689,
+          "h": 1517
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "The Duke of Edinburgh International Award",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School is proud to deliver The Duke of Edinburgh’s International Award (Duke of Ed). As a Duke of Ed centre, we support our young people to achieve personal growth and collaboration through developing their voluntary service, physical recreation and skills. Aligned with our learner exit profile, Duke of Ed facilitates independent learning, leadership and community engagement while celebrating the spirit of adventure and enjoying our natural environment. Students voluntarily dedicate their time to the award, individually tailoring their own rewarding award experience. The Duke of Ed is a prestigious, structured and internationally recognised framework fostering the resilience and excellence of young people.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_14ee031ca18afb0d5b061c6bd9798a384d204f4a2.png?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "About the The Duke of Ed Award",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_13ced7172bebba0a1d393c532218e60ccf3a70def.png?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Requirements of the Award Fortians in Year 9 will start with the Bronze Award. All year 9 students are strongly encouraged to participate and the year 9 camp is dedicated to the adventurous journey component. Once they are 14 and 9 months and have completed the Bronze Award students can, if they choose, progress to the Silver Award. Students who are at least 16 years old and have completed their Silver Award can progress to the Gold Award. For the Bronze DOE, you participate in three activities for one hour a week (or up to 4 hours per month) for 3 months (13 weeks) For the Silver DOE, you participate in each activity for one hour a week for 6 months (26 weeks). For the Gold DOE, you participate in each activity for one hour a week for 12 months (52 weeks) and you also participate in a residential project. Each activity requires a regular commitment, not an intense project over a few days. You organise and participate in activities of your choice. Following are some suggestions of activities that you can choose inside and outside of school. Assessor information is provided for in-school activities. If you choose to participate in an activity outside of school your assessor: cannot be a parent or relative will need to have a Working With Children Check (WWCC) number will need to complete the Appendix 11 and Assessor Commencement Guide (ACG) forms if they are not registered with the school. A list of assessors already registered with the school, and who therefore do not require Appendix 11 and Assessor Commencement Guides is here. A checklist of requirements to register in the Duke of Edinburgh’s Award, including the payment and paperwork required is available here.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Requirements of the Award"
+        }
+      ],
+      "paragraphs": [
+        "Fortians in Year 9 will start with the Bronze Award. All year 9 students are strongly encouraged to participate and the year 9 camp is dedicated to the adventurous journey component. Once they are 14 and 9 months and have completed the Bronze Award students can, if they choose, progress to the Silver Award. Students who are at least 16 years old and have completed their Silver Award can progress to the Gold Award.",
+        "Each activity requires a regular commitment, not an intense project over a few days. You organise and participate in activities of your choice.",
+        "Following are some suggestions of activities that you can choose inside and outside of school. Assessor information is provided for in-school activities. If you choose to participate in an activity outside of school your assessor:",
+        "A checklist of requirements to register in the Duke of Edinburgh’s Award, including the payment and paperwork required is available here."
+      ],
+      "listItems": [
+        "For the Bronze DOE, you participate in three activities for one hour a week (or up to 4 hours per month) for 3 months (13 weeks)",
+        "For the Silver DOE, you participate in each activity for one hour a week for 6 months (26 weeks).",
+        "For the Gold DOE, you participate in each activity for one hour a week for 12 months (52 weeks) and you also participate in a residential project.",
+        "cannot be a parent or relative",
+        "will need to have a Working With Children Check (WWCC) number",
+        "will need to complete the Appendix 11 and Assessor Commencement Guide (ACG) forms if they are not registered with the school. A list of assessors already registered with the school, and who therefore do not require Appendix 11 and Assessor Commencement Guides is here."
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Requirements of the Award",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fortians in Year 9 will start with the Bronze Award. All year 9 students are strongly encouraged to participate and the year 9 camp is dedicated to the adventurous journey component. Once they are 14 and 9 months and have completed the Bronze Award students can, if they choose, progress to the Silver Award. Students who are at least 16 years old and have completed their Silver Award can progress to the Gold Award.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "For the Bronze DOE, you participate in three activities for one hour a week (or up to 4 hours per month) for 3 months (13 weeks)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "For the Silver DOE, you participate in each activity for one hour a week for 6 months (26 weeks).",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "For the Gold DOE, you participate in each activity for one hour a week for 12 months (52 weeks) and you also participate in a residential project.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Each activity requires a regular commitment, not an intense project over a few days. You organise and participate in activities of your choice.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Following are some suggestions of activities that you can choose inside and outside of school. Assessor information is provided for in-school activities. If you choose to participate in an activity outside of school your assessor:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "cannot be a parent or relative",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "will need to have a Working With Children Check (WWCC) number",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "will need to complete the Appendix 11 and Assessor Commencement Guide (ACG) forms if they are not registered with the school. A list of assessors already registered with the school, and who therefore do not require Appendix 11 and Assessor Commencement Guides is here.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "A checklist of requirements to register in the Duke of Edinburgh’s Award, including the payment and paperwork required is available here.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Adventurous Journey The Adventurous Journey involves preliminary training, followed by a practice and then a qualifying expedition. The Bronze journey is two days in length, Silver journeys are three days and Gold journeys are four days. The Bronze Adventurous Journey will include the following: a training day at school run by the student Duke of Edinburgh’s Award Leadership Team, which goes through navigation and route planning, first aid and emergency management, cooking, leadership, equipment and putting up a tent. a four-day camp at Somerset Outdoor Learning Centre, comprising a two-day practice journey and a two-day qualifying journey. Students will be hiking in groups, carrying all required equipment in a provided rucksack, and sleeping in tents.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Adventurous Journey"
+        }
+      ],
+      "paragraphs": [
+        "The Adventurous Journey involves preliminary training, followed by a practice and then a qualifying expedition. The Bronze journey is two days in length, Silver journeys are three days and Gold journeys are four days.",
+        "The Bronze Adventurous Journey will include the following:"
+      ],
+      "listItems": [
+        "a training day at school run by the student Duke of Edinburgh’s Award Leadership Team, which goes through navigation and route planning, first aid and emergency management, cooking, leadership, equipment and putting up a tent.",
+        "a four-day camp at Somerset Outdoor Learning Centre, comprising a two-day practice journey and a two-day qualifying journey. Students will be hiking in groups, carrying all required equipment in a provided rucksack, and sleeping in tents."
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Adventurous Journey",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Adventurous Journey involves preliminary training, followed by a practice and then a qualifying expedition. The Bronze journey is two days in length, Silver journeys are three days and Gold journeys are four days.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Bronze Adventurous Journey will include the following:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "a training day at school run by the student Duke of Edinburgh’s Award Leadership Team, which goes through navigation and route planning, first aid and emergency management, cooking, leadership, equipment and putting up a tent.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "a four-day camp at Somerset Outdoor Learning Centre, comprising a two-day practice journey and a two-day qualifying journey. Students will be hiking in groups, carrying all required equipment in a provided rucksack, and sleeping in tents.",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container content-container-container",
+      "visibleText": "Suggestions of activities and Assessors that are available at school Skills Skill Contact Art Studio Ms Capel and Ms Cho, Rowe Staffroom Debating Mr Tennent, Cohen Staffroom English Enrichment Mr McMahon, Cohen Staffroom IMP Mr Manchester, Rowe Staffroom Philosophy Mr DeJong, Cohen Staffroom Robotics/Makers Society Mr Patane, Rowe Staffroom Theatre Sports Ms Capel Service Service Contact Amnesty Ms Hurrell, Rowe Staffroom Environmental Committee Ms Maddox, Rowe Staffroom Diversity Ms Dooley, SSO room SRC Mr Shakibaei, Rowe Staffroom Student2Student reading program Ms Elizabeth Maddox, Rowe Staffroom Duke of Ed Leadership Ms Jenny Xu, Cohen Staffroom Physical Recreation Activity Contact Grade sport Mr Feng, Rowe Staffroom Sport co-curricular Clubs Mr Sarif, Rowe Staffroom Skills Service Physical Recreation",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Suggestions of activities and Assessors that are available at school"
+        }
+      ],
+      "paragraphs": [
+        "Skills",
+        "Service",
+        "Physical Recreation"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Students",
+          "w": 750,
+          "h": 500
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1536a89360defdbba1318a70484db5f79f91b043e.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Group of students",
+          "w": 750,
+          "h": 563
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_125ea1facf025035ca1af9150e3c56e64a97ccf10.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Sports students",
+          "w": 750,
+          "h": 563
+        }
+      ],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Skills",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Skill",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Contact",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Art Studio",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Ms Capel and Ms Cho, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Debating",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Mr Tennent, Cohen Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "English Enrichment",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Mr McMahon, Cohen Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "IMP",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Mr Manchester, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Philosophy",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Mr DeJong, Cohen Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Robotics/Makers Society",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Mr Patane, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Theatre Sports",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Ms Capel",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Service",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Service",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Contact",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Amnesty",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Ms Hurrell, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Environmental Committee",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Ms Maddox, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Diversity",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Ms Dooley, SSO room",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "SRC",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Mr Shakibaei, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Student2Student reading program",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Ms Elizabeth Maddox, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Duke of Ed Leadership",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Ms Jenny Xu, Cohen Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Physical Recreation",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Activity",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Contact",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Grade sport",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Mr Feng, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Sport co-curricular Clubs",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Mr Sarif, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Suggestions of activities and Assessors that are available at school",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "text",
+          "text": "Skills",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Skill",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Contact",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Art Studio",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Ms Capel and Ms Cho, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Debating",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Mr Tennent, Cohen Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "English Enrichment",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Mr McMahon, Cohen Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "IMP",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Mr Manchester, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Philosophy",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Mr DeJong, Cohen Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Robotics/Makers Society",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Mr Patane, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Theatre Sports",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Ms Capel",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Service",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Service",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Contact",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Amnesty",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Ms Hurrell, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Environmental Committee",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Ms Maddox, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Diversity",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Ms Dooley, SSO room",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "SRC",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Mr Shakibaei, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Student2Student reading program",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Ms Elizabeth Maddox, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Duke of Ed Leadership",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Ms Jenny Xu, Cohen Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Physical Recreation",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Activity",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Contact",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Grade sport",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Mr Feng, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Sport co-curricular Clubs",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Mr Sarif, Rowe Staffroom",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Students",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Skills",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1536a89360defdbba1318a70484db5f79f91b043e.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Group of students",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Service",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_125ea1facf025035ca1af9150e3c56e64a97ccf10.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Sports students",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Physical Recreation",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Adventurous Journey The Adventurous Journey involves preliminary training, followed by a practice and then a qualifying expedition. Source: Duke of Ed Handbook Australia | The Duke of Edinburgh's Award Australia (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Adventurous Journey"
+        }
+      ],
+      "paragraphs": [
+        "The Adventurous Journey involves preliminary training, followed by a practice and then a qualifying expedition.",
+        "Source: Duke of Ed Handbook Australia | The Duke of Edinburgh's Award Australia (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Duke of Ed Handbook Australia | The Duke of Edinburgh's Award Australia (opens in new window)",
+          "href": "https://dukeofed.com.au/resource/handbook/",
+          "absHref": "https://dukeofed.com.au/resource/handbook/",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1766ccad68eae5ac14194ced21ab3ffb137134e02.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e0749ba6a2bf2cc2b146ad936bd3f51d646a5531.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Students at the Duke of Edinburgh Award program",
+          "w": 1280,
+          "h": 721
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Adventurous Journey",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Adventurous Journey involves preliminary training, followed by a practice and then a qualifying expedition.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1766ccad68eae5ac14194ced21ab3ffb137134e02.png?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Source: Duke of Ed Handbook Australia | The Duke of Edinburgh's Award Australia (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Source:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Duke of Ed Handbook Australia | The Duke of Edinburgh's Award Australia (opens in new window)",
+              "display": "inline",
+              "href": "https://dukeofed.com.au/resource/handbook/",
+              "absHref": "https://dukeofed.com.au/resource/handbook/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Duke of Ed Handbook Australia | The Duke of Edinburgh's Award Australia",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1e0749ba6a2bf2cc2b146ad936bd3f51d646a5531.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "Students at the Duke of Edinburgh Award program"
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Why should I get involved in the Duke of Edinburgh’s Award program? It’s fun, an opportunity to challenge yourself and have adventures! It helps you achieve the Fort Street exit profile It helps you develop and demonstrate the skills sought after by employers, universities and scholarship providers, such as problem solving, teamwork, communication, adaptability, resilience, organisation, creativity and leadership. It improves your academic performance and mental health.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Why should I get involved in the Duke of Edinburgh’s Award program?"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "It’s fun, an opportunity to challenge yourself and have adventures!",
+        "It helps you achieve the Fort Street exit profile",
+        "It helps you develop and demonstrate the skills sought after by employers, universities and scholarship providers, such as problem solving, teamwork, communication, adaptability, resilience, organisation, creativity and leadership.",
+        "It improves your academic performance and mental health."
+      ],
+      "ctas": [
+        {
+          "text": "Fort Street exit profile",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-our-school/exit-profile.html",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-our-school/exit-profile.html",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Why should I get involved in the Duke of Edinburgh’s Award program?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "It’s fun, an opportunity to challenge yourself and have adventures!",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "It helps you achieve the Fort Street exit profile",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "It helps you achieve the",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Fort Street exit profile",
+              "display": "inline",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/about-our-school/exit-profile.html",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-our-school/exit-profile.html",
+              "classes": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "It helps you develop and demonstrate the skills sought after by employers, universities and scholarship providers, such as problem solving, teamwork, communication, adaptability, resilience, organisation, creativity and leadership.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "It improves your academic performance and mental health.",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section gallery-container",
+      "visibleText": "1 2 3",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [
+        "1",
+        "2",
+        "3"
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_19ee455046769146fe3eee008ce2122b29e3eef7f.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 563
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_190a3d9e4e783061378d2701c2082d809cf9106b5.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 1000
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_17a31ded844296778597564b9c33721fd99ad5a85.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 1000
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_19ee455046769146fe3eee008ce2122b29e3eef7f.jpg?width=750&format=jpg&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_190a3d9e4e783061378d2701c2082d809cf9106b5.jpg?width=750&format=jpg&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_17a31ded844296778597564b9c33721fd99ad5a85.jpg?width=750&format=jpg&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "1",
+          "display": "list-item",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "2",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "3",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white table-container",
+      "visibleText": "2026 Duke of Ed Staff Team Coordinator Ms Xu Bronze Award Leader Ms Xu, Mr Sarif Silver Award Leader Ms Xu, Mr Sarif Gold Award Leader Ms Thompson Front Office Staff Ms Kaloudis, Ms Kuenne",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "2026 Duke of Ed Staff Team"
+        }
+      ],
+      "paragraphs": [
+        "Coordinator",
+        "Ms Xu",
+        "Bronze Award Leader",
+        "Ms Xu, Mr Sarif",
+        "Silver Award Leader",
+        "Ms Xu, Mr Sarif",
+        "Gold Award Leader",
+        "Ms Thompson",
+        "Front Office Staff",
+        "Ms Kaloudis, Ms Kuenne"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "2026 Duke of Ed Staff Team",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Coordinator",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Xu",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bronze Award Leader",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Xu, Mr Sarif",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Silver Award Leader",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Xu, Mr Sarif",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Gold Award Leader",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Thompson",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Front Office Staff",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Kaloudis, Ms Kuenne",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s09",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Want to know more? Contact Ms Xu - Duke of Ed Coordinator Phone: 8585 1600 Email: jenny.xu15@det.nsw.edu.au (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Want to know more?"
+        }
+      ],
+      "paragraphs": [
+        "Contact Ms Xu - Duke of Ed Coordinator",
+        "Phone: 8585 1600",
+        "Email: jenny.xu15@det.nsw.edu.au (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "jenny.xu15@det.nsw.edu.au (opens in new window)",
+          "href": "mailto:jenny.xu15@det.nsw.edu.au",
+          "absHref": "mailto:jenny.xu15@det.nsw.edu.au",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Want to know more?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact Ms Xu - Duke of Ed Coordinator",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Phone: 8585 1600",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Email: jenny.xu15@det.nsw.edu.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Email:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "jenny.xu15@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:jenny.xu15@det.nsw.edu.au",
+              "absHref": "mailto:jenny.xu15@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "jenny.xu15@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s10",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": "button primary"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": "button primary"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

@@ -1,0 +1,1091 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:49.365Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_uniform_uniform-shop.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Uniform Shop",
+    "description": "At Fort Street High School, our uniforms make students feel included in our school community. Learn about our uniform and where to buy it.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop",
+    "ogTags": {
+      "og:title": "Uniform Shop",
+      "og:description": "At Fort Street High School, our uniforms make students feel included in our school community. Learn about our uniform and where to buy it.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/media_13acf190dfadd101eab66415808c5252237459207.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/media_13acf190dfadd101eab66415808c5252237459207.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Uniform Shop",
+      "twitter:description": "At Fort Street High School, our uniforms make students feel included in our school community. Learn about our uniform and where to buy it.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/media_13acf190dfadd101eab66415808c5252237459207.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Uniform Shop The Uniform Shop located within the school and is open Wednesday mornings during Term from 10am-2 pm. Students may visit the Uniform Shop during recess and lunch time to purchase items, return or exchange items and pick up online orders. Parents/carers are also permitted to visit the Uniform Shop during opening hours, please sign in and scan the QR code at the front office. Ordering Uniforms online Uniforms can be ordered online via the Flexischools App or website (this is the same app used for canteen orders). If you do not yet have a Flexischools account please use the instructions below to sign up for easy online ordering. Exchanges and refunds Exchanges, refunds are only permitted within two weeks of purchase and only upon presentation of a receipt, provided the item has not been worn or altered. No refund or exchange is possible for specially ordered items. If there is a manufacturing fault, the item must be returned with the receipt within 30 days, and it will be sent to the manufacturer for assessment. Normal wear and tear or failure to wash according to garment instructions will not result in a replacement. Any further enquiries please contact Ms Ko (Uniform Shop Manager) via email uniformshop@fortstreetpandc.org (opens in new window) Second Hand Uniform Stall The Second Hand Uniform Stall is run by P&C parents and SRC student volunteers with the assistance of the Uniform Shop manager and the school. It operates once per term on a Friday at lunchtime (12:45 - 1.25pm) in front of the Uniform Shop. Students can visit the stall from 12.45pm. Parents are then invited to visit the stall from 1pm. This is to manage crowds at the stall. Dates are advised by email, in Mercurius, on the school calendar and on the school Facebook page. Students, parents and carers are welcome to attend and make purchases. Parents and carers are asked to sign in at Reception before making their way to the stall. CONDITIONS OF SALE: These items are second hand and are sold in the condition as found. No change rooms are available. NO EXCHANGE OR REFUNDS ARE AVAILABLE. CASHLESS SALES ONLY: Payment is by card only. If you don’t have a card on the day, please leave a parent or carers contact name and number and we’ll message them the details of the purchase and request payment directly to the P&C account, which is on the school website. WHEN TO BUY: Second hand uniforms can only be purchased at the 2nd Hand Stall once per term. Second hand uniform purchases are not available at other times. The Uniform Shop does not sell second hand uniforms during normal shop hours or online and is unable to answer queries about what second hand items may be in stock. No items may be reserved. DONATE: Clean second hand uniform donations are welcomed and may be taken to the school front office. PLEASE NOTE: The stall does not have all uniform items or all sizes as stock is dependant on donations. We recommend that you purchase the basic requirements from the uniform shop and purchase spare and any additional items from the 2nd hand stall. All proceeds go to P&C and SRC initiatives. Thank you! Price list (Updated October 2025) Some of our uniform items are listed as boys, girls, or men's. These terms are used only to provide guidance on the style, fit and cut of the items. Students may select the uniform items that suit their personal preference regardless of gender. Girls Price Skirt (navy blue) sizes 6 (58cm) to 22 $52 Shorts (navy blue) sizes G12 (64cm) to W18 (85cm) $38 Trousers (navy blue) sizes 4-20 $65 Short sleeved blouse (white) sizes 10 - 24 $33 Long sleeved blouse (white) sizes 10 - 24 $34 Women's navy trousers - Limited stock sizes 6-20 $49 Boys Price Shorts (dark grey) boys sizes 8 - 16 $39 Shorts (dark grey) men’s sizes S - XXL $39 Trousers (dark grey) boys sizes 9,10 (67cm) - 18 (86cm $71 Trousers (dark grey) men’s sizes 72cm – 112cm Fitting: ST / R / L $71 Short sleeved shirt (white) sizes 10 - 26 $33 Long sleeved shirt (white) sizes 12 - 26 $34 Sports Uniform Price Sports Uniform Polo Shirt (white with trim) sizes10 – 16; S - XL $40 Sports Uniform Speed Shorts (maroon) sizes12C, 14Y; XS - XL $37 Sports Uniform Dawn Shorts (maroon) sizes 12C-14Y, 8A-18A $46 Track pant (navy blue) sizes C12 ,14Y. XS - XL $64 PE cap - one size $13 Winter Uniform Price Blazer (maroon) unisex $205 Woollen Jumper V-Neck (maroon) Sizes 10-28 $85 Cotton Acrylic Jumper (maroon) Sizes 10-24 $56 Scarf (maroon & navy) one size $38 Soft Shell Winter Jacket (Navy) unisex Sizes 10C, 12C, 14Y, XS, S, M, L, XL, XXL $102 Instrumental Music Program Price Shirt (black) Option 1 sizes 10 - 20 $39 Shirt (black) Option 2 sizes 12 - 24 $39 Senior / IMP Tie (maroon) $26 General Items Price Junior Tie (maroon and white stripe) Years 7-10 $26 Senior Tie (maroon) Years 11 and 12 and IMP ensembles $26 Airopak backpack $92 Larger Backpack – chiropractic $118 Duffle bag $16 Want to donate your old school uniforms? Please bring any clean uniform items to the front office to donate them. Any items in poor or unclean condition will not be accepted. Policies and reports Learn how the NSW Department of Education helps shape our policies and reports. Parent portal Use our parent portal apps to make a payment, view reports and record absences.",
+  "coverage": {
+    "bodyTextLen": 5310,
+    "scopeTextLen": 5275,
+    "ratio": 0.993,
+    "h1Text": "Uniform Shop",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Uniform Shop The Uniform Shop located within the school and is open Wednesday mornings during Term from 10am-2 pm. Students may visit the Uniform Shop during recess and lunch time to purchase items, return or exchange items and pick up online orders. Parents/carers are also permitted to visit the Uniform Shop during opening hours, please sign in and scan the QR code at the front office. Ordering Uniforms online Uniforms can be ordered online via the Flexischools App or website (this is the same app used for canteen orders). If you do not yet have a Flexischools account please use the instructions below to sign up for easy online ordering. Exchanges and refunds Exchanges, refunds are only permitted within two weeks of purchase and only upon presentation of a receipt, provided the item has not been worn or altered. No refund or exchange is possible for specially ordered items. If there is a manufacturing fault, the item must be returned with the receipt within 30 days, and it will be sent to the manufacturer for assessment. Normal wear and tear or failure to wash according to garment instructions will not result in a replacement. Any further enquiries please contact Ms Ko (Uniform Shop Manager) via email uniformshop@fortstreetpandc.org (opens in new window) Second Hand Uniform Stall The Second Hand Uniform Stall is run by P&C parents and SRC student volunteers with the assistance of the Uniform Shop manager and the school. It operates once per term on a Friday at lunchtime (12:45 - 1.25pm) in front of the Uniform Shop. Students can visit the stall from 12.45pm. Parents are then invited to visit the stall from 1pm. This is to manage crowds at the stall. Dates are advised by email, in Mercurius, on the school calendar and on the school Facebook page. Students, parents and carers are welcome to attend and make purchases. Parents and carers are asked to sign in at Reception before making their way to the stall. CONDITIONS OF SALE: These items are second hand and are sold in the condition as found. No change rooms are available. NO EXCHANGE OR REFUNDS ARE AVAILABLE. CASHLESS SALES ONLY: Payment is by card only. If you don’t have a card on the day, please leave a parent or carers contact name and number and we’ll message them the details of the purchase and request payment directly to the P&C account, which is on the school website. WHEN TO BUY: Second hand uniforms can only be purchased at the 2nd Hand Stall once per term. Second hand uniform purchases are not available at other times. The Uniform Shop does not sell second hand uniforms during normal shop hours or online and is unable to answer queries about what second hand items may be in stock. No items may be reserved. DONATE: Clean second hand uniform donations are welcomed and may be taken to the school front office. PLEASE NOTE: The stall does not have all uniform items or all sizes as stock is dependant on donations. We recommend that you purchase the basic requirements from the uniform shop and purchase spare and any additional items from the 2nd hand stall. All proceeds go to P&C and SRC initiatives. Thank you! Price list (Updated October 2025) Some of our uniform items are listed as boys, girls, or men's. These terms are used only to provide guidance on the style, fit and cut of the items. Students may select the uniform items that suit their personal preference regardless of gender. Girls Price Skirt (navy blue) sizes 6 (58cm) to 22 $52 Shorts (navy blue) sizes G12 (64cm) to W18 (85cm) $38 Trousers (navy blue) sizes 4-20 $65 Short sleeved blouse (white) sizes 10 - 24 $33 Long sleeved blouse (white) sizes 10 - 24 $34 Women's navy trousers - Limited stock sizes 6-20 $49 Boys Price Shorts (dark grey) boys sizes 8 - 16 $39 Shorts (dark grey) men’s sizes S - XXL $39 Trousers (dark grey) boys sizes 9,10 (67cm) - 18 (86cm $71 Trousers (dark grey) men’s sizes 72cm – 112cm Fitting: ST / R / L $71 Short sleeved shirt (white) sizes 10 - 26 $33 Long sleeved shirt (white) sizes 12 - 26 $34 Sports Uniform Price Sports Uniform Polo Shirt (white with trim) sizes10 – 16; S - XL $40 Sports Uniform Speed Shorts (maroon) sizes12C, 14Y; XS - XL $37 Sports Uniform Dawn Shorts (maroon) sizes 12C-14Y, 8A-18A $46 Track pant (navy blue) sizes C12 ,14Y. XS - XL $64 PE cap - one size $13 Winter Uniform Price Blazer (maroon) unisex $205 Woollen Jumper V-Neck (maroon) Sizes 10-28 $85 Cotton Acrylic Jumper (maroon) Sizes 10-24 $56 Scarf (maroon & navy) one size $38 Soft Shell Winter Jacket (Navy) unisex Sizes 10C, 12C, 14Y, XS, S, M, L, XL, XXL $102 Instrumental Music Program Price Shirt (black) Option 1 sizes 10 - 20 $39 Shirt (black) Option 2 sizes 12 - 24 $39 Senior / IMP Tie (maroon) $26 General Items Price Junior Tie (maroon and white stripe) Years 7-10 $26 Senior Tie (maroon) Years 11 and 12 and IMP ensembles $26 Airopak backpack $92 Larger Backpack – chiropractic $118 Duffle bag $16",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Uniform Shop"
+        },
+        {
+          "level": "h2",
+          "text": "Ordering Uniforms online"
+        },
+        {
+          "level": "h2",
+          "text": "Exchanges and refunds"
+        },
+        {
+          "level": "h2",
+          "text": "Second Hand Uniform Stall"
+        },
+        {
+          "level": "h2",
+          "text": "Price list (Updated October 2025)"
+        }
+      ],
+      "paragraphs": [
+        "The Uniform Shop located within the school and is open Wednesday mornings during Term from 10am-2 pm.",
+        "Students may visit the Uniform Shop during recess and lunch time to purchase items, return or exchange items and pick up online orders.",
+        "Parents/carers are also permitted to visit the Uniform Shop during opening hours, please sign in and scan the QR code at the front office.",
+        "Uniforms can be ordered online via the Flexischools App or website (this is the same app used for canteen orders).",
+        "If you do not yet have a Flexischools account please use the instructions below to sign up for easy online ordering.",
+        "Exchanges, refunds are only permitted within two weeks of purchase and only upon presentation of a receipt, provided the item has not been worn or altered.",
+        "No refund or exchange is possible for specially ordered items. If there is a manufacturing fault, the item must be returned with the receipt within 30 days, and it will be sent to the manufacturer for assessment.",
+        "Normal wear and tear or failure to wash according to garment instructions will not result in a replacement.",
+        "Any further enquiries please contact Ms Ko (Uniform Shop Manager) via email uniformshop@fortstreetpandc.org (opens in new window)",
+        "The Second Hand Uniform Stall is run by P&C parents and SRC student volunteers with the assistance of the Uniform Shop manager and the school. It operates once per term on a Friday at lunchtime (12:45 - 1.25pm) in front of the Uniform Shop. Students can visit the stall from 12.45pm. Parents are then invited to visit the stall from 1pm. This is to manage crowds at the stall. Dates are advised by email, in Mercurius, on the school calendar and on the school Facebook page. Students, parents and carers are welcome to attend and make purchases. Parents and carers are asked to sign in at Reception before making their way to the stall.",
+        "CONDITIONS OF SALE: These items are second hand and are sold in the condition as found. No change rooms are available.",
+        "NO EXCHANGE OR REFUNDS ARE AVAILABLE.",
+        "CASHLESS SALES ONLY: Payment is by card only. If you don’t have a card on the day, please leave a parent or carers contact name and number and we’ll message them the details of the purchase and request payment directly to the P&C account, which is on the school website.",
+        "WHEN TO BUY: Second hand uniforms can only be purchased at the 2nd Hand Stall once per term. Second hand uniform purchases are not available at other times. The Uniform Shop does not sell second hand uniforms during normal shop hours or online and is unable to answer queries about what second hand items may be in stock. No items may be reserved.",
+        "DONATE: Clean second hand uniform donations are welcomed and may be taken to the school front office.",
+        "PLEASE NOTE: The stall does not have all uniform items or all sizes as stock is dependant on donations. We recommend that you purchase the basic requirements from the uniform shop and purchase spare and any additional items from the 2nd hand stall.",
+        "All proceeds go to P&C and SRC initiatives. Thank you!",
+        "Some of our uniform items are listed as boys, girls, or men's. These terms are used only to provide guidance on the style, fit and cut of the items. Students may select the uniform items that suit their personal preference regardless of gender.",
+        "Price",
+        "Skirt (navy blue) sizes 6 (58cm) to 22",
+        "$52",
+        "Shorts (navy blue) sizes G12 (64cm) to W18 (85cm)",
+        "$38",
+        "Trousers (navy blue) sizes 4-20",
+        "$65",
+        "Short sleeved blouse (white) sizes 10 - 24",
+        "$33",
+        "Long sleeved blouse (white) sizes 10 - 24",
+        "$34",
+        "Women's navy trousers - Limited stock sizes 6-20",
+        "$49",
+        "Price",
+        "Shorts (dark grey) boys sizes 8 - 16",
+        "$39",
+        "Shorts (dark grey) men’s sizes S - XXL",
+        "$39",
+        "Trousers (dark grey) boys sizes 9,10 (67cm) - 18 (86cm",
+        "$71",
+        "Trousers (dark grey) men’s sizes 72cm – 112cm Fitting: ST / R / L",
+        "$71",
+        "Short sleeved shirt (white) sizes 10 - 26",
+        "$33",
+        "Long sleeved shirt (white) sizes 12 - 26",
+        "$34",
+        "Price",
+        "Sports Uniform Polo Shirt (white with trim) sizes10 – 16; S - XL",
+        "$40",
+        "Sports Uniform Speed Shorts (maroon) sizes12C, 14Y; XS - XL",
+        "$37",
+        "Sports Uniform Dawn Shorts (maroon) sizes 12C-14Y, 8A-18A",
+        "$46",
+        "Track pant (navy blue) sizes C12 ,14Y. XS - XL",
+        "$64",
+        "PE cap - one size",
+        "$13",
+        "Price",
+        "Blazer (maroon) unisex",
+        "$205",
+        "Woollen Jumper V-Neck (maroon) Sizes 10-28",
+        "$85",
+        "Cotton Acrylic Jumper (maroon) Sizes 10-24",
+        "$56",
+        "Scarf (maroon & navy) one size",
+        "$38",
+        "Soft Shell Winter Jacket (Navy) unisex Sizes 10C, 12C, 14Y, XS, S, M, L, XL, XXL",
+        "$102",
+        "Price",
+        "Shirt (black) Option 1 sizes 10 - 20",
+        "$39",
+        "Shirt (black) Option 2 sizes 12 - 24",
+        "$39",
+        "Senior / IMP Tie (maroon)",
+        "$26",
+        "Price",
+        "Junior Tie (maroon and white stripe) Years 7-10",
+        "$26",
+        "Senior Tie (maroon) Years 11 and 12 and IMP ensembles",
+        "$26",
+        "Airopak backpack",
+        "$92",
+        "Larger Backpack – chiropractic",
+        "$118",
+        "Duffle bag",
+        "$16"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "uniformshop@fortstreetpandc.org (opens in new window)",
+          "href": "mailto:uniformshop@fortstreetpandc.org",
+          "absHref": "mailto:uniformshop@fortstreetpandc.org",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/media_13acf190dfadd101eab66415808c5252237459207.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 1080,
+          "h": 1080
+        }
+      ],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Girls",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Boys",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Sports Uniform",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Winter Uniform",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "Instrumental Music Program",
+          "parentTag": "strong",
+          "parentClass": ""
+        },
+        {
+          "text": "General Items",
+          "parentTag": "strong",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Uniform Shop",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Uniform Shop located within the school and is open Wednesday mornings during Term from 10am-2 pm.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students may visit the Uniform Shop during recess and lunch time to purchase items, return or exchange items and pick up online orders.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parents/carers are also permitted to visit the Uniform Shop during opening hours, please sign in and scan the QR code at the front office.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Ordering Uniforms online",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Uniforms can be ordered online via the Flexischools App or website (this is the same app used for canteen orders).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you do not yet have a Flexischools account please use the instructions below to sign up for easy online ordering.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/media_13acf190dfadd101eab66415808c5252237459207.png?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Exchanges and refunds",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Exchanges, refunds are only permitted within two weeks of purchase and only upon presentation of a receipt, provided the item has not been worn or altered.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Exchanges, refunds are only permitted",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "within two weeks of purchase and only upon presentation of a receipt",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ", provided the item has not been worn or altered.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "No refund or exchange is possible for specially ordered items. If there is a manufacturing fault, the item must be returned with the receipt within 30 days, and it will be sent to the manufacturer for assessment.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Normal wear and tear or failure to wash according to garment instructions will not result in a replacement.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Any further enquiries please contact Ms Ko (Uniform Shop Manager) via email uniformshop@fortstreetpandc.org (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Any further enquiries please contact Ms Ko (Uniform Shop Manager) via email",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "uniformshop@fortstreetpandc.org (opens in new window)",
+              "display": "inline",
+              "href": "mailto:uniformshop@fortstreetpandc.org",
+              "absHref": "mailto:uniformshop@fortstreetpandc.org",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "uniformshop@fortstreetpandc.org",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Second Hand Uniform Stall",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Second Hand Uniform Stall is run by P&C parents and SRC student volunteers with the assistance of the Uniform Shop manager and the school. It operates once per term on a Friday at lunchtime (12:45 - 1.25pm) in front of the Uniform Shop. Students can visit the stall from 12.45pm. Parents are then invited to visit the stall from 1pm. This is to manage crowds at the stall. Dates are advised by email, in Mercurius, on the school calendar and on the school Facebook page. Students, parents and carers are welcome to attend and make purchases. Parents and carers are asked to sign in at Reception before making their way to the stall.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "CONDITIONS OF SALE: These items are second hand and are sold in the condition as found. No change rooms are available.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "CONDITIONS OF SALE:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "These items are second hand and are sold in the condition as found. No change rooms are available.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "NO EXCHANGE OR REFUNDS ARE AVAILABLE.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "CASHLESS SALES ONLY: Payment is by card only. If you don’t have a card on the day, please leave a parent or carers contact name and number and we’ll message them the details of the purchase and request payment directly to the P&C account, which is on the school website.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "CASHLESS SALES ONLY:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Payment is by card only. If you don’t have a card on the day, please leave a parent or carers contact name and number and we’ll message them the details of the purchase and request payment directly to the P&C account, which is on the school website.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "WHEN TO BUY: Second hand uniforms can only be purchased at the 2nd Hand Stall once per term. Second hand uniform purchases are not available at other times. The Uniform Shop does not sell second hand uniforms during normal shop hours or online and is unable to answer queries about what second hand items may be in stock. No items may be reserved.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "WHEN TO BUY",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": ": Second hand uniforms can only be purchased at the 2nd Hand Stall once per term. Second hand uniform purchases are not available at other times. The Uniform Shop does not sell second hand uniforms during normal shop hours or online and is unable to answer queries about what second hand items may be in stock. No items may be reserved.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "DONATE: Clean second hand uniform donations are welcomed and may be taken to the school front office.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "DONATE",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": ": Clean second hand uniform donations are welcomed and may be taken to the school front office.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "PLEASE NOTE: The stall does not have all uniform items or all sizes as stock is dependant on donations. We recommend that you purchase the basic requirements from the uniform shop and purchase spare and any additional items from the 2nd hand stall.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "PLEASE NOTE:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "The stall does not have all uniform items or all sizes as stock is dependant on donations. We recommend that you purchase the basic requirements from the uniform shop and purchase spare and any additional items from the 2nd hand stall.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "All proceeds go to P&C and SRC initiatives. Thank you!",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Price list (Updated October 2025)",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Some of our uniform items are listed as boys, girls, or men's. These terms are used only to provide guidance on the style, fit and cut of the items. Students may select the uniform items that suit their personal preference regardless of gender.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Girls",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Price",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Skirt (navy blue) sizes 6 (58cm) to 22",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$52",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Shorts (navy blue) sizes G12 (64cm) to W18 (85cm)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$38",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trousers (navy blue) sizes 4-20",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$65",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Short sleeved blouse (white) sizes 10 - 24",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$33",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Long sleeved blouse (white) sizes 10 - 24",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$34",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Women's navy trousers - Limited stock sizes 6-20",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$49",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Boys",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Price",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Shorts (dark grey) boys sizes 8 - 16",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$39",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Shorts (dark grey) men’s sizes S - XXL",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$39",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trousers (dark grey) boys sizes 9,10 (67cm) - 18 (86cm",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$71",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trousers (dark grey) men’s sizes 72cm – 112cm Fitting: ST / R / L",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$71",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Short sleeved shirt (white) sizes 10 - 26",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$33",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Long sleeved shirt (white) sizes 12 - 26",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$34",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Sports Uniform",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Price",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sports Uniform Polo Shirt (white with trim) sizes10 – 16; S - XL",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$40",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sports Uniform Speed Shorts (maroon) sizes12C, 14Y; XS - XL",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$37",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sports Uniform Dawn Shorts (maroon) sizes 12C-14Y, 8A-18A",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$46",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Track pant (navy blue) sizes C12 ,14Y. XS - XL",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$64",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "PE cap - one size",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$13",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Winter Uniform",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Price",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Blazer (maroon) unisex",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$205",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Woollen Jumper V-Neck (maroon) Sizes 10-28",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$85",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Cotton Acrylic Jumper (maroon) Sizes 10-24",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$56",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Scarf (maroon & navy) one size",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$38",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Soft Shell Winter Jacket (Navy) unisex Sizes 10C, 12C, 14Y, XS, S, M, L, XL, XXL",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$102",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Instrumental Music Program",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Price",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Shirt (black) Option 1 sizes 10 - 20",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$39",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Shirt (black) Option 2 sizes 12 - 24",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$39",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Senior / IMP Tie (maroon)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$26",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "General Items",
+          "parentTag": "strong",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Price",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Junior Tie (maroon and white stripe) Years 7-10",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$26",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Senior Tie (maroon) Years 11 and 12 and IMP ensembles",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$26",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Airopak backpack",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$92",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Larger Backpack – chiropractic",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$118",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Duffle bag",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "$16",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Want to donate your old school uniforms? Please bring any clean uniform items to the front office to donate them. Any items in poor or unclean condition will not be accepted.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Want to donate your old school uniforms?"
+        }
+      ],
+      "paragraphs": [
+        "Please bring any clean uniform items to the front office to donate them. Any items in poor or unclean condition will not be accepted."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Want to donate your old school uniforms?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please bring any clean uniform items to the front office to donate them. Any items in poor or unclean condition will not be accepted.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Policies and reports Learn how the NSW Department of Education helps shape our policies and reports. Parent portal Use our parent portal apps to make a payment, view reports and record absences.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how the NSW Department of Education helps shape our policies and reports.",
+        "Use our parent portal apps to make a payment, view reports and record absences."
+      ],
+      "listItems": [
+        "Policies and reports Learn how the NSW Department of Education helps shape our policies and reports.",
+        "Parent portal Use our parent portal apps to make a payment, view reports and record absences."
+      ],
+      "ctas": [
+        {
+          "text": "Policies and reports",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": ""
+        },
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Policies and reports Learn how the NSW Department of Education helps shape our policies and reports.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "inline",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how the NSW Department of Education helps shape our policies and reports.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Parent portal Use our parent portal apps to make a payment, view reports and record absences.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Use our parent portal apps to make a payment, view reports and record absences.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

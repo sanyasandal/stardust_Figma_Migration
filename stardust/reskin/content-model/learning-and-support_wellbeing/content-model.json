@@ -1,0 +1,3250 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T12:57:29.258Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/learning-and-support_wellbeing.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Wellbeing",
+    "description": "At Fort Street High School, student wellbeing and learning support go hand in hand. We want every student to feel safe, included and ready to learn.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+    "ogTags": {
+      "og:title": "Wellbeing",
+      "og:description": "At Fort Street High School, student wellbeing and learning support go hand in hand. We want every student to feel safe, included and ready to learn.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_134e079c16c877e3a8bdedf4cc98c2abe99cada5e.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_134e079c16c877e3a8bdedf4cc98c2abe99cada5e.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Wellbeing",
+      "twitter:description": "At Fort Street High School, student wellbeing and learning support go hand in hand. We want every student to feel safe, included and ready to learn.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_134e079c16c877e3a8bdedf4cc98c2abe99cada5e.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Wellbeing Wellbeing at Fort Street is for all students. A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live. Student Wellbeing Our Wellbeing program is based on respect: respect for one’s self, respect for others, and respect for the environment. Our aim is to develop the whole school community to attain a sense of perspective, balance and social justice. We believe this will enable students to reach their full potential as global citizens. The Wellbeing Team Fort Street emphasises a team approach to student wellbeing and provides counselling, peer support, overnight camps and mentoring as strategies for supporting students’ wellbeing needs. Our wellbeing team is led by the Head Teacher Wellbeing and consists of: Counsellors Year Advisers Deputy Principals Learning Support Staff Student Support Officer The Year Advisers, School Counsellors and Deputy Principals are key personnel in the welfare team and are available for students needing advice or assistance on any issue. There are also a range of student initiated and student led activities across the school. Our Learning Centre Support staff provides outstanding support to individual students. The Learning Support Team co-ordinates individual education plans for a wide range of students. Wellbeing and support staff Head Teacher - Wellbeing Ms Jenny Xu SPE - Senior Psychologist Education Department Ms Jean Kidd School Counsellors Ms Miori Shino and Ms Meg Huckstepp-Lowe Student Support Officers (SSO) Ms Sintra Zorlu Learning Support Ms Jill Ryan and Ms Alissa Tan Our Year Advisors Year Group Adviser Assistant Adviser Year 7 Ms Amelia Drinkwater Mr Andrew Tennent Year 8 Mr Ben Clarke Ms Fiona Richards Year 9 Ms Maddy Cove Mr Bradley Sarif Year 10 Mr Arkady De Jong Mr Hugh O'Neill Year 11 Mr David Latimer Ms Hyun Cho Year 12 Mr Derek Patulny Ms Helen Thompson Student Support Officers Student support officers (SSOs) work in schools to enhance the wellbeing and learning outcomes of students. They come from a diversity of backgrounds. An SSO may have a diploma or higher qualification in social work, youth work or other related discipline such as community service. They all have experience working with young people to improve their wellbeing and mental health. SSOs work closely with the school counselling service and the school’s wellbeing team. Student Support Officers SSOs support the implementation of the school’s whole-of-school approach to wellbeing, helping students develop social and emotional skills through targeted strengths-based programs and strategies that build resilience, coping skills and positive relationships working with students one-on-one or in small groups. They also have a pivotal role in working collaboratively with external and other government agencies in their support of students and their families. Students might be referred to the SSO for support in areas such as bullying, developing self-esteem, resilience, conflict resolution or to be connected to local external support and youth services. At Fort Street we currently one SSO onsite: Ms Sintra Zorlu Students who wish to see the SSO can self refer to their office Monday to Friday at recess and lunch. You find can the SSO office between W18 & W19 in the Wilkins building. Students can make an appointment with the SSO here (opens in new window) Students can also visit the FSHS Student Support Portal (opens in new window) for resources as well as the additional resources listed below. Online Resources for students eHeadspace (opens in new window) Kids Helpline (opens in new window) Reach Out (opens in new window) QLife (opens in new window) Minus18 (opens in new window) The Butterfly Foundation (opens in new window) Twenty10 (opens in new window) Beyond Blue (opens in new window) TransHub (opens in new window) Smiling Mind (opens in new window) Mental Health Line (opens in new window) Lifeline (opens in new window) Qendo Endometriosis Support (opens in new window) BiteBack (opens in new window) Online Resources for Parents and Carers eSafety (opens in new window) Raising Children Network (opens in new window) Parent Line (opens in new window) Common Sense Media (opens in new window) Telephone Interpreter Service Translating and Interpreter Service (opens in new window) ADHD Support Australia (opens in new window) Headstart (opens in new window) ReachOut Parents Forum (opens in new window) The Embrace Project (opens in new window) Transcend Australia (opens in new window) Batyr Parent resource library (opens in new window) Reframing Autism (opens in new window) Parents of Gender Diverse Children (opens in new window) Black Dog Institute (opens in new window) Emerging Minds (opens in new window) Counselling Service The school counselling service includes school counsellors and school psychologists. Our school counselling staff are highly skilled and play a crucial role, in supporting children and young people to thrive and succeed at school, making a real difference in the lives of children and young people. About the school counselling service School counselling staff support students by providing a psychological counselling, assessment and intervention service. The school counselling service works directly with students to help them with issues related to learning, peer and family relationships, and managing emotions such as depression, anxiety, worry or isolation. At Fort Street we currently have a school counsellor on site every day: Ms Miori Shino: Monday, Tuesday and Friday Ms Meg Huckstepp-Lowe: Wednesday and Thursday Special knowledge, skills and experience Our school counselling staff are uniquely qualified members of the school wellbeing team. They apply expertise in mental health, learning, and behaviour to help children and young people succeed academically, socially, behaviourally, and emotionally. School counselling staff work with teachers, families, school executive, and other professionals to create safe, healthy, and supportive learning environments that strengthen connections between home, school, and the community. Students and parents can contact their school counsellor or school psychologist directly through the school. School counsellors and school psychologists: Provide counselling to students individually or in groups Assess students with specific needs Work collaboratively with teachers and specialist staff Help families understand and manage their children’s learning and mental health needs Liaise with external agencies and other mental health professionals to provide coordinated, wrap around support for individual students. Useful links Information for parents can be found on the Department of Education website at the links below: Support for Students at home Support for Parents and carers at home Wellbeing Framework Fort Street structures its Wellbeing program around a framework that aligns the school’s Exit Profile and House system. Using this framework, wellbeing focused programs are delivered via small groups (Fortunae classes) and whole year meetings to enable our dedicated wellbeing team to provide guidance, support and leadership to every student throughout their journey at FSHS. The Wellbeing Framework sets out 5 focus points that each year group follows and develops as they progress through high school. These include: Respecting Self Respecting Others Social Justice Campaigns Study Skills Year Specific Skills and Challenges (eg Transitioning to High School, Developing Leadership, Post-School Opportunities) The table below sets out how the House system, Exit Profile and Wellbeing programs are aligned. Aboriginal student support We are committed to closing the achievement gap for Aboriginal and Torres Strait Islander students. We know that we need to learn about, nurture and value the cultural identity of our Aboriginal students to help them be successful learners. We welcome Aboriginal and Torres Strait Islander family members, parents and carers, as well as community members to our school so that we can get to know each other, learn about the local Aboriginal community and develop shared goals and plans for Aboriginal students. The Aboriginal Education Policy confirms the NSW Department of Education’s commitment to improvement in educational outcomes and wellbeing for Aboriginal and Torres Strait Islander students. Multicultural education Our school welcomes students, families and community members from all cultural backgrounds. We appreciate difference and diversity and aim to provide a culturally inclusive and responsive environment that benefits all students. Our teaching and learning programs develop intercultural understanding, promote positive relationships and enable all students to participate as active Australian and global citizens. Our school fosters student wellbeing and community harmony by implementing anti-racism and anti-discrimination strategies that encourage engagement by parents and carers from all backgrounds. The Multicultural Education Policy outlines the NSW Department of Education’s commitment to providing opportunities that enable all students to achieve equitable education and social outcomes and participate successfully in our culturally diverse society. The Anti-Racism Policy confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments. For more information refer to: Multicultural education Anti-racism education Interpreting and translations Translated documents. Supporting English language learners Learning English is essential for success at school and effective participation in Australian society. We can provide specialist support to help students learning English as an additional language or dialect (EAL/D). For more information refer to: EAL/D education. Supporting refugee students Schools offer safety, support and security to help refugee students adjust to life in Australia and participate successfully in education. Targeted support strategies are provided to assist refugee students in NSW public schools. For more information refer to: Supporting refugee students. Find out more about Learning Support. Anti-bullying Bullying of any kind is not acceptable in NSW schools. The NSW anti-bullying (opens in new window) website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying. For more information on anti-bullying strategies for NSW public schools refer to the department’s Bullying of Students – Prevention and Response Policy. For information on racial bullying and anti-racism education for NSW public schools refer to: Anti-Racism Policy Anti-racism education Racism. No way (opens in new window) . Student leadership Student leadership helps young people find their voices, participate in decision-making, and understand their rights and responsibilities as active citizens. It helps students have a real impact on their learning and school environment and prepares them to participate meaningfully in their community. Students can be leaders in the classroom, through their actions in the playground, through their support for others, or their involvement in academic, sporting, cultural or local community events or projects. For more information about opportunities in NSW public schools visit Student voice and leadership. Visit Our principal and staff to learn about our wellbeing and specialist support staff. Student Health Teaching and support staff at Fort Street High School undertake regular first aid training in order to be able to support our students. This includes but is not limited to CPR and anaphylaxis training. Students who are not well should not attend school. Parents should advice the school of the absence via the Sentral Parent Portal. A medical certificate may be requested for extended absences. Our office area has dedicated sick bay rooms and is also equipped with a defibrillator. First Aid and Sick Bay Students who are injured or become ill during the school day should inform their teacher who will send a note with the student to Reception. First Aid office staff will monitor students in Sick Bay and a decision will be made to contact parents/carers if a student needs to be collected from school. Students are not to call their parents or leave school without attending Sick Bay. Medication Department of Education Policy prohibits the issue of medications such as Panadol and Aspirin etc by school staff. Students who are asthmatic, anaphylactic or diabetic should carry the required medications with them at all times. Students who have been issued with an Epinephrine Autoinjector (Epipen) must keep one in their bag and also provide a spare EpiPen to the school office to be kept in the medical area. A school EpiPen and Ventolin inhaler are included in all First Aid kits taken on excursions. Parents and Carers must ensure all Student Health plans are current and up to date and all provided inhalers or Epipens are within their expiry date. Students who require prescription medication at school should submit the medication along with a signed letter from the parent advising dosage to Office Staff at Reception. No other medications should be brought into the school. For any questions relating to health conditions please contact the Front Office staff on 8585 1600. Need support for your child's wellbeing? Get in touch to talk about the right support for your child. Contact us Additional learning support Find out how we support students with disability or additional learning needs. Our principal and staff Get to know our principal and staff, who work together to create a positive school culture.",
+  "coverage": {
+    "bodyTextLen": 14999,
+    "scopeTextLen": 14142,
+    "ratio": 0.943,
+    "h1Text": "Wellbeing",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Wellbeing Wellbeing at Fort Street is for all students. A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Wellbeing"
+        }
+      ],
+      "paragraphs": [
+        "Wellbeing at Fort Street is for all students. A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_134e079c16c877e3a8bdedf4cc98c2abe99cada5e.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1335
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Wellbeing",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wellbeing at Fort Street is for all students. A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_134e079c16c877e3a8bdedf4cc98c2abe99cada5e.jpg?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container accordions-container",
+      "visibleText": "Student Wellbeing Our Wellbeing program is based on respect: respect for one’s self, respect for others, and respect for the environment. Our aim is to develop the whole school community to attain a sense of perspective, balance and social justice. We believe this will enable students to reach their full potential as global citizens. The Wellbeing Team Fort Street emphasises a team approach to student wellbeing and provides counselling, peer support, overnight camps and mentoring as strategies for supporting students’ wellbeing needs. Our wellbeing team is led by the Head Teacher Wellbeing and consists of: Counsellors Year Advisers Deputy Principals Learning Support Staff Student Support Officer The Year Advisers, School Counsellors and Deputy Principals are key personnel in the welfare team and are available for students needing advice or assistance on any issue. There are also a range of student initiated and student led activities across the school. Our Learning Centre Support staff provides outstanding support to individual students. The Learning Support Team co-ordinates individual education plans for a wide range of students. Wellbeing and support staff Head Teacher - Wellbeing Ms Jenny Xu SPE - Senior Psychologist Education Department Ms Jean Kidd School Counsellors Ms Miori Shino and Ms Meg Huckstepp-Lowe Student Support Officers (SSO) Ms Sintra Zorlu Learning Support Ms Jill Ryan and Ms Alissa Tan Our Year Advisors Year Group Adviser Assistant Adviser Year 7 Ms Amelia Drinkwater Mr Andrew Tennent Year 8 Mr Ben Clarke Ms Fiona Richards Year 9 Ms Maddy Cove Mr Bradley Sarif Year 10 Mr Arkady De Jong Mr Hugh O'Neill Year 11 Mr David Latimer Ms Hyun Cho Year 12 Mr Derek Patulny Ms Helen Thompson Student Support Officers Student support officers (SSOs) work in schools to enhance the wellbeing and learning outcomes of students. They come from a diversity of backgrounds. An SSO may have a diploma or higher qualification in social work, youth work or other related discipline such as community service. They all have experience working with young people to improve their wellbeing and mental health. SSOs work closely with the school counselling service and the school’s wellbeing team. Student Support Officers SSOs support the implementation of the school’s whole-of-school approach to wellbeing, helping students develop social and emotional skills through targeted strengths-based programs and strategies that build resilience, coping skills and positive relationships working with students one-on-one or in small groups. They also have a pivotal role in working collaboratively with external and other government agencies in their support of students and their families. Students might be referred to the SSO for support in areas such as bullying, developing self-esteem, resilience, conflict resolution or to be connected to local external support and youth services. At Fort Street we currently one SSO onsite: Ms Sintra Zorlu Students who wish to see the SSO can self refer to their office Monday to Friday at recess and lunch. You find can the SSO office between W18 & W19 in the Wilkins building. Students can make an appointment with the SSO here (opens in new window) Students can also visit the FSHS Student Support Portal (opens in new window) for resources as well as the additional resources listed below. Online Resources for students eHeadspace (opens in new window) Kids Helpline (opens in new window) Reach Out (opens in new window) QLife (opens in new window) Minus18 (opens in new window) The Butterfly Foundation (opens in new window) Twenty10 (opens in new window) Beyond Blue (opens in new window) TransHub (opens in new window) Smiling Mind (opens in new window) Mental Health Line (opens in new window) Lifeline (opens in new window) Qendo Endometriosis Support (opens in new window) BiteBack (opens in new window) Online Resources for Parents and Carers eSafety (opens in new window) Raising Children Network (opens in new window) Parent Line (opens in new window) Common Sense Media (opens in new window) Telephone Interpreter Service Translating and Interpreter Service (opens in new window) ADHD Support Australia (opens in new window) Headstart (opens in new window) ReachOut Parents Forum (opens in new window) The Embrace Project (opens in new window) Transcend Australia (opens in new window) Batyr Parent resource library (opens in new window) Reframing Autism (opens in new window) Parents of Gender Diverse Children (opens in new window) Black Dog Institute (opens in new window) Emerging Minds (opens in new window) Counselling Service The school counselling service includes school counsellors and school psychologists. Our school counselling staff are highly skilled and play a crucial role, in supporting children and young people to thrive and succeed at school, making a real difference in the lives of children and young people. About the school counselling service School counselling staff support students by providing a psychological counselling, assessment and intervention service. The school counselling service works directly with students to help them with issues related to learning, peer and family relationships, and managing emotions such as depression, anxiety, worry or isolation. At Fort Street we currently have a school counsellor on site every day: Ms Miori Shino: Monday, Tuesday and Friday Ms Meg Huckstepp-Lowe: Wednesday and Thursday Special knowledge, skills and experience Our school counselling staff are uniquely qualified members of the school wellbeing team. They apply expertise in mental health, learning, and behaviour to help children and young people succeed academically, socially, behaviourally, and emotionally. School counselling staff work with teachers, families, school executive, and other professionals to create safe, healthy, and supportive learning environments that strengthen connections between home, school, and the community. Students and parents can contact their school counsellor or school psychologist directly through the school. School counsellors and school psychologists: Provide counselling to students individually or in groups Assess students with specific needs Work collaboratively with teachers and specialist staff Help families understand and manage their children’s learning and mental health needs Liaise with external agencies and other mental health professionals to provide coordinated, wrap around support for individual students. Useful links Information for parents can be found on the Department of Education website at the links below: Support for Students at home Support for Parents and carers at home",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Student Wellbeing"
+        },
+        {
+          "level": "h3",
+          "text": "The Wellbeing Team"
+        },
+        {
+          "level": "h2",
+          "text": "Wellbeing and support staff"
+        },
+        {
+          "level": "h2",
+          "text": "Our Year Advisors"
+        },
+        {
+          "level": "h2",
+          "text": "Student Support Officers"
+        },
+        {
+          "level": "h3",
+          "text": "Online Resources for students"
+        },
+        {
+          "level": "h3",
+          "text": "Online Resources for Parents and Carers"
+        },
+        {
+          "level": "h2",
+          "text": "About the school counselling service"
+        },
+        {
+          "level": "h3",
+          "text": "Special knowledge, skills and experience"
+        },
+        {
+          "level": "h3",
+          "text": "Useful links"
+        }
+      ],
+      "paragraphs": [
+        "Our Wellbeing program is based on respect: respect for one’s self, respect for others, and respect for the environment. Our aim is to develop the whole school community to attain a sense of perspective, balance and social justice. We believe this will enable students to reach their full potential as global citizens.",
+        "Fort Street emphasises a team approach to student wellbeing and provides counselling, peer support, overnight camps and mentoring as strategies for supporting students’ wellbeing needs. Our wellbeing team is led by the Head Teacher Wellbeing and consists of:",
+        "The Year Advisers, School Counsellors and Deputy Principals are key personnel in the welfare team and are available for students needing advice or assistance on any issue. There are also a range of student initiated and student led activities across the school.",
+        "Our Learning Centre Support staff provides outstanding support to individual students. The Learning Support Team co-ordinates individual education plans for a wide range of students.",
+        "Head Teacher - Wellbeing",
+        "Ms Jenny Xu",
+        "SPE - Senior Psychologist Education Department",
+        "Ms Jean Kidd",
+        "School Counsellors",
+        "Ms Miori Shino and Ms Meg Huckstepp-Lowe",
+        "Student Support Officers (SSO)",
+        "Ms Sintra Zorlu",
+        "Learning Support",
+        "Ms Jill Ryan and Ms Alissa Tan",
+        "Year Group",
+        "Adviser",
+        "Assistant Adviser",
+        "Year 7",
+        "Ms Amelia Drinkwater",
+        "Mr Andrew Tennent",
+        "Year 8",
+        "Mr Ben Clarke",
+        "Ms Fiona Richards",
+        "Year 9",
+        "Ms Maddy Cove",
+        "Mr Bradley Sarif",
+        "Year 10",
+        "Mr Arkady De Jong",
+        "Mr Hugh O'Neill",
+        "Year 11",
+        "Mr David Latimer",
+        "Ms Hyun Cho",
+        "Year 12",
+        "Mr Derek Patulny",
+        "Ms Helen Thompson",
+        "Student support officers (SSOs) work in schools to enhance the wellbeing and learning outcomes of students. They come from a diversity of backgrounds. An SSO may have a diploma or higher qualification in social work, youth work or other related discipline such as community service. They all have experience working with young people to improve their wellbeing and mental health. SSOs work closely with the school counselling service and the school’s wellbeing team.",
+        "SSOs support the implementation of the school’s whole-of-school approach to wellbeing, helping students develop social and emotional skills through targeted strengths-based programs and strategies that build resilience, coping skills and positive relationships working with students one-on-one or in small groups.",
+        "They also have a pivotal role in working collaboratively with external and other government agencies in their support of students and their families. Students might be referred to the SSO for support in areas such as bullying, developing self-esteem, resilience, conflict resolution or to be connected to local external support and youth services.",
+        "At Fort Street we currently one SSO onsite:",
+        "Ms Sintra Zorlu",
+        "Students who wish to see the SSO can self refer to their office Monday to Friday at recess and lunch. You find can the SSO office between W18 & W19 in the Wilkins building.",
+        "Students can make an appointment with the SSO here (opens in new window)",
+        "Students can also visit the FSHS Student Support Portal (opens in new window) for resources as well as the additional resources listed below.",
+        "eHeadspace (opens in new window)",
+        "Kids Helpline (opens in new window)",
+        "Reach Out (opens in new window)",
+        "QLife (opens in new window)",
+        "Minus18 (opens in new window)",
+        "The Butterfly Foundation (opens in new window)",
+        "Twenty10 (opens in new window)",
+        "Beyond Blue (opens in new window)",
+        "TransHub (opens in new window)",
+        "Smiling Mind (opens in new window)",
+        "Mental Health Line (opens in new window)",
+        "Lifeline (opens in new window)",
+        "Qendo Endometriosis Support (opens in new window)",
+        "BiteBack (opens in new window)",
+        "eSafety (opens in new window)",
+        "Raising Children Network (opens in new window)",
+        "Parent Line (opens in new window)",
+        "Common Sense Media (opens in new window)",
+        "Telephone Interpreter Service",
+        "Translating and Interpreter Service (opens in new window)",
+        "ADHD Support Australia (opens in new window)",
+        "Headstart (opens in new window)",
+        "ReachOut Parents Forum (opens in new window)",
+        "The Embrace Project (opens in new window)",
+        "Transcend Australia (opens in new window)",
+        "Batyr Parent resource library (opens in new window)",
+        "Reframing Autism (opens in new window)",
+        "Parents of Gender Diverse Children (opens in new window)",
+        "Black Dog Institute (opens in new window)",
+        "Emerging Minds (opens in new window)",
+        "The school counselling service includes school counsellors and school psychologists. Our school counselling staff are highly skilled and play a crucial role, in supporting children and young people to thrive and succeed at school, making a real difference in the lives of children and young people.",
+        "School counselling staff support students by providing a psychological counselling, assessment and intervention service.",
+        "The school counselling service works directly with students to help them with issues related to learning, peer and family relationships, and managing emotions such as depression, anxiety, worry or isolation.",
+        "At Fort Street we currently have a school counsellor on site every day:",
+        "Ms Miori Shino: Monday, Tuesday and Friday Ms Meg Huckstepp-Lowe: Wednesday and Thursday",
+        "Our school counselling staff are uniquely qualified members of the school wellbeing team. They apply expertise in mental health, learning, and behaviour to help children and young people succeed academically, socially, behaviourally, and emotionally.",
+        "School counselling staff work with teachers, families, school executive, and other professionals to create safe, healthy, and supportive learning environments that strengthen connections between home, school, and the community.",
+        "Students and parents can contact their school counsellor or school psychologist directly through the school. School counsellors and school psychologists:",
+        "Information for parents can be found on the Department of Education website at the links below:",
+        "Support for Students at home",
+        "Support for Parents and carers at home"
+      ],
+      "listItems": [
+        "Counsellors",
+        "Year Advisers",
+        "Deputy Principals",
+        "Learning Support Staff",
+        "Student Support Officer",
+        "Provide counselling to students individually or in groups",
+        "Assess students with specific needs",
+        "Work collaboratively with teachers and specialist staff",
+        "Help families understand and manage their children’s learning and mental health needs",
+        "Liaise with external agencies and other mental health professionals to provide coordinated, wrap around support for individual students."
+      ],
+      "ctas": [
+        {
+          "text": "here (opens in new window)",
+          "href": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsites.google.com%2Feducation.nsw.gov.au%2Ffshs-student-support-portal%2Fmake-an-appointment-with-the-sso&data=05%7C02%7CKirrily.Druery%40det.nsw.edu.au%7C5b85f4e3327646059bdd08de73482ef6%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639074951024044467%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=n2ZrVSDGB68AkY217kIawTsLCZajAyDD0PdV2MdOMFA%3D&reserved=0",
+          "absHref": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsites.google.com%2Feducation.nsw.gov.au%2Ffshs-student-support-portal%2Fmake-an-appointment-with-the-sso&data=05%7C02%7CKirrily.Druery%40det.nsw.edu.au%7C5b85f4e3327646059bdd08de73482ef6%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639074951024044467%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=n2ZrVSDGB68AkY217kIawTsLCZajAyDD0PdV2MdOMFA%3D&reserved=0",
+          "classes": ""
+        },
+        {
+          "text": "FSHS Student Support Portal (opens in new window)",
+          "href": "https://sites.google.com/education.nsw.gov.au/fshs-student-support-portal/home",
+          "absHref": "https://sites.google.com/education.nsw.gov.au/fshs-student-support-portal/home",
+          "classes": ""
+        },
+        {
+          "text": "eHeadspace (opens in new window)",
+          "href": "https://headspace.org.au/online-and-phone-support/join-the-community/chats-by-professionals/",
+          "absHref": "https://headspace.org.au/online-and-phone-support/join-the-community/chats-by-professionals/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Kids Helpline (opens in new window)",
+          "href": "https://kidshelpline.com.au/",
+          "absHref": "https://kidshelpline.com.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Reach Out (opens in new window)",
+          "href": "https://au.reachout.com/",
+          "absHref": "https://au.reachout.com/",
+          "classes": "button primary"
+        },
+        {
+          "text": "QLife (opens in new window)",
+          "href": "https://qlife.org.au/",
+          "absHref": "https://qlife.org.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Minus18 (opens in new window)",
+          "href": "https://www.minus18.org.au/events",
+          "absHref": "https://www.minus18.org.au/events",
+          "classes": "button primary"
+        },
+        {
+          "text": "The Butterfly Foundation (opens in new window)",
+          "href": "https://butterfly.org.au/get-support/helpline/",
+          "absHref": "https://butterfly.org.au/get-support/helpline/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Twenty10 (opens in new window)",
+          "href": "https://www.twenty10.org.au/",
+          "absHref": "https://www.twenty10.org.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Beyond Blue (opens in new window)",
+          "href": "https://www.beyondblue.org.au/who-does-it-affect/young-people",
+          "absHref": "https://www.beyondblue.org.au/who-does-it-affect/young-people",
+          "classes": "button primary"
+        },
+        {
+          "text": "TransHub (opens in new window)",
+          "href": "https://www.transhub.org.au/",
+          "absHref": "https://www.transhub.org.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Smiling Mind (opens in new window)",
+          "href": "https://www.smilingmind.com.au/smiling-mind-app",
+          "absHref": "https://www.smilingmind.com.au/smiling-mind-app",
+          "classes": "button primary"
+        },
+        {
+          "text": "Mental Health Line (opens in new window)",
+          "href": "https://www.health.nsw.gov.au/mentalhealth/Pages/mental-health-line.aspx",
+          "absHref": "https://www.health.nsw.gov.au/mentalhealth/Pages/mental-health-line.aspx",
+          "classes": "button primary"
+        },
+        {
+          "text": "Lifeline (opens in new window)",
+          "href": "https://www.lifeline.org.au/",
+          "absHref": "https://www.lifeline.org.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Qendo Endometriosis Support (opens in new window)",
+          "href": "https://www.qendo.org.au/learn",
+          "absHref": "https://www.qendo.org.au/learn",
+          "classes": "button primary"
+        },
+        {
+          "text": "BiteBack (opens in new window)",
+          "href": "https://www.biteback.org.au/",
+          "absHref": "https://www.biteback.org.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "eSafety (opens in new window)",
+          "href": "https://www.esafety.gov.au/parents",
+          "absHref": "https://www.esafety.gov.au/parents",
+          "classes": "button primary"
+        },
+        {
+          "text": "Raising Children Network (opens in new window)",
+          "href": "https://raisingchildren.net.au/teens",
+          "absHref": "https://raisingchildren.net.au/teens",
+          "classes": "button primary"
+        },
+        {
+          "text": "Parent Line (opens in new window)",
+          "href": "https://www.parentline.org.au/#:~:text=Call%201300%201300%2052,18%20who%20live%20in%20NSW.",
+          "absHref": "https://www.parentline.org.au/#:~:text=Call%201300%201300%2052,18%20who%20live%20in%20NSW.",
+          "classes": "button primary"
+        },
+        {
+          "text": "Common Sense Media (opens in new window)",
+          "href": "https://www.commonsensemedia.org/",
+          "absHref": "https://www.commonsensemedia.org/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Telephone Interpreter Service",
+          "href": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents/telephone-interpreter-service",
+          "absHref": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents/telephone-interpreter-service",
+          "classes": "button primary"
+        },
+        {
+          "text": "Translating and Interpreter Service (opens in new window)",
+          "href": "https://www.tisnational.gov.au/",
+          "absHref": "https://www.tisnational.gov.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "ADHD Support Australia (opens in new window)",
+          "href": "https://www.adhdsupportaustralia.com.au/",
+          "absHref": "https://www.adhdsupportaustralia.com.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Headstart (opens in new window)",
+          "href": "https://headstart.org.au/central-and-eastern-sydney/",
+          "absHref": "https://headstart.org.au/central-and-eastern-sydney/",
+          "classes": "button primary"
+        },
+        {
+          "text": "ReachOut Parents Forum (opens in new window)",
+          "href": "https://forums.parents.au.reachout.com/",
+          "absHref": "https://forums.parents.au.reachout.com/",
+          "classes": "button primary"
+        },
+        {
+          "text": "The Embrace Project (opens in new window)",
+          "href": "https://embracementalhealth.org.au",
+          "absHref": "https://embracementalhealth.org.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Transcend Australia (opens in new window)",
+          "href": "https://transcend.org.au/",
+          "absHref": "https://transcend.org.au/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Batyr Parent resource library (opens in new window)",
+          "href": "https://www.batyr.com.au/resource-hub/parents-carers/",
+          "absHref": "https://www.batyr.com.au/resource-hub/parents-carers/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Reframing Autism (opens in new window)",
+          "href": "https://reframingautism.org.au/resources/",
+          "absHref": "https://reframingautism.org.au/resources/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Parents of Gender Diverse Children (opens in new window)",
+          "href": "https://www.pgdc.org.au/nsw",
+          "absHref": "https://www.pgdc.org.au/nsw",
+          "classes": "button primary"
+        },
+        {
+          "text": "Black Dog Institute (opens in new window)",
+          "href": "https://www.blackdoginstitute.org.au/resources-support/coronavirus-resources-for-anxiety-stress/schools-young-people/",
+          "absHref": "https://www.blackdoginstitute.org.au/resources-support/coronavirus-resources-for-anxiety-stress/schools-young-people/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Emerging Minds (opens in new window)",
+          "href": "https://emergingminds.com.au/families/",
+          "absHref": "https://emergingminds.com.au/families/",
+          "classes": "button primary"
+        },
+        {
+          "text": "Support for Students at home",
+          "href": "https://education.nsw.gov.au/student-wellbeing/counselling-and-psychology-services/students",
+          "absHref": "https://education.nsw.gov.au/student-wellbeing/counselling-and-psychology-services/students",
+          "classes": "button primary"
+        },
+        {
+          "text": "Support for Parents and carers at home",
+          "href": "https://education.nsw.gov.au/schooling/parents-and-carers",
+          "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers",
+          "classes": "button primary"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Student Support Officers",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Counselling Service",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Student Wellbeing",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our Wellbeing program is based on respect: respect for one’s self, respect for others, and respect for the environment. Our aim is to develop the whole school community to attain a sense of perspective, balance and social justice. We believe this will enable students to reach their full potential as global citizens.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "The Wellbeing Team",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street emphasises a team approach to student wellbeing and provides counselling, peer support, overnight camps and mentoring as strategies for supporting students’ wellbeing needs. Our wellbeing team is led by the Head Teacher Wellbeing and consists of:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Counsellors",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Year Advisers",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Deputy Principals",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Learning Support Staff",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Student Support Officer",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Year Advisers, School Counsellors and Deputy Principals are key personnel in the welfare team and are available for students needing advice or assistance on any issue. There are also a range of student initiated and student led activities across the school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our Learning Centre Support staff provides outstanding support to individual students. The Learning Support Team co-ordinates individual education plans for a wide range of students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Wellbeing and support staff",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher - Wellbeing",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Jenny Xu",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "SPE - Senior Psychologist Education Department",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Jean Kidd",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Counsellors",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Miori Shino and Ms Meg Huckstepp-Lowe",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Student Support Officers (SSO)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Sintra Zorlu",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learning Support",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Jill Ryan and Ms Alissa Tan",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Our Year Advisors",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year Group",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Adviser",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Assistant Adviser",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 7",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Amelia Drinkwater",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Andrew Tennent",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 8",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Ben Clarke",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Fiona Richards",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 9",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Maddy Cove",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Bradley Sarif",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 10",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Arkady De Jong",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Hugh O'Neill",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 11",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr David Latimer",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Hyun Cho",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 12",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Derek Patulny",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Helen Thompson",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Student Support Officers",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Student support officers (SSOs) work in schools to enhance the wellbeing and learning outcomes of students. They come from a diversity of backgrounds. An SSO may have a diploma or higher qualification in social work, youth work or other related discipline such as community service. They all have experience working with young people to improve their wellbeing and mental health. SSOs work closely with the school counselling service and the school’s wellbeing team.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Student Support Officers",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "SSOs support the implementation of the school’s whole-of-school approach to wellbeing, helping students develop social and emotional skills through targeted strengths-based programs and strategies that build resilience, coping skills and positive relationships working with students one-on-one or in small groups.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "They also have a pivotal role in working collaboratively with external and other government agencies in their support of students and their families. Students might be referred to the SSO for support in areas such as bullying, developing self-esteem, resilience, conflict resolution or to be connected to local external support and youth services.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At Fort Street we currently one SSO onsite:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Sintra Zorlu",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Ms",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Sintra Zorlu",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students who wish to see the SSO can self refer to their office Monday to Friday at recess and lunch. You find can the SSO office between W18 & W19 in the Wilkins building.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students can make an appointment with the SSO here (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Students can make an appointment with the SSO",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here (opens in new window)",
+              "display": "inline",
+              "href": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsites.google.com%2Feducation.nsw.gov.au%2Ffshs-student-support-portal%2Fmake-an-appointment-with-the-sso&data=05%7C02%7CKirrily.Druery%40det.nsw.edu.au%7C5b85f4e3327646059bdd08de73482ef6%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639074951024044467%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=n2ZrVSDGB68AkY217kIawTsLCZajAyDD0PdV2MdOMFA%3D&reserved=0",
+              "absHref": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsites.google.com%2Feducation.nsw.gov.au%2Ffshs-student-support-portal%2Fmake-an-appointment-with-the-sso&data=05%7C02%7CKirrily.Druery%40det.nsw.edu.au%7C5b85f4e3327646059bdd08de73482ef6%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639074951024044467%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=n2ZrVSDGB68AkY217kIawTsLCZajAyDD0PdV2MdOMFA%3D&reserved=0",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students can also visit the FSHS Student Support Portal (opens in new window) for resources as well as the additional resources listed below.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Students can also visit the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "FSHS Student Support Portal (opens in new window)",
+              "display": "inline",
+              "href": "https://sites.google.com/education.nsw.gov.au/fshs-student-support-portal/home",
+              "absHref": "https://sites.google.com/education.nsw.gov.au/fshs-student-support-portal/home",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "FSHS Student Support Portal",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "for resources as well as the additional resources listed below.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Online Resources for students",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "eHeadspace (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "eHeadspace (opens in new window)",
+              "display": "inline",
+              "href": "https://headspace.org.au/online-and-phone-support/join-the-community/chats-by-professionals/",
+              "absHref": "https://headspace.org.au/online-and-phone-support/join-the-community/chats-by-professionals/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "eHeadspace",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Kids Helpline (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Kids Helpline (opens in new window)",
+              "display": "inline",
+              "href": "https://kidshelpline.com.au/",
+              "absHref": "https://kidshelpline.com.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Kids Helpline",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reach Out (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Reach Out (opens in new window)",
+              "display": "inline",
+              "href": "https://au.reachout.com/",
+              "absHref": "https://au.reachout.com/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Reach Out",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "QLife (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "QLife (opens in new window)",
+              "display": "inline",
+              "href": "https://qlife.org.au/",
+              "absHref": "https://qlife.org.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "QLife",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Minus18 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Minus18 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.minus18.org.au/events",
+              "absHref": "https://www.minus18.org.au/events",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Minus18",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Butterfly Foundation (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The Butterfly Foundation (opens in new window)",
+              "display": "inline",
+              "href": "https://butterfly.org.au/get-support/helpline/",
+              "absHref": "https://butterfly.org.au/get-support/helpline/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The Butterfly Foundation",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Twenty10 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Twenty10 (opens in new window)",
+              "display": "inline",
+              "href": "https://www.twenty10.org.au/",
+              "absHref": "https://www.twenty10.org.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Twenty10",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Beyond Blue (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Beyond Blue (opens in new window)",
+              "display": "inline",
+              "href": "https://www.beyondblue.org.au/who-does-it-affect/young-people",
+              "absHref": "https://www.beyondblue.org.au/who-does-it-affect/young-people",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Beyond Blue",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "TransHub (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "TransHub (opens in new window)",
+              "display": "inline",
+              "href": "https://www.transhub.org.au/",
+              "absHref": "https://www.transhub.org.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "TransHub",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Smiling Mind (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Smiling Mind (opens in new window)",
+              "display": "inline",
+              "href": "https://www.smilingmind.com.au/smiling-mind-app",
+              "absHref": "https://www.smilingmind.com.au/smiling-mind-app",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Smiling Mind",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mental Health Line (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Mental Health Line (opens in new window)",
+              "display": "inline",
+              "href": "https://www.health.nsw.gov.au/mentalhealth/Pages/mental-health-line.aspx",
+              "absHref": "https://www.health.nsw.gov.au/mentalhealth/Pages/mental-health-line.aspx",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Mental Health Line",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Lifeline (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Lifeline (opens in new window)",
+              "display": "inline",
+              "href": "https://www.lifeline.org.au/",
+              "absHref": "https://www.lifeline.org.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Lifeline",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Qendo Endometriosis Support (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Qendo Endometriosis Support (opens in new window)",
+              "display": "inline",
+              "href": "https://www.qendo.org.au/learn",
+              "absHref": "https://www.qendo.org.au/learn",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Qendo Endometriosis Support",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "BiteBack (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "BiteBack (opens in new window)",
+              "display": "inline",
+              "href": "https://www.biteback.org.au/",
+              "absHref": "https://www.biteback.org.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "BiteBack",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Online Resources for Parents and Carers",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "eSafety (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "eSafety (opens in new window)",
+              "display": "inline",
+              "href": "https://www.esafety.gov.au/parents",
+              "absHref": "https://www.esafety.gov.au/parents",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "eSafety",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Raising Children Network (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Raising Children Network (opens in new window)",
+              "display": "inline",
+              "href": "https://raisingchildren.net.au/teens",
+              "absHref": "https://raisingchildren.net.au/teens",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Raising Children Network",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parent Line (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent Line (opens in new window)",
+              "display": "inline",
+              "href": "https://www.parentline.org.au/#:~:text=Call%201300%201300%2052,18%20who%20live%20in%20NSW.",
+              "absHref": "https://www.parentline.org.au/#:~:text=Call%201300%201300%2052,18%20who%20live%20in%20NSW.",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Parent Line",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Common Sense Media (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Common Sense Media (opens in new window)",
+              "display": "inline",
+              "href": "https://www.commonsensemedia.org/",
+              "absHref": "https://www.commonsensemedia.org/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Common Sense Media",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Telephone Interpreter Service",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Telephone Interpreter Service",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents/telephone-interpreter-service",
+              "absHref": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents/telephone-interpreter-service",
+              "classes": "button primary",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Translating and Interpreter Service (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Translating and Interpreter Service (opens in new window)",
+              "display": "inline",
+              "href": "https://www.tisnational.gov.au/",
+              "absHref": "https://www.tisnational.gov.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Translating and Interpreter Service",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "ADHD Support Australia (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "ADHD Support Australia (opens in new window)",
+              "display": "inline",
+              "href": "https://www.adhdsupportaustralia.com.au/",
+              "absHref": "https://www.adhdsupportaustralia.com.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "ADHD Support Australia",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Headstart (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Headstart (opens in new window)",
+              "display": "inline",
+              "href": "https://headstart.org.au/central-and-eastern-sydney/",
+              "absHref": "https://headstart.org.au/central-and-eastern-sydney/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Headstart",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "ReachOut Parents Forum (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "ReachOut Parents Forum (opens in new window)",
+              "display": "inline",
+              "href": "https://forums.parents.au.reachout.com/",
+              "absHref": "https://forums.parents.au.reachout.com/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "ReachOut Parents Forum",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Embrace Project (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The Embrace Project (opens in new window)",
+              "display": "inline",
+              "href": "https://embracementalhealth.org.au",
+              "absHref": "https://embracementalhealth.org.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "The Embrace Project",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Transcend Australia (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Transcend Australia (opens in new window)",
+              "display": "inline",
+              "href": "https://transcend.org.au/",
+              "absHref": "https://transcend.org.au/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Transcend Australia",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Batyr Parent resource library (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Batyr Parent resource library (opens in new window)",
+              "display": "inline",
+              "href": "https://www.batyr.com.au/resource-hub/parents-carers/",
+              "absHref": "https://www.batyr.com.au/resource-hub/parents-carers/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Batyr Parent resource library",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reframing Autism (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Reframing Autism (opens in new window)",
+              "display": "inline",
+              "href": "https://reframingautism.org.au/resources/",
+              "absHref": "https://reframingautism.org.au/resources/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Reframing Autism",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parents of Gender Diverse Children (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parents of Gender Diverse Children (opens in new window)",
+              "display": "inline",
+              "href": "https://www.pgdc.org.au/nsw",
+              "absHref": "https://www.pgdc.org.au/nsw",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Parents of Gender Diverse Children",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Black Dog Institute (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Black Dog Institute (opens in new window)",
+              "display": "inline",
+              "href": "https://www.blackdoginstitute.org.au/resources-support/coronavirus-resources-for-anxiety-stress/schools-young-people/",
+              "absHref": "https://www.blackdoginstitute.org.au/resources-support/coronavirus-resources-for-anxiety-stress/schools-young-people/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Black Dog Institute",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Emerging Minds (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Emerging Minds (opens in new window)",
+              "display": "inline",
+              "href": "https://emergingminds.com.au/families/",
+              "absHref": "https://emergingminds.com.au/families/",
+              "classes": "button primary",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Emerging Minds",
+                  "parentTag": "a",
+                  "parentClass": "button primary",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Counselling Service",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school counselling service includes school counsellors and school psychologists. Our school counselling staff are highly skilled and play a crucial role, in supporting children and young people to thrive and succeed at school, making a real difference in the lives of children and young people.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "About the school counselling service",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School counselling staff support students by providing a psychological counselling, assessment and intervention service.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school counselling service works directly with students to help them with issues related to learning, peer and family relationships, and managing emotions such as depression, anxiety, worry or isolation.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At Fort Street we currently have a school counsellor on site every day:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Miori Shino: Monday, Tuesday and Friday Ms Meg Huckstepp-Lowe: Wednesday and Thursday",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Ms",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Miori Shino",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ": Monday, Tuesday and Friday",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Meg Huckstepp-Lowe",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ": Wednesday and Thursday",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Special knowledge, skills and experience",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school counselling staff are uniquely qualified members of the school wellbeing team. They apply expertise in mental health, learning, and behaviour to help children and young people succeed academically, socially, behaviourally, and emotionally.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School counselling staff work with teachers, families, school executive, and other professionals to create safe, healthy, and supportive learning environments that strengthen connections between home, school, and the community.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students and parents can contact their school counsellor or school psychologist directly through the school. School counsellors and school psychologists:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Provide counselling to students individually or in groups",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Assess students with specific needs",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Work collaboratively with teachers and specialist staff",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Help families understand and manage their children’s learning and mental health needs",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Liaise with external agencies and other mental health professionals to provide coordinated, wrap around support for individual students.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Useful links",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Information for parents can be found on the Department of Education website at the links below:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Support for Students at home",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Support for Students at home",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/student-wellbeing/counselling-and-psychology-services/students",
+              "absHref": "https://education.nsw.gov.au/student-wellbeing/counselling-and-psychology-services/students",
+              "classes": "button primary",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Support for Parents and carers at home",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Support for Parents and carers at home",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/parents-and-carers",
+              "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers",
+              "classes": "button primary",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Wellbeing Framework Fort Street structures its Wellbeing program around a framework that aligns the school’s Exit Profile and House system. Using this framework, wellbeing focused programs are delivered via small groups (Fortunae classes) and whole year meetings to enable our dedicated wellbeing team to provide guidance, support and leadership to every student throughout their journey at FSHS. The Wellbeing Framework sets out 5 focus points that each year group follows and develops as they progress through high school. These include: Respecting Self Respecting Others Social Justice Campaigns Study Skills Year Specific Skills and Challenges (eg Transitioning to High School, Developing Leadership, Post-School Opportunities) The table below sets out how the House system, Exit Profile and Wellbeing programs are aligned.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Wellbeing Framework"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street structures its Wellbeing program around a framework that aligns the school’s Exit Profile and House system. Using this framework, wellbeing focused programs are delivered via small groups (Fortunae classes) and whole year meetings to enable our dedicated wellbeing team to provide guidance, support and leadership to every student throughout their journey at FSHS.",
+        "The Wellbeing Framework sets out 5 focus points that each year group follows and develops as they progress through high school. These include:",
+        "The table below sets out how the House system, Exit Profile and Wellbeing programs are aligned."
+      ],
+      "listItems": [
+        "Respecting Self",
+        "Respecting Others",
+        "Social Justice Campaigns",
+        "Study Skills",
+        "Year Specific Skills and Challenges (eg Transitioning to High School, Developing Leadership, Post-School Opportunities)"
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1b4b2e8b69ac3735e6406430dd0551b9a8134d730.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 1955,
+          "h": 994
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Wellbeing Framework",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street structures its Wellbeing program around a framework that aligns the school’s Exit Profile and House system. Using this framework, wellbeing focused programs are delivered via small groups (Fortunae classes) and whole year meetings to enable our dedicated wellbeing team to provide guidance, support and leadership to every student throughout their journey at FSHS.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Fort Street structures its Wellbeing program around a framework that aligns the school’s Exit Profile and House system. Using this framework, wellbeing focused programs are delivered via small groups (",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Fortunae",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "classes) and whole year meetings to enable our dedicated wellbeing team to provide guidance, support and leadership to every student throughout their journey at FSHS.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Wellbeing Framework sets out 5 focus points that each year group follows and develops as they progress through high school. These include:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Respecting Self",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Respecting Others",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Social Justice Campaigns",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Study Skills",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Year Specific Skills and Challenges (eg Transitioning to High School, Developing Leadership, Post-School Opportunities)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The table below sets out how the House system, Exit Profile and Wellbeing programs are aligned.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1b4b2e8b69ac3735e6406430dd0551b9a8134d730.png?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "Aboriginal student support We are committed to closing the achievement gap for Aboriginal and Torres Strait Islander students. We know that we need to learn about, nurture and value the cultural identity of our Aboriginal students to help them be successful learners. We welcome Aboriginal and Torres Strait Islander family members, parents and carers, as well as community members to our school so that we can get to know each other, learn about the local Aboriginal community and develop shared goals and plans for Aboriginal students. The Aboriginal Education Policy confirms the NSW Department of Education’s commitment to improvement in educational outcomes and wellbeing for Aboriginal and Torres Strait Islander students. Multicultural education Our school welcomes students, families and community members from all cultural backgrounds. We appreciate difference and diversity and aim to provide a culturally inclusive and responsive environment that benefits all students. Our teaching and learning programs develop intercultural understanding, promote positive relationships and enable all students to participate as active Australian and global citizens. Our school fosters student wellbeing and community harmony by implementing anti-racism and anti-discrimination strategies that encourage engagement by parents and carers from all backgrounds. The Multicultural Education Policy outlines the NSW Department of Education’s commitment to providing opportunities that enable all students to achieve equitable education and social outcomes and participate successfully in our culturally diverse society. The Anti-Racism Policy confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments. For more information refer to: Multicultural education Anti-racism education Interpreting and translations Translated documents. Supporting English language learners Learning English is essential for success at school and effective participation in Australian society. We can provide specialist support to help students learning English as an additional language or dialect (EAL/D). For more information refer to: EAL/D education. Supporting refugee students Schools offer safety, support and security to help refugee students adjust to life in Australia and participate successfully in education. Targeted support strategies are provided to assist refugee students in NSW public schools. For more information refer to: Supporting refugee students. Find out more about Learning Support. Anti-bullying Bullying of any kind is not acceptable in NSW schools. The NSW anti-bullying (opens in new window) website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying. For more information on anti-bullying strategies for NSW public schools refer to the department’s Bullying of Students – Prevention and Response Policy. For information on racial bullying and anti-racism education for NSW public schools refer to: Anti-Racism Policy Anti-racism education Racism. No way (opens in new window) . Student leadership Student leadership helps young people find their voices, participate in decision-making, and understand their rights and responsibilities as active citizens. It helps students have a real impact on their learning and school environment and prepares them to participate meaningfully in their community. Students can be leaders in the classroom, through their actions in the playground, through their support for others, or their involvement in academic, sporting, cultural or local community events or projects. For more information about opportunities in NSW public schools visit Student voice and leadership. Visit Our principal and staff to learn about our wellbeing and specialist support staff.",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Supporting English language learners"
+        },
+        {
+          "level": "h3",
+          "text": "Supporting refugee students"
+        }
+      ],
+      "paragraphs": [
+        "We are committed to closing the achievement gap for Aboriginal and Torres Strait Islander students. We know that we need to learn about, nurture and value the cultural identity of our Aboriginal students to help them be successful learners.",
+        "We welcome Aboriginal and Torres Strait Islander family members, parents and carers, as well as community members to our school so that we can get to know each other, learn about the local Aboriginal community and develop shared goals and plans for Aboriginal students.",
+        "The Aboriginal Education Policy confirms the NSW Department of Education’s commitment to improvement in educational outcomes and wellbeing for Aboriginal and Torres Strait Islander students.",
+        "Our school welcomes students, families and community members from all cultural backgrounds. We appreciate difference and diversity and aim to provide a culturally inclusive and responsive environment that benefits all students.",
+        "Our teaching and learning programs develop intercultural understanding, promote positive relationships and enable all students to participate as active Australian and global citizens. Our school fosters student wellbeing and community harmony by implementing anti-racism and anti-discrimination strategies that encourage engagement by parents and carers from all backgrounds.",
+        "The Multicultural Education Policy outlines the NSW Department of Education’s commitment to providing opportunities that enable all students to achieve equitable education and social outcomes and participate successfully in our culturally diverse society.",
+        "The Anti-Racism Policy confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments.",
+        "For more information refer to:",
+        "Learning English is essential for success at school and effective participation in Australian society. We can provide specialist support to help students learning English as an additional language or dialect (EAL/D).",
+        "For more information refer to: EAL/D education.",
+        "Schools offer safety, support and security to help refugee students adjust to life in Australia and participate successfully in education. Targeted support strategies are provided to assist refugee students in NSW public schools.",
+        "For more information refer to: Supporting refugee students.",
+        "Find out more about Learning Support.",
+        "Bullying of any kind is not acceptable in NSW schools.",
+        "The NSW anti-bullying (opens in new window) website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying.",
+        "For more information on anti-bullying strategies for NSW public schools refer to the department’s Bullying of Students – Prevention and Response Policy.",
+        "For information on racial bullying and anti-racism education for NSW public schools refer to:",
+        "Student leadership helps young people find their voices, participate in decision-making, and understand their rights and responsibilities as active citizens. It helps students have a real impact on their learning and school environment and prepares them to participate meaningfully in their community.",
+        "Students can be leaders in the classroom, through their actions in the playground, through their support for others, or their involvement in academic, sporting, cultural or local community events or projects.",
+        "For more information about opportunities in NSW public schools visit Student voice and leadership.",
+        "Visit Our principal and staff to learn about our wellbeing and specialist support staff."
+      ],
+      "listItems": [
+        "Multicultural education",
+        "Anti-racism education",
+        "Interpreting and translations",
+        "Translated documents.",
+        "Anti-Racism Policy",
+        "Anti-racism education",
+        "Racism. No way (opens in new window) ."
+      ],
+      "ctas": [
+        {
+          "text": "Aboriginal Education Policy",
+          "href": "https://education.nsw.gov.au/policy-library/policies/aboriginal-education-and-training-policy",
+          "absHref": "https://education.nsw.gov.au/policy-library/policies/aboriginal-education-and-training-policy",
+          "classes": ""
+        },
+        {
+          "text": "Multicultural Education Policy",
+          "href": "https://education.nsw.gov.au/policy-library/policies/multicultural-education-policy?refid=285776",
+          "absHref": "https://education.nsw.gov.au/policy-library/policies/multicultural-education-policy?refid=285776",
+          "classes": ""
+        },
+        {
+          "text": "Anti-Racism Policy",
+          "href": "https://education.nsw.gov.au/policy-library/policies/pd-2005-0235",
+          "absHref": "https://education.nsw.gov.au/policy-library/policies/pd-2005-0235",
+          "classes": ""
+        },
+        {
+          "text": "Multicultural education",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education",
+          "classes": ""
+        },
+        {
+          "text": "Anti-racism education",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+          "classes": ""
+        },
+        {
+          "text": "Interpreting and translations",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/interpreting-and-translations",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/interpreting-and-translations",
+          "classes": ""
+        },
+        {
+          "text": "Translated documents",
+          "href": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents",
+          "absHref": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents",
+          "classes": ""
+        },
+        {
+          "text": "EAL/D education",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/english-as-an-additional-language-or-dialect",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/english-as-an-additional-language-or-dialect",
+          "classes": ""
+        },
+        {
+          "text": "Supporting refugee students",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/refugee-students-in-schools",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/refugee-students-in-schools",
+          "classes": ""
+        },
+        {
+          "text": "Learning Support",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        },
+        {
+          "text": "NSW anti-bullying (opens in new window)",
+          "href": "https://antibullying.nsw.gov.au/",
+          "absHref": "https://antibullying.nsw.gov.au/",
+          "classes": ""
+        },
+        {
+          "text": "Bullying of Students – Prevention and Response Policy",
+          "href": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
+          "absHref": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
+          "classes": ""
+        },
+        {
+          "text": "Anti-Racism Policy",
+          "href": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+          "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+          "classes": ""
+        },
+        {
+          "text": "Anti-racism education",
+          "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+          "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+          "classes": ""
+        },
+        {
+          "text": "Racism. No way (opens in new window)",
+          "href": "http://www.racismnoway.com.au/",
+          "absHref": "http://www.racismnoway.com.au/",
+          "classes": ""
+        },
+        {
+          "text": "Student voice and leadership",
+          "href": "https://education.nsw.gov.au/schooling/students/student-voices/student-voice-and-leadership/why-student-voice-matters",
+          "absHref": "https://education.nsw.gov.au/schooling/students/student-voices/student-voice-and-leadership/why-student-voice-matters",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Aboriginal student support",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Multicultural education",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Anti-bullying",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Student leadership",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Aboriginal student support",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We are committed to closing the achievement gap for Aboriginal and Torres Strait Islander students. We know that we need to learn about, nurture and value the cultural identity of our Aboriginal students to help them be successful learners.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We welcome Aboriginal and Torres Strait Islander family members, parents and carers, as well as community members to our school so that we can get to know each other, learn about the local Aboriginal community and develop shared goals and plans for Aboriginal students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Aboriginal Education Policy confirms the NSW Department of Education’s commitment to improvement in educational outcomes and wellbeing for Aboriginal and Torres Strait Islander students.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Aboriginal Education Policy",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/policy-library/policies/aboriginal-education-and-training-policy",
+              "absHref": "https://education.nsw.gov.au/policy-library/policies/aboriginal-education-and-training-policy",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "confirms the NSW Department of Education’s commitment to improvement in educational outcomes and wellbeing for Aboriginal and Torres Strait Islander students.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Multicultural education",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school welcomes students, families and community members from all cultural backgrounds. We appreciate difference and diversity and aim to provide a culturally inclusive and responsive environment that benefits all students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our teaching and learning programs develop intercultural understanding, promote positive relationships and enable all students to participate as active Australian and global citizens. Our school fosters student wellbeing and community harmony by implementing anti-racism and anti-discrimination strategies that encourage engagement by parents and carers from all backgrounds.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Multicultural Education Policy outlines the NSW Department of Education’s commitment to providing opportunities that enable all students to achieve equitable education and social outcomes and participate successfully in our culturally diverse society.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Multicultural Education Policy",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/policy-library/policies/multicultural-education-policy?refid=285776",
+              "absHref": "https://education.nsw.gov.au/policy-library/policies/multicultural-education-policy?refid=285776",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "outlines the NSW Department of Education’s commitment to providing opportunities that enable all students to achieve equitable education and social outcomes and participate successfully in our culturally diverse society.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Anti-Racism Policy confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Anti-Racism Policy",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/policy-library/policies/pd-2005-0235",
+              "absHref": "https://education.nsw.gov.au/policy-library/policies/pd-2005-0235",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "confirms the department’s commitment to rejecting all forms of racial discrimination in NSW public schools and eliminating expressions of racism in its learning and working environments.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more information refer to:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Multicultural education",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Multicultural education",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Anti-racism education",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Anti-racism education",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Interpreting and translations",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Interpreting and translations",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/interpreting-and-translations",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/interpreting-and-translations",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Translated documents.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Translated documents",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents",
+              "absHref": "https://education.nsw.gov.au/public-schools/going-to-a-public-school/translated-documents",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Supporting English language learners",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learning English is essential for success at school and effective participation in Australian society. We can provide specialist support to help students learning English as an additional language or dialect (EAL/D).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more information refer to: EAL/D education.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For more information refer to:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "EAL/D education",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/english-as-an-additional-language-or-dialect",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/english-as-an-additional-language-or-dialect",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Supporting refugee students",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Schools offer safety, support and security to help refugee students adjust to life in Australia and participate successfully in education. Targeted support strategies are provided to assist refugee students in NSW public schools.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more information refer to: Supporting refugee students.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For more information refer to:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Supporting refugee students",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/refugee-students-in-schools",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/refugee-students-in-schools",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Find out more about Learning Support.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Find out more about",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Learning Support",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Anti-bullying",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Bullying of any kind is not acceptable in NSW schools.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The NSW anti-bullying (opens in new window) website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "NSW anti-bullying (opens in new window)",
+              "display": "inline",
+              "href": "https://antibullying.nsw.gov.au/",
+              "absHref": "https://antibullying.nsw.gov.au/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "NSW anti-bullying",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "website brings together information and resources for teachers, students, parents and carers. It helps to identify, prevent and respond effectively to student bullying, including online bullying. It provides information about online safety and what you can do if your child has been bullied, witnessed bullying or been involved in bullying.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more information on anti-bullying strategies for NSW public schools refer to the department’s Bullying of Students – Prevention and Response Policy.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For more information on anti-bullying strategies for NSW public schools refer to the department’s",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Bullying of Students – Prevention and Response Policy",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
+              "absHref": "https://education.nsw.gov.au/policy-library/policies/bullying-of-students-prevention-and-response-policy",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For information on racial bullying and anti-racism education for NSW public schools refer to:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Anti-Racism Policy",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Anti-Racism Policy",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+              "absHref": "https://education.nsw.gov.au/policy-library/policies/anti-racism-policy?refid=285776",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Anti-racism education",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Anti-racism education",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+              "absHref": "https://education.nsw.gov.au/teaching-and-learning/curriculum/multicultural-education/anti-racism-education",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Racism. No way (opens in new window) .",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Racism. No way (opens in new window)",
+              "display": "inline",
+              "href": "http://www.racismnoway.com.au/",
+              "absHref": "http://www.racismnoway.com.au/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Racism. No way",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Student leadership",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Student leadership helps young people find their voices, participate in decision-making, and understand their rights and responsibilities as active citizens. It helps students have a real impact on their learning and school environment and prepares them to participate meaningfully in their community.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students can be leaders in the classroom, through their actions in the playground, through their support for others, or their involvement in academic, sporting, cultural or local community events or projects.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more information about opportunities in NSW public schools visit Student voice and leadership.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For more information about opportunities in NSW public schools visit",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Student voice and leadership",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/students/student-voices/student-voice-and-leadership/why-student-voice-matters",
+              "absHref": "https://education.nsw.gov.au/schooling/students/student-voices/student-voice-and-leadership/why-student-voice-matters",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Visit Our principal and staff to learn about our wellbeing and specialist support staff.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Visit",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "inline",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "to learn about our wellbeing and specialist support staff.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "Student Health Teaching and support staff at Fort Street High School undertake regular first aid training in order to be able to support our students. This includes but is not limited to CPR and anaphylaxis training. Students who are not well should not attend school. Parents should advice the school of the absence via the Sentral Parent Portal. A medical certificate may be requested for extended absences. Our office area has dedicated sick bay rooms and is also equipped with a defibrillator. First Aid and Sick Bay Students who are injured or become ill during the school day should inform their teacher who will send a note with the student to Reception. First Aid office staff will monitor students in Sick Bay and a decision will be made to contact parents/carers if a student needs to be collected from school. Students are not to call their parents or leave school without attending Sick Bay. Medication Department of Education Policy prohibits the issue of medications such as Panadol and Aspirin etc by school staff. Students who are asthmatic, anaphylactic or diabetic should carry the required medications with them at all times. Students who have been issued with an Epinephrine Autoinjector (Epipen) must keep one in their bag and also provide a spare EpiPen to the school office to be kept in the medical area. A school EpiPen and Ventolin inhaler are included in all First Aid kits taken on excursions. Parents and Carers must ensure all Student Health plans are current and up to date and all provided inhalers or Epipens are within their expiry date. Students who require prescription medication at school should submit the medication along with a signed letter from the parent advising dosage to Office Staff at Reception. No other medications should be brought into the school. For any questions relating to health conditions please contact the Front Office staff on 8585 1600.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Student Health"
+        }
+      ],
+      "paragraphs": [
+        "Teaching and support staff at Fort Street High School undertake regular first aid training in order to be able to support our students. This includes but is not limited to CPR and anaphylaxis training.",
+        "Students who are not well should not attend school. Parents should advice the school of the absence via the Sentral Parent Portal. A medical certificate may be requested for extended absences.",
+        "Our office area has dedicated sick bay rooms and is also equipped with a defibrillator.",
+        "Students who are injured or become ill during the school day should inform their teacher who will send a note with the student to Reception. First Aid office staff will monitor students in Sick Bay and a decision will be made to contact parents/carers if a student needs to be collected from school.",
+        "Students are not to call their parents or leave school without attending Sick Bay.",
+        "Department of Education Policy prohibits the issue of medications such as Panadol and Aspirin etc by school staff. Students who are asthmatic, anaphylactic or diabetic should carry the required medications with them at all times. Students who have been issued with an Epinephrine Autoinjector (Epipen) must keep one in their bag and also provide a spare EpiPen to the school office to be kept in the medical area. A school EpiPen and Ventolin inhaler are included in all First Aid kits taken on excursions.",
+        "Parents and Carers must ensure all Student Health plans are current and up to date and all provided inhalers or Epipens are within their expiry date.",
+        "Students who require prescription medication at school should submit the medication along with a signed letter from the parent advising dosage to Office Staff at Reception. No other medications should be brought into the school.",
+        "For any questions relating to health conditions please contact the Front Office staff on 8585 1600."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "First Aid and Sick Bay",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Medication",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Student Health",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Teaching and support staff at Fort Street High School undertake regular first aid training in order to be able to support our students. This includes but is not limited to CPR and anaphylaxis training.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students who are not well should not attend school. Parents should advice the school of the absence via the Sentral Parent Portal. A medical certificate may be requested for extended absences.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our office area has dedicated sick bay rooms and is also equipped with a defibrillator.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "First Aid and Sick Bay",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students who are injured or become ill during the school day should inform their teacher who will send a note with the student to Reception. First Aid office staff will monitor students in Sick Bay and a decision will be made to contact parents/carers if a student needs to be collected from school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students are not to call their parents or leave school without attending Sick Bay.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Medication",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Department of Education Policy prohibits the issue of medications such as Panadol and Aspirin etc by school staff. Students who are asthmatic, anaphylactic or diabetic should carry the required medications with them at all times. Students who have been issued with an Epinephrine Autoinjector (Epipen) must keep one in their bag and also provide a spare EpiPen to the school office to be kept in the medical area. A school EpiPen and Ventolin inhaler are included in all First Aid kits taken on excursions.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parents and Carers must ensure all Student Health plans are current and up to date and all provided inhalers or Epipens are within their expiry date.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students who require prescription medication at school should submit the medication along with a signed letter from the parent advising dosage to Office Staff at Reception. No other medications should be brought into the school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For any questions relating to health conditions please contact the Front Office staff on 8585 1600.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need support for your child's wellbeing? Get in touch to talk about the right support for your child. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need support for your child's wellbeing?"
+        }
+      ],
+      "paragraphs": [
+        "Get in touch to talk about the right support for your child.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need support for your child's wellbeing?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Get in touch to talk about the right support for your child.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Additional learning support Find out how we support students with disability or additional learning needs. Our principal and staff Get to know our principal and staff, who work together to create a positive school culture.",
+      "headings": [],
+      "paragraphs": [
+        "Find out how we support students with disability or additional learning needs.",
+        "Get to know our principal and staff, who work together to create a positive school culture."
+      ],
+      "listItems": [
+        "Additional learning support Find out how we support students with disability or additional learning needs.",
+        "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture."
+      ],
+      "ctas": [
+        {
+          "text": "Additional learning support",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Additional learning support Find out how we support students with disability or additional learning needs.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Additional learning support",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out how we support students with disability or additional learning needs.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "inline",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get to know our principal and staff, who work together to create a positive school culture.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

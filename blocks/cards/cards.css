@@ -1,27 +1,102 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  grid-template-columns: 1fr;
+  gap: 40px;
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  background-color: var(--band-bg);
+}
+
+.band .cards > ul > li {
+  background-color: var(--page-bg);
+}
+
+.cards .cards-card-image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  padding: 24px;
 }
 
-.cards .cards-card-image {
-  line-height: 0;
+.cards .cards-card-body > :last-child {
+  margin-bottom: 0;
 }
 
-.cards > ul > li img {
-  width: 100%;
+/* card title: the first link-only line renders as the oneAZ card heading */
+.cards .cards-card-body > p:first-child > a:only-child,
+.cards .cards-card-body > p:first-child > strong > a:only-child {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--card-title-fg);
+  text-decoration: none;
+}
+
+.cards .cards-card-body > p:first-child > a:only-child:hover {
+  color: var(--accent-hover);
+}
+
+.cards .cards-card-body p a {
+  overflow-wrap: anywhere;
+}
+
+/* M7 Listing Card — horizontal media/body */
+.cards.listing > ul {
+  gap: 24px;
+}
+
+.cards.listing > ul > li {
+  background-color: var(--page-bg);
+}
+
+.cards.listing .cards-card-body :is(h2, h3) {
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--card-title-fg);
+}
+
+.cards.listing .cards-card-image img {
+  height: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .cards > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards.listing > ul {
+    grid-template-columns: 1fr;
+  }
+
+  .cards.listing > ul > li {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 32px;
+  }
+
+  .cards.listing > ul > li.no-image {
+    grid-template-columns: 1fr;
+  }
+
+  .cards.listing .cards-card-body {
+    padding: 24px 24px 8px 0;
+  }
+
+  .cards.listing > ul > li.no-image .cards-card-body {
+    padding-left: 24px;
+  }
 }

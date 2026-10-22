@@ -1,0 +1,56 @@
+{
+  "slug": "school-life_student-opportunities-and-activities_debating-and-public-speaking",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Debating and Public Speaking",
+    "description": "In the debating program, Fort Street students work in small tutorial groups of 8-10 people, every Monday afternoon from 3:30–5 pm. These tutorials are led by world-class debating coaches recruited from Sydney’s premier universities.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Debating and Public Speaking",
+    "description": "In the debating program, Fort Street students work in small tutorial groups of 8-10 people, every Monday afternoon from 3:30–5 pm. These tutorials are led by world-class debating coaches recruited from Sydney’s premier universities.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "0370c7caba08",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/student-opportunities-and-activities/debating-and-public-speaking/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/student-opportunities-and-activities/debating-and-public-speaking/_meta.json",
+  "driverVersion": "1"
+}

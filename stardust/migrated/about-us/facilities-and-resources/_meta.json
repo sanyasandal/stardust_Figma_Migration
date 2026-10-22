@@ -1,0 +1,62 @@
+{
+  "slug": "about-us_facilities-and-resources",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M5",
+    "M4"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "teaser-cards",
+    "teaser-ti",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Facilities and resources",
+    "description": "At Fort Street High School, we offer a wide range of spaces, tools and resources to support student learning. Our modern facilities help students build skills, try new things and stay engaged. Whether it’s for study, sport, creativity or technology, we give students what they need to succeed.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Facilities and resources",
+    "description": "At Fort Street High School, we offer a wide range of spaces, tools and resources to support student learning. Our modern facilities help students build skills, try new things and stay engaged. Whether it’s for study, sport, creativity or technology, we give students what they need to succeed.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "b4e103246b07",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://fortstreet-h.schools.nsw.gov.au/contact-us.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "about-us/facilities-and-resources/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/facilities-and-resources/_meta.json",
+  "driverVersion": "1"
+}

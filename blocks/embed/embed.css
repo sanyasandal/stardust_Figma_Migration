@@ -1,0 +1,20 @@
+.embed {
+  position: relative;
+  width: 100%;
+  max-width: 880px;
+  margin: 0 0 16px;
+  aspect-ratio: 16 / 9;
+  background-color: var(--band-bg);
+}
+
+.embed.map {
+  aspect-ratio: 2 / 1;
+}
+
+.embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

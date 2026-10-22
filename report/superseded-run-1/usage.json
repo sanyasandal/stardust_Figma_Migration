@@ -1,0 +1,19 @@
+{
+  "source": "local session store table assistant_usage_events, session 250ef28c-a00f-4946-81dd-a4dac81deda4",
+  "queried_at": "2026-10-21T12:33Z",
+  "model": "claude-opus-5.5",
+  "api_calls": 137,
+  "input_tokens_total": 17463747,
+  "input_cache_read_tokens": 16471710,
+  "input_cache_write_tokens": 991735,
+  "output_tokens": 136953,
+  "reasoning_tokens": 39854,
+  "cost_aiu": 1099.33,
+  "cost_usd": "unavailable (billing is in AI units; no USD rate recorded)",
+  "model_time_s": 1453.9,
+  "first_call": "2026-10-21T10:39:23Z",
+  "last_call": "2026-10-21T12:33:05Z",
+  "elapsed_wall_clock": "1h 53m 42s (includes time waiting on user/permission prompts)",
+  "cloud_session_usage": "0 rows (unavailable)",
+  "note": "Totals exclude this final report-writing turn; it runs after the query."
+}

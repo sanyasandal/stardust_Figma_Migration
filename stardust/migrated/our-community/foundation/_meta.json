@@ -1,0 +1,59 @@
+{
+  "slug": "our-community_foundation",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M5",
+    "M4",
+    "M6",
+    "NM1"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-cards",
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "The Fort Street Foundation",
+    "description": "The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "The Fort Street Foundation",
+    "description": "The Fort Street Foundation was formed in 1998 as the brainchild of a group of 1949 Fortians who were returning to the School for their 50th year anniversary.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "20474ab7a92c",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "our-community/foundation/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "our-community/foundation/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,628 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:58.444Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/learning-and-support_careers.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Careers",
+    "description": "The Careers Adviser provides a range of services to Fortians including individualised careers counselling to assist students to make a well-informed transition from Fort Street into their tertiary studies and their future career paths.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers",
+    "ogTags": {
+      "og:title": "Careers",
+      "og:description": "The Careers Adviser provides a range of services to Fortians including individualised careers counselling to assist students to make a well-informed transition from Fort Street into their tertiary studies and their future career paths.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1d064d18a746f9b5f8ae5989e766c7ed8de38cc04.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1d064d18a746f9b5f8ae5989e766c7ed8de38cc04.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Careers",
+      "twitter:description": "The Careers Adviser provides a range of services to Fortians including individualised careers counselling to assist students to make a well-informed transition from Fort Street into their tertiary studies and their future career paths.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1d064d18a746f9b5f8ae5989e766c7ed8de38cc04.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Careers The careers service at Fort Street is flexible, future-focussed and targeted to the very particular needs of high-potential students. The Careers Adviser provides a range of services to Fortians including individualised careers counselling to assist students to make a well-informed transition from Fort Street into their tertiary studies and their future career paths. The NSW Department of Education’s School to Work program has four key action areas: Supporting students to develop and manage their career planning in consultation with the Careers Adviser Exploring future careers and understanding the evolving world of work Providing students with opportunities to experience current and future workplaces, in real life or virtually Building connections and networks for students through strategic extra-curricular experiences and university visits Thinking ahead – Careers counselling at Fort Street The Careers Adviser - Ms Salisbury is a Professional Member of the Career Advisers Association of NSW and the Selective Schools Careers Advisers Network. The careers program at Fort Street is informed by the Australian Blueprint for Career Development and draws on the latest digital resources, academic research and psychometric testing to deliver future-focussed counselling. The Careers Adviser co-ordinates: Individual work experience placements University-delivered extra-curricular programs University presentations at the school Information about emerging professions and current academic research Students can have individual assistance with: Subject selection Applying for casual positions, CV-writing, mock job interviews, video-introductions Tertiary selection, UAC applications and career pathway planning University early-entry applications and scholarship applications NESA enrolments and HSC Disability Provisions There are currently over 2,000 degree courses available at universities in Sydney alone, and high-potential students may find choosing a degree particularly challenging as they are often individuals with many diverse talents and interests. At the same time the world of work is evolving rapidly, in this fourth industrial revolution, with whole careers disappearing and new professions emerging. These developments make it more important than ever for students and parents to take advantage of the Careers service to assist them to navigate the complex transition from school to work. Ms Salisbury is available for one-on-one interviews with students and with parents Monday to Friday 8.30 – 4pm during school terms. The careers office is located in the library next to the Senior Study with brochures, leaflets and booklets, for drop-in chats, or pre-booked interviews for students in all year-groups. Careers Expo Each year a Careers Fair is held for Years 11 and 12 students and their parents/carers. The Careers Fair has been a great success in past years and the feedback from students and stallholders has been extremely positive. The event takes place in the School Hall. Major Sydney universities as well as several other prestigious tertiary institutions and scholarship programs attend. This is an outstanding opportunity for students to have one-on-one conversations, and ask individual questions of the academics and current students representing the various institutions. ACU at the Careers Expo University of Sydney at the Careers Expo UNSW at the Careers Expo 1 2 3 4 For more information Contact: Ms Kylie Salisbury Phone: 8585 1621 Email: kylie.salisbury@det.nsw.edu.au (opens in new window) Learning Find out about our approach to learning and supporting students to progress. Travel to school Learn about local transport options and how to get here safely.",
+  "coverage": {
+    "bodyTextLen": 4573,
+    "scopeTextLen": 3718,
+    "ratio": 0.813,
+    "h1Text": "Careers",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Careers The careers service at Fort Street is flexible, future-focussed and targeted to the very particular needs of high-potential students. The Careers Adviser provides a range of services to Fortians including individualised careers counselling to assist students to make a well-informed transition from Fort Street into their tertiary studies and their future career paths. The NSW Department of Education’s School to Work program has four key action areas: Supporting students to develop and manage their career planning in consultation with the Careers Adviser Exploring future careers and understanding the evolving world of work Providing students with opportunities to experience current and future workplaces, in real life or virtually Building connections and networks for students through strategic extra-curricular experiences and university visits Thinking ahead – Careers counselling at Fort Street The Careers Adviser - Ms Salisbury is a Professional Member of the Career Advisers Association of NSW and the Selective Schools Careers Advisers Network. The careers program at Fort Street is informed by the Australian Blueprint for Career Development and draws on the latest digital resources, academic research and psychometric testing to deliver future-focussed counselling. The Careers Adviser co-ordinates: Individual work experience placements University-delivered extra-curricular programs University presentations at the school Information about emerging professions and current academic research Students can have individual assistance with: Subject selection Applying for casual positions, CV-writing, mock job interviews, video-introductions Tertiary selection, UAC applications and career pathway planning University early-entry applications and scholarship applications NESA enrolments and HSC Disability Provisions There are currently over 2,000 degree courses available at universities in Sydney alone, and high-potential students may find choosing a degree particularly challenging as they are often individuals with many diverse talents and interests. At the same time the world of work is evolving rapidly, in this fourth industrial revolution, with whole careers disappearing and new professions emerging. These developments make it more important than ever for students and parents to take advantage of the Careers service to assist them to navigate the complex transition from school to work. Ms Salisbury is available for one-on-one interviews with students and with parents Monday to Friday 8.30 – 4pm during school terms. The careers office is located in the library next to the Senior Study with brochures, leaflets and booklets, for drop-in chats, or pre-booked interviews for students in all year-groups.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Careers"
+        },
+        {
+          "level": "h2",
+          "text": "Thinking ahead – Careers counselling at Fort Street"
+        }
+      ],
+      "paragraphs": [
+        "The careers service at Fort Street is flexible, future-focussed and targeted to the very particular needs of high-potential students. The Careers Adviser provides a range of services to Fortians including individualised careers counselling to assist students to make a well-informed transition from Fort Street into their tertiary studies and their future career paths.",
+        "The NSW Department of Education’s School to Work program has four key action areas:",
+        "The Careers Adviser - Ms Salisbury is a Professional Member of the Career Advisers Association of NSW and the Selective Schools Careers Advisers Network. The careers program at Fort Street is informed by the Australian Blueprint for Career Development and draws on the latest digital resources, academic research and psychometric testing to deliver future-focussed counselling.",
+        "The Careers Adviser co-ordinates:",
+        "Students can have individual assistance with:",
+        "There are currently over 2,000 degree courses available at universities in Sydney alone, and high-potential students may find choosing a degree particularly challenging as they are often individuals with many diverse talents and interests. At the same time the world of work is evolving rapidly, in this fourth industrial revolution, with whole careers disappearing and new professions emerging. These developments make it more important than ever for students and parents to take advantage of the Careers service to assist them to navigate the complex transition from school to work.",
+        "Ms Salisbury is available for one-on-one interviews with students and with parents Monday to Friday 8.30 – 4pm during school terms.",
+        "The careers office is located in the library next to the Senior Study with brochures, leaflets and booklets, for drop-in chats, or pre-booked interviews for students in all year-groups."
+      ],
+      "listItems": [
+        "Supporting students to develop and manage their career planning in consultation with the Careers Adviser",
+        "Exploring future careers and understanding the evolving world of work",
+        "Providing students with opportunities to experience current and future workplaces, in real life or virtually",
+        "Building connections and networks for students through strategic extra-curricular experiences and university visits",
+        "Individual work experience placements",
+        "University-delivered extra-curricular programs",
+        "University presentations at the school",
+        "Information about emerging professions and current academic research",
+        "Subject selection",
+        "Applying for casual positions, CV-writing, mock job interviews, video-introductions",
+        "Tertiary selection, UAC applications and career pathway planning",
+        "University early-entry applications and scholarship applications",
+        "NESA enrolments and HSC Disability Provisions"
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1d064d18a746f9b5f8ae5989e766c7ed8de38cc04.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1335
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Careers",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The careers service at Fort Street is flexible, future-focussed and targeted to the very particular needs of high-potential students. The Careers Adviser provides a range of services to Fortians including individualised careers counselling to assist students to make a well-informed transition from Fort Street into their tertiary studies and their future career paths.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "",
+          "display": "block",
+          "level": "h1",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1d064d18a746f9b5f8ae5989e766c7ed8de38cc04.jpg?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The NSW Department of Education’s School to Work program has four key action areas:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Supporting students to develop and manage their career planning in consultation with the Careers Adviser",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Exploring future careers and understanding the evolving world of work",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Providing students with opportunities to experience current and future workplaces, in real life or virtually",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Building connections and networks for students through strategic extra-curricular experiences and university visits",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Thinking ahead – Careers counselling at Fort Street",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Careers Adviser - Ms Salisbury is a Professional Member of the Career Advisers Association of NSW and the Selective Schools Careers Advisers Network. The careers program at Fort Street is informed by the Australian Blueprint for Career Development and draws on the latest digital resources, academic research and psychometric testing to deliver future-focussed counselling.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Careers Adviser co-ordinates:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Individual work experience placements",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "University-delivered extra-curricular programs",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "University presentations at the school",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Information about emerging professions and current academic research",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students can have individual assistance with:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Subject selection",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Applying for casual positions, CV-writing, mock job interviews, video-introductions",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Tertiary selection, UAC applications and career pathway planning",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "University early-entry applications and scholarship applications",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "NESA enrolments and HSC Disability Provisions",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "There are currently over 2,000 degree courses available at universities in Sydney alone, and high-potential students may find choosing a degree particularly challenging as they are often individuals with many diverse talents and interests. At the same time the world of work is evolving rapidly, in this fourth industrial revolution, with whole careers disappearing and new professions emerging. These developments make it more important than ever for students and parents to take advantage of the Careers service to assist them to navigate the complex transition from school to work.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Salisbury is available for one-on-one interviews with students and with parents Monday to Friday 8.30 – 4pm during school terms.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The careers office is located in the library next to the Senior Study with brochures, leaflets and booklets, for drop-in chats, or pre-booked interviews for students in all year-groups.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section gallery-container",
+      "visibleText": "Careers Expo Each year a Careers Fair is held for Years 11 and 12 students and their parents/carers. The Careers Fair has been a great success in past years and the feedback from students and stallholders has been extremely positive. The event takes place in the School Hall. Major Sydney universities as well as several other prestigious tertiary institutions and scholarship programs attend. This is an outstanding opportunity for students to have one-on-one conversations, and ask individual questions of the academics and current students representing the various institutions. ACU at the Careers Expo University of Sydney at the Careers Expo UNSW at the Careers Expo 1 2 3 4",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Careers Expo"
+        }
+      ],
+      "paragraphs": [
+        "Each year a Careers Fair is held for Years 11 and 12 students and their parents/carers. The Careers Fair has been a great success in past years and the feedback from students and stallholders has been extremely positive.",
+        "The event takes place in the School Hall. Major Sydney universities as well as several other prestigious tertiary institutions and scholarship programs attend. This is an outstanding opportunity for students to have one-on-one conversations, and ask individual questions of the academics and current students representing the various institutions.",
+        "ACU at the Careers Expo",
+        "University of Sydney at the Careers Expo",
+        "UNSW at the Careers Expo"
+      ],
+      "listItems": [
+        "ACU at the Careers Expo",
+        "University of Sydney at the Careers Expo",
+        "UNSW at the Careers Expo",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1a025bd3dca94132118b7e69e8fa56c6aa860294e.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 1000
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_13b723e7aff88455df37b072cd8d7674c6f33d6e1.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 563
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1e7c00b11ec5492fc2163b5ac830b173bf5b1b6b3.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 563
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Careers Expo",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Each year a Careers Fair is held for Years 11 and 12 students and their parents/carers. The Careers Fair has been a great success in past years and the feedback from students and stallholders has been extremely positive.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The event takes place in the School Hall. Major Sydney universities as well as several other prestigious tertiary institutions and scholarship programs attend. This is an outstanding opportunity for students to have one-on-one conversations, and ask individual questions of the academics and current students representing the various institutions.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "ACU at the Careers Expo",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1a025bd3dca94132118b7e69e8fa56c6aa860294e.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "ACU at the Careers Expo",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "University of Sydney at the Careers Expo",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_13b723e7aff88455df37b072cd8d7674c6f33d6e1.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Sydney at the Careers Expo",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "UNSW at the Careers Expo",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_1e7c00b11ec5492fc2163b5ac830b173bf5b1b6b3.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "UNSW at the Careers Expo",
+              "display": "block",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "1",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "2",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "3",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "4",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "For more information Contact: Ms Kylie Salisbury Phone: 8585 1621 Email: kylie.salisbury@det.nsw.edu.au (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "For more information"
+        }
+      ],
+      "paragraphs": [
+        "Contact: Ms Kylie Salisbury Phone: 8585 1621 Email: kylie.salisbury@det.nsw.edu.au (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "kylie.salisbury@det.nsw.edu.au (opens in new window)",
+          "href": "mailto:kylie.salisbury@det.nsw.edu.au",
+          "absHref": "mailto:kylie.salisbury@det.nsw.edu.au",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "For more information",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Kylie Salisbury Phone: 8585 1621 Email: kylie.salisbury@det.nsw.edu.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Kylie Salisbury",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Phone: 8585 1621",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Email:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "kylie.salisbury@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:kylie.salisbury@det.nsw.edu.au",
+              "absHref": "mailto:kylie.salisbury@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "kylie.salisbury@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Learning Find out about our approach to learning and supporting students to progress. Travel to school Learn about local transport options and how to get here safely.",
+      "headings": [],
+      "paragraphs": [
+        "Find out about our approach to learning and supporting students to progress.",
+        "Learn about local transport options and how to get here safely."
+      ],
+      "listItems": [
+        "Learning Find out about our approach to learning and supporting students to progress.",
+        "Travel to school Learn about local transport options and how to get here safely."
+      ],
+      "ctas": [
+        {
+          "text": "Learning",
+          "href": "/learning-and-support/learning",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+          "classes": ""
+        },
+        {
+          "text": "Travel to school",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Learning Find out about our approach to learning and supporting students to progress.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Learning",
+              "display": "inline",
+              "href": "/learning-and-support/learning",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about our approach to learning and supporting students to progress.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Travel to school Learn about local transport options and how to get here safely.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Travel to school",
+              "display": "inline",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn about local transport options and how to get here safely.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

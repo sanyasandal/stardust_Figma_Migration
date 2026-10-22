@@ -1,0 +1,523 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:30.107Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_student-opportunities-and-activities_creative-and-performing-arts.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Creative and Performing Arts",
+    "description": "Fort Street High School provides multiple avenues for the creative arts, from visual arts, drama, and theatre sports.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+    "ogTags": {
+      "og:title": "Creative and Performing Arts",
+      "og:description": "Fort Street High School provides multiple avenues for the creative arts, from visual arts, drama, and theatre sports.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1ad1f1d20374f90781bc1bcacfd630e229ad3ec7d.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1ad1f1d20374f90781bc1bcacfd630e229ad3ec7d.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "A group of people painting in a classroom AI-generated content may be incorrect."
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Creative and Performing Arts",
+      "twitter:description": "Fort Street High School provides multiple avenues for the creative arts, from visual arts, drama, and theatre sports.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1ad1f1d20374f90781bc1bcacfd630e229ad3ec7d.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Creative and Performing Arts Art Studio Art Studio offers passionate art students the opportunity to work on developing their art. These sessions are held after school and focus on a variety of art mediums. The Art Studio is open to all students in Years 7-10 and offers two sessions and focuses on a variety of art mediums. Art Studio 1 is for more confident artists and is held in K21 on Wednesday afternoons form 3:30 pm to 4:30 pm. This session is open to students from 7-10 and costs $30 per student. Art Studio 2 is for beginner artists and is held in K22 on Wednesday afternoons from 3:30-4:30 pm. There is no cost for Art Studio 2 and it is open to students in 7-10. Contact: Ms Gabriela Capel and Ms Hyun Cho Creative and Performing Arts Rowe Staffroom Drama Club Drama Club is open to Year 7 and 8 students and will challenge these students to think imaginatively about how they can create new worlds, characters and mood without relying on overly complex setting, props or costumes. The students work with short scripts and script excerpts and learn to bring those scripts to life by transforming themselves and their space into the characters and worlds of the play. Drama Club meets every Wednesday morning at 7.45am in R1, there is no cost for this club. Contact: Ms Angela Morosin Creative and Performing Arts Rowe Staffroom Theatre Sports Theatresports is a program offered to drama students in Years 8 – 12. The students focus on developing improvisation skills which help create problem solving and spontaneity. They learn a variety of Theatresports games, and to compete against each other in a supportive environment. Students also have the opportunity to be selected for representative teams that compete in external Theatresports competitions. Theatresports is held every Tuesday afternoon at 3 - 4pm in R1. Contact: Ms Angela Morosin Creative and Performing Arts Rowe Staffroom Senior Drama Production Year 11 drama students are involved in the development and performance of a full-scale drama production. Opportunities are available for students to direct, perform or work on a production team and provides the opportunity for these students to have the real-world experience of producing a play. At times this opportunity may be opened up to Year 10 students. Contact: Ms Liz Propsting Head Teacher Creative and Performing Arts (Rowe Staffroom) Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 3849,
+    "scopeTextLen": 2636,
+    "ratio": 0.685,
+    "h1Text": "Creative and Performing Arts",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Creative and Performing Arts Art Studio Art Studio offers passionate art students the opportunity to work on developing their art. These sessions are held after school and focus on a variety of art mediums. The Art Studio is open to all students in Years 7-10 and offers two sessions and focuses on a variety of art mediums. Art Studio 1 is for more confident artists and is held in K21 on Wednesday afternoons form 3:30 pm to 4:30 pm. This session is open to students from 7-10 and costs $30 per student. Art Studio 2 is for beginner artists and is held in K22 on Wednesday afternoons from 3:30-4:30 pm. There is no cost for Art Studio 2 and it is open to students in 7-10. Contact: Ms Gabriela Capel and Ms Hyun Cho Creative and Performing Arts Rowe Staffroom Drama Club Drama Club is open to Year 7 and 8 students and will challenge these students to think imaginatively about how they can create new worlds, characters and mood without relying on overly complex setting, props or costumes. The students work with short scripts and script excerpts and learn to bring those scripts to life by transforming themselves and their space into the characters and worlds of the play. Drama Club meets every Wednesday morning at 7.45am in R1, there is no cost for this club. Contact: Ms Angela Morosin Creative and Performing Arts Rowe Staffroom Theatre Sports Theatresports is a program offered to drama students in Years 8 – 12. The students focus on developing improvisation skills which help create problem solving and spontaneity. They learn a variety of Theatresports games, and to compete against each other in a supportive environment. Students also have the opportunity to be selected for representative teams that compete in external Theatresports competitions. Theatresports is held every Tuesday afternoon at 3 - 4pm in R1. Contact: Ms Angela Morosin Creative and Performing Arts Rowe Staffroom Senior Drama Production Year 11 drama students are involved in the development and performance of a full-scale drama production. Opportunities are available for students to direct, perform or work on a production team and provides the opportunity for these students to have the real-world experience of producing a play. At times this opportunity may be opened up to Year 10 students. Contact: Ms Liz Propsting Head Teacher Creative and Performing Arts (Rowe Staffroom)",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Creative and Performing Arts"
+        },
+        {
+          "level": "h2",
+          "text": "Art Studio"
+        },
+        {
+          "level": "h2",
+          "text": "Drama Club"
+        },
+        {
+          "level": "h2",
+          "text": "Theatre Sports"
+        },
+        {
+          "level": "h2",
+          "text": "Senior Drama Production"
+        }
+      ],
+      "paragraphs": [
+        "Art Studio offers passionate art students the opportunity to work on developing their art. These sessions are held after school and focus on a variety of art mediums.",
+        "The Art Studio is open to all students in Years 7-10 and offers two sessions and focuses on a variety of art mediums.",
+        "Art Studio 1 is for more confident artists and is held in K21 on Wednesday afternoons form 3:30 pm to 4:30 pm. This session is open to students from 7-10 and costs $30 per student.",
+        "Art Studio 2 is for beginner artists and is held in K22 on Wednesday afternoons from 3:30-4:30 pm. There is no cost for Art Studio 2 and it is open to students in 7-10.",
+        "Contact: Ms Gabriela Capel and Ms Hyun Cho Creative and Performing Arts Rowe Staffroom",
+        "Drama Club is open to Year 7 and 8 students and will challenge these students to think imaginatively about how they can create new worlds, characters and mood without relying on overly complex setting, props or costumes. The students work with short scripts and script excerpts and learn to bring those scripts to life by transforming themselves and their space into the characters and worlds of the play.",
+        "Drama Club meets every Wednesday morning at 7.45am in R1, there is no cost for this club.",
+        "Contact: Ms Angela Morosin Creative and Performing Arts Rowe Staffroom",
+        "Theatresports is a program offered to drama students in Years 8 – 12. The students focus on developing improvisation skills which help create problem solving and spontaneity. They learn a variety of Theatresports games, and to compete against each other in a supportive environment. Students also have the opportunity to be selected for representative teams that compete in external Theatresports competitions.",
+        "Theatresports is held every Tuesday afternoon at 3 - 4pm in R1.",
+        "Contact: Ms Angela Morosin Creative and Performing Arts Rowe Staffroom",
+        "Year 11 drama students are involved in the development and performance of a full-scale drama production. Opportunities are available for students to direct, perform or work on a production team and provides the opportunity for these students to have the real-world experience of producing a play. At times this opportunity may be opened up to Year 10 students.",
+        "Contact: Ms Liz Propsting Head Teacher Creative and Performing Arts (Rowe Staffroom)"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1ad1f1d20374f90781bc1bcacfd630e229ad3ec7d.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "A group of people painting in a classroom AI-generated content may be incorrect.",
+          "w": 602,
+          "h": 313
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Creative and Performing Arts",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_1ad1f1d20374f90781bc1bcacfd630e229ad3ec7d.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "A group of people painting in a classroom AI-generated content may be incorrect."
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Art Studio",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Art Studio offers passionate art students the opportunity to work on developing their art. These sessions are held after school and focus on a variety of art mediums.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Art Studio is open to all students in Years 7-10 and offers two sessions and focuses on a variety of art mediums.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Art Studio 1 is for more confident artists and is held in K21 on Wednesday afternoons form 3:30 pm to 4:30 pm. This session is open to students from 7-10 and costs $30 per student.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Art Studio 2 is for beginner artists and is held in K22 on Wednesday afternoons from 3:30-4:30 pm. There is no cost for Art Studio 2 and it is open to students in 7-10.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Gabriela Capel and Ms Hyun Cho Creative and Performing Arts Rowe Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Gabriela Capel and Ms Hyun Cho",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Creative and Performing Arts",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Rowe Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Drama Club",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Drama Club is open to Year 7 and 8 students and will challenge these students to think imaginatively about how they can create new worlds, characters and mood without relying on overly complex setting, props or costumes. The students work with short scripts and script excerpts and learn to bring those scripts to life by transforming themselves and their space into the characters and worlds of the play.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Drama Club meets every Wednesday morning at 7.45am in R1, there is no cost for this club.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Angela Morosin Creative and Performing Arts Rowe Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Angela Morosin",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Creative and Performing Arts",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Rowe Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Theatre Sports",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Theatresports is a program offered to drama students in Years 8 – 12. The students focus on developing improvisation skills which help create problem solving and spontaneity. They learn a variety of Theatresports games, and to compete against each other in a supportive environment. Students also have the opportunity to be selected for representative teams that compete in external Theatresports competitions.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Theatresports is held every Tuesday afternoon at 3 - 4pm in R1.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Angela Morosin Creative and Performing Arts Rowe Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Angela Morosin",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Creative and Performing Arts",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Rowe Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Senior Drama Production",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 11 drama students are involved in the development and performance of a full-scale drama production. Opportunities are available for students to direct, perform or work on a production team and provides the opportunity for these students to have the real-world experience of producing a play. At times this opportunity may be opened up to Year 10 students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Liz Propsting Head Teacher Creative and Performing Arts (Rowe Staffroom)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Liz Propsting",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Head Teacher",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Creative and Performing Arts (Rowe Staffroom)",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need to make a payment?"
+        }
+      ],
+      "paragraphs": [
+        "Our parent portal makes it easy to make a payment online.",
+        "Parent portal"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need to make a payment?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our parent portal makes it easy to make a payment online.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parent portal",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline-block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": "button primary"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": "button primary"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

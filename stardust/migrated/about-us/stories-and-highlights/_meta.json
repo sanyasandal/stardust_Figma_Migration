@@ -1,0 +1,58 @@
+{
+  "slug": "about-us_stories-and-highlights",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M5",
+    "M6",
+    "M8"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-cards",
+    "title-text",
+    "teaser-cards",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Stories and highlights",
+    "description": "At Fort Street High School, there's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Stories and highlights",
+    "description": "At Fort Street High School, there's always something to celebrate at our school! From exciting events to proud moments and everyday wins, here are some of our highlights.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights"
+  },
+  "migratedAt": "2026-10-21T13:26:42Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "8b8d4048b72c",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/stories-and-highlights/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/stories-and-highlights/_meta.json",
+  "driverVersion": "1"
+}

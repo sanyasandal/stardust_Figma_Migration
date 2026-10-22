@@ -1,0 +1,1161 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T12:56:55.779Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/index.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Fort Street High School",
+    "description": "Enrol at Fort Street High School. We are a Year 7 to Year 12 Comprehensive Coed Secondary School in PETERSHAM.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/",
+    "ogTags": {
+      "og:title": "Fort Street High School",
+      "og:description": "Enrol at Fort Street High School. We are a Year 7 to Year 12 Comprehensive Coed Secondary School in PETERSHAM.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/media_1da4ecaf018659ee9fe83bb749a5d005abd6a38bd.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/media_1da4ecaf018659ee9fe83bb749a5d005abd6a38bd.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Fort Street High School"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Fort Street High School",
+      "twitter:description": "Enrol at Fort Street High School. We are a Year 7 to Year 12 Comprehensive Coed Secondary School in PETERSHAM.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/media_1da4ecaf018659ee9fe83bb749a5d005abd6a38bd.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Welcome to Fort Street High School Since 1849, Fortians have been encouraged to be the makers of their own destiny - faber est suae quisque fortunae. This motto underpins the values and expectations of the school. Why Choose Us? The Fort Street High School difference Our vision for student achievement Fort Street is proud to continue its co-educational traditions. We value the mix of young men and women learning together. We expect students to develop as model citizens and work towards developing individual and collaborative skills and attributes in each student. Extensive range of student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests. Wellbeing at Fort Street is for all students A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live. Principal's message It is my honour to serve as Principal of Fort Street High School, a school with a remarkable history and a proud tradition of nurturing some of Australia’s finest minds since its establishment in 1849. As the oldest government high school in Australia, Fort Street has long been a beacon of academic excellence, innovation, and social conscience. Situated on Gadigal and Wangal land in Petersham, our school community is a vibrant reflection of multicultural Australia. With approximately 920 students representing over 100 Sydney suburbs and speaking around 40 different languages, Fort Street is a harmonious and inclusive environment that celebrates diversity and fosters tolerance and acceptance. Read more from our Principal Fort Fest is on Friday 18 September, 3:15pm - 8:30pm. Fort Fest is an evening event for all the school and local community, with music, food, games and stalls. Run jointly by the SRC and P&C as a fundraiser, it is also a great way to meet and connect with other Fort Street families. Find out more School tours and open evenings School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy. Dates and booking information Quick links Parent portals Stay connected through our parent portal apps. Use them to make a payment, for attendance matters or to book a parent-teacher interview. Student and Parent Calendar (opens in new window) Information for parents and students about upcoming events, exams and excursions. Forms Change of details, extended leave, and other school forms. Instrumental Music Program (IMP) How to join, ensemble and fees. Duke of Edinburgh The Duke of Edinburgh’s Award is open to students 14 years of age or older. Learn about how you can get involved. Newsletters Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected! Ready to apply? Fort Street High School is an academically selective coeducational secondary school and does not have a local area intake. Entry is competitive and based on academic merit. There is a maximum enrolment of 150 students in each of Years 7-10. There are between 160 and 170 students in each of Years 11 and 12. How to apply Key dates Find term dates, school holidays and other important dates for all NSW public schools. View key dates for NSW public schools Stay connected on our socials We looking forward to welcome everyone back on Tuesday. The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!",
+  "coverage": {
+    "bodyTextLen": 5035,
+    "scopeTextLen": 4353,
+    "ratio": 0.865,
+    "h1Text": null,
+    "h1InScope": null
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert full-image-banner-container",
+      "visibleText": "Welcome to Fort Street High School Since 1849, Fortians have been encouraged to be the makers of their own destiny - faber est suae quisque fortunae. This motto underpins the values and expectations of the school. Why Choose Us?",
+      "headings": [
+        {
+          "level": "h4",
+          "text": "Welcome to Fort Street High School"
+        }
+      ],
+      "paragraphs": [
+        "Since 1849, Fortians have been encouraged to be the makers of their own destiny - faber est suae quisque fortunae. This motto underpins the values and expectations of the school.",
+        "Why Choose Us?"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Why Choose Us?",
+          "href": "/about-us/why-choose-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+          "classes": "button nsw-button nsw-button--dark"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1da4ecaf018659ee9fe83bb749a5d005abd6a38bd.png?width=2000&format=webply&optimize=medium",
+          "alt": "Fort Street High School",
+          "w": 2000,
+          "h": 1333
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Welcome to Fort Street High School",
+          "display": "block",
+          "level": "h4",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Since 1849, Fortians have been encouraged to be the makers of their own destiny - faber est suae quisque fortunae. This motto underpins the values and expectations of the school.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Since 1849, Fortians have been encouraged to be the makers of their own destiny -",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "faber est suae quisque fortunae",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "This motto underpins the values and expectations of the school.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Why Choose Us?",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Why Choose Us?",
+              "display": "inline-block",
+              "href": "/about-us/why-choose-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+              "classes": "button nsw-button nsw-button--dark",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1da4ecaf018659ee9fe83bb749a5d005abd6a38bd.png?width=2000&format=webply&optimize=medium",
+          "alt": "Fort Street High School",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "The Fort Street High School difference Our vision for student achievement Fort Street is proud to continue its co-educational traditions. We value the mix of young men and women learning together. We expect students to develop as model citizens and work towards developing individual and collaborative skills and attributes in each student. Extensive range of student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests. Wellbeing at Fort Street is for all students A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "The Fort Street High School difference"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street is proud to continue its co-educational traditions. We value the mix of young men and women learning together. We expect students to develop as model citizens and work towards developing individual and collaborative skills and attributes in each student.",
+        "At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.",
+        "A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live."
+      ],
+      "listItems": [
+        "Our vision for student achievement Fort Street is proud to continue its co-educational traditions. We value the mix of young men and women learning together. We expect students to develop as model citizens and work towards developing individual and collaborative skills and attributes in each student.",
+        "Extensive range of student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.",
+        "Wellbeing at Fort Street is for all students A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live."
+      ],
+      "ctas": [
+        {
+          "text": "Our vision for student achievement",
+          "href": "/about-us/why-choose-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+          "classes": ""
+        },
+        {
+          "text": "Extensive range of student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        },
+        {
+          "text": "Wellbeing at Fort Street is for all students",
+          "href": "/learning-and-support/wellbeing",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_12c6cd7db4a7e656f8deb88d958fd0ffe258b500b.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 577
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 500
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_15636a0c76544a40b07cf08bb886e5acaa80d387d.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 500,
+          "h": 300
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "The Fort Street High School difference",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our vision for student achievement Fort Street is proud to continue its co-educational traditions. We value the mix of young men and women learning together. We expect students to develop as model citizens and work towards developing individual and collaborative skills and attributes in each student.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_12c6cd7db4a7e656f8deb88d958fd0ffe258b500b.jpg?width=750&format=webply&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Our vision for student achievement",
+              "display": "inline",
+              "href": "/about-us/why-choose-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fort Street is proud to continue its co-educational traditions. We value the mix of young men and women learning together. We expect students to develop as model citizens and work towards developing individual and collaborative skills and attributes in each student.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Extensive range of student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_167e8f824a83aca35c48598b13f24e870e92868fc.jpg?width=750&format=webply&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Extensive range of student opportunities and activities",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Wellbeing at Fort Street is for all students A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_15636a0c76544a40b07cf08bb886e5acaa80d387d.jpg?width=750&format=webply&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Wellbeing at Fort Street is for all students",
+              "display": "inline",
+              "href": "/learning-and-support/wellbeing",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "A focus on wellbeing goes beyond the welfare needs of a few individual students and aims for all students to be healthy, happy, successful and productive individuals who are active and positive contributors to the school and society in which they live.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white banner-container",
+      "visibleText": "Principal's message It is my honour to serve as Principal of Fort Street High School, a school with a remarkable history and a proud tradition of nurturing some of Australia’s finest minds since its establishment in 1849. As the oldest government high school in Australia, Fort Street has long been a beacon of academic excellence, innovation, and social conscience. Situated on Gadigal and Wangal land in Petersham, our school community is a vibrant reflection of multicultural Australia. With approximately 920 students representing over 100 Sydney suburbs and speaking around 40 different languages, Fort Street is a harmonious and inclusive environment that celebrates diversity and fosters tolerance and acceptance. Read more from our Principal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Principal's message"
+        }
+      ],
+      "paragraphs": [
+        "It is my honour to serve as Principal of Fort Street High School, a school with a remarkable history and a proud tradition of nurturing some of Australia’s finest minds since its establishment in 1849. As the oldest government high school in Australia, Fort Street has long been a beacon of academic excellence, innovation, and social conscience.",
+        "Situated on Gadigal and Wangal land in Petersham, our school community is a vibrant reflection of multicultural Australia. With approximately 920 students representing over 100 Sydney suburbs and speaking around 40 different languages, Fort Street is a harmonious and inclusive environment that celebrates diversity and fosters tolerance and acceptance."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Read more from our Principal",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": "nsw-button nsw-button--dark"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1c0017392705d303cb7e577fcb1f13e32da140dc6.png?width=750&format=webply&optimize=medium",
+          "alt": "Ms Juliette McMurray, Principal of Fort Street High School",
+          "w": 750,
+          "h": 750
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Principal's message",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "It is my honour to serve as Principal of Fort Street High School, a school with a remarkable history and a proud tradition of nurturing some of Australia’s finest minds since its establishment in 1849. As the oldest government high school in Australia, Fort Street has long been a beacon of academic excellence, innovation, and social conscience.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Situated on Gadigal and Wangal land in Petersham, our school community is a vibrant reflection of multicultural Australia. With approximately 920 students representing over 100 Sydney suburbs and speaking around 40 different languages, Fort Street is a harmonious and inclusive environment that celebrates diversity and fosters tolerance and acceptance.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "cta",
+          "text": "Read more from our Principal",
+          "display": "inline-block",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": "nsw-button nsw-button--dark",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1c0017392705d303cb7e577fcb1f13e32da140dc6.png?width=750&format=webply&optimize=medium",
+          "alt": "Ms Juliette McMurray, Principal of Fort Street High School",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section columns-container",
+      "visibleText": "Fort Fest is on Friday 18 September, 3:15pm - 8:30pm. Fort Fest is an evening event for all the school and local community, with music, food, games and stalls. Run jointly by the SRC and P&C as a fundraiser, it is also a great way to meet and connect with other Fort Street families. Find out more",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Fort Fest is on Friday 18 September, 3:15pm - 8:30pm."
+        }
+      ],
+      "paragraphs": [
+        "Fort Fest is an evening event for all the school and local community, with music, food, games and stalls. Run jointly by the SRC and P&C as a fundraiser, it is also a great way to meet and connect with other Fort Street families.",
+        "Find out more"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Find out more",
+          "href": "/our-community/pandc",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+          "classes": "button"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_11a85b2808c597ccd154fa2bec41cc047861af612.png?width=2000&format=webply&optimize=medium",
+          "alt": "FORT FEST 2026 POSTER v6 (1920 x 1005 px) - 1",
+          "w": 1920,
+          "h": 1005
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_11a85b2808c597ccd154fa2bec41cc047861af612.png?width=2000&format=webply&optimize=medium",
+          "alt": "FORT FEST 2026 POSTER v6 (1920 x 1005 px) - 1",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Fort Fest is on Friday 18 September, 3:15pm - 8:30pm.",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Fest is an evening event for all the school and local community, with music, food, games and stalls. Run jointly by the SRC and P&C as a fundraiser, it is also a great way to meet and connect with other Fort Street families.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Find out more",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Find out more",
+              "display": "inline-block",
+              "href": "/our-community/pandc",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert columns-container",
+      "visibleText": "School tours and open evenings School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy. Dates and booking information",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "School tours and open evenings"
+        }
+      ],
+      "paragraphs": [
+        "School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy.",
+        "Dates and booking information"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Dates and booking information",
+          "href": "/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": "button"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1041211bbbef9171abe5644d79d167331061a37ac.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 500,
+          "h": 300
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "",
+          "display": "block",
+          "level": "h3",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1041211bbbef9171abe5644d79d167331061a37ac.jpg?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "School tours and open evenings",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "School tours and open evenings are an opportunity for prospective students and parents to get a better understanding of Fort Street's values and educational philosophy.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Dates and booking information",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Dates and booking information",
+              "display": "inline-block",
+              "href": "/about-us/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Quick links Parent portals Stay connected through our parent portal apps. Use them to make a payment, for attendance matters or to book a parent-teacher interview. Student and Parent Calendar (opens in new window) Information for parents and students about upcoming events, exams and excursions. Forms Change of details, extended leave, and other school forms. Instrumental Music Program (IMP) How to join, ensemble and fees. Duke of Edinburgh The Duke of Edinburgh’s Award is open to students 14 years of age or older. Learn about how you can get involved. Newsletters Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected!",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Quick links"
+        }
+      ],
+      "paragraphs": [
+        "Stay connected through our parent portal apps. Use them to make a payment, for attendance matters or to book a parent-teacher interview.",
+        "Information for parents and students about upcoming events, exams and excursions.",
+        "Change of details, extended leave, and other school forms.",
+        "How to join, ensemble and fees.",
+        "The Duke of Edinburgh’s Award is open to students 14 years of age or older. Learn about how you can get involved.",
+        "Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected!"
+      ],
+      "listItems": [
+        "Parent portals Stay connected through our parent portal apps. Use them to make a payment, for attendance matters or to book a parent-teacher interview.",
+        "Student and Parent Calendar (opens in new window) Information for parents and students about upcoming events, exams and excursions.",
+        "Forms Change of details, extended leave, and other school forms.",
+        "Instrumental Music Program (IMP) How to join, ensemble and fees.",
+        "Duke of Edinburgh The Duke of Edinburgh’s Award is open to students 14 years of age or older. Learn about how you can get involved.",
+        "Newsletters Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected!"
+      ],
+      "ctas": [
+        {
+          "text": "Parent portals",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        },
+        {
+          "text": "Student and Parent Calendar (opens in new window)",
+          "href": "https://fortstreeths.sentral.com.au/webcal/calendar/12?type=term&year=2022",
+          "absHref": "https://fortstreeths.sentral.com.au/webcal/calendar/12?type=term&year=2022",
+          "classes": ""
+        },
+        {
+          "text": "Forms",
+          "href": "/school-life/forms",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+          "classes": ""
+        },
+        {
+          "text": "Instrumental Music Program (IMP)",
+          "href": "/school-life/student-opportunities-and-activities/instrumental-music-program",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+          "classes": ""
+        },
+        {
+          "text": "Duke of Edinburgh",
+          "href": "/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+          "classes": ""
+        },
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_144b2eec1d073bf819d4c8f458d725970bbc78347.png?width=750&format=webply&optimize=medium",
+          "alt": "Parent portals",
+          "w": 750,
+          "h": 511
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_13970bd7cc833ec1e513fbe45655b9c42e1b0a611.png?width=750&format=webply&optimize=medium",
+          "alt": "Student and Parent Calendar",
+          "w": 400,
+          "h": 400
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1dfbc3a331b07d6b258f99fb529ba74f743e09bcc.png?width=750&format=webply&optimize=medium",
+          "alt": "Forms",
+          "w": 736,
+          "h": 400
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_17fb3efe581b222b0208cd33946fc48ddc4e6473e.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 500,
+          "h": 300
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_117cb12649089b536340800b64594818ed948db44.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Duke of Edinburgh Award",
+          "w": 750,
+          "h": 563
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1980e057ec6ccea2088683d84b46c8c6d07a4dfab.png?width=750&format=webply&optimize=medium",
+          "alt": "Newsletters",
+          "w": 736,
+          "h": 400
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Quick links",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Parent portals Stay connected through our parent portal apps. Use them to make a payment, for attendance matters or to book a parent-teacher interview.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_144b2eec1d073bf819d4c8f458d725970bbc78347.png?width=750&format=webply&optimize=medium",
+              "alt": "Parent portals",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Parent portals",
+              "display": "inline",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stay connected through our parent portal apps. Use them to make a payment, for attendance matters or to book a parent-teacher interview.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Student and Parent Calendar (opens in new window) Information for parents and students about upcoming events, exams and excursions.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_13970bd7cc833ec1e513fbe45655b9c42e1b0a611.png?width=750&format=webply&optimize=medium",
+              "alt": "Student and Parent Calendar",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Student and Parent Calendar (opens in new window)",
+              "display": "inline",
+              "href": "https://fortstreeths.sentral.com.au/webcal/calendar/12?type=term&year=2022",
+              "absHref": "https://fortstreeths.sentral.com.au/webcal/calendar/12?type=term&year=2022",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Student and Parent Calendar",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Information for parents and students about upcoming events, exams and excursions.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Forms Change of details, extended leave, and other school forms.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1dfbc3a331b07d6b258f99fb529ba74f743e09bcc.png?width=750&format=webply&optimize=medium",
+              "alt": "Forms",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Forms",
+              "display": "inline",
+              "href": "/school-life/forms",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Change of details, extended leave, and other school forms.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Instrumental Music Program (IMP) How to join, ensemble and fees.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_17fb3efe581b222b0208cd33946fc48ddc4e6473e.jpg?width=750&format=webply&optimize=medium",
+              "alt": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Instrumental Music Program (IMP)",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities/instrumental-music-program",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "How to join, ensemble and fees.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Duke of Edinburgh The Duke of Edinburgh’s Award is open to students 14 years of age or older. Learn about how you can get involved.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_117cb12649089b536340800b64594818ed948db44.jpg?width=750&format=webply&optimize=medium",
+              "alt": "Duke of Edinburgh Award",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Duke of Edinburgh",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Duke of Edinburgh’s Award is open to students 14 years of age or older. Learn about how you can get involved.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Newsletters Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected!",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1980e057ec6ccea2088683d84b46c8c6d07a4dfab.png?width=750&format=webply&optimize=medium",
+              "alt": "Newsletters",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "inline",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover the latest updates and exciting events happening at our school. Check out our newsletters to stay connected!",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert banner-container",
+      "visibleText": "Ready to apply? Fort Street High School is an academically selective coeducational secondary school and does not have a local area intake. Entry is competitive and based on academic merit. There is a maximum enrolment of 150 students in each of Years 7-10. There are between 160 and 170 students in each of Years 11 and 12. How to apply",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Ready to apply?"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street High School is an academically selective coeducational secondary school and does not have a local area intake.",
+        "Entry is competitive and based on academic merit. There is a maximum enrolment of 150 students in each of Years 7-10. There are between 160 and 170 students in each of Years 11 and 12."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "How to apply",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": "nsw-button nsw-button--white"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1318b3f3439776fdf2fd7af8e48a80b3bff3a5abc.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Fort Street student",
+          "w": 750,
+          "h": 501
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Ready to apply?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School is an academically selective coeducational secondary school and does not have a local area intake.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Entry is competitive and based on academic merit. There is a maximum enrolment of 150 students in each of Years 7-10. There are between 160 and 170 students in each of Years 11 and 12.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "cta",
+          "text": "How to apply",
+          "display": "inline-block",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": "nsw-button nsw-button--white",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1318b3f3439776fdf2fd7af8e48a80b3bff3a5abc.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Fort Street student",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section columns-container",
+      "visibleText": "Key dates Find term dates, school holidays and other important dates for all NSW public schools. View key dates for NSW public schools",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Key dates"
+        }
+      ],
+      "paragraphs": [
+        "Find term dates, school holidays and other important dates for all NSW public schools.",
+        "View key dates for NSW public schools"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "View key dates for NSW public schools",
+          "href": "https://education.nsw.gov.au/schooling/calendars",
+          "absHref": "https://education.nsw.gov.au/schooling/calendars",
+          "classes": "button"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1a7c7e671d59df64bf0f761d0872228c9f66e69b8.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Illustration of two NSW Department of Education calendars.",
+          "w": 1030,
+          "h": 446
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_1a7c7e671d59df64bf0f761d0872228c9f66e69b8.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Illustration of two NSW Department of Education calendars.",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Key dates",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Find term dates, school holidays and other important dates for all NSW public schools.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "View key dates for NSW public schools",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "View key dates for NSW public schools",
+              "display": "inline-block",
+              "href": "https://education.nsw.gov.au/schooling/calendars",
+              "absHref": "https://education.nsw.gov.au/schooling/calendars",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s09",
+      "rootTag": "div",
+      "rootClass": "section nsw-section facebook-feed-container",
+      "visibleText": "Stay connected on our socials We looking forward to welcome everyone back on Tuesday. The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Stay connected on our socials"
+        }
+      ],
+      "paragraphs": [
+        "We looking forward to welcome everyone back on Tuesday.",
+        "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+        "We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "We looking forward to welcome everyone back on Tuesday.",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+          "classes": ""
+        },
+        {
+          "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+          "classes": ""
+        },
+        {
+          "text": "We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!",
+          "href": "https://m.facebook.com/1661675895966806/posts/1729256219208773#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1729256219208773#no_universal_links",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=q1RgRsc6PkAQ7kNvwHqbitX&_nc_oc=AdorpfBgyEKs7MgMM9r3-u_CgSIsxjoc-N9jKgl2yeyaBMHrwBIkMFSi8SWrVMj7YdI&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQIbOq-MUBwWAEWo6pACAJblgVLhKJzj_n1VDpQLtgt1vFAJF3mA_shJZjd6ETC_z3L8Ix_plRjNag&oh=00_AQPCJnMlinjxLGZsTEhTPyhAeBooeYruG5_cRxuEuBdmcw&oe=6ADE7876",
+          "alt": "Facebook post image",
+          "w": 859,
+          "h": 720
+        },
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=FxlHwF5gdhYQ7kNvwEouoMA&_nc_oc=Adq1yuEBPchwiuILRrkDcNDxKC2umclb1X395sodfBka1uV5QsXgzWUAdgOYGjZY_4w&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQIkKuqC01YKOF66NMFamjs4_wjK5GpwCpVukSFXjmEP0PHRIMSrhPga7WtoYmLfLCrDbWK_FT2tLw&oh=00_AQO_lr5HKt_HfHrz2zgyLD4J4867tq3d_zNKp2GXQUXBCQ&oe=6ADE7D6B",
+          "alt": "Facebook post image",
+          "w": 1080,
+          "h": 1920
+        },
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/799280035_1729253635875698_158171526963354331_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dIVDMJbwsrwQ7kNvwEb6vud&_nc_oc=AdrUh1Qp2qxZErQ6yvWmXAqrpaHUljraNbrhb99G5SJbl6GhxlkV1wNTF9wJ28cjPyA&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQKoShKDqAGgEbcd5te0QISKTWNuP3zDRVSFuWni4IxpuSTu2jZ-tXzS7C6dfXe6DUDtR_dOjp97SA&oh=00_AQN09lecDN4gsEsmELjigURpUJPTzWSJbUM_5KZo1o7AzQ&oe=6ADE5CC6",
+          "alt": "Facebook post image",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Stay connected on our socials",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=q1RgRsc6PkAQ7kNvwHqbitX&_nc_oc=AdorpfBgyEKs7MgMM9r3-u_CgSIsxjoc-N9jKgl2yeyaBMHrwBIkMFSi8SWrVMj7YdI&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQIbOq-MUBwWAEWo6pACAJblgVLhKJzj_n1VDpQLtgt1vFAJF3mA_shJZjd6ETC_z3L8Ix_plRjNag&oh=00_AQPCJnMlinjxLGZsTEhTPyhAeBooeYruG5_cRxuEuBdmcw&oe=6ADE7876",
+          "alt": "Facebook post image",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We looking forward to welcome everyone back on Tuesday.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "We looking forward to welcome everyone back on Tuesday.",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=FxlHwF5gdhYQ7kNvwEouoMA&_nc_oc=Adq1yuEBPchwiuILRrkDcNDxKC2umclb1X395sodfBka1uV5QsXgzWUAdgOYGjZY_4w&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQIkKuqC01YKOF66NMFamjs4_wjK5GpwCpVukSFXjmEP0PHRIMSrhPga7WtoYmLfLCrDbWK_FT2tLw&oh=00_AQO_lr5HKt_HfHrz2zgyLD4J4867tq3d_zNKp2GXQUXBCQ&oe=6ADE7D6B",
+          "alt": "Facebook post image",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/799280035_1729253635875698_158171526963354331_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dIVDMJbwsrwQ7kNvwEb6vud&_nc_oc=AdrUh1Qp2qxZErQ6yvWmXAqrpaHUljraNbrhb99G5SJbl6GhxlkV1wNTF9wJ28cjPyA&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQKoShKDqAGgEbcd5te0QISKTWNuP3zDRVSFuWni4IxpuSTu2jZ-tXzS7C6dfXe6DUDtR_dOjp97SA&oh=00_AQN09lecDN4gsEsmELjigURpUJPTzWSJbUM_5KZo1o7AzQ&oe=6ADE5CC6",
+          "alt": "Facebook post image",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1729256219208773#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1729256219208773#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+# Slot-coverage + metadata report
+
+- Model: stardust/reskin/content-model/about-us_school-history-and-archives_the-fortian-digitised/content-model.json
+- Rendered: stardust/reskin/pages/about-us_school-history-and-archives_the-fortian-digitised.html (scope: `main`)
+- Generated: 2026-10-21T13:26:11.567Z
+
+## slot-coverage — 221/221 pass
+
+- [x] s01 text present — The Fortian Digitised The Fortian has been chronic
+- [x] s01 image …edia_1dd5176a4136ea2b45d5607dd067ed6384ca35023.jpg
+- [x] s02 text present — 2010s 2010 - FSHS - The Fortian 2011 - FSHS - The 
+- [x] s02 CTA "2010 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2011 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2012 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2013 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2014 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2015 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2016 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2017 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2018 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2019 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2000 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2001 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2002 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2003 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2004 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2005 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2006 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2007 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2008 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "2009 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1990 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1991 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1992 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1993 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1994 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1995 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1996 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1997 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1998 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1999 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1980 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1981 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1982 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1983 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1984 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1985 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1986 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1987 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1988 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1989 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1970 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1970 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1971 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1971 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1972 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1972 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1973 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1973 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1974 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1974 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1975 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1976 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1977 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1978 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1979 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1960 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1960 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1961 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1961 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1962 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1962 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1963 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1963 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1964 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1964 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1965 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1965 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1966 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1966 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1967 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1967 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1968 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1968 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1969 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1969 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1950 - AUG - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1950 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1951 - AUG - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1951 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1952 - AUG - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1952 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1953 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1953 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1954 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1954 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1955 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1955 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1956 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1956 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1957 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1957 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1958 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1958 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1959 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1959 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1940 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1940 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1941 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1941 - FSGHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1942 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1942 - FSGHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1943 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1943 - FSGHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1944 - FSGHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1944 - FSHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1945 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1945 - JUL - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1946 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1946 - JUL - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1947 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1947 - JUL - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1948 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1948 - JUL - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1949 - AUG - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1949 - FSBHS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1930 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1930 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1930 - NOV - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1930 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1931 - DEC - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1931 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1932 - DEC - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1932 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1932 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1932 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1933 - DEC - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1933 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1933 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1933 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1934 - DEC - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1934 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1934 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1934 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1935 - DEC - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1935 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1935 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1935 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1936 - DEC - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1936 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1936 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1936 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1937 - DEC - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1937 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1937 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1937 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1938 - DEC - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1938 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1938 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1938 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1939 - DEC - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1939 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1939 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1920 - MAR - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1920 - SEP - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1920 - SEP - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1921 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1921 - MAR - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1921 - OCT - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1921 - SEP - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1922 - APR - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1922 - MAY - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1922 - SEP - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1922 - SEP - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1923 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1923 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1923 - OCT - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1923 - OCT - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1924 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1924 - MAY - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1924 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1925 - JUN - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1925 - MAY - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1925 - NOV - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1925 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1926 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1926 - JUN - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1926 - NOV - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1926 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1927 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1927 - JUN - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1927 - NOV - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1927 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1928 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1928 - JUN - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1928 - NOV - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1928 - NOV - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1929 - Dec - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1929 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1929 - JUN - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1929 - NOV - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1910 - JUL - to - 1912 - JUN -" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1912 - JUL - to - 1913 - NOV -" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1913 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1914 - FEB - to - 1915 - AUG -" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1915 - SEP - to - 1918 - SEP -" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1916 - MAR - FSMS - The Fortia" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1916 - NOV - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1917 - NOV - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1919 - JUN - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1919 - NOV - FSBHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1919 - SEP - FSGHS - The Forti" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1900 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1901 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1902 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1903 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1904 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1905 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1906 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1907 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1908 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1908 - JUL - to - 1909 - JUN -" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1909 - JUL - to - 1910 - JUN -" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s02 CTA "1899 - FSMS - The Fortian" -> https://assets.schools.nsw.gov.au/content/dam/doe/sws/school
+- [x] s03 text present — Interested in visiting our school? We'd love to sh
+- [x] s03 CTA "Contact us" -> https://fortstreet-h.schools.nsw.gov.au/contact-us
+- [x] s04 text present — Fort Street Archives See our rich history. The For
+- [x] s04 CTA "Fort Street Archives" -> https://fortstreet-h.schools.nsw.gov.au/about-us/school-hist
+- [x] s04 CTA "The Fort Street Museum" -> https://fortstreet-h.schools.nsw.gov.au/about-us/school-hist
+
+## paint — 1/1 pass
+
+- [x] s01 image …edia_1dd5176a4136ea2b45d5607dd067ed6384ca35023.jpg painted
+
+## metadata — 13/13 pass
+
+- [x] title — The Fortian Digitised
+- [x] description
+- [x] canonical — https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fortian-digitised
+- [x] og og:title
+- [x] og og:description
+- [x] og og:url
+- [x] og og:image
+- [x] og og:image:secure_url
+- [x] tw twitter:card
+- [x] tw twitter:title
+- [x] tw twitter:description
+- [x] tw twitter:image
+- [x] jsonLd block count — 0/0
+
+**Overall: PASS**

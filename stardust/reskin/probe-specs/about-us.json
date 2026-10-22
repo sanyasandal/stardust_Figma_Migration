@@ -1,0 +1,52 @@
+[
+ {
+  "label": "page bg",
+  "selector": "body",
+  "property": "backgroundColor",
+  "token": "palette.pageBg"
+ },
+ {
+  "label": "body fg",
+  "selector": "body",
+  "property": "color",
+  "token": "palette.bodyFg"
+ },
+ {
+  "label": "font-family token string",
+  "selector": "body",
+  "property": "fontFamily",
+  "token": "type.family"
+ },
+ {
+  "label": "body font size",
+  "selector": "body",
+  "property": "fontSize",
+  "token": "type.body.fontSize"
+ },
+ {
+  "label": "display weight",
+  "selector": "main h1",
+  "property": "fontWeight",
+  "token": "type.display.fontWeight"
+ },
+ {
+  "label": "heading color (page has no h2 — h1 only)",
+  "selector": "main h1",
+  "property": "color",
+  "token": "palette.headingFg"
+ },
+ {
+  "label": "container max-width (±20px)",
+  "selector": "main .container",
+  "property": "maxWidth",
+  "token": "layout.containerMaxWidth",
+  "tolerancePx": 20
+ },
+ {
+  "label": "section rhythm (±16px)",
+  "selector": "main section",
+  "property": "paddingTop",
+  "token": "layout.sectionPaddingY",
+  "tolerancePx": 16
+ }
+]

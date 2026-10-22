@@ -1,0 +1,10 @@
+{"ts":"2026-10-21T12:50:22Z","skill":"stardust:reskin","phase":"setup","event":"start","detail":"main cf07727 re-run; donor-dir export of Figma"}
+{"ts":"2026-10-21T13:16:29Z","skill":"stardust:reskin","phase":"phase-3-mapping","event":"end"}
+{"ts":"2026-10-21T13:16:34Z","skill":"stardust:reskin","phase":"phase-1-donor","event":"end","detail":"donor-tokens.json + donor-modules.md (M1-M11) from Figma donor-dir"}
+{"ts":"2026-10-21T13:16:34Z","skill":"stardust:reskin","phase":"phase-2-capture","event":"end","detail":"8 archetype content models, N1/N2 normalize"}
+{"ts":"2026-10-21T13:16:34Z","skill":"stardust:reskin","phase":"phase-4-render","event":"end","detail":"8 pages rendered via renderers/*.mjs"}
+{"ts":"2026-10-21T13:16:34Z","skill":"stardust:reskin","phase":"phase-5-gates","event":"start","detail":"dom-equality + slot-coverage + donor-probe x8"}
+{"ts":"2026-10-21T13:26:38Z","skill":"stardust:migrate","phase":"render","event":"start","detail":"52 pages from stardust/reskin/pages via migrate.mjs"}
+{"ts":"2026-10-21T13:27:01Z","skill":"stardust:migrate","phase":"render","event":"end","detail":"52/52 rendered (8 A + 44 A'), 0 refused"}
+{"ts":"2026-10-21T13:27:26Z","skill":"stardust:rollout","phase":"A","event":"start"}
+{"ts":"2026-10-21T13:40:11Z","skill":"stardust:reskin","phase":"phase-5-gates","event":"end","detail":"52 gated: 49 pass, 3 source-defect residual; migrate 52/52"}

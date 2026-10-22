@@ -1,0 +1,1026 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:05.558Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_house-and-merit-system.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "House and Merit System",
+    "description": "The Fort Street High School merit system rewards students with profile points aligned to the school exit profile.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+    "ogTags": {
+      "og:title": "House and Merit System",
+      "og:description": "The Fort Street High School merit system rewards students with profile points aligned to the school exit profile.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1660d7a0d52fa3acd7105fdfd6b06229088d197db.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1660d7a0d52fa3acd7105fdfd6b06229088d197db.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "House and Merit System",
+      "twitter:description": "The Fort Street High School merit system rewards students with profile points aligned to the school exit profile.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1660d7a0d52fa3acd7105fdfd6b06229088d197db.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Merit System The Fort Street High School merit system rewards students with profile points aligned to the school exit profile. Profile Points will contribute toward Year Adviser Awards Year Adviser Awards will contribute toward Principals Awards Principal Awards will contribute toward a Fortian Award To be awarded a Fortian Award, students must have received profile points in all 5 exit profile areas. House System Each house will include approximately 30 students per year group Students will be allocated to their house based on their Year 7 core class House Captains (4 per house) to be elected from Year 10 and Year 11 House Captains will be responsible for organising participation in carnivals (Term 1 and Term 2) House Captains will also be responsible for competitions in eg. public speaking, music, chess, debating, art, design photography in Terms 3 and 4. One competition should be held each term. House Captains will decide the nature of the competitions, in consultation with the Senior Executive. Competitions should offer scope for all students to participate, and to display a variety of skills/talents. House meetings will be held once or twice per term, on rotation with Fortunae lessons and Assemblies House Points Houses will accrue points for carnivals, additionally: all Profile Points received by students will contribute to their House tally Term 3 and 4 competitions will be allocated points roughly equivalent to the carnivals The House with the most points at the end of the school year will receive the Kennedy Cup, and awarded a priviledge (e.g. picnic day etc.) Sport Houses In 2021 as part of a re-structure of our House and Merit Award systems, an opportunity arose to re-consider the names of the current houses and to introduce a fifth house. Students and were invite submissions from students to help decide the names of all five school houses. The school’s executive decided on the final House names, taking into consideration input from students, staff and the Fort Street community. For swimming, athletics and cross-country carnivals students are allocated to one of five houses, named after famous Fortians. Joshi (Ruby) House Patrons: Ms Kaur and Ms Cove House Captains: Antony Walczak, Sofiah D'haeveloose, Lakshin Saravanan, Andrew Li Joshi AO, Fortian 1977 is an Australian mathematician. She is a professor in the school of Mathematics and statistics at the University of Sydney, the first woman in the school to hold the position and is a past-president of the Australian Mathematical Society. Nalini Joshi was appointed an Officer of the Order of Australian in 2016. Kirby (Sapphire) House Patrons: Mr Vaughan and Ms Ryan House Captains: Edric Sun, Xi Xi Ho, Raghav Goel, Arden Sen Michael Kirby AC CMG, Fortian 1955 was a Justice of the High Court of Australia 1996-2009, President Court of Appeal, Supreme Court 1984-1996, Dep. President, Aust. Conciliation and Arbitation Commission 1975-1983, President, International Commission of Jurists (Geneva) 1995-1998, chair UN Commisson of Inquiry on Human Rights in North Korea 2013. Mawson (Amber) House Patrons: Ms Hussein House Captains: Naomi Chen, Austin Li, Polly Russell, Max Zhang Sir Douglas Mawson OBE FRS FAA, Fortian 1898 was an Artic explorer who undertook expeditions in 1908, 1911-1914 and 1931. Mawson was a lecturer in Minerology and Petrology and a Geology Professor. Mawson was knighted in 1914 and published The Home of the Blizzard in 1915 Preston (Amethyst) House Patrons: Mr Ockwell and Mr O’Neill House Captains: Parthiv Prithvi, Mohsin Fouladi, Vera Liang, Hugh McMillan Margaret Preston, Fortian 1887 is regarded as one of Australia’s most significant modernists of the early 20th century. In 1929 she was the first woman artist to have an artwork commissioned by the trustees of what is now the Art Gallery of NSW. Preston’s paintings and prints are hung in major art galleries in Australia and overseas. Sheikh (Emerald) House Patrons: Ms Ezekiel and Ms Shino House Captains: Nea Tarrant, Persephone Lee, Druhv Singh, Alex Jacquot Simon Sheikh, Fortian 2003 is the CEO of an ethical superannuation fund and an Australian activist. He was the former National Director of activist group Get Up! From 2008-2012. He was a delegate to the economics stream of the Australia 2020 Summit and was named the NSW Young Professional of the Year in 2007. Need help with attendance? If you have questions about arrival times or absences, please contact us. Contact us Travel to school Learn about local transport options and how to get here safely. Parent portal Use our parent portal apps to make a payment, view reports and record absences.",
+  "coverage": {
+    "bodyTextLen": 5606,
+    "scopeTextLen": 4653,
+    "ratio": 0.83,
+    "h1Text": "Merit System",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Merit System The Fort Street High School merit system rewards students with profile points aligned to the school exit profile. Profile Points will contribute toward Year Adviser Awards Year Adviser Awards will contribute toward Principals Awards Principal Awards will contribute toward a Fortian Award To be awarded a Fortian Award, students must have received profile points in all 5 exit profile areas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Merit System"
+        }
+      ],
+      "paragraphs": [
+        "The Fort Street High School merit system rewards students with profile points aligned to the school exit profile.",
+        "Profile Points will contribute toward Year Adviser Awards",
+        "Year Adviser Awards will contribute toward Principals Awards",
+        "Principal Awards will contribute toward a Fortian Award",
+        "To be awarded a Fortian Award, students must have received profile points in all 5 exit profile areas."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Merit System",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Fort Street High School merit system rewards students with profile points aligned to the school exit profile.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Profile Points will contribute toward Year Adviser Awards",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Profile Points",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "will contribute toward",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Year Adviser Awards",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year Adviser Awards will contribute toward Principals Awards",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Year Adviser Awards will contribute toward",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Principals Awards",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Principal Awards will contribute toward a Fortian Award",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Principal Awards will contribute toward a",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Fortian Award",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "To be awarded a Fortian Award, students must have received profile points in all 5 exit profile areas.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "To be awarded a",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Fortian Award",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ", students must have received profile points in all 5 exit profile areas.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1660d7a0d52fa3acd7105fdfd6b06229088d197db.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 173
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1660d7a0d52fa3acd7105fdfd6b06229088d197db.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "House System Each house will include approximately 30 students per year group Students will be allocated to their house based on their Year 7 core class House Captains (4 per house) to be elected from Year 10 and Year 11 House Captains will be responsible for organising participation in carnivals (Term 1 and Term 2) House Captains will also be responsible for competitions in eg. public speaking, music, chess, debating, art, design photography in Terms 3 and 4. One competition should be held each term. House Captains will decide the nature of the competitions, in consultation with the Senior Executive. Competitions should offer scope for all students to participate, and to display a variety of skills/talents. House meetings will be held once or twice per term, on rotation with Fortunae lessons and Assemblies House Points Houses will accrue points for carnivals, additionally: all Profile Points received by students will contribute to their House tally Term 3 and 4 competitions will be allocated points roughly equivalent to the carnivals The House with the most points at the end of the school year will receive the Kennedy Cup, and awarded a priviledge (e.g. picnic day etc.)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "House System"
+        },
+        {
+          "level": "h3",
+          "text": "House Points"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Each house will include approximately 30 students per year group",
+        "Students will be allocated to their house based on their Year 7 core class",
+        "House Captains (4 per house) to be elected from Year 10 and Year 11",
+        "House Captains will be responsible for organising participation in carnivals (Term 1 and Term 2)",
+        "House Captains will also be responsible for competitions in eg. public speaking, music, chess, debating, art, design photography in Terms 3 and 4. One competition should be held each term. House Captains will decide the nature of the competitions, in consultation with the Senior Executive. Competitions should offer scope for all students to participate, and to display a variety of skills/talents.",
+        "House meetings will be held once or twice per term, on rotation with Fortunae lessons and Assemblies",
+        "Houses will accrue points for carnivals, additionally:",
+        "all Profile Points received by students will contribute to their House tally",
+        "Term 3 and 4 competitions will be allocated points roughly equivalent to the carnivals",
+        "The House with the most points at the end of the school year will receive the Kennedy Cup, and awarded a priviledge (e.g. picnic day etc.)"
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "House System",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Each house will include approximately 30 students per year group",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students will be allocated to their house based on their Year 7 core class",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "House Captains (4 per house) to be elected from Year 10 and Year 11",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "House Captains will be responsible for organising participation in carnivals (Term 1 and Term 2)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "House Captains will also be responsible for competitions in eg. public speaking, music, chess, debating, art, design photography in Terms 3 and 4. One competition should be held each term. House Captains will decide the nature of the competitions, in consultation with the Senior Executive. Competitions should offer scope for all students to participate, and to display a variety of skills/talents.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "House meetings will be held once or twice per term, on rotation with Fortunae lessons and Assemblies",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "House Points",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Houses will accrue points for carnivals, additionally:",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "all Profile Points received by students will contribute to their House tally",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Term 3 and 4 competitions will be allocated points roughly equivalent to the carnivals",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The House with the most points at the end of the school year will receive the Kennedy Cup, and awarded a priviledge (e.g. picnic day etc.)",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section columns-container",
+      "visibleText": "Sport Houses In 2021 as part of a re-structure of our House and Merit Award systems, an opportunity arose to re-consider the names of the current houses and to introduce a fifth house. Students and were invite submissions from students to help decide the names of all five school houses. The school’s executive decided on the final House names, taking into consideration input from students, staff and the Fort Street community. For swimming, athletics and cross-country carnivals students are allocated to one of five houses, named after famous Fortians. Joshi (Ruby) House Patrons: Ms Kaur and Ms Cove House Captains: Antony Walczak, Sofiah D'haeveloose, Lakshin Saravanan, Andrew Li Joshi AO, Fortian 1977 is an Australian mathematician. She is a professor in the school of Mathematics and statistics at the University of Sydney, the first woman in the school to hold the position and is a past-president of the Australian Mathematical Society. Nalini Joshi was appointed an Officer of the Order of Australian in 2016. Kirby (Sapphire) House Patrons: Mr Vaughan and Ms Ryan House Captains: Edric Sun, Xi Xi Ho, Raghav Goel, Arden Sen Michael Kirby AC CMG, Fortian 1955 was a Justice of the High Court of Australia 1996-2009, President Court of Appeal, Supreme Court 1984-1996, Dep. President, Aust. Conciliation and Arbitation Commission 1975-1983, President, International Commission of Jurists (Geneva) 1995-1998, chair UN Commisson of Inquiry on Human Rights in North Korea 2013. Mawson (Amber) House Patrons: Ms Hussein House Captains: Naomi Chen, Austin Li, Polly Russell, Max Zhang Sir Douglas Mawson OBE FRS FAA, Fortian 1898 was an Artic explorer who undertook expeditions in 1908, 1911-1914 and 1931. Mawson was a lecturer in Minerology and Petrology and a Geology Professor. Mawson was knighted in 1914 and published The Home of the Blizzard in 1915 Preston (Amethyst) House Patrons: Mr Ockwell and Mr O’Neill House Captains: Parthiv Prithvi, Mohsin Fouladi, Vera Liang, Hugh McMillan Margaret Preston, Fortian 1887 is regarded as one of Australia’s most significant modernists of the early 20th century. In 1929 she was the first woman artist to have an artwork commissioned by the trustees of what is now the Art Gallery of NSW. Preston’s paintings and prints are hung in major art galleries in Australia and overseas. Sheikh (Emerald) House Patrons: Ms Ezekiel and Ms Shino House Captains: Nea Tarrant, Persephone Lee, Druhv Singh, Alex Jacquot Simon Sheikh, Fortian 2003 is the CEO of an ethical superannuation fund and an Australian activist. He was the former National Director of activist group Get Up! From 2008-2012. He was a delegate to the economics stream of the Australia 2020 Summit and was named the NSW Young Professional of the Year in 2007.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Sport Houses"
+        },
+        {
+          "level": "h3",
+          "text": "Joshi (Ruby)"
+        },
+        {
+          "level": "h3",
+          "text": "Kirby (Sapphire)"
+        },
+        {
+          "level": "h3",
+          "text": "Mawson (Amber)"
+        },
+        {
+          "level": "h3",
+          "text": "Preston (Amethyst)"
+        },
+        {
+          "level": "h3",
+          "text": "Sheikh (Emerald)"
+        }
+      ],
+      "paragraphs": [
+        "In 2021 as part of a re-structure of our House and Merit Award systems, an opportunity arose to re-consider the names of the current houses and to introduce a fifth house. Students and were invite submissions from students to help decide the names of all five school houses. The school’s executive decided on the final House names, taking into consideration input from students, staff and the Fort Street community. For swimming, athletics and cross-country carnivals students are allocated to one of five houses, named after famous Fortians.",
+        "House Patrons: Ms Kaur and Ms Cove",
+        "House Captains: Antony Walczak, Sofiah D'haeveloose, Lakshin Saravanan, Andrew Li",
+        "Joshi AO, Fortian 1977 is an Australian mathematician. She is a professor in the school of Mathematics and statistics at the University of Sydney, the first woman in the school to hold the position and is a past-president of the Australian Mathematical Society. Nalini Joshi was appointed an Officer of the Order of Australian in 2016.",
+        "House Patrons: Mr Vaughan and Ms Ryan",
+        "House Captains: Edric Sun, Xi Xi Ho, Raghav Goel, Arden Sen",
+        "Michael Kirby AC CMG, Fortian 1955 was a Justice of the High Court of Australia 1996-2009, President Court of Appeal, Supreme Court 1984-1996, Dep. President, Aust. Conciliation and Arbitation Commission 1975-1983, President, International Commission of Jurists (Geneva) 1995-1998, chair UN Commisson of Inquiry on Human Rights in North Korea 2013.",
+        "House Patrons: Ms Hussein",
+        "House Captains: Naomi Chen, Austin Li, Polly Russell, Max Zhang",
+        "Sir Douglas Mawson OBE FRS FAA, Fortian 1898 was an Artic explorer who undertook expeditions in 1908, 1911-1914 and 1931. Mawson was a lecturer in Minerology and Petrology and a Geology Professor. Mawson was knighted in 1914 and published The Home of the Blizzard in 1915",
+        "House Patrons: Mr Ockwell and Mr O’Neill",
+        "House Captains: Parthiv Prithvi, Mohsin Fouladi, Vera Liang, Hugh McMillan",
+        "Margaret Preston, Fortian 1887 is regarded as one of Australia’s most significant modernists of the early 20th century. In 1929 she was the first woman artist to have an artwork commissioned by the trustees of what is now the Art Gallery of NSW. Preston’s paintings and prints are hung in major art galleries in Australia and overseas.",
+        "House Patrons: Ms Ezekiel and Ms Shino",
+        "House Captains: Nea Tarrant, Persephone Lee, Druhv Singh, Alex Jacquot",
+        "Simon Sheikh, Fortian 2003 is the CEO of an ethical superannuation fund and an Australian activist. He was the former National Director of activist group Get Up! From 2008-2012. He was a delegate to the economics stream of the Australia 2020 Summit and was named the NSW Young Professional of the Year in 2007."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_185e0646508f2edc88370235cd6782aedc98c08c6.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Nalini Joshi",
+          "w": 242,
+          "h": 333
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_15a536770b409eddf2afd30d2a01d7686c5a9b606.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Michael Kirby",
+          "w": 232,
+          "h": 351
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_17cda2328ae24d304bb4c2adf62f1fa855a73645f.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Sir Douglas Mawson",
+          "w": 243,
+          "h": 358
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ff135d7db1ba4eb298a5d77b63849da50515f0b3.png?width=2000&format=webply&optimize=medium",
+          "alt": "Margaret Preston",
+          "w": 254,
+          "h": 352
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_13b2655605ee1da190309b7d884796762006148e0.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 1066,
+          "h": 1600
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Sport Houses",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "In 2021 as part of a re-structure of our House and Merit Award systems, an opportunity arose to re-consider the names of the current houses and to introduce a fifth house. Students and were invite submissions from students to help decide the names of all five school houses. The school’s executive decided on the final House names, taking into consideration input from students, staff and the Fort Street community. For swimming, athletics and cross-country carnivals students are allocated to one of five houses, named after famous Fortians.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_185e0646508f2edc88370235cd6782aedc98c08c6.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Nalini Joshi",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Joshi (Ruby)",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Patrons: Ms Kaur and Ms Cove",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Patrons:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Kaur and Ms Cove",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Captains: Antony Walczak, Sofiah D'haeveloose, Lakshin Saravanan, Andrew Li",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Captains:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Antony Walczak, Sofiah D'haeveloose, Lakshin Saravanan, Andrew Li",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Joshi AO, Fortian 1977 is an Australian mathematician. She is a professor in the school of Mathematics and statistics at the University of Sydney, the first woman in the school to hold the position and is a past-president of the Australian Mathematical Society. Nalini Joshi was appointed an Officer of the Order of Australian in 2016.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Joshi AO, Fortian 1977",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "is an Australian mathematician. She is a professor in the school of Mathematics and statistics at the University of Sydney, the first woman in the school to hold the position and is a past-president of the Australian Mathematical Society. Nalini Joshi was appointed an Officer of the Order of Australian in 2016.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_15a536770b409eddf2afd30d2a01d7686c5a9b606.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Michael Kirby",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Kirby (Sapphire)",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Patrons: Mr Vaughan and Ms Ryan",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Patrons:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Vaughan and Ms Ryan",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Captains: Edric Sun, Xi Xi Ho, Raghav Goel, Arden Sen",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Captains:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Edric Sun, Xi Xi Ho, Raghav Goel, Arden Sen",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Michael Kirby AC CMG, Fortian 1955 was a Justice of the High Court of Australia 1996-2009, President Court of Appeal, Supreme Court 1984-1996, Dep. President, Aust. Conciliation and Arbitation Commission 1975-1983, President, International Commission of Jurists (Geneva) 1995-1998, chair UN Commisson of Inquiry on Human Rights in North Korea 2013.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Michael Kirby AC CMG, Fortian 1955",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "was a Justice of the High Court of Australia 1996-2009, President Court of Appeal, Supreme Court 1984-1996, Dep. President, Aust. Conciliation and Arbitation Commission 1975-1983, President, International Commission of Jurists (Geneva) 1995-1998, chair UN Commisson of Inquiry on Human Rights in North Korea 2013.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_17cda2328ae24d304bb4c2adf62f1fa855a73645f.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Sir Douglas Mawson",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Mawson (Amber)",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Patrons: Ms Hussein",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Patrons:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Hussein",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Captains: Naomi Chen, Austin Li, Polly Russell, Max Zhang",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Captains:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Naomi Chen, Austin Li, Polly Russell, Max Zhang",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sir Douglas Mawson OBE FRS FAA, Fortian 1898 was an Artic explorer who undertook expeditions in 1908, 1911-1914 and 1931. Mawson was a lecturer in Minerology and Petrology and a Geology Professor. Mawson was knighted in 1914 and published The Home of the Blizzard in 1915",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Sir Douglas Mawson OBE FRS FAA, Fortian 1898",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "was an Artic explorer who undertook expeditions in 1908, 1911-1914 and 1931. Mawson was a lecturer in Minerology and Petrology and a Geology Professor. Mawson was knighted in 1914 and published The Home of the Blizzard in 1915",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ff135d7db1ba4eb298a5d77b63849da50515f0b3.png?width=2000&format=webply&optimize=medium",
+          "alt": "Margaret Preston",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Preston (Amethyst)",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Patrons: Mr Ockwell and Mr O’Neill",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Patrons:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Ockwell and Mr O’Neill",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Captains: Parthiv Prithvi, Mohsin Fouladi, Vera Liang, Hugh McMillan",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Captains:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Parthiv Prithvi, Mohsin Fouladi, Vera Liang, Hugh McMillan",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Margaret Preston, Fortian 1887 is regarded as one of Australia’s most significant modernists of the early 20th century. In 1929 she was the first woman artist to have an artwork commissioned by the trustees of what is now the Art Gallery of NSW. Preston’s paintings and prints are hung in major art galleries in Australia and overseas.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Margaret Preston, Fortian 1887",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "is regarded as one of Australia’s most significant modernists of the early 20",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "th",
+              "parentTag": "sup",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "century. In 1929 she was the first woman artist to have an artwork commissioned by the trustees of what is now the Art Gallery of NSW. Preston’s paintings and prints are hung in major art galleries in Australia and overseas.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_13b2655605ee1da190309b7d884796762006148e0.png?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Sheikh (Emerald)",
+          "display": "block",
+          "level": "h3",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Sheikh",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "(Emerald)",
+              "parentTag": "h3",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Patrons: Ms Ezekiel and Ms Shino",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Patrons:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Ezekiel and Ms Shino",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "House Captains: Nea Tarrant, Persephone Lee, Druhv Singh, Alex Jacquot",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "House Captains:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Nea Tarrant, Persephone Lee, Druhv Singh, Alex Jacquot",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Simon Sheikh, Fortian 2003 is the CEO of an ethical superannuation fund and an Australian activist. He was the former National Director of activist group Get Up! From 2008-2012. He was a delegate to the economics stream of the Australia 2020 Summit and was named the NSW Young Professional of the Year in 2007.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Simon Sheikh, Fortian 2003",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "is the CEO of an ethical superannuation fund and an Australian activist. He was the former National Director of activist group Get Up! From 2008-2012. He was a delegate to the economics stream of the Australia 2020 Summit and was named the NSW Young Professional of the Year in 2007.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need help with attendance? If you have questions about arrival times or absences, please contact us. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need help with attendance?"
+        }
+      ],
+      "paragraphs": [
+        "If you have questions about arrival times or absences, please contact us.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need help with attendance?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you have questions about arrival times or absences, please contact us.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Travel to school Learn about local transport options and how to get here safely. Parent portal Use our parent portal apps to make a payment, view reports and record absences.",
+      "headings": [],
+      "paragraphs": [
+        "Learn about local transport options and how to get here safely.",
+        "Use our parent portal apps to make a payment, view reports and record absences."
+      ],
+      "listItems": [
+        "Travel to school Learn about local transport options and how to get here safely.",
+        "Parent portal Use our parent portal apps to make a payment, view reports and record absences."
+      ],
+      "ctas": [
+        {
+          "text": "Travel to school",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        },
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Travel to school Learn about local transport options and how to get here safely.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Travel to school",
+              "display": "inline",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn about local transport options and how to get here safely.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Parent portal Use our parent portal apps to make a payment, view reports and record absences.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Use our parent portal apps to make a payment, view reports and record absences.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

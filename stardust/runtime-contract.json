@@ -1,0 +1,9 @@
+{
+  "_provenance": { "writtenBy": "stardust:deploy runtime-detection probe", "writtenAt": "2026-10-21", "read": ["scripts/scripts.js", "scripts/aem.js"] },
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true
+}

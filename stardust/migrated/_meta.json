@@ -1,0 +1,62 @@
+{
+  "slug": "index",
+  "type": "home",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M3",
+    "M5",
+    "M4"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hero",
+    "teaser-cards",
+    "teaser-ti",
+    "teaser-ti",
+    "teaser-ti",
+    "teaser-cards",
+    "teaser-ti",
+    "teaser-ti",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Fort Street High School",
+    "description": "Enrol at Fort Street High School. We are a Year 7 to Year 12 Comprehensive Coed Secondary School in PETERSHAM.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Fort Street High School",
+    "description": "Enrol at Fort Street High School. We are a Year 7 to Year 12 Comprehensive Coed Secondary School in PETERSHAM.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/"
+  },
+  "migratedAt": "2026-10-21T13:26:42Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "6c37ff27c8e5",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

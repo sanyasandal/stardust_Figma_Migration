@@ -1,0 +1,37 @@
+{
+  "variantName": "table",
+  "baseBlock": "table",
+  "version": "1.0.0",
+  "created": "2026-10-21T13:46:13.053Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "data-table",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "rows-of-cells",
+    "imageCount": 0
+  },
+  "variants": [
+    "bordered"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "fortstreet/about-us/hsc-results",
+      "fortstreet/about-us/our-principal-and-staff",
+      "fortstreet/learning-and-support/wellbeing",
+      "fortstreet/our-community/foundation",
+      "fortstreet/our-community/pandc",
+      "fortstreet/school-life/events",
+      "fortstreet/school-life/forms",
+      "fortstreet/school-life/lockers-and-lost-property",
+      "fortstreet/school-life/student-opportunities-and-activities",
+      "fortstreet/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+      "fortstreet/school-life/student-opportunities-and-activities/sport",
+      "fortstreet/school-life/travel-to-school",
+      "fortstreet/school-life/uniform/uniform-shop"
+    ],
+    "reuseCount": 13,
+    "lastUsed": "2026-10-21T13:46:13.053Z"
+  }
+}

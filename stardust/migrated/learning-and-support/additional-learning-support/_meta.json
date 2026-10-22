@@ -1,0 +1,62 @@
+{
+  "slug": "learning-and-support_additional-learning-support",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M6",
+    "M9",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Additional learning support",
+    "description": "At Fort Street High School, we want every student to feel safe, supported and ready to learn. We support students with disability and additional learning needs so they can take part in all areas of school life.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Additional learning support",
+    "description": "At Fort Street High School, we want every student to feel safe, supported and ready to learn. We support students with disability and additional learning needs so they can take part in all areas of school life.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "3e822163034b",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "learning-and-support/additional-learning-support/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "learning-and-support/additional-learning-support/_meta.json",
+  "driverVersion": "1"
+}
