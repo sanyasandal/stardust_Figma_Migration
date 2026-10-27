@@ -1,0 +1,9 @@
+{
+  "_provenance": "stardust:reskin Phase 1 bounded donor capture — adobe/skills main cf07727",
+  "fetchTechnique": "bounded-direct-sampling (playwright computed styles)",
+  "donorOrigin": "http://localhost:8767/ (dead after capture)",
+  "donorDir": "stardust/reskin/donor-dir",
+  "notes": "Donor is a localhost serve of stardust/reskin/donor-dir — static HTML exported from Figma oneAZ v3.2 (rsZQmpVzuyn0KhCDA3WN60) via the Figma MCP code export, per reskin SKILL.md § Inputs ('export as static HTML -> --donor-dir'). Re-capture needs the directory (rebuild: python3 stardust/reskin/donor-dir/_src/build.py), not the localhost URL.",
+  "pagesSampled": ["home.html (pinned: home family)", "content.html (pinned: content family)", "components.html (corroboration)"],
+  "screenshots": ["stardust/canon-source/assets/screenshots/home-1440-full.png", "stardust/canon-source/assets/screenshots/content-1440-full.png", "stardust/canon-source/assets/screenshots/components-1440-full.png"]
+}

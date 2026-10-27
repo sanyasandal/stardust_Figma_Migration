@@ -1,0 +1,522 @@
+{
+ "pages": {
+  "about-us": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us",
+   "target": "/fortstreet/about-us",
+   "blocks": {
+    "cards": 1
+   },
+   "title": "About us"
+  },
+  "about-us/enrol": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+   "target": "/fortstreet/about-us/enrol",
+   "blocks": {
+    "accordion": 1,
+    "columns": 1,
+    "section-metadata": 2,
+    "embed": 1,
+    "cards supplementary": 1
+   },
+   "title": "Enrol"
+  },
+  "about-us/facilities-and-resources": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+   "target": "/fortstreet/about-us/facilities-and-resources",
+   "blocks": {
+    "cards": 1,
+    "columns": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Facilities and resources"
+  },
+  "about-us/hsc-results": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/hsc-results",
+   "target": "/fortstreet/about-us/hsc-results",
+   "blocks": {
+    "table no-header": 7,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "HSC Results"
+  },
+  "about-us/our-principal-and-staff": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+   "target": "/fortstreet/about-us/our-principal-and-staff",
+   "blocks": {
+    "columns": 1,
+    "section-metadata": 2,
+    "table no-header": 5,
+    "cards supplementary": 2
+   },
+   "title": "Our principal and staff"
+  },
+  "about-us/policies-and-reports": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+   "target": "/fortstreet/about-us/policies-and-reports",
+   "blocks": {
+    "accordion": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "deviations": [
+    "planningreporting widget -> link",
+    "planningreporting widget -> link"
+   ],
+   "title": "Policies and reports"
+  },
+  "about-us/policies-and-reports/nsw-public-school-information": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports/nsw-public-school-information",
+   "target": "/fortstreet/about-us/policies-and-reports/nsw-public-school-information",
+   "blocks": {
+    "section-metadata": 2,
+    "cards supplementary": 1
+   },
+   "title": "NSW public school information"
+  },
+  "about-us/school-history-and-archives": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives",
+   "target": "/fortstreet/about-us/school-history-and-archives",
+   "blocks": {
+    "columns": 2,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "School history and archives"
+  },
+  "about-us/school-history-and-archives/fort-street-archives": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/fort-street-archives",
+   "target": "/fortstreet/about-us/school-history-and-archives/fort-street-archives",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Fort Street Archives"
+  },
+  "about-us/school-history-and-archives/the-fort-street-museum": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fort-street-museum",
+   "target": "/fortstreet/about-us/school-history-and-archives/the-fort-street-museum",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "The Fort Street Museum"
+  },
+  "about-us/school-history-and-archives/the-fortian-digitised": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fortian-digitised",
+   "target": "/fortstreet/about-us/school-history-and-archives/the-fortian-digitised",
+   "blocks": {
+    "accordion": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "The Fortian Digitised"
+  },
+  "about-us/stories-and-highlights": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+   "target": "/fortstreet/about-us/stories-and-highlights",
+   "blocks": {
+    "cards": 1,
+    "section-metadata": 2,
+    "facebook-feed": 1,
+    "cards supplementary": 1
+   },
+   "title": "Stories and highlights"
+  },
+  "about-us/transition-to-high-school": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+   "target": "/fortstreet/about-us/transition-to-high-school",
+   "blocks": {
+    "columns": 1,
+    "section-metadata": 2,
+    "cards supplementary": 1
+   },
+   "title": "Transition to high school"
+  },
+  "about-us/why-choose-us": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/about-us/why-choose-us",
+   "target": "/fortstreet/about-us/why-choose-us",
+   "blocks": {
+    "section-metadata": 4,
+    "embed": 1,
+    "cards": 1,
+    "cards supplementary": 1
+   },
+   "title": "Why choose us?"
+  },
+  "contact-us": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+   "target": "/fortstreet/contact-us",
+   "blocks": {
+    "columns": 1,
+    "embed": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Contact us"
+  },
+  "learning-and-support": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support",
+   "target": "/fortstreet/learning-and-support",
+   "blocks": {
+    "cards": 1
+   },
+   "title": "Learning and support"
+  },
+  "learning-and-support/additional-learning-support": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+   "target": "/fortstreet/learning-and-support/additional-learning-support",
+   "blocks": {
+    "section-metadata": 3,
+    "columns": 1,
+    "accordion": 1,
+    "cards supplementary": 1
+   },
+   "title": "Additional learning support"
+  },
+  "learning-and-support/careers": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/careers",
+   "target": "/fortstreet/learning-and-support/careers",
+   "blocks": {
+    "section-metadata": 2,
+    "cards": 1,
+    "cards supplementary": 1
+   },
+   "title": "Careers"
+  },
+  "learning-and-support/high-potential-and-gifted-education": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/high-potential-and-gifted-education",
+   "target": "/fortstreet/learning-and-support/high-potential-and-gifted-education",
+   "blocks": {
+    "section-metadata": 2,
+    "accordion": 1,
+    "cards": 1,
+    "cards supplementary": 1
+   },
+   "title": "Inspire \u2013 High potential and gifted education"
+  },
+  "learning-and-support/learning": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+   "target": "/fortstreet/learning-and-support/learning",
+   "blocks": {
+    "cards supplementary": 2,
+    "accordion": 1,
+    "section-metadata": 1
+   },
+   "title": "Learning"
+  },
+  "learning-and-support/wellbeing": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+   "target": "/fortstreet/learning-and-support/wellbeing",
+   "blocks": {
+    "table no-header": 2,
+    "accordion": 3,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Wellbeing"
+  },
+  "our-community": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/our-community",
+   "target": "/fortstreet/our-community",
+   "blocks": {
+    "cards": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Our community"
+  },
+  "our-community/alumni": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/our-community/alumni",
+   "target": "/fortstreet/our-community/alumni",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Alumni"
+  },
+  "our-community/fortians-union": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union",
+   "target": "/fortstreet/our-community/fortians-union",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "The Fortians Union"
+  },
+  "our-community/foundation-tertiary-bursaries": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries",
+   "target": "/fortstreet/our-community/foundation-tertiary-bursaries",
+   "blocks": {
+    "cards supplementary": 1
+   },
+   "title": "Foundation Tertiary Bursaries"
+  },
+  "our-community/foundation": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation",
+   "target": "/fortstreet/our-community/foundation",
+   "blocks": {
+    "columns": 1,
+    "section-metadata": 2,
+    "table bordered": 1,
+    "cards supplementary": 1
+   },
+   "title": "The Fort Street Foundation"
+  },
+  "our-community/pandc": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+   "target": "/fortstreet/our-community/pandc",
+   "blocks": {
+    "section-metadata": 2,
+    "table bordered": 2,
+    "accordion": 1,
+    "cards supplementary": 1
+   },
+   "title": "Parents and Citizens Association"
+  },
+  "school-life": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life",
+   "target": "/fortstreet/school-life",
+   "blocks": {
+    "cards": 1
+   },
+   "title": "School life"
+  },
+  "school-life/bell-times": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+   "target": "/fortstreet/school-life/bell-times",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Bell times"
+  },
+  "school-life/bring-your-own-device": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+   "target": "/fortstreet/school-life/bring-your-own-device",
+   "blocks": {
+    "section-metadata": 2,
+    "cards supplementary": 1
+   },
+   "title": "Bring your own device"
+  },
+  "school-life/canteen": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+   "target": "/fortstreet/school-life/canteen",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Canteen"
+  },
+  "school-life/events": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+   "target": "/fortstreet/school-life/events",
+   "blocks": {
+    "table bordered": 1,
+    "columns": 2,
+    "section-metadata": 3,
+    "facebook-feed": 1,
+    "cards supplementary": 1
+   },
+   "title": "Events"
+  },
+  "school-life/forms": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/forms",
+   "target": "/fortstreet/school-life/forms",
+   "blocks": {
+    "table bordered": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Forms"
+  },
+  "school-life/house-and-merit-system": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+   "target": "/fortstreet/school-life/house-and-merit-system",
+   "blocks": {
+    "columns": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "House and Merit System"
+  },
+  "school-life/lockers-and-lost-property": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/lockers-and-lost-property",
+   "target": "/fortstreet/school-life/lockers-and-lost-property",
+   "blocks": {
+    "table bordered": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Lockers and lost property"
+  },
+  "school-life/newsletters": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+   "target": "/fortstreet/school-life/newsletters",
+   "blocks": {
+    "columns": 1,
+    "section-metadata": 2,
+    "accordion": 1,
+    "facebook-feed": 1,
+    "cards supplementary": 1
+   },
+   "title": "Newsletters"
+  },
+  "school-life/parent-portal": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+   "target": "/fortstreet/school-life/parent-portal",
+   "blocks": {
+    "columns": 2,
+    "section-metadata": 3,
+    "cards supplementary": 1
+   },
+   "title": "Parent portal"
+  },
+  "school-life/stationery": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+   "target": "/fortstreet/school-life/stationery",
+   "blocks": {
+    "cards supplementary": 1
+   },
+   "title": "Stationery"
+  },
+  "school-life/student-opportunities-and-activities": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities",
+   "blocks": {
+    "table bordered": 1,
+    "accordion": 1,
+    "section-metadata": 2,
+    "cards supplementary": 1
+   },
+   "title": "Student opportunities and activities"
+  },
+  "school-life/student-opportunities-and-activities/academic-competitions": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/academic-competitions",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities/academic-competitions",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Academic Competitions"
+  },
+  "school-life/student-opportunities-and-activities/clubs-and-committees": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/clubs-and-committees",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities/clubs-and-committees",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Clubs and Committees"
+  },
+  "school-life/student-opportunities-and-activities/creative-and-performing-arts": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities/creative-and-performing-arts",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Creative and Performing Arts"
+  },
+  "school-life/student-opportunities-and-activities/debating-and-public-speaking": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities/debating-and-public-speaking",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Debating and Public Speaking"
+  },
+  "school-life/student-opportunities-and-activities/duke-of-edinburgh-award": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities/duke-of-edinburgh-award",
+   "blocks": {
+    "accordion": 1,
+    "columns": 1,
+    "section-metadata": 3,
+    "cards": 1,
+    "table bordered": 1,
+    "cards supplementary": 1
+   },
+   "title": "Duke of Edinburgh Award"
+  },
+  "school-life/student-opportunities-and-activities/instrumental-music-program": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/instrumental-music-program",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities/instrumental-music-program",
+   "blocks": {
+    "section-metadata": 3,
+    "columns": 1,
+    "cards supplementary": 1
+   },
+   "title": "Instrumental Music Program"
+  },
+  "school-life/student-opportunities-and-activities/robotics-and-maker-society": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities/robotics-and-maker-society",
+   "blocks": {
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Robotics and Maker Society"
+  },
+  "school-life/student-opportunities-and-activities/sport": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities/sport",
+   "blocks": {
+    "table bordered": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Sport"
+  },
+  "school-life/student-opportunities-and-activities/student-leadership-opportunities": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+   "target": "/fortstreet/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+   "blocks": {
+    "accordion": 1,
+    "section-metadata": 3,
+    "cards supplementary": 1
+   },
+   "title": "Student Leadership Opportunities"
+  },
+  "school-life/travel-to-school": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+   "target": "/fortstreet/school-life/travel-to-school",
+   "blocks": {
+    "embed": 1,
+    "section-metadata": 5,
+    "columns": 3,
+    "table": 2,
+    "cards supplementary": 1
+   },
+   "title": "Travel to school"
+  },
+  "school-life/uniform": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+   "target": "/fortstreet/school-life/uniform",
+   "blocks": {
+    "cards": 1,
+    "accordion": 1,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Uniform"
+  },
+  "school-life/uniform/uniform-shop": {
+   "source": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop",
+   "target": "/fortstreet/school-life/uniform/uniform-shop",
+   "blocks": {
+    "table bordered": 6,
+    "section-metadata": 1,
+    "cards supplementary": 1
+   },
+   "title": "Uniform Shop"
+  }
+ },
+ "unmapped": {},
+ "embeds_resolved": {
+  "https://bcove.video/48Vdzel": "https://players.brightcove.net/6129823317001/default_default/index.html?videoId=6384436396112"
+ }
+}

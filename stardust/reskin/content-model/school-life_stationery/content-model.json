@@ -1,0 +1,276 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:15.121Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_stationery.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Stationery",
+    "description": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+    "ogTags": {
+      "og:title": "Stationery",
+      "og:description": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/stationery",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1a0b9a5f9edb0be8237b03b4c548c87d791b7febb.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1a0b9a5f9edb0be8237b03b4c548c87d791b7febb.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Stationery",
+      "twitter:description": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1a0b9a5f9edb0be8237b03b4c548c87d791b7febb.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Stationery In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing. Parents may also use the link provided in the form to order from Winc if that is more convenient. From Year 8 onwards parents should work with their child to determine what items need replenishing. Some electives may at times require additional items and these will be requested directly from the teacher if necessary. Download the Year 7 stationery list here. Bring your own device Read about our policies and procedures to bring your own device. Uniform Learn about our school uniform requirements and where to buy them.",
+  "coverage": {
+    "bodyTextLen": 1655,
+    "scopeTextLen": 714,
+    "ratio": 0.431,
+    "h1Text": "Stationery",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Stationery In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing. Parents may also use the link provided in the form to order from Winc if that is more convenient. From Year 8 onwards parents should work with their child to determine what items need replenishing. Some electives may at times require additional items and these will be requested directly from the teacher if necessary. Download the Year 7 stationery list here.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Stationery"
+        }
+      ],
+      "paragraphs": [
+        "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing. Parents may also use the link provided in the form to order from Winc if that is more convenient.",
+        "From Year 8 onwards parents should work with their child to determine what items need replenishing. Some electives may at times require additional items and these will be requested directly from the teacher if necessary.",
+        "Download the Year 7 stationery list here."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "here",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/forms%20and%20documents/2026-y7-stationary-requirements.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/forms%20and%20documents/2026-y7-stationary-requirements.pdf",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Stationery",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Year 7 parents are provided with a list of stationery requirements for their child(ren). Parents may choose to purchase these items from any supplier or store of their choosing. Parents may also use the link provided in the form to order from Winc if that is more convenient.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "From Year 8 onwards parents should work with their child to determine what items need replenishing. Some electives may at times require additional items and these will be requested directly from the teacher if necessary.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Download the Year 7 stationery list here.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Download the Year 7 stationery list",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/forms%20and%20documents/2026-y7-stationary-requirements.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/forms%20and%20documents/2026-y7-stationary-requirements.pdf",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1a0b9a5f9edb0be8237b03b4c548c87d791b7febb.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 848,
+          "h": 540
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "",
+          "display": "block",
+          "level": "h2",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1a0b9a5f9edb0be8237b03b4c548c87d791b7febb.jpg?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Bring your own device Read about our policies and procedures to bring your own device. Uniform Learn about our school uniform requirements and where to buy them.",
+      "headings": [],
+      "paragraphs": [
+        "Read about our policies and procedures to bring your own device.",
+        "Learn about our school uniform requirements and where to buy them."
+      ],
+      "listItems": [
+        "Bring your own device Read about our policies and procedures to bring your own device.",
+        "Uniform Learn about our school uniform requirements and where to buy them."
+      ],
+      "ctas": [
+        {
+          "text": "Bring your own device",
+          "href": "/school-life/bring-your-own-device",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+          "classes": ""
+        },
+        {
+          "text": "Uniform",
+          "href": "/school-life/uniform",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Bring your own device Read about our policies and procedures to bring your own device.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Bring your own device",
+              "display": "inline",
+              "href": "/school-life/bring-your-own-device",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read about our policies and procedures to bring your own device.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Uniform Learn about our school uniform requirements and where to buy them.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Uniform",
+              "display": "inline",
+              "href": "/school-life/uniform",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn about our school uniform requirements and where to buy them.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

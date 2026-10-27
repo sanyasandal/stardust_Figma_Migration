@@ -1,0 +1,1583 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:21:40.519Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/our-community_pandc.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Parents and Citizens Association",
+    "description": "At Fort Street High School, we value strong partnerships with families and the community. Parents and carers can get involved through our Parents and Citizens Association (P&C) or by volunteering at school. Your time and support help make our school a better place for everyone.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+    "ogTags": {
+      "og:title": "Parents and Citizens Association",
+      "og:description": "At Fort Street High School, we value strong partnerships with families and the community. Parents and carers can get involved through our Parents and Citizens Association (P&C) or by volunteering at school. Your time and support help make our school a better place for everyone.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_141650d6a124a14ae631de6ce0edc34c967188c16.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_141650d6a124a14ae631de6ce0edc34c967188c16.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Members of the Fort Street High School P and C at the 2024 AGM"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Parents and Citizens Association",
+      "twitter:description": "At Fort Street High School, we value strong partnerships with families and the community. Parents and carers can get involved through our Parents and Citizens Association (P&C) or by volunteering at school. Your time and support help make our school a better place for everyone.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_141650d6a124a14ae631de6ce0edc34c967188c16.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Parents and Citizens Association (P&C) The Parents and Citizens Association (P&C) is highly active and contributes substantially to the life of Fort Street High School. It provides a forum which enables parents to get involved in the organisation and direction of the school. The P&C initiates and supports programs to enhance student learning, manages the uniform shop and assists with fundraising for and running the Instrumental Music Program (IMP). Fort Street High School P&C Association is a group of parents and others who volunteer their time to help our school provide the best possible learning environment for all our children. Their aims are to: raise money for the school foster and improve communications between parents and the school enhance a sense of school community assist the school by establishing subcommittees which support the development of programs within the school (e.g. Instrumental Music Program, Uniform Shop, Sport). Parents are encouraged to be involved in whatever way suits their skills, interests and availability. The P&C usually meets in the school library at 7:30pm on the second Wednesday of each month during term. All parents are most welcome to attend and there are many opportunities to get involved. P&C FUNDRAISER Save up to 50% on dining, shopping, travel and things to do. An annual Entertainment Membership means getting more of what you need and love, while giving back to a cause you care about. Your purchase of an Entertainment Membership contributes to our Fort Street P&C fundraising, with 20% of every purchase going to the school. Help us achieve our fundraising goals by sharing the link with your friends and family. Thanks for your support! Purchase here: https://subscribe.entertainment.com.au/fundraiser/2d03327 (opens in new window) P&C Contribution Your payment of the P&C contribution will make a difference to your child’s education by providing educational resources necessary to meet the needs of gifted students in a selective school program, and by improving the school environment so that the grounds are a pleasant place for our students. P&C Membership Membership to the P&C is $1 per year, separate from school contributions. The membership form can be found here (opens in new window) . P&C Executive Committee President Ms Caroline Aow Vice President Ms Emma Pearce Mr Alex Ding Treasurer Mr Prabhu Sivabalan Secretary Ms Lucy Liang Executive Members Malcolm Groves Sivvy Xu Jens Olscher Elizabeth Kenyon Vivian Wang Tracey Chen P&C Representatives and Sub-committee Coordinators Foundation Representative Ms Caroline Aow IMP Representative Tania Koit and Paula Katalinic Finance Committee Representative Ms Caroline Aow Fundraising Committee Ms Elizabeth Kenyon Ms Emma Pearce Uniform shop Coordinator Ms Stella Liang Second Hand Uniform Coordinator Ms Emma Pearce Governance The P&C is a body corporate under the Parents & Citizens’ Association Incorporation Act 1976, the constitution can be viewed here. Fundraising One of the roles of the P&C is fundraising, which is contributed to the school, to provide better facilities than government funding covers. The funds that the P&C can make available to the school come from P&C memberships, uniform shop sales and the proceeds from events such as Fort Fest, IMP concerts and Senior Drama nights. In 2019 the P&C gave the school more than $200,000 to provide sporting facilities, classroom technology, faculty assets and numerous other items. Grants The P&C is also active in applying for local, state and federal government grants. Funds received from these grants enable the school to build better facilities for our students and run projects to improve educational outcomes. In 2020 the P&C won grants to refurbish the library foyer and establish the Kitchen Garden and composting program. If you have information about upcoming grants, experience with or an interest in applying for grants, please contact the P&C. (opens in new window) Community events Community Events run by the P&C aim to build community awareness within the school, give parents, students and other supporters an opportunity to meet informally and to contribute to the school and to raise funds. Meetings The P&C holds meetings usually at 7:30pm in the school library on the second Wednesday of each month during school terms. All meetings are hybrid and so may also be joined online via the link sent out via email. These meetings provide an opportunity to learn more about what is happening in the school, how it operates, to ask questions and to meet other parents. The Principal usually gives an informative report on the recent happenings within the school. The school emails details of upcoming meetings directly to parents and carers prior to the date. This email will include a copy of the upcoming agenda. Minutes from previous meetings are available below. Read our P&C Constitution here Minutes 12 August 2026 11 June 2026 13 May 2026 Code of Conduct for WhatsApp Groups - March 2026 11 March 2026 11 February 2026 AGM - 12 November 2025 12 November 2025 10 September 2025 (PDF 317.35 KB) 13 August 2025 (PDF 308.83 KB) 11 June 2025 (PDF 294.65 KB) 14 May 2025 19 March 2025 (PDF 280.89 KB) 19 February 2025 (PDF 298.32 KB) Membership Membership of a P&C association entitles you to vote at the general meetings and the annual general meeting. All memberships are renewed yearly, before or at the annual general meeting. Please see the link to the membership form below for more details. If you wish to become a member, please fill out the linked membership form and email to the P&C via the address below or submit to the school office. Note that the fee for joining the P&C is $1, which can be paid to the P&C bank account via direct deposit (please ensure that you supply your name with the deposit). The P&C bank account details are: Fort Street High School P&C Association BSB: 032-267 Account: 247674 Contact: The P&C can be contacted on info@fortstreetpandc.org (opens in new window) Volunteer at our school Helping out at school is a great way to get involved in your school community. Volunteer opportunities include: getting involved in the P&C volunteering on sports days and other school events helping with school events Get in touch to find out how you can help! Contact the P&C (opens in new window) Newsletters Read our latest newsletter and stay connected with our school life. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 7363,
+    "scopeTextLen": 6482,
+    "ratio": 0.88,
+    "h1Text": "Parents and Citizens Association (P&C)",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Parents and Citizens Association (P&C) The Parents and Citizens Association (P&C) is highly active and contributes substantially to the life of Fort Street High School. It provides a forum which enables parents to get involved in the organisation and direction of the school. The P&C initiates and supports programs to enhance student learning, manages the uniform shop and assists with fundraising for and running the Instrumental Music Program (IMP). Fort Street High School P&C Association is a group of parents and others who volunteer their time to help our school provide the best possible learning environment for all our children. Their aims are to: raise money for the school foster and improve communications between parents and the school enhance a sense of school community assist the school by establishing subcommittees which support the development of programs within the school (e.g. Instrumental Music Program, Uniform Shop, Sport). Parents are encouraged to be involved in whatever way suits their skills, interests and availability. The P&C usually meets in the school library at 7:30pm on the second Wednesday of each month during term. All parents are most welcome to attend and there are many opportunities to get involved.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Parents and Citizens Association (P&C)"
+        }
+      ],
+      "paragraphs": [
+        "The Parents and Citizens Association (P&C) is highly active and contributes substantially to the life of Fort Street High School. It provides a forum which enables parents to get involved in the organisation and direction of the school. The P&C initiates and supports programs to enhance student learning, manages the uniform shop and assists with fundraising for and running the Instrumental Music Program (IMP).",
+        "Fort Street High School P&C Association is a group of parents and others who volunteer their time to help our school provide the best possible learning environment for all our children.",
+        "Their aims are to:",
+        "Parents are encouraged to be involved in whatever way suits their skills, interests and availability. The P&C usually meets in the school library at 7:30pm on the second Wednesday of each month during term. All parents are most welcome to attend and there are many opportunities to get involved."
+      ],
+      "listItems": [
+        "raise money for the school",
+        "foster and improve communications between parents and the school",
+        "enhance a sense of school community",
+        "assist the school by establishing subcommittees which support the development of programs within the school (e.g. Instrumental Music Program, Uniform Shop, Sport)."
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_141650d6a124a14ae631de6ce0edc34c967188c16.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Members of the Fort Street High School P and C at the 2024 AGM",
+          "w": 1280,
+          "h": 817
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Parents and Citizens Association (P&C)",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Parents and Citizens Association (P&C) is highly active and contributes substantially to the life of Fort Street High School. It provides a forum which enables parents to get involved in the organisation and direction of the school. The P&C initiates and supports programs to enhance student learning, manages the uniform shop and assists with fundraising for and running the Instrumental Music Program (IMP).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/our-community/media_141650d6a124a14ae631de6ce0edc34c967188c16.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "Members of the Fort Street High School P and C at the 2024 AGM"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School P&C Association is a group of parents and others who volunteer their time to help our school provide the best possible learning environment for all our children.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Their aims are to:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "raise money for the school",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "foster and improve communications between parents and the school",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "enhance a sense of school community",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "assist the school by establishing subcommittees which support the development of programs within the school (e.g. Instrumental Music Program, Uniform Shop, Sport).",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parents are encouraged to be involved in whatever way suits their skills, interests and availability. The P&C usually meets in the school library at 7:30pm on the second Wednesday of each month during term. All parents are most welcome to attend and there are many opportunities to get involved.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-light",
+      "visibleText": "P&C FUNDRAISER Save up to 50% on dining, shopping, travel and things to do. An annual Entertainment Membership means getting more of what you need and love, while giving back to a cause you care about. Your purchase of an Entertainment Membership contributes to our Fort Street P&C fundraising, with 20% of every purchase going to the school. Help us achieve our fundraising goals by sharing the link with your friends and family. Thanks for your support! Purchase here: https://subscribe.entertainment.com.au/fundraiser/2d03327 (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "P&C FUNDRAISER"
+        }
+      ],
+      "paragraphs": [
+        "Save up to 50% on dining, shopping, travel and things to do. An annual Entertainment Membership means getting more of what you need and love, while giving back to a cause you care about.",
+        "Your purchase of an Entertainment Membership contributes to our Fort Street P&C fundraising, with 20% of every purchase going to the school.",
+        "Help us achieve our fundraising goals by sharing the link with your friends and family. Thanks for your support!",
+        "Purchase here: https://subscribe.entertainment.com.au/fundraiser/2d03327 (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "https://subscribe.entertainment.com.au/fundraiser/2d03327 (opens in new window)",
+          "href": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubscribe.entertainment.com.au%2Ffundraiser%2F2d03327&data=05%7C02%7CKirrily.Druery%40det.nsw.edu.au%7Cb90f3c8f07744ff1470f08de69ff9532%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639064743609152592%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ElkA%2Bm9NLwH0872UKbz0oUl%2BbF%2FSUjh8Mc5DtbTJnrI%3D&reserved=0",
+          "absHref": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubscribe.entertainment.com.au%2Ffundraiser%2F2d03327&data=05%7C02%7CKirrily.Druery%40det.nsw.edu.au%7Cb90f3c8f07744ff1470f08de69ff9532%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639064743609152592%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ElkA%2Bm9NLwH0872UKbz0oUl%2BbF%2FSUjh8Mc5DtbTJnrI%3D&reserved=0",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "P&C FUNDRAISER",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Save up to 50% on dining, shopping, travel and things to do. An annual Entertainment Membership means getting more of what you need and love, while giving back to a cause you care about.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your purchase of an Entertainment Membership contributes to our Fort Street P&C fundraising, with 20% of every purchase going to the school.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Your purchase of an Entertainment Membership contributes to our",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Fort Street P&C fundraising",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ", with 20% of every purchase going to the school.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Help us achieve our fundraising goals by sharing the link with your friends and family. Thanks for your support!",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Purchase here: https://subscribe.entertainment.com.au/fundraiser/2d03327 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Purchase here:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "https://subscribe.entertainment.com.au/fundraiser/2d03327 (opens in new window)",
+              "display": "inline",
+              "href": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubscribe.entertainment.com.au%2Ffundraiser%2F2d03327&data=05%7C02%7CKirrily.Druery%40det.nsw.edu.au%7Cb90f3c8f07744ff1470f08de69ff9532%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639064743609152592%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ElkA%2Bm9NLwH0872UKbz0oUl%2BbF%2FSUjh8Mc5DtbTJnrI%3D&reserved=0",
+              "absHref": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubscribe.entertainment.com.au%2Ffundraiser%2F2d03327&data=05%7C02%7CKirrily.Druery%40det.nsw.edu.au%7Cb90f3c8f07744ff1470f08de69ff9532%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639064743609152592%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ElkA%2Bm9NLwH0872UKbz0oUl%2BbF%2FSUjh8Mc5DtbTJnrI%3D&reserved=0",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "https://subscribe.entertainment.com.au/fundraiser/2d03327",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container accordions-container",
+      "visibleText": "P&C Contribution Your payment of the P&C contribution will make a difference to your child’s education by providing educational resources necessary to meet the needs of gifted students in a selective school program, and by improving the school environment so that the grounds are a pleasant place for our students. P&C Membership Membership to the P&C is $1 per year, separate from school contributions. The membership form can be found here (opens in new window) . P&C Executive Committee President Ms Caroline Aow Vice President Ms Emma Pearce Mr Alex Ding Treasurer Mr Prabhu Sivabalan Secretary Ms Lucy Liang Executive Members Malcolm Groves Sivvy Xu Jens Olscher Elizabeth Kenyon Vivian Wang Tracey Chen P&C Representatives and Sub-committee Coordinators Foundation Representative Ms Caroline Aow IMP Representative Tania Koit and Paula Katalinic Finance Committee Representative Ms Caroline Aow Fundraising Committee Ms Elizabeth Kenyon Ms Emma Pearce Uniform shop Coordinator Ms Stella Liang Second Hand Uniform Coordinator Ms Emma Pearce Governance The P&C is a body corporate under the Parents & Citizens’ Association Incorporation Act 1976, the constitution can be viewed here. Fundraising One of the roles of the P&C is fundraising, which is contributed to the school, to provide better facilities than government funding covers. The funds that the P&C can make available to the school come from P&C memberships, uniform shop sales and the proceeds from events such as Fort Fest, IMP concerts and Senior Drama nights. In 2019 the P&C gave the school more than $200,000 to provide sporting facilities, classroom technology, faculty assets and numerous other items. Grants The P&C is also active in applying for local, state and federal government grants. Funds received from these grants enable the school to build better facilities for our students and run projects to improve educational outcomes. In 2020 the P&C won grants to refurbish the library foyer and establish the Kitchen Garden and composting program. If you have information about upcoming grants, experience with or an interest in applying for grants, please contact the P&C. (opens in new window) Community events Community Events run by the P&C aim to build community awareness within the school, give parents, students and other supporters an opportunity to meet informally and to contribute to the school and to raise funds. Meetings The P&C holds meetings usually at 7:30pm in the school library on the second Wednesday of each month during school terms. All meetings are hybrid and so may also be joined online via the link sent out via email. These meetings provide an opportunity to learn more about what is happening in the school, how it operates, to ask questions and to meet other parents. The Principal usually gives an informative report on the recent happenings within the school. The school emails details of upcoming meetings directly to parents and carers prior to the date. This email will include a copy of the upcoming agenda. Minutes from previous meetings are available below. Read our P&C Constitution here Minutes 12 August 2026 11 June 2026 13 May 2026 Code of Conduct for WhatsApp Groups - March 2026 11 March 2026 11 February 2026 AGM - 12 November 2025 12 November 2025 10 September 2025 (PDF 317.35 KB) 13 August 2025 (PDF 308.83 KB) 11 June 2025 (PDF 294.65 KB) 14 May 2025 19 March 2025 (PDF 280.89 KB) 19 February 2025 (PDF 298.32 KB)",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "P&C Contribution"
+        },
+        {
+          "level": "h3",
+          "text": "P&C Membership"
+        },
+        {
+          "level": "h3",
+          "text": "P&C Executive Committee"
+        },
+        {
+          "level": "h3",
+          "text": "P&C Representatives and Sub-committee Coordinators"
+        },
+        {
+          "level": "h2",
+          "text": "Governance"
+        },
+        {
+          "level": "h2",
+          "text": "Fundraising"
+        },
+        {
+          "level": "h2",
+          "text": "Grants"
+        },
+        {
+          "level": "h2",
+          "text": "Community events"
+        },
+        {
+          "level": "h2",
+          "text": "Meetings"
+        }
+      ],
+      "paragraphs": [
+        "Your payment of the P&C contribution will make a difference to your child’s education by providing educational resources necessary to meet the needs of gifted students in a selective school program, and by improving the school environment so that the grounds are a pleasant place for our students.",
+        "Membership to the P&C is $1 per year, separate from school contributions. The membership form can be found here (opens in new window) .",
+        "President",
+        "Ms Caroline Aow",
+        "Vice President",
+        "Ms Emma Pearce Mr Alex Ding",
+        "Treasurer",
+        "Mr Prabhu Sivabalan",
+        "Secretary",
+        "Ms Lucy Liang",
+        "Executive Members",
+        "Malcolm Groves",
+        "Sivvy Xu",
+        "Jens Olscher",
+        "Elizabeth Kenyon",
+        "Vivian Wang",
+        "Tracey Chen",
+        "Foundation Representative",
+        "Ms Caroline Aow",
+        "IMP Representative",
+        "Tania Koit and Paula Katalinic",
+        "Finance Committee Representative",
+        "Ms Caroline Aow",
+        "Fundraising Committee",
+        "Ms Elizabeth Kenyon Ms Emma Pearce",
+        "Uniform shop Coordinator",
+        "Ms Stella Liang",
+        "Second Hand Uniform Coordinator",
+        "Ms Emma Pearce",
+        "The P&C is a body corporate under the Parents & Citizens’ Association Incorporation Act 1976, the constitution can be viewed here.",
+        "One of the roles of the P&C is fundraising, which is contributed to the school, to provide better facilities than government funding covers.",
+        "The funds that the P&C can make available to the school come from P&C memberships, uniform shop sales and the proceeds from events such as Fort Fest, IMP concerts and Senior Drama nights.",
+        "In 2019 the P&C gave the school more than $200,000 to provide sporting facilities, classroom technology, faculty assets and numerous other items.",
+        "The P&C is also active in applying for local, state and federal government grants. Funds received from these grants enable the school to build better facilities for our students and run projects to improve educational outcomes.",
+        "In 2020 the P&C won grants to refurbish the library foyer and establish the Kitchen Garden and composting program.",
+        "If you have information about upcoming grants, experience with or an interest in applying for grants, please contact the P&C. (opens in new window)",
+        "Community Events run by the P&C aim to build community awareness within the school, give parents, students and other supporters an opportunity to meet informally and to contribute to the school and to raise funds.",
+        "The P&C holds meetings usually at 7:30pm in the school library on the second Wednesday of each month during school terms. All meetings are hybrid and so may also be joined online via the link sent out via email.",
+        "These meetings provide an opportunity to learn more about what is happening in the school, how it operates, to ask questions and to meet other parents.",
+        "The Principal usually gives an informative report on the recent happenings within the school.",
+        "The school emails details of upcoming meetings directly to parents and carers prior to the date. This email will include a copy of the upcoming agenda.",
+        "Minutes from previous meetings are available below.",
+        "Read our P&C Constitution here",
+        "12 August 2026",
+        "11 June 2026",
+        "13 May 2026",
+        "Code of Conduct for WhatsApp Groups - March 2026",
+        "11 March 2026",
+        "11 February 2026",
+        "AGM - 12 November 2025",
+        "12 November 2025",
+        "10 September 2025 (PDF 317.35 KB)",
+        "13 August 2025 (PDF 308.83 KB)",
+        "11 June 2025 (PDF 294.65 KB)",
+        "14 May 2025",
+        "19 March 2025 (PDF 280.89 KB)",
+        "19 February 2025 (PDF 298.32 KB)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "here (opens in new window)",
+          "href": "https://forms.gle/ok4Fmw6f9QjYT9Sb9",
+          "absHref": "https://forms.gle/ok4Fmw6f9QjYT9Sb9",
+          "classes": ""
+        },
+        {
+          "text": "here.",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/FSHS%20P&C%20Constitution.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/FSHS%20P&C%20Constitution.pdf",
+          "classes": ""
+        },
+        {
+          "text": "contact the P&C. (opens in new window)",
+          "href": "mailto:info@fortstreetpandc.org",
+          "absHref": "mailto:info@fortstreetpandc.org",
+          "classes": ""
+        },
+        {
+          "text": "here",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/PC_Constitution.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/PC_Constitution.pdf",
+          "classes": ""
+        },
+        {
+          "text": "12 August 2026",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-08-12.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-08-12.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "11 June 2026",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-06-11%20-%20Final.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-06-11%20-%20Final.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "13 May 2026",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-05-13.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-05-13.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "Code of Conduct for WhatsApp Groups - March 2026",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Code-of-Conduct-for-WhatsApp-Groups-March-2026.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Code-of-Conduct-for-WhatsApp-Groups-March-2026.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "11 March 2026",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-03-11.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-03-11.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "11 February 2026",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-02-11.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-02-11.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "AGM - 12 November 2025",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20AGM%202025-11-12.docx.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20AGM%202025-11-12.docx.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "12 November 2025",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-11-12.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-11-12.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "10 September 2025 (PDF 317.35 KB)",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-09-10.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-09-10.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "13 August 2025 (PDF 308.83 KB)",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-08-13.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-08-13.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "11 June 2025 (PDF 294.65 KB)",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-06-11.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-06-11.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "14 May 2025",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-05-14.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-05-14.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "19 March 2025 (PDF 280.89 KB)",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-03-19.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-03-19.pdf",
+          "classes": "button"
+        },
+        {
+          "text": "19 February 2025 (PDF 298.32 KB)",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-02-19.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-02-19.pdf",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Minutes",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "P&C Contribution",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your payment of the P&C contribution will make a difference to your child’s education by providing educational resources necessary to meet the needs of gifted students in a selective school program, and by improving the school environment so that the grounds are a pleasant place for our students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "P&C Membership",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Membership to the P&C is $1 per year, separate from school contributions. The membership form can be found here (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Membership to the P&C is $1 per year, separate from school contributions. The membership form can be found",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here (opens in new window)",
+              "display": "inline",
+              "href": "https://forms.gle/ok4Fmw6f9QjYT9Sb9",
+              "absHref": "https://forms.gle/ok4Fmw6f9QjYT9Sb9",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "P&C Executive Committee",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "President",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Caroline Aow",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Vice President",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Emma Pearce Mr Alex Ding",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Ms Emma Pearce",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Alex Ding",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Treasurer",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Prabhu Sivabalan",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Secretary",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Lucy Liang",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Executive Members",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Malcolm Groves",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sivvy Xu",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Jens Olscher",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Elizabeth Kenyon",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Vivian Wang",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tracey Chen",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "P&C Representatives and Sub-committee Coordinators",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Foundation Representative",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Caroline Aow",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "IMP Representative",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tania Koit and Paula Katalinic",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Finance Committee Representative",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Caroline Aow",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fundraising Committee",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Elizabeth Kenyon Ms Emma Pearce",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Ms Elizabeth Kenyon",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Emma Pearce",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Uniform shop Coordinator",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Stella Liang",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Second Hand Uniform Coordinator",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Emma Pearce",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Governance",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The P&C is a body corporate under the Parents & Citizens’ Association Incorporation Act 1976, the constitution can be viewed here.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The P&C is a body corporate under the Parents & Citizens’ Association Incorporation Act 1976, the constitution can be viewed",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here.",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/FSHS%20P&C%20Constitution.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/FSHS%20P&C%20Constitution.pdf",
+              "classes": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Fundraising",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "One of the roles of the P&C is fundraising, which is contributed to the school, to provide better facilities than government funding covers.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The funds that the P&C can make available to the school come from P&C memberships, uniform shop sales and the proceeds from events such as Fort Fest, IMP concerts and Senior Drama nights.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In 2019 the P&C gave the school more than $200,000 to provide sporting facilities, classroom technology, faculty assets and numerous other items.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Grants",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The P&C is also active in applying for local, state and federal government grants. Funds received from these grants enable the school to build better facilities for our students and run projects to improve educational outcomes.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In 2020 the P&C won grants to refurbish the library foyer and establish the Kitchen Garden and composting program.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you have information about upcoming grants, experience with or an interest in applying for grants, please contact the P&C. (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "If you have information about upcoming grants, experience with or an interest in applying for grants, please",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "contact the P&C. (opens in new window)",
+              "display": "inline",
+              "href": "mailto:info@fortstreetpandc.org",
+              "absHref": "mailto:info@fortstreetpandc.org",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "contact the P&C.",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Community events",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Community Events run by the P&C aim to build community awareness within the school, give parents, students and other supporters an opportunity to meet informally and to contribute to the school and to raise funds.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Meetings",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The P&C holds meetings usually at 7:30pm in the school library on the second Wednesday of each month during school terms. All meetings are hybrid and so may also be joined online via the link sent out via email.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "These meetings provide an opportunity to learn more about what is happening in the school, how it operates, to ask questions and to meet other parents.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Principal usually gives an informative report on the recent happenings within the school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school emails details of upcoming meetings directly to parents and carers prior to the date. This email will include a copy of the upcoming agenda.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Minutes from previous meetings are available below.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Read our P&C Constitution here",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Read our P&C Constitution",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/PC_Constitution.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/PC_Constitution.pdf",
+              "classes": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Minutes",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "12 August 2026",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "12 August 2026",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-08-12.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-08-12.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "11 June 2026",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "11 June 2026",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-06-11%20-%20Final.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-06-11%20-%20Final.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "13 May 2026",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "13 May 2026",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-05-13.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-05-13.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Code of Conduct for WhatsApp Groups - March 2026",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Code of Conduct for WhatsApp Groups - March 2026",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Code-of-Conduct-for-WhatsApp-Groups-March-2026.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Code-of-Conduct-for-WhatsApp-Groups-March-2026.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "11 March 2026",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "11 March 2026",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-03-11.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-03-11.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "11 February 2026",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "11 February 2026",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-02-11.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2026%20P%20and%20C%20documents/Minutes%20GM%202026-02-11.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "AGM - 12 November 2025",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "AGM - 12 November 2025",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20AGM%202025-11-12.docx.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20AGM%202025-11-12.docx.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "12 November 2025",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "12 November 2025",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-11-12.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-11-12.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "10 September 2025 (PDF 317.35 KB)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "10 September 2025 (PDF 317.35 KB)",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-09-10.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-09-10.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "13 August 2025 (PDF 308.83 KB)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "13 August 2025 (PDF 308.83 KB)",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-08-13.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-08-13.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "11 June 2025 (PDF 294.65 KB)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "11 June 2025 (PDF 294.65 KB)",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-06-11.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-06-11.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "14 May 2025",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "14 May 2025",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-05-14.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/Document%20uploads/P%20and%20C/2025%20P%20and%20C%20documents/Minutes%20GM%202025-05-14.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "19 March 2025 (PDF 280.89 KB)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "19 March 2025 (PDF 280.89 KB)",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-03-19.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-03-19.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "19 February 2025 (PDF 298.32 KB)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "19 February 2025 (PDF 298.32 KB)",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-02-19.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Minutes%20GM%202025-02-19.pdf",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Membership Membership of a P&C association entitles you to vote at the general meetings and the annual general meeting. All memberships are renewed yearly, before or at the annual general meeting. Please see the link to the membership form below for more details. If you wish to become a member, please fill out the linked membership form and email to the P&C via the address below or submit to the school office. Note that the fee for joining the P&C is $1, which can be paid to the P&C bank account via direct deposit (please ensure that you supply your name with the deposit). The P&C bank account details are: Fort Street High School P&C Association BSB: 032-267 Account: 247674 Contact: The P&C can be contacted on info@fortstreetpandc.org (opens in new window)",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Membership"
+        }
+      ],
+      "paragraphs": [
+        "Membership of a P&C association entitles you to vote at the general meetings and the annual general meeting. All memberships are renewed yearly, before or at the annual general meeting. Please see the link to the membership form below for more details.",
+        "If you wish to become a member, please fill out the linked membership form and email to the P&C via the address below or submit to the school office. Note that the fee for joining the P&C is $1, which can be paid to the P&C bank account via direct deposit (please ensure that you supply your name with the deposit).",
+        "The P&C bank account details are:",
+        "Fort Street High School P&C Association",
+        "BSB: 032-267",
+        "Account: 247674",
+        "Contact: The P&C can be contacted on info@fortstreetpandc.org (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "linked membership form",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS-PC-Membership-Interest-Form-2020-10.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS-PC-Membership-Interest-Form-2020-10.pdf",
+          "classes": ""
+        },
+        {
+          "text": "info@fortstreetpandc.org (opens in new window)",
+          "href": "mailto:info@fortstreetpandc.org",
+          "absHref": "mailto:info@fortstreetpandc.org",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Membership",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Membership of a P&C association entitles you to vote at the general meetings and the annual general meeting. All memberships are renewed yearly, before or at the annual general meeting. Please see the link to the membership form below for more details.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you wish to become a member, please fill out the linked membership form and email to the P&C via the address below or submit to the school office. Note that the fee for joining the P&C is $1, which can be paid to the P&C bank account via direct deposit (please ensure that you supply your name with the deposit).",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "If you wish to become a member, please fill out the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "linked membership form",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS-PC-Membership-Interest-Form-2020-10.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/FSHS-PC-Membership-Interest-Form-2020-10.pdf",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and email to the P&C via the address below or submit to the school office. Note that the fee for joining the P&C is $1, which can be paid to the P&C bank account via direct deposit (please ensure that you supply your name with the deposit).",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The P&C bank account details are:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School P&C Association",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "BSB: 032-267",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Account: 247674",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: The P&C can be contacted on info@fortstreetpandc.org (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact: The P&C can be contacted on",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "info@fortstreetpandc.org (opens in new window)",
+              "display": "inline",
+              "href": "mailto:info@fortstreetpandc.org",
+              "absHref": "mailto:info@fortstreetpandc.org",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "info@fortstreetpandc.org",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Volunteer at our school Helping out at school is a great way to get involved in your school community. Volunteer opportunities include: getting involved in the P&C volunteering on sports days and other school events helping with school events Get in touch to find out how you can help! Contact the P&C (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Volunteer at our school"
+        }
+      ],
+      "paragraphs": [
+        "Helping out at school is a great way to get involved in your school community.",
+        "Volunteer opportunities include:",
+        "Get in touch to find out how you can help!",
+        "Contact the P&C (opens in new window)"
+      ],
+      "listItems": [
+        "getting involved in the P&C",
+        "volunteering on sports days and other school events",
+        "helping with school events"
+      ],
+      "ctas": [
+        {
+          "text": "Contact the P&C (opens in new window)",
+          "href": "mailto:info@fortstreetpandc.org",
+          "absHref": "mailto:info@fortstreetpandc.org",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Volunteer at our school",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Helping out at school is a great way to get involved in your school community.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Volunteer opportunities include:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "getting involved in the P&C",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "volunteering on sports days and other school events",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "helping with school events",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Get in touch to find out how you can help!",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact the P&C (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact the P&C (opens in new window)",
+              "display": "inline-block",
+              "href": "mailto:info@fortstreetpandc.org",
+              "absHref": "mailto:info@fortstreetpandc.org",
+              "classes": "button",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Contact the P&C",
+                  "parentTag": "a",
+                  "parentClass": "button",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Newsletters Read our latest newsletter and stay connected with our school life. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Read our latest newsletter and stay connected with our school life.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Newsletters Read our latest newsletter and stay connected with our school life.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Newsletters Read our latest newsletter and stay connected with our school life.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "inline",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read our latest newsletter and stay connected with our school life.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "about-us_school-history-and-archives_the-fortian-digitised",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M9",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "The Fortian Digitised",
+    "description": "The Fortian has been chronicling the lives and achievements of students and staff since 1899. A project to digitise The Fortian, nearing completion, will make this wonderful resource available online. Editions from the nineteenth century and the First World War period, plus recent editions, are available below.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fortian-digitised",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "The Fortian Digitised",
+    "description": "The Fortian has been chronicling the lives and achievements of students and staff since 1899. A project to digitise The Fortian, nearing completion, will make this wonderful resource available online. Editions from the nineteenth century and the First World War period, plus recent editions, are available below.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/school-history-and-archives/the-fortian-digitised"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "97f67b883bec",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/school-history-and-archives/the-fortian-digitised/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/school-history-and-archives/the-fortian-digitised/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,1634 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T12:57:54.475Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_events.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Events",
+    "description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+    "ogTags": {
+      "og:title": "Events",
+      "og:description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Events",
+      "twitter:description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Events School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements. Our school event may include: school orientation days sports carnivals open day and school tours Harmony Week and Book Week events excursions and incursions performances, concerts or school productions fundraising, charity and community events award assemblies graduation and other celebrations. Contact us to learn more about our events. Important Calendar Dates to start 2027 Wednesday 3 February All students return to school. Year 7 first day For Year 7 - Introduction to Fort Street High School commences at 9:00am. Monday February 8 Swimming Carnival Canterbury Leisure & Aquatic Centre Wednesday 10 – Friday 12 February Year 7 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 10 – Friday 12 February Year 11 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 24 February School Photographs Day Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie. Tuesday 2 March Catchup Photographs Day For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken. Friday 26 February; commencing at 10:00am Speech Day at the State Theatre The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm. Featured events See what’s happening at our school. Visit Our community to volunteer at our events. HSC Examinations Date: Tuesday 13 October - Thursday 5 November Time: All day Gold Duke of Edinburgh Hike Date: Thursday 15 October - Sunday 18 October Time: All Day Silver Duke of Edinburgh Hike Date: Thursday 22 October - Saturday 24 October Time: All Day SRC Halloween Event Date: Friday 30 October Students may dress up in costume for the lunchtime competition. There will be a photo booth and trick or treating. Secondhand Uniform Stall Date: Friday 6 November Time: Students only from 12:45pm. Parents/Carers are welcome from 1pm. This is a cashless, card only event. Year 7 Gala Day Date: Thursday 5 November Rememberance Day and SRC Induction Assembly Date: Wednesday 11 November P&C Annual General Meeting Date: Wednesday 11 November Time: In the school library from 7.30pm You are invited to attend the P&C General Meeting in the School Library. All community members are very welcome. MAD night Date: Wednesday 18 November School Spectacular Date: Wednesday 25 November - Saturday November 28 Year 7 2027 Orientation Day Date: Tuesday Dec 1 IMP Summer Concert Date: Sunday 13 December HSC Results Celebration morning tea Date: Wednesday 16 December Last day of school Date: Thursday 17 December Need to make a payment? Need to pay for an excursion or extra-curricular activity? Our parent portal makes it easy. Visit Parent portal Key dates Find term dates, school holidays and other important dates for all NSW public schools. View key school dates for NSW public schools Discover more events Follow us on Facebook. We looking forward to welcome everyone back on Tuesday. The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara! Newsletters Read our latest newsletter and stay connected with our school life. Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school.",
+  "coverage": {
+    "bodyTextLen": 5712,
+    "scopeTextLen": 4775,
+    "ratio": 0.836,
+    "h1Text": "Events",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Events School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements. Our school event may include: school orientation days sports carnivals open day and school tours Harmony Week and Book Week events excursions and incursions performances, concerts or school productions fundraising, charity and community events award assemblies graduation and other celebrations. Contact us to learn more about our events.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Events"
+        }
+      ],
+      "paragraphs": [
+        "School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+        "Our school event may include:",
+        "Contact us to learn more about our events."
+      ],
+      "listItems": [
+        "school orientation days",
+        "sports carnivals",
+        "open day and school tours",
+        "Harmony Week and Book Week events",
+        "excursions and incursions",
+        "performances, concerts or school productions",
+        "fundraising, charity and community events",
+        "award assemblies",
+        "graduation and other celebrations."
+      ],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Events",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "School events bring learning to life and help shape our school culture. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school event may include:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "school orientation days",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "sports carnivals",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "open day and school tours",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Harmony Week and Book Week events",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "excursions and incursions",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "performances, concerts or school productions",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "fundraising, charity and community events",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "award assemblies",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "graduation and other celebrations.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us to learn more about our events.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "to learn more about our events.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Important Calendar Dates to start 2027 Wednesday 3 February All students return to school. Year 7 first day For Year 7 - Introduction to Fort Street High School commences at 9:00am. Monday February 8 Swimming Carnival Canterbury Leisure & Aquatic Centre Wednesday 10 – Friday 12 February Year 7 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 10 – Friday 12 February Year 11 Camp Information will be provided to parents and carers before the end of Term 4, 2026. Wednesday 24 February School Photographs Day Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie. Tuesday 2 March Catchup Photographs Day For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken. Friday 26 February; commencing at 10:00am Speech Day at the State Theatre The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Important Calendar Dates to start 2027"
+        }
+      ],
+      "paragraphs": [
+        "Wednesday 3 February",
+        "All students return to school.",
+        "Year 7 first day",
+        "For Year 7 - Introduction to Fort Street High School commences at 9:00am.",
+        "Monday February 8",
+        "Swimming Carnival",
+        "Canterbury Leisure & Aquatic Centre",
+        "Wednesday 10 – Friday 12 February",
+        "Year 7 Camp",
+        "Information will be provided to parents and carers before the end of Term 4, 2026.",
+        "Wednesday 10 – Friday 12 February",
+        "Year 11 Camp",
+        "Information will be provided to parents and carers before the end of Term 4, 2026.",
+        "Wednesday 24 February",
+        "School Photographs Day",
+        "Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie.",
+        "Tuesday 2 March",
+        "Catchup Photographs Day",
+        "For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken.",
+        "Friday 26 February; commencing at 10:00am",
+        "Speech Day at the State Theatre",
+        "The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Important Calendar Dates to start 2027",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wednesday 3 February",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "All students return to school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 7 first day",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For Year 7 - Introduction to Fort Street High School commences at 9:00am.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Monday February 8",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Swimming Carnival",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Canterbury Leisure & Aquatic Centre",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wednesday 10 – Friday 12 February",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 7 Camp",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Information will be provided to parents and carers before the end of Term 4, 2026.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wednesday 10 – Friday 12 February",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 11 Camp",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Information will be provided to parents and carers before the end of Term 4, 2026.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wednesday 24 February",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Photographs Day",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Information and Photo Sheets will be sent home for parents/carers to place their order and return to the photographer on the day. Students are to wear full school uniform which includes the school tie.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tuesday 2 March",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Catchup Photographs Day",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For students absent on School Photographs Day, this will be the final opportunity to have their individual photo taken.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Friday 26 February; commencing at 10:00am",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Speech Day at the State Theatre",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The annual school Speech Day is a compulsory event for all students. Students must be in full school uniform at this event which includes the school tie. A permission to attend note will be sent to all parents/carers. Year 7 students make their way to State Theatre and released at the end of Speech Day, around 1:00pm. Roll Call will occur before students enter State Theatre. Parents will receive a text message if their child is unexplained absence or have arrived late. Students who require teacher supervision will be escorted back to school until 3.15pm.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Featured events See what’s happening at our school. Visit Our community to volunteer at our events.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Featured events"
+        }
+      ],
+      "paragraphs": [
+        "See what’s happening at our school. Visit Our community to volunteer at our events."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Our community",
+          "href": "/our-community/pandc",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Featured events",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "See what’s happening at our school. Visit Our community to volunteer at our events.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "See what’s happening at our school. Visit",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Our community",
+              "display": "inline",
+              "href": "/our-community/pandc",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "to volunteer at our events.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white content-container-container",
+      "visibleText": "HSC Examinations Date: Tuesday 13 October - Thursday 5 November Time: All day Gold Duke of Edinburgh Hike Date: Thursday 15 October - Sunday 18 October Time: All Day Silver Duke of Edinburgh Hike Date: Thursday 22 October - Saturday 24 October Time: All Day SRC Halloween Event Date: Friday 30 October Students may dress up in costume for the lunchtime competition. There will be a photo booth and trick or treating. Secondhand Uniform Stall Date: Friday 6 November Time: Students only from 12:45pm. Parents/Carers are welcome from 1pm. This is a cashless, card only event. Year 7 Gala Day Date: Thursday 5 November Rememberance Day and SRC Induction Assembly Date: Wednesday 11 November P&C Annual General Meeting Date: Wednesday 11 November Time: In the school library from 7.30pm You are invited to attend the P&C General Meeting in the School Library. All community members are very welcome. MAD night Date: Wednesday 18 November School Spectacular Date: Wednesday 25 November - Saturday November 28 Year 7 2027 Orientation Day Date: Tuesday Dec 1 IMP Summer Concert Date: Sunday 13 December HSC Results Celebration morning tea Date: Wednesday 16 December Last day of school Date: Thursday 17 December",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "HSC Examinations"
+        },
+        {
+          "level": "h3",
+          "text": "Gold Duke of Edinburgh Hike"
+        },
+        {
+          "level": "h3",
+          "text": "Silver Duke of Edinburgh Hike"
+        },
+        {
+          "level": "h3",
+          "text": "SRC Halloween Event"
+        },
+        {
+          "level": "h3",
+          "text": "Secondhand Uniform Stall"
+        },
+        {
+          "level": "h3",
+          "text": "Year 7 Gala Day"
+        },
+        {
+          "level": "h3",
+          "text": "Rememberance Day and SRC Induction Assembly"
+        },
+        {
+          "level": "h3",
+          "text": "P&C Annual General Meeting"
+        },
+        {
+          "level": "h3",
+          "text": "MAD night"
+        },
+        {
+          "level": "h3",
+          "text": "School Spectacular"
+        },
+        {
+          "level": "h3",
+          "text": "Year 7 2027 Orientation Day"
+        },
+        {
+          "level": "h3",
+          "text": "IMP Summer Concert"
+        },
+        {
+          "level": "h3",
+          "text": "HSC Results Celebration morning tea"
+        },
+        {
+          "level": "h3",
+          "text": "Last day of school"
+        }
+      ],
+      "paragraphs": [
+        "Date: Tuesday 13 October - Thursday 5 November",
+        "Time: All day",
+        "Date: Thursday 15 October - Sunday 18 October",
+        "Time: All Day",
+        "Date: Thursday 22 October - Saturday 24 October",
+        "Time: All Day",
+        "Date: Friday 30 October",
+        "Students may dress up in costume for the lunchtime competition. There will be a photo booth and trick or treating.",
+        "Date: Friday 6 November",
+        "Time: Students only from 12:45pm.",
+        "Parents/Carers are welcome from 1pm.",
+        "This is a cashless, card only event.",
+        "Date: Thursday 5 November",
+        "Date: Wednesday 11 November",
+        "Date: Wednesday 11 November",
+        "Time: In the school library from 7.30pm",
+        "You are invited to attend the P&C General Meeting in the School Library. All community members are very welcome.",
+        "Date: Wednesday 18 November",
+        "Date: Wednesday 25 November - Saturday November 28",
+        "Date: Tuesday Dec 1",
+        "Date: Sunday 13 December",
+        "Date: Wednesday 16 December",
+        "Date: Thursday 17 December"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 501
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1bbe9d9ae19821fd66635fd09bd983bab63787c62.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Duke of Edinburgh - gold practice walk 1.jpg",
+          "w": 750,
+          "h": 563
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1b4a86ba5a6d5928ca0a82885f9e84054ed3808cd.png?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 693
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_13e60bd246df97bd33b040929194076fc9758dd6f.png?width=750&format=webply&optimize=medium",
+          "alt": "Halloween.png",
+          "w": 736,
+          "h": 400
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1f015f156762cde036b85952b8ae01aba7c527111.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 530
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ae6bd5132305ec91e6fdab24c6b0d29cc882765f.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 489
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_17bfb9acfce499d462ebf1063b06d1d4cf6e20a63.png?width=750&format=webply&optimize=medium",
+          "alt": "Remembrance Day.png",
+          "w": 736,
+          "h": 400
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ce4e73e06f62ccc156046a3e4afda92544e3f3c4.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "w": 750,
+          "h": 479
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1105fc0ccd13f1fe02956ef62b39e0f05cd75a449.jpg?width=750&format=webply&optimize=medium",
+          "alt": "MAD Night 6.jpg",
+          "w": 750,
+          "h": 500
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ef28d66afaba1899b676f9a0de7d141c93c1e1bf.png?width=750&format=png&optimize=medium",
+          "alt": "Card Container (V) Template (8).png",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_15636a0c76544a40b07cf08bb886e5acaa80d387d.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "DC5806_7269_Fort-St_Keith-Saunders-Large-500x3001.jpg",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_17cb2172086a0629b0726346a33444006fd82a023.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "IMP2.jpeg",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_132e84db7feaa114d6249f43112c1db03f4fc9cd4.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "DC5826_2724_Fort-St_fotoKeith-Saunders-500x300.jpg",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1f61a211c4ff7585469e84562bc4b4996275f2402.png?width=750&format=png&optimize=medium",
+          "alt": "Card Container (V) Template (11).png",
+          "w": 0,
+          "h": 0
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_133142d6772d8942887edc23546ef02d22611eda6.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "HSC Examinations",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Tuesday 13 October - Thursday 5 November",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Tuesday 13 October - Thursday 5 November",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Time: All day",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Time:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "All day",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1bbe9d9ae19821fd66635fd09bd983bab63787c62.jpg?width=750&format=webply&optimize=medium",
+          "alt": "Duke of Edinburgh - gold practice walk 1.jpg",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Gold Duke of Edinburgh Hike",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Thursday 15 October - Sunday 18 October",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Thursday 15 October - Sunday 18 October",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Time: All Day",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Time:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "All Day",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1b4a86ba5a6d5928ca0a82885f9e84054ed3808cd.png?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Silver Duke of Edinburgh Hike",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Thursday 22 October - Saturday 24 October",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Thursday 22 October - Saturday 24 October",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Time: All Day",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Time:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "All Day",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_13e60bd246df97bd33b040929194076fc9758dd6f.png?width=750&format=webply&optimize=medium",
+          "alt": "Halloween.png",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "SRC Halloween Event",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Friday 30 October",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Friday 30 October",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students may dress up in costume for the lunchtime competition. There will be a photo booth and trick or treating.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1f015f156762cde036b85952b8ae01aba7c527111.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Secondhand Uniform Stall",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Friday 6 November",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Friday 6 November",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Time: Students only from 12:45pm.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Time:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Students only from 12:45pm.",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parents/Carers are welcome from 1pm.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "This is a cashless, card only event.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ae6bd5132305ec91e6fdab24c6b0d29cc882765f.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Year 7 Gala Day",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Thursday 5 November",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Thursday 5 November",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_17bfb9acfce499d462ebf1063b06d1d4cf6e20a63.png?width=750&format=webply&optimize=medium",
+          "alt": "Remembrance Day.png",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Rememberance Day and SRC Induction Assembly",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Wednesday 11 November",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Wednesday 11 November",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ce4e73e06f62ccc156046a3e4afda92544e3f3c4.jpg?width=750&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "P&C Annual General Meeting",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Wednesday 11 November",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Wednesday 11 November",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Time: In the school library from 7.30pm",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Time:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "In the school library from 7.30pm",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "You are invited to attend the P&C General Meeting in the School Library. All community members are very welcome.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1105fc0ccd13f1fe02956ef62b39e0f05cd75a449.jpg?width=750&format=webply&optimize=medium",
+          "alt": "MAD Night 6.jpg",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "MAD night",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Wednesday 18 November",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Wednesday 18 November",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ef28d66afaba1899b676f9a0de7d141c93c1e1bf.png?width=750&format=png&optimize=medium",
+          "alt": "Card Container (V) Template (8).png",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "School Spectacular",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Wednesday 25 November - Saturday November 28",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Wednesday 25 November - Saturday November 28",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_15636a0c76544a40b07cf08bb886e5acaa80d387d.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "DC5806_7269_Fort-St_Keith-Saunders-Large-500x3001.jpg",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Year 7 2027 Orientation Day",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Tuesday Dec 1",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Tuesday Dec 1",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_17cb2172086a0629b0726346a33444006fd82a023.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "IMP2.jpeg",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "IMP Summer Concert",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Sunday 13 December",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Sunday 13 December",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_132e84db7feaa114d6249f43112c1db03f4fc9cd4.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "DC5826_2724_Fort-St_fotoKeith-Saunders-500x300.jpg",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "HSC Results Celebration morning tea",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Wednesday 16 December",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Wednesday 16 December",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1f61a211c4ff7585469e84562bc4b4996275f2402.png?width=750&format=png&optimize=medium",
+          "alt": "Card Container (V) Template (11).png",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Last day of school",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Thursday 17 December",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Thursday 17 December",
+              "parentTag": "p",
+              "parentClass": "nsw-content-block__copy",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need to make a payment? Need to pay for an excursion or extra-curricular activity? Our parent portal makes it easy. Visit Parent portal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need to make a payment?"
+        }
+      ],
+      "paragraphs": [
+        "Need to pay for an excursion or extra-curricular activity? Our parent portal makes it easy.",
+        "Visit Parent portal"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Visit Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need to make a payment?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Need to pay for an excursion or extra-curricular activity? Our parent portal makes it easy.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Visit Parent portal",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Visit Parent portal",
+              "display": "inline-block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white columns-container",
+      "visibleText": "Key dates Find term dates, school holidays and other important dates for all NSW public schools. View key school dates for NSW public schools",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Key dates"
+        }
+      ],
+      "paragraphs": [
+        "Find term dates, school holidays and other important dates for all NSW public schools.",
+        "View key school dates for NSW public schools"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "View key school dates for NSW public schools",
+          "href": "https://education.nsw.gov.au/schooling/calendars",
+          "absHref": "https://education.nsw.gov.au/schooling/calendars",
+          "classes": "button"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1a7c7e671d59df64bf0f761d0872228c9f66e69b8.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "Illustration of two NSW Department of Education calendars.",
+          "w": 0,
+          "h": 0
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1a7c7e671d59df64bf0f761d0872228c9f66e69b8.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "Illustration of two NSW Department of Education calendars.",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Key dates",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Find term dates, school holidays and other important dates for all NSW public schools.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "View key school dates for NSW public schools",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "View key school dates for NSW public schools",
+              "display": "inline-block",
+              "href": "https://education.nsw.gov.au/schooling/calendars",
+              "absHref": "https://education.nsw.gov.au/schooling/calendars",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section facebook-feed-container",
+      "visibleText": "Discover more events Follow us on Facebook. We looking forward to welcome everyone back on Tuesday. The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/ We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Discover more events"
+        }
+      ],
+      "paragraphs": [
+        "Follow us on Facebook.",
+        "We looking forward to welcome everyone back on Tuesday.",
+        "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+        "We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "We looking forward to welcome everyone back on Tuesday.",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+          "classes": ""
+        },
+        {
+          "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+          "href": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+          "classes": ""
+        },
+        {
+          "text": "We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!",
+          "href": "https://m.facebook.com/1661675895966806/posts/1729256219208773#no_universal_links",
+          "absHref": "https://m.facebook.com/1661675895966806/posts/1729256219208773#no_universal_links",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=q1RgRsc6PkAQ7kNvwHqbitX&_nc_oc=AdorpfBgyEKs7MgMM9r3-u_CgSIsxjoc-N9jKgl2yeyaBMHrwBIkMFSi8SWrVMj7YdI&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQIbOq-MUBwWAEWo6pACAJblgVLhKJzj_n1VDpQLtgt1vFAJF3mA_shJZjd6ETC_z3L8Ix_plRjNag&oh=00_AQPCJnMlinjxLGZsTEhTPyhAeBooeYruG5_cRxuEuBdmcw&oe=6ADE7876",
+          "alt": "Facebook post image",
+          "w": 859,
+          "h": 720
+        },
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=FxlHwF5gdhYQ7kNvwEouoMA&_nc_oc=Adq1yuEBPchwiuILRrkDcNDxKC2umclb1X395sodfBka1uV5QsXgzWUAdgOYGjZY_4w&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQIkKuqC01YKOF66NMFamjs4_wjK5GpwCpVukSFXjmEP0PHRIMSrhPga7WtoYmLfLCrDbWK_FT2tLw&oh=00_AQO_lr5HKt_HfHrz2zgyLD4J4867tq3d_zNKp2GXQUXBCQ&oe=6ADE7D6B",
+          "alt": "Facebook post image",
+          "w": 1080,
+          "h": 1920
+        },
+        {
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/799280035_1729253635875698_158171526963354331_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dIVDMJbwsrwQ7kNvwEb6vud&_nc_oc=AdrUh1Qp2qxZErQ6yvWmXAqrpaHUljraNbrhb99G5SJbl6GhxlkV1wNTF9wJ28cjPyA&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQKoShKDqAGgEbcd5te0QISKTWNuP3zDRVSFuWni4IxpuSTu2jZ-tXzS7C6dfXe6DUDtR_dOjp97SA&oh=00_AQN09lecDN4gsEsmELjigURpUJPTzWSJbUM_5KZo1o7AzQ&oe=6ADE5CC6",
+          "alt": "Facebook post image",
+          "w": 720,
+          "h": 720
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Discover more events",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Follow us on Facebook.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/836259297_1746224134178648_3432439322237656274_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=q1RgRsc6PkAQ7kNvwHqbitX&_nc_oc=AdorpfBgyEKs7MgMM9r3-u_CgSIsxjoc-N9jKgl2yeyaBMHrwBIkMFSi8SWrVMj7YdI&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQIbOq-MUBwWAEWo6pACAJblgVLhKJzj_n1VDpQLtgt1vFAJF3mA_shJZjd6ETC_z3L8Ix_plRjNag&oh=00_AQPCJnMlinjxLGZsTEhTPyhAeBooeYruG5_cRxuEuBdmcw&oe=6ADE7876",
+          "alt": "Facebook post image",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We looking forward to welcome everyone back on Tuesday.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "We looking forward to welcome everyone back on Tuesday.",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1746224677511927#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t15.5256-10/842235604_1693597185715273_5724099017723056825_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=FxlHwF5gdhYQ7kNvwEouoMA&_nc_oc=Adq1yuEBPchwiuILRrkDcNDxKC2umclb1X395sodfBka1uV5QsXgzWUAdgOYGjZY_4w&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQIkKuqC01YKOF66NMFamjs4_wjK5GpwCpVukSFXjmEP0PHRIMSrhPga7WtoYmLfLCrDbWK_FT2tLw&oh=00_AQO_lr5HKt_HfHrz2zgyLD4J4867tq3d_zNKp2GXQUXBCQ&oe=6ADE7D6B",
+          "alt": "Facebook post image",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "The countdown is on for our Year 12 students. We hope your study is going well but that you are also taking time to look after yourselves. Eat well, get plenty of sleep, take breaks and reach out for support when you need it. See you all on Tuesday 13 October 2026 for the first English exam. Remember to be early not just on time. https://www.facebook.com/share/r/14qQd4NQLBt/",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1746223814178680#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/799280035_1729253635875698_158171526963354331_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dIVDMJbwsrwQ7kNvwEb6vud&_nc_oc=AdrUh1Qp2qxZErQ6yvWmXAqrpaHUljraNbrhb99G5SJbl6GhxlkV1wNTF9wJ28cjPyA&_nc_zt=23&_nc_ht=scontent-syd2-1.xx&edm=AKK4YLsEAAAA&_nc_gid=EEzIa2luPdbfS6kqiLTT2w&_nc_tpa=Q5bMBQKoShKDqAGgEbcd5te0QISKTWNuP3zDRVSFuWni4IxpuSTu2jZ-tXzS7C6dfXe6DUDtR_dOjp97SA&oh=00_AQN09lecDN4gsEsmELjigURpUJPTzWSJbUM_5KZo1o7AzQ&oe=6ADE5CC6",
+          "alt": "Facebook post image",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "We are very proud to share that two of our students, Hyejeong and Clara have been nominated for the ENCORE HSC Showcase. ENCORE presents a selection of outstanding major works by HSC Music students in NSW including performance, composition and musicology. Selected students will take perform at the Sydney Opera House. Congratulations Hyejeong and Clara!",
+              "display": "inline",
+              "href": "https://m.facebook.com/1661675895966806/posts/1729256219208773#no_universal_links",
+              "absHref": "https://m.facebook.com/1661675895966806/posts/1729256219208773#no_universal_links",
+              "classes": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Newsletters Read our latest newsletter and stay connected with our school life. Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school.",
+      "headings": [],
+      "paragraphs": [
+        "Read our latest newsletter and stay connected with our school life.",
+        "Discover clubs, sports and other activities your child can enjoy at school."
+      ],
+      "listItems": [
+        "Newsletters Read our latest newsletter and stay connected with our school life.",
+        "Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school."
+      ],
+      "ctas": [
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Student opportunities and activities",
+          "href": "/school-life/student-opportunities-and-activities",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Newsletters Read our latest newsletter and stay connected with our school life.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "inline",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read our latest newsletter and stay connected with our school life.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Student opportunities and activities Discover clubs, sports and other activities your child can enjoy at school.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Student opportunities and activities",
+              "display": "inline",
+              "href": "/school-life/student-opportunities-and-activities",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover clubs, sports and other activities your child can enjoy at school.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

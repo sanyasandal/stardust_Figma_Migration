@@ -1,0 +1,66 @@
+{
+  "slug": "school-life_travel-to-school",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M4",
+    "NM1",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "title-text",
+    "title-text",
+    "title-text",
+    "teaser-ti",
+    "teaser-ti",
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Travel to school",
+    "description": "At Fort Street High School, there are a range of safe transport options. Check our location map, driving details and public transport options to help make the journey to school safe and easy. We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Travel to school",
+    "description": "At Fort Street High School, there are a range of safe transport options. Check our location map, driving details and public transport options to help make the journey to school safe and easy. We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "2f0be7a0a37d",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/travel-to-school/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/travel-to-school/_meta.json",
+  "driverVersion": "1"
+}

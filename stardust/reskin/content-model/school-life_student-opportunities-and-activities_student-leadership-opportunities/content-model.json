@@ -1,0 +1,577 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:42.324Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_student-opportunities-and-activities_student-leadership-opportunities.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Student Leadership Opportunities",
+    "description": "Student leadership opportunities at Fort Street High School include our student representative council (SRC), peer support groups, Duke of Edinburgh leadership, and the careers adviser university programs.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+    "ogTags": {
+      "og:title": "Student Leadership Opportunities",
+      "og:description": "Student leadership opportunities at Fort Street High School include our student representative council (SRC), peer support groups, Duke of Edinburgh leadership, and the careers adviser university programs.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/student-leadership-opportunities",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_16263be847758d178889be1dc633aaa3a5d5fb0ef.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_16263be847758d178889be1dc633aaa3a5d5fb0ef.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "students"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Student Leadership Opportunities",
+      "twitter:description": "Student leadership opportunities at Fort Street High School include our student representative council (SRC), peer support groups, Duke of Edinburgh leadership, and the careers adviser university programs.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_16263be847758d178889be1dc633aaa3a5d5fb0ef.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Student Leadership Opportunities Student Representative Council The Student Representative Council is a highly active student body. The council is elected by the students annually. Members of the council participate on school committees, the School Council, as well as leading school assemblies and roll call groups. Students ably represent the school at a diverse range of functions at school and in public. The Student Representative Council (SRC) is the peak student leadership body within the school. Each of the fifty members from Year 7 to 12 are elected by their peers at the end of Term 3 each year. Students from Year 11 are elected onto the SRC executive which consists of a President, Vice President, Secretary and Treasurer. SRC Pledge At an official induction ceremony in Term 4, all members make the following statement of commitment to the school. “As Fortians we hereby pledge our commitment to the school and the Student Representative Council. We will faithfully represent the interests of the student body in the decision-making processes of the school. We will assist in protecting the rights of the student body; communicating the opinions and feelings of the student body to the school; and contribute to putting in action plans, which are to benefit the students of this school. We will lead by example; act in accordance with the school’s code of conduct; respect the rights of others; and acknowledge any decision made by the SRC. We will attend all meetings and other SRC related commitments when possible. As members of the SRC we will strive to achieve student well-being and positive relationships within the Fort Street Community.” The SRC has regular contact with the staff, and a weekly meeting with the principal. Members of the SRC speak with school executive, and other groups within the school including the School Council and P&C, and of course the students. SRC meetings are held once a week. The SRC also provides opportunities for students to represent at our district and state forums and conferences. Being part of the SRC, particularly at a school such as Fort Street, is an excellent opportunity to become involved and represent your fellow students. Fundraising activities The SRC runs annual student activities including the Valentines Day Rose Drive, Year 7 Dance and sporting competition, and provides opportunities for students to express their ideas about the school. The SRC has combined with the Student Environment Committee to enhance our school and to reduce waste. Peer Support The Peer Support Australia program is dedicated to providing dynamic peer led programs which foster the mental, social and physical wellbeing of young people and their community. The Peer Support Program is integrated into curricula and sustained through all year groups. It supports positive cultural change within schools by incorporating a range of strategies developed through collaboration with members of the whole school community for the specific needs of the school. Year 9 students are offered opportunities to train in this program as part of the Year 9 Leadership Camp. Year 10 students lead peer support groups of Year 7 students. Contact: Mr Hugh O'Neill Head Teacher Student Wellbeing Duke of Edinburgh Leadership Year 10 students are offered the opportunity to mentor students in Year 9 undertaking the Bronze Award. Contact: Ms Jenny Xu Social Science Teacher Rowe Staffroom University Programs The Careers Adviser promotes and administers numerous opportunities each year for Fortians to undertake courses, workshops, conferences and holiday camps at the various universities in Sydney and around Australia. These include activities such as the National Youth Science Forum, the Honeywell and Abigroup Engineering schools, the Women in Engineering and IT camps and forums, the Capital W Women in Business networking dinners as well as subject-specific seminars and special-interest workshops. Some of the formal courses on offer can be included in the student’s HSC record (although they do not count towards an ATAR) and will be credited as undergraduate courses if the student chooses to study at that particular university in the future. Contact: Ms Kylie Salisbury Careers Adviser and Student Volunteering Co-ordinator Careers Office Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 5676,
+    "scopeTextLen": 4459,
+    "ratio": 0.786,
+    "h1Text": "Student Leadership Opportunities",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Student Leadership Opportunities Student Representative Council The Student Representative Council is a highly active student body. The council is elected by the students annually. Members of the council participate on school committees, the School Council, as well as leading school assemblies and roll call groups. Students ably represent the school at a diverse range of functions at school and in public. The Student Representative Council (SRC) is the peak student leadership body within the school. Each of the fifty members from Year 7 to 12 are elected by their peers at the end of Term 3 each year. Students from Year 11 are elected onto the SRC executive which consists of a President, Vice President, Secretary and Treasurer.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Student Leadership Opportunities"
+        },
+        {
+          "level": "h2",
+          "text": "Student Representative Council"
+        }
+      ],
+      "paragraphs": [
+        "The Student Representative Council is a highly active student body. The council is elected by the students annually.",
+        "Members of the council participate on school committees, the School Council, as well as leading school assemblies and roll call groups.",
+        "Students ably represent the school at a diverse range of functions at school and in public.",
+        "The Student Representative Council (SRC) is the peak student leadership body within the school. Each of the fifty members from Year 7 to 12 are elected by their peers at the end of Term 3 each year. Students from Year 11 are elected onto the SRC executive which consists of a President, Vice President, Secretary and Treasurer."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_16263be847758d178889be1dc633aaa3a5d5fb0ef.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "students",
+          "w": 602,
+          "h": 433
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Student Leadership Opportunities",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_16263be847758d178889be1dc633aaa3a5d5fb0ef.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "students"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Student Representative Council",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Student Representative Council is a highly active student body. The council is elected by the students annually.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Members of the council participate on school committees, the School Council, as well as leading school assemblies and roll call groups.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students ably represent the school at a diverse range of functions at school and in public.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Student Representative Council (SRC) is the peak student leadership body within the school. Each of the fifty members from Year 7 to 12 are elected by their peers at the end of Term 3 each year. Students from Year 11 are elected onto the SRC executive which consists of a President, Vice President, Secretary and Treasurer.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "SRC Pledge At an official induction ceremony in Term 4, all members make the following statement of commitment to the school. “As Fortians we hereby pledge our commitment to the school and the Student Representative Council. We will faithfully represent the interests of the student body in the decision-making processes of the school. We will assist in protecting the rights of the student body; communicating the opinions and feelings of the student body to the school; and contribute to putting in action plans, which are to benefit the students of this school. We will lead by example; act in accordance with the school’s code of conduct; respect the rights of others; and acknowledge any decision made by the SRC. We will attend all meetings and other SRC related commitments when possible. As members of the SRC we will strive to achieve student well-being and positive relationships within the Fort Street Community.” The SRC has regular contact with the staff, and a weekly meeting with the principal. Members of the SRC speak with school executive, and other groups within the school including the School Council and P&C, and of course the students. SRC meetings are held once a week. The SRC also provides opportunities for students to represent at our district and state forums and conferences. Being part of the SRC, particularly at a school such as Fort Street, is an excellent opportunity to become involved and represent your fellow students. Fundraising activities The SRC runs annual student activities including the Valentines Day Rose Drive, Year 7 Dance and sporting competition, and provides opportunities for students to express their ideas about the school. The SRC has combined with the Student Environment Committee to enhance our school and to reduce waste.",
+      "headings": [],
+      "paragraphs": [
+        "At an official induction ceremony in Term 4, all members make the following statement of commitment to the school.",
+        "“As Fortians we hereby pledge our commitment to the school and the Student Representative Council.",
+        "We will faithfully represent the interests of the student body in the decision-making processes of the school.",
+        "We will assist in protecting the rights of the student body; communicating the opinions and feelings of the student body to the school; and contribute to putting in action plans, which are to benefit the students of this school.",
+        "We will lead by example; act in accordance with the school’s code of conduct; respect the rights of others; and acknowledge any decision made by the SRC.",
+        "We will attend all meetings and other SRC related commitments when possible.",
+        "As members of the SRC we will strive to achieve student well-being and positive relationships within the Fort Street Community.”",
+        "The SRC has regular contact with the staff, and a weekly meeting with the principal. Members of the SRC speak with school executive, and other groups within the school including the School Council and P&C, and of course the students. SRC meetings are held once a week.",
+        "The SRC also provides opportunities for students to represent at our district and state forums and conferences. Being part of the SRC, particularly at a school such as Fort Street, is an excellent opportunity to become involved and represent your fellow students.",
+        "The SRC runs annual student activities including the Valentines Day Rose Drive, Year 7 Dance and sporting competition, and provides opportunities for students to express their ideas about the school. The SRC has combined with the Student Environment Committee to enhance our school and to reduce waste."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "SRC Pledge",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Fundraising activities",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "SRC Pledge",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "At an official induction ceremony in Term 4, all members make the following statement of commitment to the school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "“As Fortians we hereby pledge our commitment to the school and the Student Representative Council.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We will faithfully represent the interests of the student body in the decision-making processes of the school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We will assist in protecting the rights of the student body; communicating the opinions and feelings of the student body to the school; and contribute to putting in action plans, which are to benefit the students of this school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We will lead by example; act in accordance with the school’s code of conduct; respect the rights of others; and acknowledge any decision made by the SRC.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We will attend all meetings and other SRC related commitments when possible.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "As members of the SRC we will strive to achieve student well-being and positive relationships within the Fort Street Community.”",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The SRC has regular contact with the staff, and a weekly meeting with the principal. Members of the SRC speak with school executive, and other groups within the school including the School Council and P&C, and of course the students. SRC meetings are held once a week.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The SRC also provides opportunities for students to represent at our district and state forums and conferences. Being part of the SRC, particularly at a school such as Fort Street, is an excellent opportunity to become involved and represent your fellow students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Fundraising activities",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The SRC runs annual student activities including the Valentines Day Rose Drive, Year 7 Dance and sporting competition, and provides opportunities for students to express their ideas about the school. The SRC has combined with the Student Environment Committee to enhance our school and to reduce waste.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Peer Support The Peer Support Australia program is dedicated to providing dynamic peer led programs which foster the mental, social and physical wellbeing of young people and their community. The Peer Support Program is integrated into curricula and sustained through all year groups. It supports positive cultural change within schools by incorporating a range of strategies developed through collaboration with members of the whole school community for the specific needs of the school. Year 9 students are offered opportunities to train in this program as part of the Year 9 Leadership Camp. Year 10 students lead peer support groups of Year 7 students. Contact: Mr Hugh O'Neill Head Teacher Student Wellbeing",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Peer Support"
+        }
+      ],
+      "paragraphs": [
+        "The Peer Support Australia program is dedicated to providing dynamic peer led programs which foster the mental, social and physical wellbeing of young people and their community. The Peer Support Program is integrated into curricula and sustained through all year groups. It supports positive cultural change within schools by incorporating a range of strategies developed through collaboration with members of the whole school community for the specific needs of the school. Year 9 students are offered opportunities to train in this program as part of the Year 9 Leadership Camp. Year 10 students lead peer support groups of Year 7 students.",
+        "Contact: Mr Hugh O'Neill Head Teacher Student Wellbeing"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Peer Support",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Peer Support Australia program is dedicated to providing dynamic peer led programs which foster the mental, social and physical wellbeing of young people and their community. The Peer Support Program is integrated into curricula and sustained through all year groups. It supports positive cultural change within schools by incorporating a range of strategies developed through collaboration with members of the whole school community for the specific needs of the school. Year 9 students are offered opportunities to train in this program as part of the Year 9 Leadership Camp. Year 10 students lead peer support groups of Year 7 students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Hugh O'Neill Head Teacher Student Wellbeing",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Hugh O'Neill",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Head Teacher Student Wellbeing",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Duke of Edinburgh Leadership Year 10 students are offered the opportunity to mentor students in Year 9 undertaking the Bronze Award. Contact: Ms Jenny Xu Social Science Teacher Rowe Staffroom",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Duke of Edinburgh Leadership"
+        }
+      ],
+      "paragraphs": [
+        "Year 10 students are offered the opportunity to mentor students in Year 9 undertaking the Bronze Award.",
+        "Contact: Ms Jenny Xu Social Science Teacher Rowe Staffroom"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Duke of Edinburgh Leadership",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 10 students are offered the opportunity to mentor students in Year 9 undertaking the Bronze Award.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Jenny Xu Social Science Teacher Rowe Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Jenny Xu",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Social Science Teacher",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Rowe Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "University Programs The Careers Adviser promotes and administers numerous opportunities each year for Fortians to undertake courses, workshops, conferences and holiday camps at the various universities in Sydney and around Australia. These include activities such as the National Youth Science Forum, the Honeywell and Abigroup Engineering schools, the Women in Engineering and IT camps and forums, the Capital W Women in Business networking dinners as well as subject-specific seminars and special-interest workshops. Some of the formal courses on offer can be included in the student’s HSC record (although they do not count towards an ATAR) and will be credited as undergraduate courses if the student chooses to study at that particular university in the future. Contact: Ms Kylie Salisbury Careers Adviser and Student Volunteering Co-ordinator Careers Office",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "University Programs"
+        }
+      ],
+      "paragraphs": [
+        "The Careers Adviser promotes and administers numerous opportunities each year for Fortians to undertake courses, workshops, conferences and holiday camps at the various universities in Sydney and around Australia.",
+        "These include activities such as the National Youth Science Forum, the Honeywell and Abigroup Engineering schools, the Women in Engineering and IT camps and forums, the Capital W Women in Business networking dinners as well as subject-specific seminars and special-interest workshops. Some of the formal courses on offer can be included in the student’s HSC record (although they do not count towards an ATAR) and will be credited as undergraduate courses if the student chooses to study at that particular university in the future.",
+        "Contact: Ms Kylie Salisbury Careers Adviser and Student Volunteering Co-ordinator Careers Office"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "University Programs",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Careers Adviser promotes and administers numerous opportunities each year for Fortians to undertake courses, workshops, conferences and holiday camps at the various universities in Sydney and around Australia.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "These include activities such as the National Youth Science Forum, the Honeywell and Abigroup Engineering schools, the Women in Engineering and IT camps and forums, the Capital W Women in Business networking dinners as well as subject-specific seminars and special-interest workshops. Some of the formal courses on offer can be included in the student’s HSC record (although they do not count towards an ATAR) and will be credited as undergraduate courses if the student chooses to study at that particular university in the future.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Kylie Salisbury Careers Adviser and Student Volunteering Co-ordinator Careers Office",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Kylie Salisbury",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Careers Adviser and Student Volunteering Co-ordinator",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Careers Office",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": "button primary"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": "button primary"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

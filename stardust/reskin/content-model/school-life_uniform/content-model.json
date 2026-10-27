@@ -1,0 +1,816 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:45.108Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_uniform.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Uniform",
+    "description": "At Fort Street High School, our uniforms make students feel included in our school community. Learn about our uniform and where to buy it.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+    "ogTags": {
+      "og:title": "Uniform",
+      "og:description": "At Fort Street High School, our uniforms make students feel included in our school community. Learn about our uniform and where to buy it.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_14ed8c8ee5654d5c42f196a301fbf9cdf28970ef2.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_14ed8c8ee5654d5c42f196a301fbf9cdf28970ef2.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "A group of students wearing different Fort Street High School uniform options"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Uniform",
+      "twitter:description": "At Fort Street High School, our uniforms make students feel included in our school community. Learn about our uniform and where to buy it.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_14ed8c8ee5654d5c42f196a301fbf9cdf28970ef2.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Uniform Fort Street High School community has voted overwhelmingly in support of the wearing of a school uniform. The proper wearing of the school uniform is both an equity issue - all students regardless of socio-economic, cultural background etc. have access to the same uniform, and should expect to be treated in the same way - and a safety issue - wearing a uniform makes it easy to identify who does and does not belong at the school, who should and should not be on school grounds. It is the responsibility of every parent who chooses Fort Street High School to work with the agreed parameters of the school to ensure students are easily recognised as Fortians by wearing school uniform. When students wear a school uniform, they feel included in our school community. Students, teachers, parents and carers, as well as members of our local community helped develop our school uniform to make sure it: meets the requirements of occupational health and safety, anti-discrimination and equal opportunity legislation includes items that are affordable, comfortable and made from easy-care and easy-wear fabrics is appropriate for the full range of school activities is suitable for all body shapes. Learn more about the NSW Department of Education’s School Uniform Policy Please see the Out of Uniform Process for students who are unable to wear the correct uniform for any reason. Uniform gallery Girls summer uniform A. Girls short sleeve shirt and girls navy skirt B. Girls short sleeve shirt and girls navy shorts C. Girls short sleeve shirt and girls navy trousers Boys summer uniform D. Boys short sleeve shirt and grey shorts E. Boys short sleeve shirt and grey trousers F. Boys short sleeve shirt and grey trousers and senior tie Sports uniform A. Polo shirt, boys maroon shorts and sports cap B. Polo shirt, girls maroon dawn shorts 1 2 3 4 5 Helpful uniform hints Socks may be white, black or grey. Students may also choose to wear black tights with the school skirt. It is recommended that a minimum of two top (shirt) and two bottom uniform (skirts/shorts/pants) items are purchased. Some students prefer to have more items to ensure that they are not short of clean clothes through the week. Short sleeved shirts and shorts/skirts are generally worn in summer, and long sleeved shirts/long pants are generally worn in winter, however some students prefer to wear some items throughout the year. School ties are required in Term 1 for School Photo Day and Speech Day as well as being a part of the winter uniform. Students may wish to purchase winter items in advance, but others will prefer to wait and purchase these later in the year. It is recommended a student has a minimum of 1 x jumper or winter jacket from the start of the year to accommodate students in cooler weather. Many purchase both jumper and winter jacket. The school blazer is optional. Some students may wish to purchase one in preference to the winter jacket. All students need a sports uniform for both PDHE lessons and sport. Some students may wish to purchase two sets. Sports uniform is only to be worn to/from school by Years 8-11 on Tuesdays (our regular sports day). On days when students have timetabled PDHPE or Sport lessons, students should come to school in school uniform and change into their sports uniform prior to the relevant lesson. All uniform items must be CLEARLY LABELLED WITH THE STUDENTS FULL NAME. Items that come to lost property that are labelled can be returned to students. Any items with no name that remain unclaimed are donated to the second hand uniform stall. If students need to wear an additional layer/shirt under their school shirt they should be plain all-white only. The second hand uniform stall is held once a term. Please contact the school office if you require financial assistance with purchasing uniform items. Uniform Exemptions The proper wearing of the school uniform is both an equity issue - all students regardless of socio-economic, cultural background etc. have access to the same uniform, and should expect to be treated in the same way - and a safety issue - wearing a uniform makes it easy to identify who does and does not belong at the school, who should and should not be on school grounds. Students who have a genuine reason for not wearing full school uniform on a particular day should bring a note from their parents to the front office before 8:45am, so that they can be issued with a uniform pass. Out of Uniform Process Students who do not wear the proper uniform and do not have a note can expect one or more of the following consequences: be sent to the office for a uniform pass (this will be recorded as a negative incident on Sentral and appear in the student & parent portal); have items of non-school uniform clothing confiscated by staff; be asked to change out of non-school uniform items into second hand uniform items provided by the school; complete a lunchtime or after school detention for repeatedly failing to wear the uniform correctly. Want to donate your old school uniforms? Our friendly office staff can point you in the right direction. Contact us Uniform Shop Order uniforms online or visit the shop at our school Parent portal Use our parent portal apps to make a payment, view reports and record absences.",
+  "coverage": {
+    "bodyTextLen": 6238,
+    "scopeTextLen": 5287,
+    "ratio": 0.848,
+    "h1Text": "Uniform",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Uniform Fort Street High School community has voted overwhelmingly in support of the wearing of a school uniform. The proper wearing of the school uniform is both an equity issue - all students regardless of socio-economic, cultural background etc. have access to the same uniform, and should expect to be treated in the same way - and a safety issue - wearing a uniform makes it easy to identify who does and does not belong at the school, who should and should not be on school grounds. It is the responsibility of every parent who chooses Fort Street High School to work with the agreed parameters of the school to ensure students are easily recognised as Fortians by wearing school uniform. When students wear a school uniform, they feel included in our school community. Students, teachers, parents and carers, as well as members of our local community helped develop our school uniform to make sure it: meets the requirements of occupational health and safety, anti-discrimination and equal opportunity legislation includes items that are affordable, comfortable and made from easy-care and easy-wear fabrics is appropriate for the full range of school activities is suitable for all body shapes. Learn more about the NSW Department of Education’s School Uniform Policy Please see the Out of Uniform Process for students who are unable to wear the correct uniform for any reason.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Uniform"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street High School community has voted overwhelmingly in support of the wearing of a school uniform.",
+        "The proper wearing of the school uniform is both an equity issue - all students regardless of socio-economic, cultural background etc. have access to the same uniform, and should expect to be treated in the same way - and a safety issue - wearing a uniform makes it easy to identify who does and does not belong at the school, who should and should not be on school grounds.",
+        "It is the responsibility of every parent who chooses Fort Street High School to work with the agreed parameters of the school to ensure students are easily recognised as Fortians by wearing school uniform.",
+        "When students wear a school uniform, they feel included in our school community.",
+        "Students, teachers, parents and carers, as well as members of our local community helped develop our school uniform to make sure it:",
+        "Learn more about the NSW Department of Education’s School Uniform Policy",
+        "Please see the Out of Uniform Process for students who are unable to wear the correct uniform for any reason."
+      ],
+      "listItems": [
+        "meets the requirements of occupational health and safety, anti-discrimination and equal opportunity legislation",
+        "includes items that are affordable, comfortable and made from easy-care and easy-wear fabrics",
+        "is appropriate for the full range of school activities",
+        "is suitable for all body shapes."
+      ],
+      "ctas": [
+        {
+          "text": "School Uniform Policy",
+          "href": "https://education.nsw.gov.au/policy-library/policies/pd-2004-0025",
+          "absHref": "https://education.nsw.gov.au/policy-library/policies/pd-2004-0025",
+          "classes": ""
+        },
+        {
+          "text": "Out of Uniform Process",
+          "href": "https://fortstreet-h.schools.nsw.gov.au/about-our-school/uniform/uniform.html",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-our-school/uniform/uniform.html",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_14ed8c8ee5654d5c42f196a301fbf9cdf28970ef2.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "A group of students wearing different Fort Street High School uniform options",
+          "w": 2000,
+          "h": 1414
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Uniform",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School community has voted overwhelmingly in support of the wearing of a school uniform.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_14ed8c8ee5654d5c42f196a301fbf9cdf28970ef2.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "A group of students wearing different Fort Street High School uniform options"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The proper wearing of the school uniform is both an equity issue - all students regardless of socio-economic, cultural background etc. have access to the same uniform, and should expect to be treated in the same way - and a safety issue - wearing a uniform makes it easy to identify who does and does not belong at the school, who should and should not be on school grounds.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "It is the responsibility of every parent who chooses Fort Street High School to work with the agreed parameters of the school to ensure students are easily recognised as Fortians by wearing school uniform.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "When students wear a school uniform, they feel included in our school community.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students, teachers, parents and carers, as well as members of our local community helped develop our school uniform to make sure it:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "meets the requirements of occupational health and safety, anti-discrimination and equal opportunity legislation",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "includes items that are affordable, comfortable and made from easy-care and easy-wear fabrics",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "is appropriate for the full range of school activities",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "is suitable for all body shapes.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learn more about the NSW Department of Education’s School Uniform Policy",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Learn more about the NSW Department of Education’s",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "School Uniform Policy",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/policy-library/policies/pd-2004-0025",
+              "absHref": "https://education.nsw.gov.au/policy-library/policies/pd-2004-0025",
+              "classes": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please see the Out of Uniform Process for students who are unable to wear the correct uniform for any reason.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Please see the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Out of Uniform Process",
+              "display": "inline",
+              "href": "https://fortstreet-h.schools.nsw.gov.au/about-our-school/uniform/uniform.html",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-our-school/uniform/uniform.html",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "for students who are unable to wear the correct uniform for any reason.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section gallery-container",
+      "visibleText": "Uniform gallery Girls summer uniform A. Girls short sleeve shirt and girls navy skirt B. Girls short sleeve shirt and girls navy shorts C. Girls short sleeve shirt and girls navy trousers Boys summer uniform D. Boys short sleeve shirt and grey shorts E. Boys short sleeve shirt and grey trousers F. Boys short sleeve shirt and grey trousers and senior tie Sports uniform A. Polo shirt, boys maroon shorts and sports cap B. Polo shirt, girls maroon dawn shorts 1 2 3 4 5",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Uniform gallery"
+        }
+      ],
+      "paragraphs": [
+        "Girls summer uniform A. Girls short sleeve shirt and girls navy skirt B. Girls short sleeve shirt and girls navy shorts C. Girls short sleeve shirt and girls navy trousers",
+        "Boys summer uniform D. Boys short sleeve shirt and grey shorts E. Boys short sleeve shirt and grey trousers F. Boys short sleeve shirt and grey trousers and senior tie",
+        "Sports uniform A. Polo shirt, boys maroon shorts and sports cap B. Polo shirt, girls maroon dawn shorts"
+      ],
+      "listItems": [
+        "Girls summer uniform A. Girls short sleeve shirt and girls navy skirt B. Girls short sleeve shirt and girls navy shorts C. Girls short sleeve shirt and girls navy trousers",
+        "Boys summer uniform D. Boys short sleeve shirt and grey shorts E. Boys short sleeve shirt and grey trousers F. Boys short sleeve shirt and grey trousers and senior tie",
+        "Sports uniform A. Polo shirt, boys maroon shorts and sports cap B. Polo shirt, girls maroon dawn shorts",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1bb5909ff65c84abf6f37891a9709e64fea2fa0bf.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "Uniform for new website - girls summer uniform",
+          "w": 736,
+          "h": 600
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1e3ff6a0051ca30cca1e30ae2ee2522d733d9b816.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "Uniform for new website - boys summer uniform",
+          "w": 736,
+          "h": 600
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1f7118904e38e538e248d35ce7674512fcd94e69b.jpg?width=750&format=jpg&optimize=medium",
+          "alt": "Uniform for new website - sports uniform",
+          "w": 736,
+          "h": 600
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Uniform gallery",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Girls summer uniform A. Girls short sleeve shirt and girls navy skirt B. Girls short sleeve shirt and girls navy shorts C. Girls short sleeve shirt and girls navy trousers",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1bb5909ff65c84abf6f37891a9709e64fea2fa0bf.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "Uniform for new website - girls summer uniform",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Girls summer uniform A. Girls short sleeve shirt and girls navy skirt B. Girls short sleeve shirt and girls navy shorts C. Girls short sleeve shirt and girls navy trousers",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Girls summer uniform",
+                  "parentTag": "strong",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "A. Girls short sleeve shirt and girls navy skirt",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "B. Girls short sleeve shirt and girls navy shorts",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "C. Girls short sleeve shirt and girls navy trousers",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Boys summer uniform D. Boys short sleeve shirt and grey shorts E. Boys short sleeve shirt and grey trousers F. Boys short sleeve shirt and grey trousers and senior tie",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1e3ff6a0051ca30cca1e30ae2ee2522d733d9b816.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "Uniform for new website - boys summer uniform",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Boys summer uniform D. Boys short sleeve shirt and grey shorts E. Boys short sleeve shirt and grey trousers F. Boys short sleeve shirt and grey trousers and senior tie",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Boys summer uniform",
+                  "parentTag": "strong",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "D. Boys short sleeve shirt and grey shorts",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "E. Boys short sleeve shirt and grey trousers",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "F. Boys short sleeve shirt and grey trousers and senior tie",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Sports uniform A. Polo shirt, boys maroon shorts and sports cap B. Polo shirt, girls maroon dawn shorts",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1f7118904e38e538e248d35ce7674512fcd94e69b.jpg?width=750&format=jpg&optimize=medium",
+              "alt": "Uniform for new website - sports uniform",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sports uniform A. Polo shirt, boys maroon shorts and sports cap B. Polo shirt, girls maroon dawn shorts",
+              "display": "block",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Sports uniform",
+                  "parentTag": "strong",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "A. Polo shirt, boys maroon shorts and sports cap",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                },
+                {
+                  "kind": "text",
+                  "text": "B. Polo shirt, girls maroon dawn shorts",
+                  "parentTag": "p",
+                  "parentClass": "",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "1",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "2",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "3",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "4",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "5",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "Helpful uniform hints Socks may be white, black or grey. Students may also choose to wear black tights with the school skirt. It is recommended that a minimum of two top (shirt) and two bottom uniform (skirts/shorts/pants) items are purchased. Some students prefer to have more items to ensure that they are not short of clean clothes through the week. Short sleeved shirts and shorts/skirts are generally worn in summer, and long sleeved shirts/long pants are generally worn in winter, however some students prefer to wear some items throughout the year. School ties are required in Term 1 for School Photo Day and Speech Day as well as being a part of the winter uniform. Students may wish to purchase winter items in advance, but others will prefer to wait and purchase these later in the year. It is recommended a student has a minimum of 1 x jumper or winter jacket from the start of the year to accommodate students in cooler weather. Many purchase both jumper and winter jacket. The school blazer is optional. Some students may wish to purchase one in preference to the winter jacket. All students need a sports uniform for both PDHE lessons and sport. Some students may wish to purchase two sets. Sports uniform is only to be worn to/from school by Years 8-11 on Tuesdays (our regular sports day). On days when students have timetabled PDHPE or Sport lessons, students should come to school in school uniform and change into their sports uniform prior to the relevant lesson. All uniform items must be CLEARLY LABELLED WITH THE STUDENTS FULL NAME. Items that come to lost property that are labelled can be returned to students. Any items with no name that remain unclaimed are donated to the second hand uniform stall. If students need to wear an additional layer/shirt under their school shirt they should be plain all-white only. The second hand uniform stall is held once a term. Please contact the school office if you require financial assistance with purchasing uniform items. Uniform Exemptions The proper wearing of the school uniform is both an equity issue - all students regardless of socio-economic, cultural background etc. have access to the same uniform, and should expect to be treated in the same way - and a safety issue - wearing a uniform makes it easy to identify who does and does not belong at the school, who should and should not be on school grounds. Students who have a genuine reason for not wearing full school uniform on a particular day should bring a note from their parents to the front office before 8:45am, so that they can be issued with a uniform pass. Out of Uniform Process Students who do not wear the proper uniform and do not have a note can expect one or more of the following consequences: be sent to the office for a uniform pass (this will be recorded as a negative incident on Sentral and appear in the student & parent portal); have items of non-school uniform clothing confiscated by staff; be asked to change out of non-school uniform items into second hand uniform items provided by the school; complete a lunchtime or after school detention for repeatedly failing to wear the uniform correctly.",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Out of Uniform Process"
+        }
+      ],
+      "paragraphs": [
+        "The proper wearing of the school uniform is both an equity issue - all students regardless of socio-economic, cultural background etc. have access to the same uniform, and should expect to be treated in the same way - and a safety issue - wearing a uniform makes it easy to identify who does and does not belong at the school, who should and should not be on school grounds.",
+        "Students who have a genuine reason for not wearing full school uniform on a particular day should bring a note from their parents to the front office before 8:45am, so that they can be issued with a uniform pass.",
+        "Students who do not wear the proper uniform and do not have a note can expect one or more of the following consequences:"
+      ],
+      "listItems": [
+        "Socks may be white, black or grey. Students may also choose to wear black tights with the school skirt.",
+        "It is recommended that a minimum of two top (shirt) and two bottom uniform (skirts/shorts/pants) items are purchased. Some students prefer to have more items to ensure that they are not short of clean clothes through the week.",
+        "Short sleeved shirts and shorts/skirts are generally worn in summer, and long sleeved shirts/long pants are generally worn in winter, however some students prefer to wear some items throughout the year.",
+        "School ties are required in Term 1 for School Photo Day and Speech Day as well as being a part of the winter uniform.",
+        "Students may wish to purchase winter items in advance, but others will prefer to wait and purchase these later in the year. It is recommended a student has a minimum of 1 x jumper or winter jacket from the start of the year to accommodate students in cooler weather. Many purchase both jumper and winter jacket.",
+        "The school blazer is optional. Some students may wish to purchase one in preference to the winter jacket.",
+        "All students need a sports uniform for both PDHE lessons and sport. Some students may wish to purchase two sets. Sports uniform is only to be worn to/from school by Years 8-11 on Tuesdays (our regular sports day). On days when students have timetabled PDHPE or Sport lessons, students should come to school in school uniform and change into their sports uniform prior to the relevant lesson.",
+        "All uniform items must be CLEARLY LABELLED WITH THE STUDENTS FULL NAME. Items that come to lost property that are labelled can be returned to students. Any items with no name that remain unclaimed are donated to the second hand uniform stall.",
+        "If students need to wear an additional layer/shirt under their school shirt they should be plain all-white only.",
+        "The second hand uniform stall is held once a term.",
+        "Please contact the school office if you require financial assistance with purchasing uniform items.",
+        "be sent to the office for a uniform pass (this will be recorded as a negative incident on Sentral and appear in the student & parent portal);",
+        "have items of non-school uniform clothing confiscated by staff;",
+        "be asked to change out of non-school uniform items into second hand uniform items provided by the school;",
+        "complete a lunchtime or after school detention for repeatedly failing to wear the uniform correctly."
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Helpful uniform hints",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Uniform Exemptions",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Helpful uniform hints",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Socks may be white, black or grey. Students may also choose to wear black tights with the school skirt.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "It is recommended that a minimum of two top (shirt) and two bottom uniform (skirts/shorts/pants) items are purchased. Some students prefer to have more items to ensure that they are not short of clean clothes through the week.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Short sleeved shirts and shorts/skirts are generally worn in summer, and long sleeved shirts/long pants are generally worn in winter, however some students prefer to wear some items throughout the year.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School ties are required in Term 1 for School Photo Day and Speech Day as well as being a part of the winter uniform.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Students may wish to purchase winter items in advance, but others will prefer to wait and purchase these later in the year. It is recommended a student has a minimum of 1 x jumper or winter jacket from the start of the year to accommodate students in cooler weather. Many purchase both jumper and winter jacket.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The school blazer is optional. Some students may wish to purchase one in preference to the winter jacket.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "All students need a sports uniform for both PDHE lessons and sport. Some students may wish to purchase two sets. Sports uniform is only to be worn to/from school by Years 8-11 on Tuesdays (our regular sports day). On days when students have timetabled PDHPE or Sport lessons, students should come to school in school uniform and change into their sports uniform prior to the relevant lesson.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "All uniform items must be CLEARLY LABELLED WITH THE STUDENTS FULL NAME. Items that come to lost property that are labelled can be returned to students. Any items with no name that remain unclaimed are donated to the second hand uniform stall.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "If students need to wear an additional layer/shirt under their school shirt they should be plain all-white only.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "The second hand uniform stall is held once a term.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Please contact the school office if you require financial assistance with purchasing uniform items.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Uniform Exemptions",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The proper wearing of the school uniform is both an equity issue - all students regardless of socio-economic, cultural background etc. have access to the same uniform, and should expect to be treated in the same way - and a safety issue - wearing a uniform makes it easy to identify who does and does not belong at the school, who should and should not be on school grounds.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students who have a genuine reason for not wearing full school uniform on a particular day should bring a note from their parents to the front office before 8:45am, so that they can be issued with a uniform pass.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Out of Uniform Process",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students who do not wear the proper uniform and do not have a note can expect one or more of the following consequences:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "be sent to the office for a uniform pass (this will be recorded as a negative incident on Sentral and appear in the student & parent portal);",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "have items of non-school uniform clothing confiscated by staff;",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "be asked to change out of non-school uniform items into second hand uniform items provided by the school;",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "complete a lunchtime or after school detention for repeatedly failing to wear the uniform correctly.",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Want to donate your old school uniforms? Our friendly office staff can point you in the right direction. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Want to donate your old school uniforms?"
+        }
+      ],
+      "paragraphs": [
+        "Our friendly office staff can point you in the right direction.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Want to donate your old school uniforms?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our friendly office staff can point you in the right direction.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Uniform Shop Order uniforms online or visit the shop at our school Parent portal Use our parent portal apps to make a payment, view reports and record absences.",
+      "headings": [],
+      "paragraphs": [
+        "Order uniforms online or visit the shop at our school",
+        "Use our parent portal apps to make a payment, view reports and record absences."
+      ],
+      "listItems": [
+        "Uniform Shop Order uniforms online or visit the shop at our school",
+        "Parent portal Use our parent portal apps to make a payment, view reports and record absences."
+      ],
+      "ctas": [
+        {
+          "text": "Uniform Shop",
+          "href": "/school-life/uniform/uniform-shop",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop",
+          "classes": ""
+        },
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Uniform Shop Order uniforms online or visit the shop at our school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Uniform Shop",
+              "display": "inline",
+              "href": "/school-life/uniform/uniform-shop",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Order uniforms online or visit the shop at our school",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Parent portal Use our parent portal apps to make a payment, view reports and record absences.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Use our parent portal apps to make a payment, view reports and record absences.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

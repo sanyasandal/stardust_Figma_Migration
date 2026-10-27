@@ -1,0 +1,221 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-21T13:27:26.128Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.34.1"
+  },
+  "generatedAt": "2026-10-21T13:27:26.128Z",
+  "templates": [
+    {
+      "id": "about-us",
+      "representativeSlug": "about-us",
+      "pages": [
+        "about-us"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "M5"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 1
+      }
+    },
+    {
+      "id": "about-us_enrol",
+      "representativeSlug": "about-us_enrol",
+      "pages": [
+        "about-us_enrol",
+        "about-us_facilities-and-resources",
+        "about-us_school-history-and-archives",
+        "about-us_school-history-and-archives_the-fortian-digitised",
+        "about-us_transition-to-high-school",
+        "about-us_why-choose-us",
+        "contact-us",
+        "learning-and-support_additional-learning-support",
+        "learning-and-support_careers",
+        "learning-and-support_high-potential-and-gifted-education",
+        "learning-and-support_learning",
+        "our-community_alumni",
+        "our-community_pandc",
+        "school-life_bell-times",
+        "school-life_bring-your-own-device",
+        "school-life_canteen",
+        "school-life_newsletters",
+        "school-life_parent-portal",
+        "school-life_stationery",
+        "school-life_student-opportunities-and-activities",
+        "school-life_student-opportunities-and-activities_academic-competitions",
+        "school-life_student-opportunities-and-activities_clubs-and-committees",
+        "school-life_student-opportunities-and-activities_creative-and-performing-arts",
+        "school-life_student-opportunities-and-activities_debating-and-public-speaking",
+        "school-life_student-opportunities-and-activities_instrumental-music-program",
+        "school-life_student-opportunities-and-activities_robotics-and-maker-society",
+        "school-life_student-opportunities-and-activities_student-leadership-opportunities",
+        "school-life_uniform"
+      ],
+      "pageCount": 28,
+      "blocks": [
+        "M4",
+        "M5",
+        "M6",
+        "M8",
+        "M9",
+        "NM1"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 28
+      }
+    },
+    {
+      "id": "about-us_hsc-results",
+      "representativeSlug": "about-us_hsc-results",
+      "pages": [
+        "about-us_hsc-results",
+        "about-us_our-principal-and-staff",
+        "about-us_policies-and-reports_nsw-public-school-information",
+        "about-us_school-history-and-archives_fort-street-archives",
+        "about-us_school-history-and-archives_the-fort-street-museum",
+        "learning-and-support",
+        "our-community",
+        "our-community_fortians-union",
+        "our-community_foundation",
+        "our-community_foundation-tertiary-bursaries",
+        "school-life",
+        "school-life_forms",
+        "school-life_lockers-and-lost-property",
+        "school-life_student-opportunities-and-activities_duke-of-edinburgh-award",
+        "school-life_student-opportunities-and-activities_sport",
+        "school-life_uniform_uniform-shop"
+      ],
+      "pageCount": 16,
+      "blocks": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "NM1"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 16
+      }
+    },
+    {
+      "id": "about-us_policies-and-reports",
+      "representativeSlug": "about-us_policies-and-reports",
+      "pages": [
+        "about-us_policies-and-reports"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "M4",
+        "M5",
+        "M6",
+        "M8",
+        "M9"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 1
+      }
+    },
+    {
+      "id": "about-us_stories-and-highlights",
+      "representativeSlug": "about-us_stories-and-highlights",
+      "pages": [
+        "about-us_stories-and-highlights"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "M5",
+        "M6",
+        "M8"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 1
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "M3",
+        "M4",
+        "M5"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 1
+      }
+    },
+    {
+      "id": "learning-and-support_wellbeing",
+      "representativeSlug": "learning-and-support_wellbeing",
+      "pages": [
+        "learning-and-support_wellbeing"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "M4",
+        "M5",
+        "M8",
+        "M9",
+        "NM1"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 1
+      }
+    },
+    {
+      "id": "school-life_events",
+      "representativeSlug": "school-life_events",
+      "pages": [
+        "school-life_events",
+        "school-life_house-and-merit-system",
+        "school-life_travel-to-school"
+      ],
+      "pageCount": 3,
+      "blocks": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "NM1"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 3
+      }
+    }
+  ]
+}

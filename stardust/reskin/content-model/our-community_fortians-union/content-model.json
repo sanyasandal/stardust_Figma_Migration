@@ -1,0 +1,650 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:21:24.981Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/our-community_fortians-union.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "The Fortians Union",
+    "description": "The Fortian alumni associations began in 1894 to build a strong community, give back to Fort Street and celebrate our legacy.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union",
+    "ogTags": {
+      "og:title": "The Fortians Union",
+      "og:description": "The Fortian alumni associations began in 1894 to build a strong community, give back to Fort Street and celebrate our legacy.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/our-community/fortians-union",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/default-meta-image.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/default-meta-image.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "The Fortians Union",
+      "twitter:description": "The Fortian alumni associations began in 1894 to build a strong community, give back to Fort Street and celebrate our legacy.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/default-meta-image.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "The Fortians Union The Fortian alumni associations began in 1894 to: 1. Build a Strong Community: Create a place where members can connect, have fun, and support each other. 2. Give Back to Fort Street: Actively contribute to the success of Fort Street High School through volunteer work, mentorship, or other initiatives. 3. Celebrate Our Legacy: Honour the rich history and traditions of Fort Street while embracing innovation and progress. For enquiries or to get in touch with the Fortians Union, please contact us via email at: fortians@fortians.au (opens in new window) Faber Est The Fortians Union publishes Faber Est, a regular newsletter. You can explore the latest edition and our growing archive by following this link: Faber Est (opens in new window) . Membership Membership of the Fortians Union is free for the first five years after leaving school. Life membership is available for a one off fee of $50.00. To join, complete the online form by clicking here. (opens in new window) Don't Miss Out Please let us know if your contact details have changed to stay in touch and continue to receive your copy of Faber Est. Update your contact information by clicking here. (opens in new window) Keep in Touch Visit our home page (opens in new window) for the latest updates. Join our Fortians Union Facebook Group (opens in new window) to connect with fellow Fortians. Newsletters Read our latest newsletter and stay connected with our school life. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 2396,
+    "scopeTextLen": 1529,
+    "ratio": 0.638,
+    "h1Text": "The Fortians Union",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "The Fortians Union The Fortian alumni associations began in 1894 to: 1. Build a Strong Community: Create a place where members can connect, have fun, and support each other. 2. Give Back to Fort Street: Actively contribute to the success of Fort Street High School through volunteer work, mentorship, or other initiatives. 3. Celebrate Our Legacy: Honour the rich history and traditions of Fort Street while embracing innovation and progress. For enquiries or to get in touch with the Fortians Union, please contact us via email at: fortians@fortians.au (opens in new window)",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "The Fortians Union"
+        }
+      ],
+      "paragraphs": [
+        "The Fortian alumni associations began in 1894 to:",
+        "1. Build a Strong Community:",
+        "2. Give Back to Fort Street:",
+        "3. Celebrate Our Legacy:",
+        "For enquiries or to get in touch with the Fortians Union, please contact us via email at: fortians@fortians.au (opens in new window)"
+      ],
+      "listItems": [
+        "Create a place where members can connect, have fun, and support each other.",
+        "Actively contribute to the success of Fort Street High School through volunteer work, mentorship, or other initiatives.",
+        "Honour the rich history and traditions of Fort Street while embracing innovation and progress."
+      ],
+      "ctas": [
+        {
+          "text": "fortians@fortians.au (opens in new window)",
+          "href": "mailto:fortians@fortians.au",
+          "absHref": "mailto:fortians@fortians.au",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "The Fortians Union",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Fortian alumni associations began in 1894 to:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "1. Build a Strong Community:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Create a place where members can connect, have fun, and support each other.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "2. Give Back to Fort Street:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Actively contribute to the success of Fort Street High School through volunteer work, mentorship, or other initiatives.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "3. Celebrate Our Legacy:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Honour the rich history and traditions of Fort Street while embracing innovation and progress.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For enquiries or to get in touch with the Fortians Union, please contact us via email at: fortians@fortians.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For enquiries or to get in touch with the Fortians Union, please contact us via email at:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "fortians@fortians.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:fortians@fortians.au",
+              "absHref": "mailto:fortians@fortians.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "fortians@fortians.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Faber Est The Fortians Union publishes Faber Est, a regular newsletter. You can explore the latest edition and our growing archive by following this link: Faber Est (opens in new window) . Membership Membership of the Fortians Union is free for the first five years after leaving school. Life membership is available for a one off fee of $50.00. To join, complete the online form by clicking here. (opens in new window) Don't Miss Out Please let us know if your contact details have changed to stay in touch and continue to receive your copy of Faber Est. Update your contact information by clicking here. (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Faber Est"
+        },
+        {
+          "level": "h2",
+          "text": "Membership"
+        },
+        {
+          "level": "h3",
+          "text": "Don't Miss Out"
+        }
+      ],
+      "paragraphs": [
+        "The Fortians Union publishes Faber Est, a regular newsletter. You can explore the latest edition and our growing archive by following this link: Faber Est (opens in new window) .",
+        "Membership of the Fortians Union is free for the first five years after leaving school. Life membership is available for a one off fee of $50.00.",
+        "To join, complete the online form by clicking here. (opens in new window)",
+        "Please let us know if your contact details have changed to stay in touch and continue to receive your copy of Faber Est.",
+        "Update your contact information by clicking here. (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Faber Est (opens in new window)",
+          "href": "https://aus01.safelinks.protection.outlook.com/?url=http%3A%2F%2Ffaberest.fortians.au%2F&data=05%7C02%7CElena.Kaloudis1%40det.nsw.edu.au%7C03e2e80657f14ffcfe5008dd72717bb0%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C638792553918533608%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=QMJ6GzzF9y6KZo72S8M9BnZQAed8LCN1%2BitVAYqYAMA%3D&reserved=0",
+          "absHref": "https://aus01.safelinks.protection.outlook.com/?url=http%3A%2F%2Ffaberest.fortians.au%2F&data=05%7C02%7CElena.Kaloudis1%40det.nsw.edu.au%7C03e2e80657f14ffcfe5008dd72717bb0%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C638792553918533608%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=QMJ6GzzF9y6KZo72S8M9BnZQAed8LCN1%2BitVAYqYAMA%3D&reserved=0",
+          "classes": ""
+        },
+        {
+          "text": "here. (opens in new window)",
+          "href": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fthe-fortians-union.square.site%2Fs%2Fshop&data=05%7C02%7CElena.Kaloudis1%40det.nsw.edu.au%7C5ea7bb645df1458f4a8f08def807b745%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639220909206363760%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=KsElfIrLtIDmzWOBW3H5oABemH%2BtdZl0pmXa4oCB6Tg%3D&reserved=0",
+          "absHref": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fthe-fortians-union.square.site%2Fs%2Fshop&data=05%7C02%7CElena.Kaloudis1%40det.nsw.edu.au%7C5ea7bb645df1458f4a8f08def807b745%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639220909206363760%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=KsElfIrLtIDmzWOBW3H5oABemH%2BtdZl0pmXa4oCB6Tg%3D&reserved=0",
+          "classes": ""
+        },
+        {
+          "text": "here. (opens in new window)",
+          "href": "https://forms.fortians.au/update-details",
+          "absHref": "https://forms.fortians.au/update-details",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Faber Est",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Fortians Union publishes Faber Est, a regular newsletter. You can explore the latest edition and our growing archive by following this link: Faber Est (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The Fortians Union publishes",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Faber Est",
+              "parentTag": "em",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ", a regular newsletter. You can explore the latest edition and our growing archive by following this link:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Faber Est (opens in new window)",
+              "display": "inline",
+              "href": "https://aus01.safelinks.protection.outlook.com/?url=http%3A%2F%2Ffaberest.fortians.au%2F&data=05%7C02%7CElena.Kaloudis1%40det.nsw.edu.au%7C03e2e80657f14ffcfe5008dd72717bb0%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C638792553918533608%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=QMJ6GzzF9y6KZo72S8M9BnZQAed8LCN1%2BitVAYqYAMA%3D&reserved=0",
+              "absHref": "https://aus01.safelinks.protection.outlook.com/?url=http%3A%2F%2Ffaberest.fortians.au%2F&data=05%7C02%7CElena.Kaloudis1%40det.nsw.edu.au%7C03e2e80657f14ffcfe5008dd72717bb0%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C638792553918533608%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=QMJ6GzzF9y6KZo72S8M9BnZQAed8LCN1%2BitVAYqYAMA%3D&reserved=0",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Faber Est",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Membership",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Membership of the Fortians Union is free for the first five years after leaving school. Life membership is available for a one off fee of $50.00.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "To join, complete the online form by clicking here. (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "To join, complete the online form by clicking",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here. (opens in new window)",
+              "display": "inline",
+              "href": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fthe-fortians-union.square.site%2Fs%2Fshop&data=05%7C02%7CElena.Kaloudis1%40det.nsw.edu.au%7C5ea7bb645df1458f4a8f08def807b745%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639220909206363760%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=KsElfIrLtIDmzWOBW3H5oABemH%2BtdZl0pmXa4oCB6Tg%3D&reserved=0",
+              "absHref": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fthe-fortians-union.square.site%2Fs%2Fshop&data=05%7C02%7CElena.Kaloudis1%40det.nsw.edu.au%7C5ea7bb645df1458f4a8f08def807b745%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C639220909206363760%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=KsElfIrLtIDmzWOBW3H5oABemH%2BtdZl0pmXa4oCB6Tg%3D&reserved=0",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here.",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Don't Miss Out",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Please let us know if your contact details have changed to stay in touch and continue to receive your copy of Faber Est.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Update your contact information by clicking here. (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Update your contact information by clicking",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here. (opens in new window)",
+              "display": "inline",
+              "href": "https://forms.fortians.au/update-details",
+              "absHref": "https://forms.fortians.au/update-details",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here.",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Keep in Touch Visit our home page (opens in new window) for the latest updates. Join our Fortians Union Facebook Group (opens in new window) to connect with fellow Fortians.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Keep in Touch"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [
+        "Visit our home page (opens in new window) for the latest updates.",
+        "Join our Fortians Union Facebook Group (opens in new window) to connect with fellow Fortians."
+      ],
+      "ctas": [
+        {
+          "text": "home page (opens in new window)",
+          "href": "https://home.fortians.au",
+          "absHref": "https://home.fortians.au/",
+          "classes": ""
+        },
+        {
+          "text": "Fortians Union Facebook Group (opens in new window)",
+          "href": "https://www.facebook.com/groups/1680092979339584",
+          "absHref": "https://www.facebook.com/groups/1680092979339584",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Keep in Touch",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Visit our home page (opens in new window) for the latest updates.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Visit our",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "home page (opens in new window)",
+              "display": "inline",
+              "href": "https://home.fortians.au",
+              "absHref": "https://home.fortians.au/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "home page",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "for the latest updates.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Join our Fortians Union Facebook Group (opens in new window) to connect with fellow Fortians.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Join our",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Fortians Union Facebook Group (opens in new window)",
+              "display": "inline",
+              "href": "https://www.facebook.com/groups/1680092979339584",
+              "absHref": "https://www.facebook.com/groups/1680092979339584",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Fortians Union Facebook Group",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "to connect with fellow Fortians.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Newsletters Read our latest newsletter and stay connected with our school life. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Read our latest newsletter and stay connected with our school life.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Newsletters Read our latest newsletter and stay connected with our school life.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Newsletters",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Newsletters Read our latest newsletter and stay connected with our school life.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Newsletters",
+              "display": "inline",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read our latest newsletter and stay connected with our school life.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

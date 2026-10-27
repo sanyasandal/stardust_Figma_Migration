@@ -1,0 +1,753 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:reskin Phase 5 (gates)",
+  "writtenAt": "2026-10-21T13:39:52.975356Z",
+  "read": [
+   "stardust/.work/reskin/gates-all.txt",
+   "probe-fix1.txt",
+   "reports/*"
+  ]
+ },
+ "summary": {
+  "pass": 49,
+  "pass-with-residual": 3,
+  "total": 52
+ },
+ "eyeball": "index/enrol/events 1440 vs donor home-1440-full.png: reads as oneAZ (magenta Lexia headings, grey bands, cards, pill buttons) \u2014 accept",
+ "pages": {
+  "about-us": {
+   "tier": "A",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_enrol": {
+   "tier": "A",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_facilities-and-resources": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/about-us_facilities-and-resources.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_hsc-results": {
+   "tier": "A",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_our-principal-and-staff": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_policies-and-reports": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_policies-and-reports_nsw-public-school-information": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_school-history-and-archives": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/about-us_school-history-and-archives.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_school-history-and-archives_fort-street-archives": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_school-history-and-archives_the-fort-street-museum": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/about-us_school-history-and-archives_the-fort-street-museum.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)",
+    "s03 cards captured empty (late decoration); re-captured + flow.mjs width-hint fix, re-gated"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_school-history-and-archives_the-fortian-digitised": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_stories-and-highlights": {
+   "tier": "A",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [
+    {
+     "gate": "dom-equality",
+     "kind": "dynamic",
+     "note": "live Facebook feed text differs per load; snapshot shipped (dynamic-features.md row 1, assumption A1)"
+    }
+   ],
+   "flags": []
+  },
+  "about-us_transition-to-high-school": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "about-us_why-choose-us": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "contact-us": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/contact-us.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "index": {
+   "tier": "A",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "learning-and-support": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/learning-and-support.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "learning-and-support_additional-learning-support": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "learning-and-support_careers": {
+   "tier": "A",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/learning-and-support_careers.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "learning-and-support_high-potential-and-gifted-education": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "learning-and-support_learning": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/learning-and-support_learning.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "learning-and-support_wellbeing": {
+   "tier": "A",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "our-community": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "our-community_alumni": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/our-community_alumni.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "our-community_fortians-union": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/our-community_fortians-union.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "our-community_foundation": {
+   "tier": "A'",
+   "status": "pass-with-residual",
+   "gates": {
+    "domEquality": 1,
+    "slotCoverage": 1,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/our-community_foundation.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [
+    {
+     "gate": "dom-equality/slot-coverage",
+     "kind": "source-defect",
+     "note": "live source serves <img src=\"about:error\"> (verified in .plain.html); omitted at deploy (media-reconcile: omit)"
+    }
+   ],
+   "flags": []
+  },
+  "our-community_foundation-tertiary-bursaries": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/our-community_foundation-tertiary-bursaries.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "our-community_pandc": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/school-life.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_bell-times": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_bring-your-own-device": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_canteen": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/school-life_canteen.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_events": {
+   "tier": "A",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_forms": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_house-and-merit-system": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_lockers-and-lost-property": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_newsletters": {
+   "tier": "A'",
+   "status": "pass-with-residual",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 1,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [
+    {
+     "gate": "dom-equality/slot-coverage",
+     "kind": "source-defect",
+     "note": "live source serves <img src=\"about:error\"> (verified in .plain.html); omitted at deploy (media-reconcile: omit)"
+    }
+   ],
+   "flags": []
+  },
+  "school-life_parent-portal": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_stationery": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/school-life_stationery.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities": {
+   "tier": "A'",
+   "status": "pass-with-residual",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 1,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [
+    {
+     "gate": "dom-equality/slot-coverage",
+     "kind": "source-defect",
+     "note": "live source serves <img src=\"about:error\"> (verified in .plain.html); omitted at deploy (media-reconcile: omit)"
+    }
+   ],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities_academic-competitions": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities_clubs-and-committees": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities_creative-and-performing-arts": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities_debating-and-public-speaking": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities_duke-of-edinburgh-award": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities_instrumental-music-program": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "empty capture (scopeTextLen 0 \u2014 source not decorated at capture time); re-captured, re-rendered, re-gated"
+   ],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities_robotics-and-maker-society": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities_sport": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_student-opportunities-and-activities_student-leadership-opportunities": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_travel-to-school": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_uniform": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 0,
+   "fixes": [],
+   "residuals": [],
+   "flags": []
+  },
+  "school-life_uniform_uniform-shop": {
+   "tier": "A'",
+   "status": "pass",
+   "gates": {
+    "domEquality": 0,
+    "slotCoverage": 0,
+    "donorProbe": 0
+   },
+   "fixIteration": 1,
+   "fixes": [
+    "probe: per-page spec probe-specs/school-life_uniform_uniform-shop.json retargets checks whose selector matched nothing (page has no .btn/h1/h2)",
+    "flow.mjs: drop \"(NN%)\" table column-width hints the source table block consumes (never visible)"
+   ],
+   "residuals": [],
+   "flags": []
+  }
+ }
+}

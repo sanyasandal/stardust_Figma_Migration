@@ -1,0 +1,59 @@
+{
+  "slug": "school-life_canteen",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M6",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Canteen",
+    "description": "At Fort Street High School, our school canteen offers healthy, affordable food options for students. Learn about our canteen opening hours, our menu and how to order lunch.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Canteen",
+    "description": "At Fort Street High School, our school canteen offers healthy, affordable food options for students. Learn about our canteen opening hours, our menu and how to order lunch.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/canteen"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "aa8c34d87711",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/canteen/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/canteen/_meta.json",
+  "driverVersion": "1"
+}

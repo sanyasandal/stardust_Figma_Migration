@@ -1,0 +1,61 @@
+{
+  "slug": "school-life_house-and-merit-system",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M4",
+    "M7",
+    "M8",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "teaser-ti",
+    "title-text",
+    "listing",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "House and Merit System",
+    "description": "The Fort Street High School merit system rewards students with profile points aligned to the school exit profile.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "House and Merit System",
+    "description": "The Fort Street High School merit system rewards students with profile points aligned to the school exit profile.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/house-and-merit-system"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "63496e27a11b",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/house-and-merit-system/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/house-and-merit-system/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "our-community_foundation-tertiary-bursaries",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Foundation Tertiary Bursaries",
+    "description": "The Ashford Sister's Tertiary Bursaries seek to support motivated individuals with demonstrated merit, who are facing financial hardship.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Foundation Tertiary Bursaries",
+    "description": "The Ashford Sister's Tertiary Bursaries seek to support motivated individuals with demonstrated merit, who are facing financial hardship.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/foundation-tertiary-bursaries"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "b5bf524278b0",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "our-community/foundation-tertiary-bursaries/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "our-community/foundation-tertiary-bursaries/_meta.json",
+  "driverVersion": "1"
+}

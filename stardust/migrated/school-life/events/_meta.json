@@ -1,0 +1,64 @@
+{
+  "slug": "school-life_events",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "NM1",
+    "M7",
+    "M8",
+    "M4",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "title-text",
+    "title-text",
+    "listing",
+    "cta-banner",
+    "teaser-ti",
+    "teaser-cards",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Events",
+    "description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Events",
+    "description": "At Fort Street High School, our events are an important part of your child’s learning and school experience. They help students build confidence, connect with others and celebrate their progress. Events also give families a chance to be involved in school life and share in their child’s achievements.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/events"
+  },
+  "migratedAt": "2026-10-21T13:26:42Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "c8005defe640",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/events/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/events/_meta.json",
+  "driverVersion": "1"
+}

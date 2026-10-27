@@ -1,0 +1,61 @@
+{
+  "slug": "school-life_student-opportunities-and-activities",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M5",
+    "M6",
+    "NM1",
+    "M9",
+    "M8"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-cards",
+    "title-text",
+    "title-text",
+    "title-text",
+    "cta-banner",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Student opportunities and activities",
+    "description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Student opportunities and activities",
+    "description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "fd832cf0b99c",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/student-opportunities-and-activities/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/student-opportunities-and-activities/_meta.json",
+  "driverVersion": "1"
+}

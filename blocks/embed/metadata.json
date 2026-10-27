@@ -1,0 +1,14 @@
+{
+  "variantName": "embed",
+  "baseBlock": "embed",
+  "version": "1.0.0",
+  "created": "2026-10-21T13:46:13.053Z",
+  "visualCharacteristics": {
+    "purpose": "map-or-video-embed",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "single-link",
+    "imageCount": 1
+  }
+}

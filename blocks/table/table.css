@@ -1,0 +1,33 @@
+.table {
+  max-width: 880px;
+  overflow-x: auto;
+  margin: 0 0 32px;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 12px 16px 12px 0;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.band .table td {
+  border-color: var(--page-bg);
+}
+
+.table td p {
+  margin: 0 0 4px;
+}
+
+.table td p.button-wrapper {
+  margin: 0 0 4px;
+}
+
+.table.bordered td {
+  border: 1px solid var(--border);
+  padding: 12px 16px;
+}

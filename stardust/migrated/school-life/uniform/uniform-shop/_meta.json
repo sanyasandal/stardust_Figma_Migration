@@ -1,0 +1,56 @@
+{
+  "slug": "school-life_uniform_uniform-shop",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "NM1",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Uniform Shop",
+    "description": "At Fort Street High School, our uniforms make students feel included in our school community. Learn about our uniform and where to buy it.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Uniform Shop",
+    "description": "At Fort Street High School, our uniforms make students feel included in our school community. Learn about our uniform and where to buy it.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform/uniform-shop"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "9db274d0380c",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "school-life/uniform/uniform-shop/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "school-life/uniform/uniform-shop/_meta.json",
+  "driverVersion": "1"
+}

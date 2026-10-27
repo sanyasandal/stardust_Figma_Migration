@@ -1,0 +1,1345 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:19:43.384Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/about-us_our-principal-and-staff.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Our principal and staff",
+    "description": "At Fort Street High School, our school team is committed to every student’s learning, wellbeing, and sense of belonging. We work together to create a supportive and inclusive school where every child is set up for success.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+    "ogTags": {
+      "og:title": "Our principal and staff",
+      "og:description": "At Fort Street High School, our school team is committed to every student’s learning, wellbeing, and sense of belonging. We work together to create a supportive and inclusive school where every child is set up for success.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13dcbb9f5356ec249a8874132689ecb7fb8cb9235.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13dcbb9f5356ec249a8874132689ecb7fb8cb9235.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Ms Juliette McMurray, Principal of Fort Street High School"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Our principal and staff",
+      "twitter:description": "At Fort Street High School, our school team is committed to every student’s learning, wellbeing, and sense of belonging. We work together to create a supportive and inclusive school where every child is set up for success.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13dcbb9f5356ec249a8874132689ecb7fb8cb9235.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Our principal and staff Welcome from our principal It is my honour to be Principal at Fort Street High School. It goes without saying that it is also an incredible responsibility to lead a school with such a history in nurturing and producing so many great Australians. Fort Street High School is a co-educational, academically selective, public high school with a long and proud history. Established in 1849 as a Model school, it is the oldest government high school in Australia. All students at Fort Street are encouraged to reach their full potential and enjoy a dynamic and rich school experience. The school fosters an environment where intelligent young men and women can express both their individuality and develop a strong sense of belonging and a commitment to social justice. Fort Street High School offers a broad curriculum and an extensive range of co-curricular programs to challenge and inspire all students. We have a strong focus on student leadership, on promoting positive values and developing a sense of global citizenship. The school community truly represents multicultural Australia, and is a harmonious community which respects each individual. Students come from 100 suburbs of Sydney. Our students speak about 40 different languages and enrich the life of this great school, a school which is known for tolerance and acceptance. It is my privilege to work with the wider community, parents, P&C, the Fort Street Foundation, the School Council and the Fortians Union to maintain the important traditions and ensure that the school is a leader in education in the twenty first century. Our alumni continue a deep connection with our community and have extensive involvement in the life of the school which is evidence of their rich and significant educational journey and the Fortian pride that has been fostered. Ms Juliette McMurray, Principal of Fort Street High School School Staff for 2025 Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences. Our staff come from a wide range of backgrounds themselves, and bringing a diverse range of talents and skills, teachers celebrate the diversity found in the classroom. Senior Executive Our school leaders, including our principal, guide teachers and students. They help create a school culture where every child is supported to grow and thrive. Principal Ms Juliette McMurray Deputy Principal (Years 7, 9 and 11) Mr David Sherwin (Relieving) Deputy Principal (Years 8, 10 and 12) Ms Carolyn Mattick (Relieving) Our executive team Your child’s school experience is shaped by the people around them. Our teachers bring experience, care and a passion for learning to every lesson. With a focus on success, they help every child reach their full potential. Head Teacher – Administration Ms Manar Hussein Head Teacher – English Mr Edmund McMahon Head Teacher – Mathematics Mr Ali Razzaghi Head Teacher – Languages Ms Melinda Wark Head Teacher – History Ms Melinda Wark Head Teacher – Science Mr Brian Webb Head Teacher – Social Science Mr Garth Chapman Head Teacher – Creative and Performing Arts Ms Elizabeth Propsting Head Teacher – Wellbeing Mr Hugh O'Neill Head Teacher – Technology Mr Dai Dong Head Teacher – Teaching and Learning Mr Michael Galvin Our Year Advisors Year Group Adviser Assistant Adviser Year 7 Ms Angelica Catalan Mr Andrew Tennent Year 8 Mr Ben Clark Ms Fiona Richards Year 9 Mr Rod Carritt Ms Maddy Cove Year 10 Ms Amelia Lawson Mr Arkady De Jong Year 11 Mr David Latimer Ms Hyun Cho Year 12 Mr Derek Patulny Ms Helen Thompson Our teachers make the difference Committed to your child’s success Our teachers ensure every student can thrive. They use proven ways to teach and tailor learning support for their students Expert, connected and accredited Our teachers are part of a strong education network. They may hold advanced accreditation. This ensuring high-quality teaching for your child. Teachers who never stop learning Our teachers are lifelong learners. They stay current through regular training and keep improving how they teach students. Teacher–family partnerships Our teachers build trust through clear communication. Our families know that their child has support and is ready to learn. Wellbeing and support staff Our wellbeing and support staff guide student wellbeing, learning needs and inclusion. They work with teachers to make personalised adjustments. This means each child can take part fully in school life. We make our school welcoming and accessible to every child. Head Teacher - Wellbeing Mr Hugh O'Neill SPE - Senior Psychologist Education Department Ms Jean Kidd School Counsellors Ms Miori Shino Student Support Officers (SSO) Ms Rose Dooley Learning Support Ms Jill Ryan and Ms Alissa Tan Administrative and operations staff Our administrative and operations staff keep our school running smoothly. They support students, teachers and families every day. You can find them in our front office or on the school grounds. School Administration Manager Ms Kirrily Druery School Business Manager Ms Vivien Davies Assistant to the Principal Ms Kellorin Long Teacher Librarian Ms Donna Page / Mr Paul McDonald School Counsellor Ms Miori Shino Careers Adviser Ms Kylie Salisbury Sports Coordinator Mr Edmund Feng Sports CHS Knockout Coordinator Mr Bradley Sarif Instrumental Music Program Director Mr Matt Manchester Technology Technical Support Mr Zerly Nazar Anti-Racism Contact Officer (ARCO) Ms Jenny Xu SRC Coordinator Mr Bambul Shakibaei Debating Co-ordinator Mr Andrew Tennant Have a question for our principal or teachers? Our friendly office team can help you get in touch. Contact us Additional learning support Find out how we support students with disability or additional learning needs. Stories and highlights Hear about stories, wins and proud moments from our staff and students.",
+  "coverage": {
+    "bodyTextLen": 6979,
+    "scopeTextLen": 6053,
+    "ratio": 0.867,
+    "h1Text": "Our principal and staff",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Our principal and staff",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Our principal and staff"
+        }
+      ],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Our principal and staff",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert columns-container",
+      "visibleText": "Welcome from our principal It is my honour to be Principal at Fort Street High School. It goes without saying that it is also an incredible responsibility to lead a school with such a history in nurturing and producing so many great Australians. Fort Street High School is a co-educational, academically selective, public high school with a long and proud history. Established in 1849 as a Model school, it is the oldest government high school in Australia. All students at Fort Street are encouraged to reach their full potential and enjoy a dynamic and rich school experience. The school fosters an environment where intelligent young men and women can express both their individuality and develop a strong sense of belonging and a commitment to social justice. Fort Street High School offers a broad curriculum and an extensive range of co-curricular programs to challenge and inspire all students. We have a strong focus on student leadership, on promoting positive values and developing a sense of global citizenship. The school community truly represents multicultural Australia, and is a harmonious community which respects each individual. Students come from 100 suburbs of Sydney. Our students speak about 40 different languages and enrich the life of this great school, a school which is known for tolerance and acceptance. It is my privilege to work with the wider community, parents, P&C, the Fort Street Foundation, the School Council and the Fortians Union to maintain the important traditions and ensure that the school is a leader in education in the twenty first century. Our alumni continue a deep connection with our community and have extensive involvement in the life of the school which is evidence of their rich and significant educational journey and the Fortian pride that has been fostered. Ms Juliette McMurray, Principal of Fort Street High School",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Welcome from our principal"
+        }
+      ],
+      "paragraphs": [
+        "It is my honour to be Principal at Fort Street High School. It goes without saying that it is also an incredible responsibility to lead a school with such a history in nurturing and producing so many great Australians.",
+        "Fort Street High School is a co-educational, academically selective, public high school with a long and proud history. Established in 1849 as a Model school, it is the oldest government high school in Australia.",
+        "All students at Fort Street are encouraged to reach their full potential and enjoy a dynamic and rich school experience. The school fosters an environment where intelligent young men and women can express both their individuality and develop a strong sense of belonging and a commitment to social justice.",
+        "Fort Street High School offers a broad curriculum and an extensive range of co-curricular programs to challenge and inspire all students.",
+        "We have a strong focus on student leadership, on promoting positive values and developing a sense of global citizenship.",
+        "The school community truly represents multicultural Australia, and is a harmonious community which respects each individual. Students come from 100 suburbs of Sydney.",
+        "Our students speak about 40 different languages and enrich the life of this great school, a school which is known for tolerance and acceptance.",
+        "It is my privilege to work with the wider community, parents, P&C, the Fort Street Foundation, the School Council and the Fortians Union to maintain the important traditions and ensure that the school is a leader in education in the twenty first century.",
+        "Our alumni continue a deep connection with our community and have extensive involvement in the life of the school which is evidence of their rich and significant educational journey and the Fortian pride that has been fostered.",
+        "Ms Juliette McMurray, Principal of Fort Street High School"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13dcbb9f5356ec249a8874132689ecb7fb8cb9235.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Ms Juliette McMurray, Principal of Fort Street High School",
+          "w": 2000,
+          "h": 3015
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Welcome from our principal",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "It is my honour to be Principal at Fort Street High School. It goes without saying that it is also an incredible responsibility to lead a school with such a history in nurturing and producing so many great Australians.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School is a co-educational, academically selective, public high school with a long and proud history. Established in 1849 as a Model school, it is the oldest government high school in Australia.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "All students at Fort Street are encouraged to reach their full potential and enjoy a dynamic and rich school experience. The school fosters an environment where intelligent young men and women can express both their individuality and develop a strong sense of belonging and a commitment to social justice.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_13dcbb9f5356ec249a8874132689ecb7fb8cb9235.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "Ms Juliette McMurray, Principal of Fort Street High School",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School offers a broad curriculum and an extensive range of co-curricular programs to challenge and inspire all students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We have a strong focus on student leadership, on promoting positive values and developing a sense of global citizenship.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school community truly represents multicultural Australia, and is a harmonious community which respects each individual. Students come from 100 suburbs of Sydney.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our students speak about 40 different languages and enrich the life of this great school, a school which is known for tolerance and acceptance.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "It is my privilege to work with the wider community, parents, P&C, the Fort Street Foundation, the School Council and the Fortians Union to maintain the important traditions and ensure that the school is a leader in education in the twenty first century.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our alumni continue a deep connection with our community and have extensive involvement in the life of the school which is evidence of their rich and significant educational journey and the Fortian pride that has been fostered.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Juliette McMurray, Principal of Fort Street High School",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "School Staff for 2025 Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences. Our staff come from a wide range of backgrounds themselves, and bringing a diverse range of talents and skills, teachers celebrate the diversity found in the classroom.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "School Staff for 2025"
+        }
+      ],
+      "paragraphs": [
+        "Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences.",
+        "Our staff come from a wide range of backgrounds themselves, and bringing a diverse range of talents and skills, teachers celebrate the diversity found in the classroom."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1ba00797ddbc6e94f5e8a139b3035d73ec904a82b.png?width=2000&format=webply&optimize=medium",
+          "alt": "Executive staff",
+          "w": 2000,
+          "h": 1333
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "School Staff for 2025",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Teachers at Fort Street are committed to helping our gifted students reach their academic potential by creating programs which build on the learning continuum, promote creative and critical thinking and incorporate differentiation to give them challenging and meaningful learning experiences.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our staff come from a wide range of backgrounds themselves, and bringing a diverse range of talents and skills, teachers celebrate the diversity found in the classroom.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1ba00797ddbc6e94f5e8a139b3035d73ec904a82b.png?width=2000&format=webply&optimize=medium",
+              "alt": "Executive staff"
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Senior Executive Our school leaders, including our principal, guide teachers and students. They help create a school culture where every child is supported to grow and thrive. Principal Ms Juliette McMurray Deputy Principal (Years 7, 9 and 11) Mr David Sherwin (Relieving) Deputy Principal (Years 8, 10 and 12) Ms Carolyn Mattick (Relieving)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Senior Executive"
+        }
+      ],
+      "paragraphs": [
+        "Our school leaders, including our principal, guide teachers and students. They help create a school culture where every child is supported to grow and thrive.",
+        "Principal",
+        "Ms Juliette McMurray",
+        "Deputy Principal (Years 7, 9 and 11)",
+        "Mr David Sherwin (Relieving)",
+        "Deputy Principal (Years 8, 10 and 12)",
+        "Ms Carolyn Mattick (Relieving)"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Senior Executive",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our school leaders, including our principal, guide teachers and students. They help create a school culture where every child is supported to grow and thrive.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Principal",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Juliette McMurray",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Deputy Principal (Years 7, 9 and 11)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr David Sherwin (Relieving)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Deputy Principal (Years 8, 10 and 12)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Carolyn Mattick (Relieving)",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Our executive team Your child’s school experience is shaped by the people around them. Our teachers bring experience, care and a passion for learning to every lesson. With a focus on success, they help every child reach their full potential. Head Teacher – Administration Ms Manar Hussein Head Teacher – English Mr Edmund McMahon Head Teacher – Mathematics Mr Ali Razzaghi Head Teacher – Languages Ms Melinda Wark Head Teacher – History Ms Melinda Wark Head Teacher – Science Mr Brian Webb Head Teacher – Social Science Mr Garth Chapman Head Teacher – Creative and Performing Arts Ms Elizabeth Propsting Head Teacher – Wellbeing Mr Hugh O'Neill Head Teacher – Technology Mr Dai Dong Head Teacher – Teaching and Learning Mr Michael Galvin",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Our executive team"
+        }
+      ],
+      "paragraphs": [
+        "Your child’s school experience is shaped by the people around them. Our teachers bring experience, care and a passion for learning to every lesson. With a focus on success, they help every child reach their full potential.",
+        "Head Teacher – Administration",
+        "Ms Manar Hussein",
+        "Head Teacher – English",
+        "Mr Edmund McMahon",
+        "Head Teacher – Mathematics",
+        "Mr Ali Razzaghi",
+        "Head Teacher – Languages",
+        "Ms Melinda Wark",
+        "Head Teacher – History",
+        "Ms Melinda Wark",
+        "Head Teacher – Science",
+        "Mr Brian Webb",
+        "Head Teacher – Social Science",
+        "Mr Garth Chapman",
+        "Head Teacher – Creative and Performing Arts",
+        "Ms Elizabeth Propsting",
+        "Head Teacher – Wellbeing",
+        "Mr Hugh O'Neill",
+        "Head Teacher – Technology",
+        "Mr Dai Dong",
+        "Head Teacher – Teaching and Learning",
+        "Mr Michael Galvin"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Our executive team",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your child’s school experience is shaped by the people around them. Our teachers bring experience, care and a passion for learning to every lesson. With a focus on success, they help every child reach their full potential.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – Administration",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Manar Hussein",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – English",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Edmund McMahon",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – Mathematics",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Ali Razzaghi",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – Languages",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Melinda Wark",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – History",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Melinda Wark",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – Science",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Brian Webb",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – Social Science",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Garth Chapman",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – Creative and Performing Arts",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Elizabeth Propsting",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – Wellbeing",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Hugh O'Neill",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – Technology",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Dai Dong",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher – Teaching and Learning",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Michael Galvin",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Our Year Advisors Year Group Adviser Assistant Adviser Year 7 Ms Angelica Catalan Mr Andrew Tennent Year 8 Mr Ben Clark Ms Fiona Richards Year 9 Mr Rod Carritt Ms Maddy Cove Year 10 Ms Amelia Lawson Mr Arkady De Jong Year 11 Mr David Latimer Ms Hyun Cho Year 12 Mr Derek Patulny Ms Helen Thompson",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Our Year Advisors"
+        }
+      ],
+      "paragraphs": [
+        "Year Group",
+        "Adviser",
+        "Assistant Adviser",
+        "Year 7",
+        "Ms Angelica Catalan",
+        "Mr Andrew Tennent",
+        "Year 8",
+        "Mr Ben Clark",
+        "Ms Fiona Richards",
+        "Year 9",
+        "Mr Rod Carritt",
+        "Ms Maddy Cove",
+        "Year 10",
+        "Ms Amelia Lawson",
+        "Mr Arkady De Jong",
+        "Year 11",
+        "Mr David Latimer",
+        "Ms Hyun Cho",
+        "Year 12",
+        "Mr Derek Patulny",
+        "Ms Helen Thompson"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Our Year Advisors",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year Group",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Adviser",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Assistant Adviser",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 7",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Angelica Catalan",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Andrew Tennent",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 8",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Ben Clark",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Fiona Richards",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 9",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Rod Carritt",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Maddy Cove",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 10",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Amelia Lawson",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Arkady De Jong",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 11",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr David Latimer",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Hyun Cho",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 12",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Derek Patulny",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Helen Thompson",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Our teachers make the difference Committed to your child’s success Our teachers ensure every student can thrive. They use proven ways to teach and tailor learning support for their students Expert, connected and accredited Our teachers are part of a strong education network. They may hold advanced accreditation. This ensuring high-quality teaching for your child. Teachers who never stop learning Our teachers are lifelong learners. They stay current through regular training and keep improving how they teach students. Teacher–family partnerships Our teachers build trust through clear communication. Our families know that their child has support and is ready to learn.",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Our teachers make the difference"
+        }
+      ],
+      "paragraphs": [
+        "Our teachers ensure every student can thrive. They use proven ways to teach and tailor learning support for their students",
+        "Our teachers are part of a strong education network. They may hold advanced accreditation. This ensuring high-quality teaching for your child.",
+        "Our teachers are lifelong learners. They stay current through regular training and keep improving how they teach students.",
+        "Our teachers build trust through clear communication. Our families know that their child has support and is ready to learn."
+      ],
+      "listItems": [
+        "Committed to your child’s success Our teachers ensure every student can thrive. They use proven ways to teach and tailor learning support for their students",
+        "Expert, connected and accredited Our teachers are part of a strong education network. They may hold advanced accreditation. This ensuring high-quality teaching for your child.",
+        "Teachers who never stop learning Our teachers are lifelong learners. They stay current through regular training and keep improving how they teach students.",
+        "Teacher–family partnerships Our teachers build trust through clear communication. Our families know that their child has support and is ready to learn."
+      ],
+      "ctas": [
+        {
+          "text": "Committed to your child’s success",
+          "href": "/learning-and-support/learning",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+          "classes": ""
+        },
+        {
+          "text": "Expert, connected and accredited",
+          "href": "/learning-and-support/learning",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+          "classes": ""
+        },
+        {
+          "text": "Teachers who never stop learning",
+          "href": "/learning-and-support/learning",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+          "classes": ""
+        },
+        {
+          "text": "Teacher–family partnerships",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Our teachers make the difference",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Committed to your child’s success Our teachers ensure every student can thrive. They use proven ways to teach and tailor learning support for their students",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Committed to your child’s success",
+              "display": "inline",
+              "href": "/learning-and-support/learning",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Our teachers ensure every student can thrive. They use proven ways to teach and tailor learning support for their students",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Expert, connected and accredited Our teachers are part of a strong education network. They may hold advanced accreditation. This ensuring high-quality teaching for your child.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Expert, connected and accredited",
+              "display": "inline",
+              "href": "/learning-and-support/learning",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Our teachers are part of a strong education network. They may hold advanced accreditation. This ensuring high-quality teaching for your child.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Teachers who never stop learning Our teachers are lifelong learners. They stay current through regular training and keep improving how they teach students.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Teachers who never stop learning",
+              "display": "inline",
+              "href": "/learning-and-support/learning",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Our teachers are lifelong learners. They stay current through regular training and keep improving how they teach students.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Teacher–family partnerships Our teachers build trust through clear communication. Our families know that their child has support and is ready to learn.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Teacher–family partnerships",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Our teachers build trust through clear communication. Our families know that their child has support and is ready to learn.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Wellbeing and support staff Our wellbeing and support staff guide student wellbeing, learning needs and inclusion. They work with teachers to make personalised adjustments. This means each child can take part fully in school life. We make our school welcoming and accessible to every child. Head Teacher - Wellbeing Mr Hugh O'Neill SPE - Senior Psychologist Education Department Ms Jean Kidd School Counsellors Ms Miori Shino Student Support Officers (SSO) Ms Rose Dooley Learning Support Ms Jill Ryan and Ms Alissa Tan",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Wellbeing and support staff"
+        }
+      ],
+      "paragraphs": [
+        "Our wellbeing and support staff guide student wellbeing, learning needs and inclusion. They work with teachers to make personalised adjustments. This means each child can take part fully in school life. We make our school welcoming and accessible to every child.",
+        "Head Teacher - Wellbeing",
+        "Mr Hugh O'Neill",
+        "SPE - Senior Psychologist Education Department",
+        "Ms Jean Kidd",
+        "School Counsellors",
+        "Ms Miori Shino",
+        "Student Support Officers (SSO)",
+        "Ms Rose Dooley",
+        "Learning Support",
+        "Ms Jill Ryan and Ms Alissa Tan"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Wellbeing and support staff",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our wellbeing and support staff guide student wellbeing, learning needs and inclusion. They work with teachers to make personalised adjustments. This means each child can take part fully in school life. We make our school welcoming and accessible to every child.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Head Teacher - Wellbeing",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Hugh O'Neill",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "SPE - Senior Psychologist Education Department",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Jean Kidd",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Counsellors",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Miori Shino",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Student Support Officers (SSO)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Rose Dooley",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learning Support",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Jill Ryan and Ms Alissa Tan",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s09",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Administrative and operations staff Our administrative and operations staff keep our school running smoothly. They support students, teachers and families every day. You can find them in our front office or on the school grounds. School Administration Manager Ms Kirrily Druery School Business Manager Ms Vivien Davies Assistant to the Principal Ms Kellorin Long Teacher Librarian Ms Donna Page / Mr Paul McDonald School Counsellor Ms Miori Shino Careers Adviser Ms Kylie Salisbury Sports Coordinator Mr Edmund Feng Sports CHS Knockout Coordinator Mr Bradley Sarif Instrumental Music Program Director Mr Matt Manchester Technology Technical Support Mr Zerly Nazar Anti-Racism Contact Officer (ARCO) Ms Jenny Xu SRC Coordinator Mr Bambul Shakibaei Debating Co-ordinator Mr Andrew Tennant",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Administrative and operations staff"
+        }
+      ],
+      "paragraphs": [
+        "Our administrative and operations staff keep our school running smoothly. They support students, teachers and families every day. You can find them in our front office or on the school grounds.",
+        "School Administration Manager",
+        "Ms Kirrily Druery",
+        "School Business Manager",
+        "Ms Vivien Davies",
+        "Assistant to the Principal",
+        "Ms Kellorin Long",
+        "Teacher Librarian",
+        "Ms Donna Page / Mr Paul McDonald",
+        "School Counsellor",
+        "Ms Miori Shino",
+        "Careers Adviser",
+        "Ms Kylie Salisbury",
+        "Sports Coordinator",
+        "Mr Edmund Feng",
+        "Sports CHS Knockout Coordinator",
+        "Mr Bradley Sarif",
+        "Instrumental Music Program Director",
+        "Mr Matt Manchester",
+        "Technology Technical Support",
+        "Mr Zerly Nazar",
+        "Anti-Racism Contact Officer (ARCO)",
+        "Ms Jenny Xu",
+        "SRC Coordinator",
+        "Mr Bambul Shakibaei",
+        "Debating Co-ordinator",
+        "Mr Andrew Tennant"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Administrative and operations staff",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our administrative and operations staff keep our school running smoothly. They support students, teachers and families every day. You can find them in our front office or on the school grounds.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Administration Manager",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Kirrily Druery",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Business Manager",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Vivien Davies",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Assistant to the Principal",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Kellorin Long",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Teacher Librarian",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Donna Page / Mr Paul McDonald",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Counsellor",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Miori Shino",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Careers Adviser",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Kylie Salisbury",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sports Coordinator",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Edmund Feng",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sports CHS Knockout Coordinator",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Bradley Sarif",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Instrumental Music Program Director",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Matt Manchester",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Technology Technical Support",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Zerly Nazar",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Anti-Racism Contact Officer (ARCO)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Jenny Xu",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "SRC Coordinator",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Bambul Shakibaei",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Debating Co-ordinator",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Andrew Tennant",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s10",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "Have a question for our principal or teachers? Our friendly office team can help you get in touch. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Have a question for our principal or teachers?"
+        }
+      ],
+      "paragraphs": [
+        "Our friendly office team can help you get in touch.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Have a question for our principal or teachers?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our friendly office team can help you get in touch.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s11",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Additional learning support Find out how we support students with disability or additional learning needs. Stories and highlights Hear about stories, wins and proud moments from our staff and students.",
+      "headings": [],
+      "paragraphs": [
+        "Find out how we support students with disability or additional learning needs.",
+        "Hear about stories, wins and proud moments from our staff and students."
+      ],
+      "listItems": [
+        "Additional learning support Find out how we support students with disability or additional learning needs.",
+        "Stories and highlights Hear about stories, wins and proud moments from our staff and students."
+      ],
+      "ctas": [
+        {
+          "text": "Additional learning support",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        },
+        {
+          "text": "Stories and highlights",
+          "href": "/about-us/stories-and-highlights",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Additional learning support Find out how we support students with disability or additional learning needs.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Additional learning support",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out how we support students with disability or additional learning needs.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Stories and highlights Hear about stories, wins and proud moments from our staff and students.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Stories and highlights",
+              "display": "inline",
+              "href": "/about-us/stories-and-highlights",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/stories-and-highlights",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hear about stories, wins and proud moments from our staff and students.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+ "1440": {
+  "source_px": [
+   1440,
+   6094
+  ],
+  "migrated_px": [
+   1440,
+   5547
+  ],
+  "height_ratio": 0.91,
+  "pixel_similarity_pct": 67.7,
+  "ssim_pct": 24.8,
+  "color_hist_intersection_pct": 66.0,
+  "vertical_rhythm_corr": 0.123
+ },
+ "390": {
+  "source_px": [
+   390,
+   8312
+  ],
+  "migrated_px": [
+   390,
+   9351
+  ],
+  "height_ratio": 1.125,
+  "pixel_similarity_pct": 60.8,
+  "ssim_pct": 5.5,
+  "color_hist_intersection_pct": 69.5,
+  "vertical_rhythm_corr": -0.199
+ }
+}

@@ -1,0 +1,985 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:20:41.109Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/about-us_transition-to-high-school.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Transition to high school",
+    "description": "Support your child’s move from Year 6 to Year 7. Learn what to expect, how to prepare and how our school helps with the transition to high school.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+    "ogTags": {
+      "og:title": "Transition to high school",
+      "og:description": "Support your child’s move from Year 6 to Year 7. Learn what to expect, how to prepare and how our school helps with the transition to high school.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/about-us/transition-to-high-school",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1369d4a16e5754a1714b88c02e62dc8ffb2e22aa0.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1369d4a16e5754a1714b88c02e62dc8ffb2e22aa0.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Transition to high school",
+      "twitter:description": "Support your child’s move from Year 6 to Year 7. Learn what to expect, how to prepare and how our school helps with the transition to high school.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1369d4a16e5754a1714b88c02e62dc8ffb2e22aa0.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Transition to high school Starting high school is an exciting milestone for students and families. Moving from Year 6 to Year 7 can feel like a big change. We help every child feel confident and supported during the transition to high school. Find out more in the Getting ready for high school guide. What to expect in high school High school brings new experiences and routines, including: a larger school with more subjects, teachers and classrooms a timetable with different lessons each day moving between classrooms and carrying books and equipment more independence and responsibility for homework and study new friendships and opportunities to join activities and clubs. Before your child starts at Fort Street High School Getting ready at home You can help your child prepare by: talking positively about starting high school buying and labelling uniforms, shoes, stationery and school supplies checking if your laptop or device meets the minimum specifications making sure they're aware of important school dates practising their travel route to school making sure they know your phone number and emergency contacts encouraging routines such as packing their school bag encouraging them to check their timetable and school bell times the night before day 1 of Term 1. ensuring you are aware and up to date on school policies For more advice, see the Getting ready for high school guide. Enrolment process Before your child begins, families may be asked to provide documents regarding the following: medical conditions or allergies family circumstances that may affect your child’s start any learning or wellbeing needs. We will also explain the supports our school provides, such as: support for Aboriginal and Torres Strait Islander students through personalised learning pathways extra support for students learning English as an additional language or dialect (EAL/D) support for students with disability or other learning needs through inclusive education programs. Learn more about additional learning support and enrolment requirements at our school. Our transition program We work closely with local primary schools to help students feel ready. Our transition to high school programs help Year 6 students get ready for Year 7. Activities may include: orientation days and school tours parent information sessions and meet the teacher events subject tasters and classroom visits peer support activities with older students. Students, parents and carers can join these sessions to learn about daily schedules, uniforms, lunches and communication. If you need an interpreter, let us know. Year 7 orientation Join our next high school orientation Date: Tuesday, December 2nd 2025 Time: 8:30am - 12:45pm Parents will be emailed an invitation with further details closer to the event. Have a question for us? Our friendly office team can help. Contact us Enrol Ready to enrol? Find out how to apply online or in person. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 3929,
+    "scopeTextLen": 3001,
+    "ratio": 0.764,
+    "h1Text": "Transition to high school",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Transition to high school Starting high school is an exciting milestone for students and families. Moving from Year 6 to Year 7 can feel like a big change. We help every child feel confident and supported during the transition to high school. Find out more in the Getting ready for high school guide.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Transition to high school"
+        }
+      ],
+      "paragraphs": [
+        "Starting high school is an exciting milestone for students and families. Moving from Year 6 to Year 7 can feel like a big change. We help every child feel confident and supported during the transition to high school.",
+        "Find out more in the Getting ready for high school guide."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Getting ready for high school guide",
+          "href": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/getting-ready-for-school/starting-high-school",
+          "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/getting-ready-for-school/starting-high-school",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1369d4a16e5754a1714b88c02e62dc8ffb2e22aa0.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 1200,
+          "h": 801
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Transition to high school",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1369d4a16e5754a1714b88c02e62dc8ffb2e22aa0.jpg?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Starting high school is an exciting milestone for students and families. Moving from Year 6 to Year 7 can feel like a big change. We help every child feel confident and supported during the transition to high school.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Find out more in the Getting ready for high school guide.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Find out more in the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Getting ready for high school guide",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/getting-ready-for-school/starting-high-school",
+              "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/getting-ready-for-school/starting-high-school",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "What to expect in high school High school brings new experiences and routines, including: a larger school with more subjects, teachers and classrooms a timetable with different lessons each day moving between classrooms and carrying books and equipment more independence and responsibility for homework and study new friendships and opportunities to join activities and clubs. Before your child starts at Fort Street High School Getting ready at home You can help your child prepare by: talking positively about starting high school buying and labelling uniforms, shoes, stationery and school supplies checking if your laptop or device meets the minimum specifications making sure they're aware of important school dates practising their travel route to school making sure they know your phone number and emergency contacts encouraging routines such as packing their school bag encouraging them to check their timetable and school bell times the night before day 1 of Term 1. ensuring you are aware and up to date on school policies For more advice, see the Getting ready for high school guide. Enrolment process Before your child begins, families may be asked to provide documents regarding the following: medical conditions or allergies family circumstances that may affect your child’s start any learning or wellbeing needs. We will also explain the supports our school provides, such as: support for Aboriginal and Torres Strait Islander students through personalised learning pathways extra support for students learning English as an additional language or dialect (EAL/D) support for students with disability or other learning needs through inclusive education programs. Learn more about additional learning support and enrolment requirements at our school. Our transition program We work closely with local primary schools to help students feel ready. Our transition to high school programs help Year 6 students get ready for Year 7. Activities may include: orientation days and school tours parent information sessions and meet the teacher events subject tasters and classroom visits peer support activities with older students. Students, parents and carers can join these sessions to learn about daily schedules, uniforms, lunches and communication. If you need an interpreter, let us know.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "What to expect in high school"
+        },
+        {
+          "level": "h2",
+          "text": "Before your child starts at Fort Street High School"
+        },
+        {
+          "level": "h3",
+          "text": "Getting ready at home"
+        },
+        {
+          "level": "h3",
+          "text": "Enrolment process"
+        },
+        {
+          "level": "h3",
+          "text": "Our transition program"
+        }
+      ],
+      "paragraphs": [
+        "High school brings new experiences and routines, including:",
+        "You can help your child prepare by:",
+        "For more advice, see the Getting ready for high school guide.",
+        "Before your child begins, families may be asked to provide documents regarding the following:",
+        "We will also explain the supports our school provides, such as:",
+        "Learn more about additional learning support and enrolment requirements at our school.",
+        "We work closely with local primary schools to help students feel ready. Our transition to high school programs help Year 6 students get ready for Year 7. Activities may include:",
+        "Students, parents and carers can join these sessions to learn about daily schedules, uniforms, lunches and communication. If you need an interpreter, let us know."
+      ],
+      "listItems": [
+        "a larger school with more subjects, teachers and classrooms",
+        "a timetable with different lessons each day",
+        "moving between classrooms and carrying books and equipment",
+        "more independence and responsibility for homework and study",
+        "new friendships and opportunities to join activities and clubs.",
+        "talking positively about starting high school",
+        "buying and labelling uniforms, shoes, stationery and school supplies",
+        "checking if your laptop or device meets the minimum specifications",
+        "making sure they're aware of important school dates",
+        "practising their travel route to school",
+        "making sure they know your phone number and emergency contacts",
+        "encouraging routines such as packing their school bag",
+        "encouraging them to check their timetable and school bell times the night before day 1 of Term 1.",
+        "ensuring you are aware and up to date on school policies",
+        "medical conditions or allergies",
+        "family circumstances that may affect your child’s start",
+        "any learning or wellbeing needs.",
+        "support for Aboriginal and Torres Strait Islander students through personalised learning pathways",
+        "extra support for students learning English as an additional language or dialect (EAL/D)",
+        "support for students with disability or other learning needs through inclusive education programs.",
+        "orientation days and school tours",
+        "parent information sessions and meet the teacher events",
+        "subject tasters and classroom visits",
+        "peer support activities with older students."
+      ],
+      "ctas": [
+        {
+          "text": "uniforms",
+          "href": "/school-life/uniform",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+          "classes": ""
+        },
+        {
+          "text": "stationery and school supplies",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/forms%20and%20documents/2026-y7-stationary-requirements.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/forms%20and%20documents/2026-y7-stationary-requirements.pdf",
+          "classes": ""
+        },
+        {
+          "text": "laptop or device",
+          "href": "/school-life/bring-your-own-device",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+          "classes": ""
+        },
+        {
+          "text": "important school dates",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        },
+        {
+          "text": "travel",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        },
+        {
+          "text": "school bell times",
+          "href": "/school-life/bell-times",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+          "classes": ""
+        },
+        {
+          "text": "school policies",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": ""
+        },
+        {
+          "text": "Getting ready for high school guide",
+          "href": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/getting-ready-for-school/starting-high-school",
+          "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/getting-ready-for-school/starting-high-school",
+          "classes": ""
+        },
+        {
+          "text": "additional learning support",
+          "href": "/learning-and-support/additional-learning-support",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+          "classes": ""
+        },
+        {
+          "text": "enrolment requirements",
+          "href": "/about-us/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "What to expect in high school",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "High school brings new experiences and routines, including:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "a larger school with more subjects, teachers and classrooms",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "a timetable with different lessons each day",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "moving between classrooms and carrying books and equipment",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "more independence and responsibility for homework and study",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "new friendships and opportunities to join activities and clubs.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Before your child starts at Fort Street High School",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Getting ready at home",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "You can help your child prepare by:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "talking positively about starting high school",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "buying and labelling uniforms, shoes, stationery and school supplies",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "buying and labelling",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "uniforms",
+              "display": "inline",
+              "href": "/school-life/uniform",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/uniform",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ", shoes,",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "stationery and school supplies",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/forms%20and%20documents/2026-y7-stationary-requirements.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/forms%20and%20documents/2026-y7-stationary-requirements.pdf",
+              "classes": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "checking if your laptop or device meets the minimum specifications",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "checking if your",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "laptop or device",
+              "display": "inline",
+              "href": "/school-life/bring-your-own-device",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bring-your-own-device",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "meets the minimum specifications",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "making sure they're aware of important school dates",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "making sure they're aware of",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "important school dates",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "practising their travel route to school",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "practising their",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "travel",
+              "display": "inline",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "route to school",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "making sure they know your phone number and emergency contacts",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "encouraging routines such as packing their school bag",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "encouraging them to check their timetable and school bell times the night before day 1 of Term 1.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "encouraging them to check their timetable and",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "school bell times",
+              "display": "inline",
+              "href": "/school-life/bell-times",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/bell-times",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "the night before day 1 of Term 1.",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "ensuring you are aware and up to date on school policies",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "text",
+              "text": "ensuring you are aware and up to date on",
+              "parentTag": "li",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "school policies",
+              "display": "inline",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For more advice, see the Getting ready for high school guide.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For more advice, see the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Getting ready for high school guide",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/getting-ready-for-school/starting-high-school",
+              "absHref": "https://education.nsw.gov.au/schooling/parents-and-carers/going-to-school/getting-ready-for-school/starting-high-school",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Enrolment process",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Before your child begins, families may be asked to provide documents regarding the following:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "medical conditions or allergies",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "family circumstances that may affect your child’s start",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "any learning or wellbeing needs.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We will also explain the supports our school provides, such as:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "support for Aboriginal and Torres Strait Islander students through personalised learning pathways",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "extra support for students learning English as an additional language or dialect (EAL/D)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "support for students with disability or other learning needs through inclusive education programs.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learn more about additional learning support and enrolment requirements at our school.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Learn more about",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "additional learning support",
+              "display": "inline",
+              "href": "/learning-and-support/additional-learning-support",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "enrolment requirements",
+              "display": "inline",
+              "href": "/about-us/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/enrol",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "at our school.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Our transition program",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We work closely with local primary schools to help students feel ready. Our transition to high school programs help Year 6 students get ready for Year 7. Activities may include:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "orientation days and school tours",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "parent information sessions and meet the teacher events",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "subject tasters and classroom visits",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "peer support activities with older students.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students, parents and carers can join these sessions to learn about daily schedules, uniforms, lunches and communication. If you need an interpreter, let us know.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert columns-container",
+      "visibleText": "Year 7 orientation Join our next high school orientation Date: Tuesday, December 2nd 2025 Time: 8:30am - 12:45pm Parents will be emailed an invitation with further details closer to the event.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Year 7 orientation"
+        }
+      ],
+      "paragraphs": [
+        "Join our next high school orientation",
+        "Date: Tuesday, December 2nd 2025",
+        "Time: 8:30am - 12:45pm",
+        "Parents will be emailed an invitation with further details closer to the event."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1bc6d5ca0596fdb454e970c8fb29ce7e19422c213.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1335
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Year 7 orientation",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Join our next high school orientation",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Date: Tuesday, December 2nd 2025",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Date:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Tuesday, December 2nd 2025",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Time: 8:30am - 12:45pm",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Time:",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "8:30am - 12:45pm",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parents will be emailed an invitation with further details closer to the event.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/about-us/media_1bc6d5ca0596fdb454e970c8fb29ce7e19422c213.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "Have a question for us? Our friendly office team can help. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Have a question for us?"
+        }
+      ],
+      "paragraphs": [
+        "Our friendly office team can help.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Have a question for us?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our friendly office team can help.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Enrol Ready to enrol? Find out how to apply online or in person. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Ready to enrol? Find out how to apply online or in person.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Enrol Ready to enrol? Find out how to apply online or in person.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Enrol",
+          "href": "/enrol",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/enrol",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Enrol Ready to enrol? Find out how to apply online or in person.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Enrol",
+              "display": "inline",
+              "href": "/enrol",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/enrol",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ready to enrol? Find out how to apply online or in person.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

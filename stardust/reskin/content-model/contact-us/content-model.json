@@ -1,0 +1,750 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:20:40.578Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/contact-us.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Contact us",
+    "description": "Fort Street High School, We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM. Email us at fortstreet-h.school@det.nsw.edu.au and call us on 9569 4355.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+    "ogTags": {
+      "og:title": "Contact us",
+      "og:description": "Fort Street High School, We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM. Email us at fortstreet-h.school@det.nsw.edu.au and call us on 9569 4355.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/media_16a3027ca49fb0a72b31b276bd481c1414e996aa6.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/media_16a3027ca49fb0a72b31b276bd481c1414e996aa6.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Contact us",
+      "twitter:description": "Fort Street High School, We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM. Email us at fortstreet-h.school@det.nsw.edu.au and call us on 9569 4355.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/media_16a3027ca49fb0a72b31b276bd481c1414e996aa6.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Contact us Want to learn more about our school, speak to someone, or raise a question or concern? We’re here to help. Contact us to: ask about enrolment or school costs arrange a visit before you enrol give feedback or raise a concern get involved as a parent or carer find out more about how we support students and families. Call, email or visit us Our office is open Monday to Friday 8.30am to 3.30pm during school term. fortstreet-h.school@det.nsw.edu.au (opens in new window) 8585 1600 (opens in new window) 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street) Location map We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street). Skip Google Map Check if you're in our local intake area Many NSW public schools have specific local intake areas. If you live inside a school’s local intake area, your child is guaranteed a place at that school. Use School Finder to find out if you live in our local intake area. Book a tour Before enrolling, parents and carers of prospective students can book a school tour to learn more about what we offer. Meet our friendly staff, explore our school facilities, and see what makes our school a great place to learn. Call us to arrange a visit. 9569 4355 (opens in new window) Need an interpreter? The Telephone Interpreting Service allows parents and carers to connect with qualified interpreters by phoning 131 450 and requesting their language. This free and on-demand service facilitates clear communication between parents and schools. Parents and carers can listen to instructions on using the service in their language. Have a concern or feedback? We’re here to help. If you have a question, concern or want to share feedback, please email us. fortstreet-h.school@det.nsw.edu.au (opens in new window) Travel to school Learn about local transport options and how to get here safely. Our community Discover ways to volunteer and help shape our school community.",
+  "coverage": {
+    "bodyTextLen": 2733,
+    "scopeTextLen": 1950,
+    "ratio": 0.714,
+    "h1Text": "Contact us",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Contact us Want to learn more about our school, speak to someone, or raise a question or concern? We’re here to help. Contact us to: ask about enrolment or school costs arrange a visit before you enrol give feedback or raise a concern get involved as a parent or carer find out more about how we support students and families.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Contact us"
+        }
+      ],
+      "paragraphs": [
+        "Want to learn more about our school, speak to someone, or raise a question or concern? We’re here to help.",
+        "Contact us to:"
+      ],
+      "listItems": [
+        "ask about enrolment or school costs",
+        "arrange a visit before you enrol",
+        "give feedback or raise a concern",
+        "get involved as a parent or carer",
+        "find out more about how we support students and families."
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Contact us",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Want to learn more about our school, speak to someone, or raise a question or concern? We’re here to help.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us to:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "ask about enrolment or school costs",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "arrange a visit before you enrol",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "give feedback or raise a concern",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "get involved as a parent or carer",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "find out more about how we support students and families.",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section columns-container",
+      "visibleText": "Call, email or visit us Our office is open Monday to Friday 8.30am to 3.30pm during school term. fortstreet-h.school@det.nsw.edu.au (opens in new window) 8585 1600 (opens in new window) 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Call, email or visit us"
+        }
+      ],
+      "paragraphs": [
+        "Our office is open Monday to Friday 8.30am to 3.30pm during school term.",
+        "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+        "8585 1600 (opens in new window)",
+        "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "classes": ""
+        },
+        {
+          "text": "8585 1600 (opens in new window)",
+          "href": "tel:9569%204355",
+          "absHref": "tel:9569%204355",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_16a3027ca49fb0a72b31b276bd481c1414e996aa6.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1335
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Call, email or visit us",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our office is open Monday to Friday 8.30am to 3.30pm during school term.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "fortstreet-h.school@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "8585 1600 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "8585 1600 (opens in new window)",
+              "display": "inline",
+              "href": "tel:9569%204355",
+              "absHref": "tel:9569%204355",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "8585 1600",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/media_16a3027ca49fb0a72b31b276bd481c1414e996aa6.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section embed-container",
+      "visibleText": "Location map We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street). Skip Google Map",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Location map"
+        }
+      ],
+      "paragraphs": [
+        "We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street)."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Skip Google Map",
+          "href": "#after-map",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us#after-map",
+          "classes": "skip-map-link"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Location map",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We are located at 620 PARRAMATTA ROAD, NSW 2049 PETERSHAM (Access via Palace Street).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "cta",
+          "text": "Skip Google Map",
+          "display": "block",
+          "href": "#after-map",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us#after-map",
+          "classes": "skip-map-link",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Check if you're in our local intake area Many NSW public schools have specific local intake areas. If you live inside a school’s local intake area, your child is guaranteed a place at that school. Use School Finder to find out if you live in our local intake area.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Check if you're in our local intake area"
+        }
+      ],
+      "paragraphs": [
+        "Many NSW public schools have specific local intake areas. If you live inside a school’s local intake area, your child is guaranteed a place at that school. Use School Finder to find out if you live in our local intake area."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "School Finder",
+          "href": "https://schoolfinder.education.nsw.gov.au/",
+          "absHref": "https://schoolfinder.education.nsw.gov.au/",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Check if you're in our local intake area",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Many NSW public schools have specific local intake areas. If you live inside a school’s local intake area, your child is guaranteed a place at that school. Use School Finder to find out if you live in our local intake area.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Many NSW public schools have specific local intake areas. If you live inside a school’s local intake area, your child is guaranteed a place at that school. Use",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "School Finder",
+              "display": "inline",
+              "href": "https://schoolfinder.education.nsw.gov.au/",
+              "absHref": "https://schoolfinder.education.nsw.gov.au/",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "to find out if you live in our local intake area.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Book a tour Before enrolling, parents and carers of prospective students can book a school tour to learn more about what we offer. Meet our friendly staff, explore our school facilities, and see what makes our school a great place to learn. Call us to arrange a visit. 9569 4355 (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Book a tour"
+        }
+      ],
+      "paragraphs": [
+        "Before enrolling, parents and carers of prospective students can book a school tour to learn more about what we offer.",
+        "Meet our friendly staff, explore our school facilities, and see what makes our school a great place to learn.",
+        "Call us to arrange a visit.",
+        "9569 4355 (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "9569 4355 (opens in new window)",
+          "href": "tel:9569%204355",
+          "absHref": "tel:9569%204355",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Book a tour",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Before enrolling, parents and carers of prospective students can book a school tour to learn more about what we offer.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Meet our friendly staff, explore our school facilities, and see what makes our school a great place to learn.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Call us to arrange a visit.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "9569 4355 (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "9569 4355 (opens in new window)",
+              "display": "inline",
+              "href": "tel:9569%204355",
+              "absHref": "tel:9569%204355",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "9569 4355",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Need an interpreter? The Telephone Interpreting Service allows parents and carers to connect with qualified interpreters by phoning 131 450 and requesting their language. This free and on-demand service facilitates clear communication between parents and schools. Parents and carers can listen to instructions on using the service in their language.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need an interpreter?"
+        }
+      ],
+      "paragraphs": [
+        "The Telephone Interpreting Service allows parents and carers to connect with qualified interpreters by phoning 131 450 and requesting their language.",
+        "This free and on-demand service facilitates clear communication between parents and schools. Parents and carers can listen to instructions on using the service in their language."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Telephone Interpreting Service",
+          "href": "https://education.nsw.gov.au/schooling/translated-documents/audio-message.html",
+          "absHref": "https://education.nsw.gov.au/schooling/translated-documents/audio-message.html",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need an interpreter?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Telephone Interpreting Service allows parents and carers to connect with qualified interpreters by phoning 131 450 and requesting their language.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Telephone Interpreting Service",
+              "display": "inline",
+              "href": "https://education.nsw.gov.au/schooling/translated-documents/audio-message.html",
+              "absHref": "https://education.nsw.gov.au/schooling/translated-documents/audio-message.html",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "allows parents and carers to connect with qualified interpreters by phoning",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "131 450",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and requesting their language.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "This free and on-demand service facilitates clear communication between parents and schools. Parents and carers can listen to instructions on using the service in their language.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Have a concern or feedback? We’re here to help. If you have a question, concern or want to share feedback, please email us. fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Have a concern or feedback?"
+        }
+      ],
+      "paragraphs": [
+        "We’re here to help. If you have a question, concern or want to share feedback, please email us.",
+        "fortstreet-h.school@det.nsw.edu.au (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Have a concern or feedback?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We’re here to help. If you have a question, concern or want to share feedback, please email us.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "fortstreet-h.school@det.nsw.edu.au (opens in new window)",
+              "display": "inline",
+              "href": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "absHref": "mailto:fortstreet-h.school@det.nsw.edu.au",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "fortstreet-h.school@det.nsw.edu.au",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Travel to school Learn about local transport options and how to get here safely. Our community Discover ways to volunteer and help shape our school community.",
+      "headings": [],
+      "paragraphs": [
+        "Learn about local transport options and how to get here safely.",
+        "Discover ways to volunteer and help shape our school community."
+      ],
+      "listItems": [
+        "Travel to school Learn about local transport options and how to get here safely.",
+        "Our community Discover ways to volunteer and help shape our school community."
+      ],
+      "ctas": [
+        {
+          "text": "Travel to school",
+          "href": "/school-life/travel-to-school",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+          "classes": ""
+        },
+        {
+          "text": "Our community",
+          "href": "/our-community/pandc",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Travel to school Learn about local transport options and how to get here safely.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Travel to school",
+              "display": "inline",
+              "href": "/school-life/travel-to-school",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/travel-to-school",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn about local transport options and how to get here safely.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our community Discover ways to volunteer and help shape our school community.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our community",
+              "display": "inline",
+              "href": "/our-community/pandc",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover ways to volunteer and help shape our school community.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

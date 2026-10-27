@@ -1,0 +1,1450 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:20:52.486Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/learning-and-support_additional-learning-support.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Additional learning support",
+    "description": "At Fort Street High School, we want every student to feel safe, supported and ready to learn. We support students with disability and additional learning needs so they can take part in all areas of school life.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+    "ogTags": {
+      "og:title": "Additional learning support",
+      "og:description": "At Fort Street High School, we want every student to feel safe, supported and ready to learn. We support students with disability and additional learning needs so they can take part in all areas of school life.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/additional-learning-support",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_17d024f2ce6351a6b18d9a072993cbca687e8e29f.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_17d024f2ce6351a6b18d9a072993cbca687e8e29f.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Additional learning support",
+      "twitter:description": "At Fort Street High School, we want every student to feel safe, supported and ready to learn. We support students with disability and additional learning needs so they can take part in all areas of school life.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_17d024f2ce6351a6b18d9a072993cbca687e8e29f.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Additional learning support To ensure all students can access the full range of education opportunities to achieve success, Fort Street High School provides additional support to meet the student needs. These additional learning and support needs may relate to a range of circumstances for the student, their families and their school. They may be short term or ongoing throughout schooling. They may relate to disability or difficulties in learning or behaviour from a variety of causes. Learning Support at Fort Street Students at Fort Street High School are typically academically gifted but may need assistance in achieving their academic potential due to poor organisational skills, perfectionism, anxiety and/or autism. The Learning Support Team at Fort Street High School assists students facing a range of barriers to achieve their educational and developmental potential by providing a range of strategies and specialised support that reflects the specific context and unique needs of our students. At Fort Street High School, support may come in the form of extension and/or intervention. To ensure our students receive support tailored to their specific needs the Learning Support Team will: Collaborate with students, parents, classroom teachers and external agencies Deliver targeted support services to those who require specialised expertise, assessment adjustments and/or other interventions in order to overcome barriers to learning Develop the capacity of the workforce within FSHS to meet the needs of students who have additional needs, or are disadvantaged or vulnerable, to enable them to achieve successful educational and wellbeing outcomes Respond to emerging student learning support and wellbeing needs and contribute in the identification of and response to school priority areas. Respond to critical incidents involving students, staff and school communities where necessary A prime function of our Learning Support Team is to ensure that the needs of all students in the school are being met using a three-tiered model of support addressing universal, targeted and intensive supports for students and teachers. There is a strong focus on: Systems - what we do to support teachers Practices - what we do to support students Data - to inform our decision making about systems and practices The Learning Support Team The school learning and support team plays a key role in ensuring that the specific needs of students with disability and additional learning and support needs are met. A key feature of our learning support team is the collaborative planning between teachers, support staff, parents and students: Identify school needs Establish school priorities Training and development Coordinate resources (human and material) Identify resource needs Assist in development of school Learning Support policy and procedures Collaboratively plan to develop action plans with strategies to support students Liaise with students, parents and outside agencies The Learning Centre and Learning Support Staff are located in the School Library. Contact Barbara Vasiliadis - Monday, Tuesday Alissa Tan - Monday, Tuesday, Thursday Jill Ryan - Wednesday, Thursday, Friday Learning Centre - Library Adjustments are planned with parents and carers. They are reviewed regularly and changed when needed. If you think your child may need extra help, contact us. Homework and the Study Centre Fort Street High School recognises the importance of homework in reinforcing classroom learning, fostering independent study habits, and preparing students for future academic challenges. Our Homework policy ensures that homework is meaningful, manageable, and aligned with the rigorous academic expectations of a selective high school setting. The library is open every Monday and Wednesday afternoon from 3.15 - 4.10 pm for the Homework Centre and Study Centre. Homework Expectations Homework is designed to support student learning and should be relevant, purposeful, and appropriately challenging. It may include revision, research, completion of classwork, preparation for assessments, development of study skills or independent projects. The school’s general expectation is that students should be engaged in homework according to the schedule below, although there will times of the year when more or less may be required. Year 7 - 8 approximately 1 hour on school nights/5 hours per week Year 9-10 approximately 2 hours on school nights/10 hours per week Year 11-12 as required, but generally a minimum of 3 hours on school nights These times are indicative and may vary depending on individual subjects, assessment schedules, and student needs. Individual faculties will have their own focus on specific skills and activities and will allocate homework time accordingly to ensure adherence to these guidelines. Students who find their homework schedule difficult to manage should discuss with their class teacher or Year Adviser. Additional support after school The library is open after school on Monday and Wednesday afternoons from 3.15pm to 4.10pm for students wishing to do homework or join in the Study Centre peer groups. Supervised by Ms. Emily Irvine on Mondays and Ms. Amelia Drinkwater on Wednesdays, the library is a quiet and productive space for all students from Years 7-12 who either want to focus independently on their schoolwork, or who would like some guidance with study and organisation. Students who attend can expect a welcoming and quiet environment where they can work diligently on classwork, homework and assignments with the support of school staff. If your child wishes to study in the library they can just turn up on either the Monday or Wednesday afternoons. The Study Centre What is the Study Centre? Study Centre will be held in the library and will be open to all students looking for a space to work in peer groups to advance their literacy and numeracy skills. What is the purpose of the Study Centre? We hope that by explicitly assisting students to assess their own work as well as their peers it will provide a forum for critical analysis of their own efforts and assist them to become more autonomous learners. Which students should attend the Study Centre? Whilst the Study Centres is available to all students we would suggest it would be highly valuable to students in Year 11 and 12. What Support will be available as a part of the Study Centre? The focus on for Monday sessions will be on developing writing skills and literacy with the support and supervision of an English teacher whilst students work in peer groups. The focus for the Wednesday sessions will be on numeracy where students will also work in peer groups with the support and supervision of a Mathematics teacher. How will the peer groups be organised? Students may form their own peer groups but supervising teachers will also assist to allocate students to peer groups during these sessions if required. The supervising teachers will also oversee and offer support as required through these sessions. What should students bring to the Study Centre? Students are encouraged to bring work relevant to these focus areas that will support where they need targeted assistance. How does my child sign up for the Study Centre? If your child wishes to join the Study Centre they can just come to the library on either the Monday or Wednesday afternoons and make themselves known to the supervising teacher. If you have specific concerns about your childs learning the first point of contact should be your childs teacher. If you have any questions regarding the Study Centre please contact Mr David Sherwin (Relieving Deputy Principal) or Ms Kate Dunn (Deputy Principal). Study Skills At Fort Street HS we provide a range of face-to-face and online study skills programs to support students from Year 7 to 12. Our study skills program aims to ensure that Fortian’s develop the confidence and skills required to improve their organisational skills, reach their academic potential and facilitate independent learning. Junior Study Skills Tools for Success is designed to support Year 7 students to develop and enhance their study skills and homework habits. The aim of this presentation is to assist students in establishing highly effective study skills and to provide their parents or carers with expert advice about how best to support their child in high school. This session is highly interactive and both parents and students need to attend to get the best value from the training. What does this session include? Managing homework and assignments effectively by efficient time management Learning to be organised for school and at home Working and studying effectively in high school Achieving your Personal Best is designed for students in Year 10 as a study skills check-up; a way for students to learn new techniques and to find our the areas they specifically need to work on. This session is highly interactive and both parents and students need to attend to get the best value from the training. The main areas that will be covered are: Making learning more efficient and effective Organisation and time management skills Improving study notes and study skills Dealing with the obstacles and problems Senior Study Skills Study Sensei by Elevate is designed for Year 11 students and aims to achieve behavioural change amongst students. This course teaches students how to study and what to study, encourages consistent study throughout the year and looks specifically at how to take and structure effective study notes. This seminar is interactive and workshop based. Utilising the syllabus to frame study Structuring and reviewing organised notes Conceptual learning to develop deep understanding Utilising practice exam papers Standing out through independent learning In Year 12 Fortians take part in the HSC Study Day which is designed to assist students in their preparations for the HSC. Delivered by specialist teachers, sessions include: ATAR and moderation Effective study tips NESA rules and procedures Disability provision applications and the Educational Access Scheme (EAS) applications The Study Skills Handbook Fortians and their parents have access to this online handbook which is covers a range of topics students can work through to develop their study skills. The handbook covers the units listed below: Working Better at Home Skills for Specific Stages Working Better at School Improving How You Study Improving your Skills Using Technology Tools for Managing Challenges Students and parents can access the online study skills handbook here (opens in new window) \"Our family has recently dealt with some serious health concerns and the principal, executive and teachers have provided support to my son and our family which has been a great comfort and helped him get through a difficult time. \" — a parent of Fort Street High School Have a question about learning support? We’re here to talk through your options. Contact us to speak with the principal or learning and support team. Contact us Wellbeing See how we support every student’s wellbeing at school and beyond. Our principal and staff Get to know our principal and staff, who work together to create a positive school culture.",
+  "coverage": {
+    "bodyTextLen": 12115,
+    "scopeTextLen": 11240,
+    "ratio": 0.928,
+    "h1Text": "Additional learning support",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Additional learning support To ensure all students can access the full range of education opportunities to achieve success, Fort Street High School provides additional support to meet the student needs. These additional learning and support needs may relate to a range of circumstances for the student, their families and their school. They may be short term or ongoing throughout schooling. They may relate to disability or difficulties in learning or behaviour from a variety of causes.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Additional learning support"
+        }
+      ],
+      "paragraphs": [
+        "To ensure all students can access the full range of education opportunities to achieve success, Fort Street High School provides additional support to meet the student needs. These additional learning and support needs may relate to a range of circumstances for the student, their families and their school. They may be short term or ongoing throughout schooling. They may relate to disability or difficulties in learning or behaviour from a variety of causes."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_17d024f2ce6351a6b18d9a072993cbca687e8e29f.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1333
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Additional learning support",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_17d024f2ce6351a6b18d9a072993cbca687e8e29f.jpg?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "To ensure all students can access the full range of education opportunities to achieve success, Fort Street High School provides additional support to meet the student needs. These additional learning and support needs may relate to a range of circumstances for the student, their families and their school. They may be short term or ongoing throughout schooling. They may relate to disability or difficulties in learning or behaviour from a variety of causes.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Learning Support at Fort Street Students at Fort Street High School are typically academically gifted but may need assistance in achieving their academic potential due to poor organisational skills, perfectionism, anxiety and/or autism. The Learning Support Team at Fort Street High School assists students facing a range of barriers to achieve their educational and developmental potential by providing a range of strategies and specialised support that reflects the specific context and unique needs of our students. At Fort Street High School, support may come in the form of extension and/or intervention. To ensure our students receive support tailored to their specific needs the Learning Support Team will: Collaborate with students, parents, classroom teachers and external agencies Deliver targeted support services to those who require specialised expertise, assessment adjustments and/or other interventions in order to overcome barriers to learning Develop the capacity of the workforce within FSHS to meet the needs of students who have additional needs, or are disadvantaged or vulnerable, to enable them to achieve successful educational and wellbeing outcomes Respond to emerging student learning support and wellbeing needs and contribute in the identification of and response to school priority areas. Respond to critical incidents involving students, staff and school communities where necessary A prime function of our Learning Support Team is to ensure that the needs of all students in the school are being met using a three-tiered model of support addressing universal, targeted and intensive supports for students and teachers. There is a strong focus on: Systems - what we do to support teachers Practices - what we do to support students Data - to inform our decision making about systems and practices The Learning Support Team The school learning and support team plays a key role in ensuring that the specific needs of students with disability and additional learning and support needs are met. A key feature of our learning support team is the collaborative planning between teachers, support staff, parents and students: Identify school needs Establish school priorities Training and development Coordinate resources (human and material) Identify resource needs Assist in development of school Learning Support policy and procedures Collaboratively plan to develop action plans with strategies to support students Liaise with students, parents and outside agencies The Learning Centre and Learning Support Staff are located in the School Library.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Learning Support at Fort Street"
+        },
+        {
+          "level": "h2",
+          "text": "The Learning Support Team"
+        }
+      ],
+      "paragraphs": [
+        "Students at Fort Street High School are typically academically gifted but may need assistance in achieving their academic potential due to poor organisational skills, perfectionism, anxiety and/or autism.",
+        "The Learning Support Team at Fort Street High School assists students facing a range of barriers to achieve their educational and developmental potential by providing a range of strategies and specialised support that reflects the specific context and unique needs of our students.",
+        "At Fort Street High School, support may come in the form of extension and/or intervention. To ensure our students receive support tailored to their specific needs the Learning Support Team will:",
+        "A prime function of our Learning Support Team is to ensure that the needs of all students in the school are being met using a three-tiered model of support addressing universal, targeted and intensive supports for students and teachers. There is a strong focus on:",
+        "The school learning and support team plays a key role in ensuring that the specific needs of students with disability and additional learning and support needs are met. A key feature of our learning support team is the collaborative planning between teachers, support staff, parents and students:",
+        "The Learning Centre and Learning Support Staff are located in the School Library."
+      ],
+      "listItems": [
+        "Collaborate with students, parents, classroom teachers and external agencies",
+        "Deliver targeted support services to those who require specialised expertise, assessment adjustments and/or other interventions in order to overcome barriers to learning",
+        "Develop the capacity of the workforce within FSHS to meet the needs of students who have additional needs, or are disadvantaged or vulnerable, to enable them to achieve successful educational and wellbeing outcomes",
+        "Respond to emerging student learning support and wellbeing needs and contribute in the identification of and response to school priority areas.",
+        "Respond to critical incidents involving students, staff and school communities where necessary",
+        "Systems - what we do to support teachers",
+        "Practices - what we do to support students",
+        "Data - to inform our decision making about systems and practices",
+        "Identify school needs",
+        "Establish school priorities",
+        "Training and development",
+        "Coordinate resources (human and material)",
+        "Identify resource needs",
+        "Assist in development of school Learning Support policy and procedures",
+        "Collaboratively plan to develop action plans with strategies to support students",
+        "Liaise with students, parents and outside agencies"
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Learning Support at Fort Street",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students at Fort Street High School are typically academically gifted but may need assistance in achieving their academic potential due to poor organisational skills, perfectionism, anxiety and/or autism.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Learning Support Team at Fort Street High School assists students facing a range of barriers to achieve their educational and developmental potential by providing a range of strategies and specialised support that reflects the specific context and unique needs of our students.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At Fort Street High School, support may come in the form of extension and/or intervention. To ensure our students receive support tailored to their specific needs the Learning Support Team will:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Collaborate with students, parents, classroom teachers and external agencies",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Deliver targeted support services to those who require specialised expertise, assessment adjustments and/or other interventions in order to overcome barriers to learning",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Develop the capacity of the workforce within FSHS to meet the needs of students who have additional needs, or are disadvantaged or vulnerable, to enable them to achieve successful educational and wellbeing outcomes",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Respond to emerging student learning support and wellbeing needs and contribute in the identification of and response to school priority areas.",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Respond to critical incidents involving students, staff and school communities where necessary",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "A prime function of our Learning Support Team is to ensure that the needs of all students in the school are being met using a three-tiered model of support addressing universal, targeted and intensive supports for students and teachers. There is a strong focus on:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Systems - what we do to support teachers",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Practices - what we do to support students",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Data - to inform our decision making about systems and practices",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "The Learning Support Team",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school learning and support team plays a key role in ensuring that the specific needs of students with disability and additional learning and support needs are met. A key feature of our learning support team is the collaborative planning between teachers, support staff, parents and students:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Identify school needs",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Establish school priorities",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Training and development",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Coordinate resources (human and material)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Identify resource needs",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Assist in development of school Learning Support policy and procedures",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Collaboratively plan to develop action plans with strategies to support students",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Liaise with students, parents and outside agencies",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Learning Centre and Learning Support Staff are located in the School Library.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Contact Barbara Vasiliadis - Monday, Tuesday Alissa Tan - Monday, Tuesday, Thursday Jill Ryan - Wednesday, Thursday, Friday Learning Centre - Library Adjustments are planned with parents and carers. They are reviewed regularly and changed when needed. If you think your child may need extra help, contact us.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Contact"
+        }
+      ],
+      "paragraphs": [
+        "Barbara Vasiliadis - Monday, Tuesday",
+        "Alissa Tan - Monday, Tuesday, Thursday",
+        "Jill Ryan - Wednesday, Thursday, Friday",
+        "Learning Centre - Library",
+        "Adjustments are planned with parents and carers. They are reviewed regularly and changed when needed. If you think your child may need extra help, contact us."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Contact",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Barbara Vasiliadis - Monday, Tuesday",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Barbara Vasiliadis",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- Monday, Tuesday",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Alissa Tan - Monday, Tuesday, Thursday",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Alissa Tan",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- Monday, Tuesday, Thursday",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Jill Ryan - Wednesday, Thursday, Friday",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Jill Ryan",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "- Wednesday, Thursday, Friday",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Learning Centre - Library",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Adjustments are planned with parents and carers. They are reviewed regularly and changed when needed. If you think your child may need extra help, contact us.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Adjustments are planned with parents and carers. They are reviewed regularly and changed when needed. If you think your child may need extra help,",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "contact us",
+              "display": "inline",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section columns-container",
+      "visibleText": "Homework and the Study Centre Fort Street High School recognises the importance of homework in reinforcing classroom learning, fostering independent study habits, and preparing students for future academic challenges. Our Homework policy ensures that homework is meaningful, manageable, and aligned with the rigorous academic expectations of a selective high school setting. The library is open every Monday and Wednesday afternoon from 3.15 - 4.10 pm for the Homework Centre and Study Centre.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Homework and the Study Centre"
+        }
+      ],
+      "paragraphs": [
+        "Fort Street High School recognises the importance of homework in reinforcing classroom learning, fostering independent study habits, and preparing students for future academic challenges. Our Homework policy ensures that homework is meaningful, manageable, and aligned with the rigorous academic expectations of a selective high school setting.",
+        "The library is open every Monday and Wednesday afternoon from 3.15 - 4.10 pm for the Homework Centre and Study Centre."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Homework policy",
+          "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Fort_Street_High_School_Homework_Policy_as_of_June_18_2025.pdf",
+          "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Fort_Street_High_School_Homework_Policy_as_of_June_18_2025.pdf",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1335
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Homework and the Study Centre",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fort Street High School recognises the importance of homework in reinforcing classroom learning, fostering independent study habits, and preparing students for future academic challenges. Our Homework policy ensures that homework is meaningful, manageable, and aligned with the rigorous academic expectations of a selective high school setting.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Fort Street High School recognises the importance of homework in reinforcing classroom learning, fostering independent study habits, and preparing students for future academic challenges. Our",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Homework policy",
+              "display": "inline",
+              "href": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Fort_Street_High_School_Homework_Policy_as_of_June_18_2025.pdf",
+              "absHref": "https://assets.schools.nsw.gov.au/content/dam/doe/sws/schools/f/fortstreet-h/New%20website%20images/PDFs/Fort_Street_High_School_Homework_Policy_as_of_June_18_2025.pdf",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "ensures that homework is meaningful, manageable, and aligned with the rigorous academic expectations of a selective high school setting.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The library is open every Monday and Wednesday afternoon from 3.15 - 4.10 pm for the Homework Centre and Study Centre.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "image",
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/media_15ae5ac8f7b47dc97dc30da00418f4d2110090d2e.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "Homework Expectations Homework is designed to support student learning and should be relevant, purposeful, and appropriately challenging. It may include revision, research, completion of classwork, preparation for assessments, development of study skills or independent projects. The school’s general expectation is that students should be engaged in homework according to the schedule below, although there will times of the year when more or less may be required. Year 7 - 8 approximately 1 hour on school nights/5 hours per week Year 9-10 approximately 2 hours on school nights/10 hours per week Year 11-12 as required, but generally a minimum of 3 hours on school nights These times are indicative and may vary depending on individual subjects, assessment schedules, and student needs. Individual faculties will have their own focus on specific skills and activities and will allocate homework time accordingly to ensure adherence to these guidelines. Students who find their homework schedule difficult to manage should discuss with their class teacher or Year Adviser. Additional support after school The library is open after school on Monday and Wednesday afternoons from 3.15pm to 4.10pm for students wishing to do homework or join in the Study Centre peer groups. Supervised by Ms. Emily Irvine on Mondays and Ms. Amelia Drinkwater on Wednesdays, the library is a quiet and productive space for all students from Years 7-12 who either want to focus independently on their schoolwork, or who would like some guidance with study and organisation. Students who attend can expect a welcoming and quiet environment where they can work diligently on classwork, homework and assignments with the support of school staff. If your child wishes to study in the library they can just turn up on either the Monday or Wednesday afternoons. The Study Centre What is the Study Centre? Study Centre will be held in the library and will be open to all students looking for a space to work in peer groups to advance their literacy and numeracy skills. What is the purpose of the Study Centre? We hope that by explicitly assisting students to assess their own work as well as their peers it will provide a forum for critical analysis of their own efforts and assist them to become more autonomous learners. Which students should attend the Study Centre? Whilst the Study Centres is available to all students we would suggest it would be highly valuable to students in Year 11 and 12. What Support will be available as a part of the Study Centre? The focus on for Monday sessions will be on developing writing skills and literacy with the support and supervision of an English teacher whilst students work in peer groups. The focus for the Wednesday sessions will be on numeracy where students will also work in peer groups with the support and supervision of a Mathematics teacher. How will the peer groups be organised? Students may form their own peer groups but supervising teachers will also assist to allocate students to peer groups during these sessions if required. The supervising teachers will also oversee and offer support as required through these sessions. What should students bring to the Study Centre? Students are encouraged to bring work relevant to these focus areas that will support where they need targeted assistance. How does my child sign up for the Study Centre? If your child wishes to join the Study Centre they can just come to the library on either the Monday or Wednesday afternoons and make themselves known to the supervising teacher. If you have specific concerns about your childs learning the first point of contact should be your childs teacher. If you have any questions regarding the Study Centre please contact Mr David Sherwin (Relieving Deputy Principal) or Ms Kate Dunn (Deputy Principal). Study Skills At Fort Street HS we provide a range of face-to-face and online study skills programs to support students from Year 7 to 12. Our study skills program aims to ensure that Fortian’s develop the confidence and skills required to improve their organisational skills, reach their academic potential and facilitate independent learning. Junior Study Skills Tools for Success is designed to support Year 7 students to develop and enhance their study skills and homework habits. The aim of this presentation is to assist students in establishing highly effective study skills and to provide their parents or carers with expert advice about how best to support their child in high school. This session is highly interactive and both parents and students need to attend to get the best value from the training. What does this session include? Managing homework and assignments effectively by efficient time management Learning to be organised for school and at home Working and studying effectively in high school Achieving your Personal Best is designed for students in Year 10 as a study skills check-up; a way for students to learn new techniques and to find our the areas they specifically need to work on. This session is highly interactive and both parents and students need to attend to get the best value from the training. The main areas that will be covered are: Making learning more efficient and effective Organisation and time management skills Improving study notes and study skills Dealing with the obstacles and problems Senior Study Skills Study Sensei by Elevate is designed for Year 11 students and aims to achieve behavioural change amongst students. This course teaches students how to study and what to study, encourages consistent study throughout the year and looks specifically at how to take and structure effective study notes. This seminar is interactive and workshop based. Utilising the syllabus to frame study Structuring and reviewing organised notes Conceptual learning to develop deep understanding Utilising practice exam papers Standing out through independent learning In Year 12 Fortians take part in the HSC Study Day which is designed to assist students in their preparations for the HSC. Delivered by specialist teachers, sessions include: ATAR and moderation Effective study tips NESA rules and procedures Disability provision applications and the Educational Access Scheme (EAS) applications The Study Skills Handbook Fortians and their parents have access to this online handbook which is covers a range of topics students can work through to develop their study skills. The handbook covers the units listed below: Working Better at Home Skills for Specific Stages Working Better at School Improving How You Study Improving your Skills Using Technology Tools for Managing Challenges Students and parents can access the online study skills handbook here (opens in new window)",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "What is the Study Centre?"
+        },
+        {
+          "level": "h2",
+          "text": "Junior Study Skills"
+        },
+        {
+          "level": "h2",
+          "text": "Senior Study Skills"
+        },
+        {
+          "level": "h2",
+          "text": "The Study Skills Handbook"
+        }
+      ],
+      "paragraphs": [
+        "Homework is designed to support student learning and should be relevant, purposeful, and appropriately challenging. It may include revision, research, completion of classwork, preparation for assessments, development of study skills or independent projects.",
+        "The school’s general expectation is that students should be engaged in homework according to the schedule below, although there will times of the year when more or less may be required.",
+        "These times are indicative and may vary depending on individual subjects, assessment schedules, and student needs. Individual faculties will have their own focus on specific skills and activities and will allocate homework time accordingly to ensure adherence to these guidelines.",
+        "Students who find their homework schedule difficult to manage should discuss with their class teacher or Year Adviser.",
+        "The library is open after school on Monday and Wednesday afternoons from 3.15pm to 4.10pm for students wishing to do homework or join in the Study Centre peer groups.",
+        "Supervised by Ms. Emily Irvine on Mondays and Ms. Amelia Drinkwater on Wednesdays, the library is a quiet and productive space for all students from Years 7-12 who either want to focus independently on their schoolwork, or who would like some guidance with study and organisation.",
+        "Students who attend can expect a welcoming and quiet environment where they can work diligently on classwork, homework and assignments with the support of school staff.",
+        "If your child wishes to study in the library they can just turn up on either the Monday or Wednesday afternoons.",
+        "Study Centre will be held in the library and will be open to all students looking for a space to work in peer groups to advance their literacy and numeracy skills.",
+        "What is the purpose of the Study Centre?",
+        "We hope that by explicitly assisting students to assess their own work as well as their peers it will provide a forum for critical analysis of their own efforts and assist them to become more autonomous learners.",
+        "Which students should attend the Study Centre?",
+        "Whilst the Study Centres is available to all students we would suggest it would be highly valuable to students in Year 11 and 12.",
+        "What Support will be available as a part of the Study Centre?",
+        "The focus on for Monday sessions will be on developing writing skills and literacy with the support and supervision of an English teacher whilst students work in peer groups.",
+        "The focus for the Wednesday sessions will be on numeracy where students will also work in peer groups with the support and supervision of a Mathematics teacher.",
+        "How will the peer groups be organised?",
+        "Students may form their own peer groups but supervising teachers will also assist to allocate students to peer groups during these sessions if required. The supervising teachers will also oversee and offer support as required through these sessions.",
+        "What should students bring to the Study Centre?",
+        "Students are encouraged to bring work relevant to these focus areas that will support where they need targeted assistance.",
+        "How does my child sign up for the Study Centre?",
+        "If your child wishes to join the Study Centre they can just come to the library on either the Monday or Wednesday afternoons and make themselves known to the supervising teacher.",
+        "If you have specific concerns about your childs learning the first point of contact should be your childs teacher.",
+        "If you have any questions regarding the Study Centre please contact Mr David Sherwin (Relieving Deputy Principal) or Ms Kate Dunn (Deputy Principal).",
+        "At Fort Street HS we provide a range of face-to-face and online study skills programs to support students from Year 7 to 12. Our study skills program aims to ensure that Fortian’s develop the confidence and skills required to improve their organisational skills, reach their academic potential and facilitate independent learning.",
+        "Tools for Success is designed to support Year 7 students to develop and enhance their study skills and homework habits. The aim of this presentation is to assist students in establishing highly effective study skills and to provide their parents or carers with expert advice about how best to support their child in high school. This session is highly interactive and both parents and students need to attend to get the best value from the training.",
+        "What does this session include?",
+        "Achieving your Personal Best is designed for students in Year 10 as a study skills check-up; a way for students to learn new techniques and to find our the areas they specifically need to work on. This session is highly interactive and both parents and students need to attend to get the best value from the training.",
+        "The main areas that will be covered are:",
+        "Study Sensei by Elevate is designed for Year 11 students and aims to achieve behavioural change amongst students. This course teaches students how to study and what to study, encourages consistent study throughout the year and looks specifically at how to take and structure effective study notes. This seminar is interactive and workshop based.",
+        "In Year 12 Fortians take part in the HSC Study Day which is designed to assist students in their preparations for the HSC. Delivered by specialist teachers, sessions include:",
+        "Fortians and their parents have access to this online handbook which is covers a range of topics students can work through to develop their study skills.",
+        "The handbook covers the units listed below:",
+        "Students and parents can access the online study skills handbook here (opens in new window)"
+      ],
+      "listItems": [
+        "Managing homework and assignments effectively by efficient time management",
+        "Learning to be organised for school and at home",
+        "Working and studying effectively in high school",
+        "Making learning more efficient and effective",
+        "Organisation and time management skills",
+        "Improving study notes and study skills",
+        "Dealing with the obstacles and problems",
+        "Utilising the syllabus to frame study",
+        "Structuring and reviewing organised notes",
+        "Conceptual learning to develop deep understanding",
+        "Utilising practice exam papers",
+        "Standing out through independent learning",
+        "ATAR and moderation",
+        "Effective study tips",
+        "NESA rules and procedures",
+        "Disability provision applications and the Educational Access Scheme (EAS) applications",
+        "Working Better at Home",
+        "Skills for Specific Stages",
+        "Working Better at School",
+        "Improving How You Study",
+        "Improving your Skills",
+        "Using Technology",
+        "Tools for Managing Challenges"
+      ],
+      "ctas": [
+        {
+          "text": "here (opens in new window)",
+          "href": "https://www.studyskillshandbook.com.au/admin/users/login.php?ce=0&group=1&url=www.studyskillshandbook.com.au/inside/index.php%3f",
+          "absHref": "https://www.studyskillshandbook.com.au/admin/users/login.php?ce=0&group=1&url=www.studyskillshandbook.com.au/inside/index.php%3f",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Homework Expectations",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Year 7 - 8",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "approximately 1 hour on school nights/5 hours per week",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Year 9-10",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "approximately 2 hours on school nights/10 hours per week",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Year 11-12",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "as required, but generally a minimum of 3 hours on school nights",
+          "parentTag": "td",
+          "parentClass": ""
+        },
+        {
+          "text": "Additional support after school",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "The Study Centre",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        },
+        {
+          "text": "Study Skills",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Homework Expectations",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Homework is designed to support student learning and should be relevant, purposeful, and appropriately challenging. It may include revision, research, completion of classwork, preparation for assessments, development of study skills or independent projects.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school’s general expectation is that students should be engaged in homework according to the schedule below, although there will times of the year when more or less may be required.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Year 7 - 8",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "approximately 1 hour on school nights/5 hours per week",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Year 9-10",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "approximately 2 hours on school nights/10 hours per week",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Year 11-12",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "as required, but generally a minimum of 3 hours on school nights",
+          "parentTag": "td",
+          "parentClass": "",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "These times are indicative and may vary depending on individual subjects, assessment schedules, and student needs. Individual faculties will have their own focus on specific skills and activities and will allocate homework time accordingly to ensure adherence to these guidelines.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students who find their homework schedule difficult to manage should discuss with their class teacher or Year Adviser.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Additional support after school",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The library is open after school on Monday and Wednesday afternoons from 3.15pm to 4.10pm for students wishing to do homework or join in the Study Centre peer groups.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Supervised by Ms. Emily Irvine on Mondays and Ms. Amelia Drinkwater on Wednesdays, the library is a quiet and productive space for all students from Years 7-12 who either want to focus independently on their schoolwork, or who would like some guidance with study and organisation.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students who attend can expect a welcoming and quiet environment where they can work diligently on classwork, homework and assignments with the support of school staff.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If your child wishes to study in the library they can just turn up on either the Monday or Wednesday afternoons.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "The Study Centre",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "What is the Study Centre?",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Study Centre will be held in the library and will be open to all students looking for a space to work in peer groups to advance their literacy and numeracy skills.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Study Centre will be held in the library and will be open to all students looking for a space to",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "work in peer groups",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "to advance their literacy and numeracy skills.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "What is the purpose of the Study Centre?",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We hope that by explicitly assisting students to assess their own work as well as their peers it will provide a forum for critical analysis of their own efforts and assist them to become more autonomous learners.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Which students should attend the Study Centre?",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Whilst the Study Centres is available to all students we would suggest it would be highly valuable to students in Year 11 and 12.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "What Support will be available as a part of the Study Centre?",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The focus on for Monday sessions will be on developing writing skills and literacy with the support and supervision of an English teacher whilst students work in peer groups.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The focus for the Wednesday sessions will be on numeracy where students will also work in peer groups with the support and supervision of a Mathematics teacher.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "How will the peer groups be organised?",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students may form their own peer groups but supervising teachers will also assist to allocate students to peer groups during these sessions if required. The supervising teachers will also oversee and offer support as required through these sessions.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "What should students bring to the Study Centre?",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students are encouraged to bring work relevant to these focus areas that will support where they need targeted assistance.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "How does my child sign up for the Study Centre?",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If your child wishes to join the Study Centre they can just come to the library on either the Monday or Wednesday afternoons and make themselves known to the supervising teacher.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you have specific concerns about your childs learning the first point of contact should be your childs teacher.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you have any questions regarding the Study Centre please contact Mr David Sherwin (Relieving Deputy Principal) or Ms Kate Dunn (Deputy Principal).",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Study Skills",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At Fort Street HS we provide a range of face-to-face and online study skills programs to support students from Year 7 to 12. Our study skills program aims to ensure that Fortian’s develop the confidence and skills required to improve their organisational skills, reach their academic potential and facilitate independent learning.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Junior Study Skills",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tools for Success is designed to support Year 7 students to develop and enhance their study skills and homework habits. The aim of this presentation is to assist students in establishing highly effective study skills and to provide their parents or carers with expert advice about how best to support their child in high school. This session is highly interactive and both parents and students need to attend to get the best value from the training.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Tools for Success",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "is designed to support Year 7 students to develop and enhance their study skills and homework habits. The aim of this presentation is to assist students in establishing highly effective study skills and to provide their parents or carers with expert advice about how best to support their child in high school. This session is highly interactive and both parents and students need to attend to get the best value from the training.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "What does this session include?",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Managing homework and assignments effectively by efficient time management",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Learning to be organised for school and at home",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Working and studying effectively in high school",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Achieving your Personal Best is designed for students in Year 10 as a study skills check-up; a way for students to learn new techniques and to find our the areas they specifically need to work on. This session is highly interactive and both parents and students need to attend to get the best value from the training.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Achieving your Personal Best",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "is designed for students in Year 10 as a study skills check-up; a way for students to learn new techniques and to find our the areas they specifically need to work on. This session is highly interactive and both parents and students need to attend to get the best value from the training.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The main areas that will be covered are:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Making learning more efficient and effective",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Organisation and time management skills",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Improving study notes and study skills",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Dealing with the obstacles and problems",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Senior Study Skills",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Study Sensei by Elevate is designed for Year 11 students and aims to achieve behavioural change amongst students. This course teaches students how to study and what to study, encourages consistent study throughout the year and looks specifically at how to take and structure effective study notes. This seminar is interactive and workshop based.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Study Sensei",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "by Elevate is designed for Year 11 students and aims to achieve behavioural change amongst students. This course teaches students how to study and what to study, encourages consistent study throughout the year and looks specifically at how to take and structure effective study notes. This seminar is interactive and workshop based.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Utilising the syllabus to frame study",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Structuring and reviewing organised notes",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Conceptual learning to develop deep understanding",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Utilising practice exam papers",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Standing out through independent learning",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "In Year 12 Fortians take part in the HSC Study Day which is designed to assist students in their preparations for the HSC. Delivered by specialist teachers, sessions include:",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "In Year 12 Fortians take part in the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "HSC Study Day",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "which is designed to assist students in their preparations for the HSC. Delivered by specialist teachers, sessions include:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "ATAR and moderation",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Effective study tips",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "NESA rules and procedures",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Disability provision applications and the Educational Access Scheme (EAS) applications",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "The Study Skills Handbook",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fortians and their parents have access to this online handbook which is covers a range of topics students can work through to develop their study skills.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The handbook covers the units listed below:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Working Better at Home",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Skills for Specific Stages",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Working Better at School",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Improving How You Study",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Improving your Skills",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Using Technology",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Tools for Managing Challenges",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students and parents can access the online study skills handbook here (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Students and parents can access the online study skills handbook",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here (opens in new window)",
+              "display": "inline",
+              "href": "https://www.studyskillshandbook.com.au/admin/users/login.php?ce=0&group=1&url=www.studyskillshandbook.com.au/inside/index.php%3f",
+              "absHref": "https://www.studyskillshandbook.com.au/admin/users/login.php?ce=0&group=1&url=www.studyskillshandbook.com.au/inside/index.php%3f",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "\"Our family has recently dealt with some serious health concerns and the principal, executive and teachers have provided support to my son and our family which has been a great comfort and helped him get through a difficult time. \" — a parent of Fort Street High School",
+      "headings": [],
+      "paragraphs": [
+        "\"Our family has recently dealt with some serious health concerns and the principal, executive and teachers have provided support to my son and our family which has been a great comfort and helped him get through a difficult time. \"",
+        "— a parent of Fort Street High School"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "\"Our family has recently dealt with some serious health concerns and the principal, executive and teachers have provided support to my son and our family which has been a great comfort and helped him get through a difficult time. \"",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "— a parent of Fort Street High School",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "Have a question about learning support? We’re here to talk through your options. Contact us to speak with the principal or learning and support team. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Have a question about learning support?"
+        }
+      ],
+      "paragraphs": [
+        "We’re here to talk through your options. Contact us to speak with the principal or learning and support team.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Have a question about learning support?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "We’re here to talk through your options. Contact us to speak with the principal or learning and support team.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Wellbeing See how we support every student’s wellbeing at school and beyond. Our principal and staff Get to know our principal and staff, who work together to create a positive school culture.",
+      "headings": [],
+      "paragraphs": [
+        "See how we support every student’s wellbeing at school and beyond.",
+        "Get to know our principal and staff, who work together to create a positive school culture."
+      ],
+      "listItems": [
+        "Wellbeing See how we support every student’s wellbeing at school and beyond.",
+        "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture."
+      ],
+      "ctas": [
+        {
+          "text": "Wellbeing",
+          "href": "/learning-and-support/wellbeing",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+          "classes": ""
+        },
+        {
+          "text": "Our principal and staff",
+          "href": "/about-us/our-principal-and-staff",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Wellbeing See how we support every student’s wellbeing at school and beyond.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Wellbeing",
+              "display": "inline",
+              "href": "/learning-and-support/wellbeing",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/wellbeing",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "See how we support every student’s wellbeing at school and beyond.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Our principal and staff Get to know our principal and staff, who work together to create a positive school culture.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our principal and staff",
+              "display": "inline",
+              "href": "/about-us/our-principal-and-staff",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get to know our principal and staff, who work together to create a positive school culture.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

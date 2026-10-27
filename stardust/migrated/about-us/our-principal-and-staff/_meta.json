@@ -1,0 +1,65 @@
+{
+  "slug": "about-us_our-principal-and-staff",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M6",
+    "M4",
+    "NM1",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "title-text",
+    "teaser-ti",
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "title-text",
+    "teaser-cards",
+    "title-text",
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Our principal and staff",
+    "description": "At Fort Street High School, our school team is committed to every student’s learning, wellbeing, and sense of belonging. We work together to create a supportive and inclusive school where every child is set up for success.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Our principal and staff",
+    "description": "At Fort Street High School, our school team is committed to every student’s learning, wellbeing, and sense of belonging. We work together to create a supportive and inclusive school where every child is set up for success.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/about-us/our-principal-and-staff"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "e314adafae22",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "about-us/our-principal-and-staff/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/our-principal-and-staff/_meta.json",
+  "driverVersion": "1"
+}

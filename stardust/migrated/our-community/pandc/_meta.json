@@ -1,0 +1,61 @@
+{
+  "slug": "our-community_pandc",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M6",
+    "M9",
+    "NM1",
+    "M5"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "title-text",
+    "title-text",
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Parents and Citizens Association",
+    "description": "At Fort Street High School, we value strong partnerships with families and the community. Parents and carers can get involved through our Parents and Citizens Association (P&amp;C) or by volunteering at school. Your time and support help make our school a better place for everyone.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Parents and Citizens Association",
+    "description": "At Fort Street High School, we value strong partnerships with families and the community. Parents and carers can get involved through our Parents and Citizens Association (P&amp;C) or by volunteering at school. Your time and support help make our school a better place for everyone.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "83cfe7bb65b5",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "our-community/pandc/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "our-community/pandc/_meta.json",
+  "driverVersion": "1"
+}

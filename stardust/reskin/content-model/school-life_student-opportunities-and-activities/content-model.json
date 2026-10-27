@@ -1,0 +1,959 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:25.823Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_student-opportunities-and-activities.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Student opportunities and activities",
+    "description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+    "ogTags": {
+      "og:title": "Student opportunities and activities",
+      "og:description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_120147759de8a2ce2d79e6eb21fec3fa093c00b38.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_120147759de8a2ce2d79e6eb21fec3fa093c00b38.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Student opportunities and activities",
+      "twitter:description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_120147759de8a2ce2d79e6eb21fec3fa093c00b38.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests. Our programs include: Interest-based Clubs and Committees Academic Competitions Creative and Performing Arts Groups Instrumental Music Programme Duke of Edinburgh Award School sport, athletics and inter-school competitions Debating and Public Speaking Robotics and Maker Society Student leadership opportunities including Student Representative Council At the start of each year there will be Clubs and Committess Day at lunch time where students can visit the groups in the hall. Students can find out about each club and what they do and sign up to any that they may be interested in. The school encourages all students to participate in two (or more) co-curricular activities, in order to make friendships, develop skills and build confidence and resilience. Schedule of Weekly activities 2025 Monday Tuesday Wednesday Thursday Friday Before School Running Club Wind Orchestra Girls Volleyball training Ultimate Frisbee Netball Club Morning Meditation Symphony Orchestra Drama Club Philosophy Wind Ensemble Breakfast Club Vocal Ensemble Jazz Ensemble Senior Boys Volleyball School Musical Band Running Club Philharmonic Orchestra Lunch SRC Training Band Junior Percussion - Senior Percussion Astronomy Club Environment Committee Girl UP Female Leadership Book Club (once a month) Recorder Ensemble Amnesty/Social Justice Sending Sunshine Club (week B) Stive Diversity Committee After School Debating & Public Speaking Blender Club (3D Modelling) Theatresports Chamber Choir Big Band Jazz Orchestra Year 9/10 English Enrichment Art Studio Concert Band Fitness Club Maker Society (Robotics) Chess Club Overseas Tours The school has a long history of sister school exchanges with Fortians having the opportunity to host students from Japan, France and Germany, as well as the opportunity to visit these countries on exchange. The Instrumental Music Program also offers students the opportunity to travel and perform across a number of Europe countries. Language Cultural Tours Students from Years 10 and 11 German and Japanese classes will be travelling to their fellow sister schools in Berlin and Tokyo during the 2023 September/October holiday period to participate in lessons, cultural activities as well as touring other culturally significant sites. All students are excited about meeting their homestay families and buddies as well as using their language skills to enhance understanding of their newfound worlds. Sister-school relationships began with the Georg Büchner Gymnasium (Berlin) in 1999 and Suginami-Sogo High School (Tokyo) from the mid 1980s. Students from these schools will be visiting Fort Street in 2024 and the school will be requesting families to billet them while they are attending Fort Street High. Billeting is a great way for Fortians to establish friendships with students their own ages and perhaps visit them in country in 2025. Contact: Ms Lindy Wark Head Teacher - History/Languages Cohen Staffroom IMP European Tour The Instrumental Music Program aims to tour overseas every 3 years, and is generally open to more senior IMP students. Previous tours have seen groups of approximately 100 students performing in Italy, Austria, Croatia, Hungary, The Czech Republic, Slovakia and Slovenia. We performed in some of the most iconic venues in Europe, including singing mass at St Peter’s Basilica in Rome, and a recital in St Mark’s Venice. As well as numerous informal recitals in venues ranging from caves to the Pantheon, we played to packed houses in public concerts in Vienna, Rome, Florence and Venice. The next IMP tour will take place in April 2024, visiting Spain and Portugal in April 2024. \"The breadth of opportunities available runs from diverse academic subjects to high-quality extracurricular programs. My children have been able to explore their interests and develop into well-rounded individuals amongst like-minded peers.\" Elizabeth— a parent of Fort Street High School Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 5583,
+    "scopeTextLen": 4398,
+    "ratio": 0.788,
+    "h1Text": "Student opportunities and activities",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Student opportunities and activities At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests. Our programs include: Interest-based Clubs and Committees Academic Competitions Creative and Performing Arts Groups Instrumental Music Programme Duke of Edinburgh Award School sport, athletics and inter-school competitions Debating and Public Speaking Robotics and Maker Society Student leadership opportunities including Student Representative Council At the start of each year there will be Clubs and Committess Day at lunch time where students can visit the groups in the hall. Students can find out about each club and what they do and sign up to any that they may be interested in. The school encourages all students to participate in two (or more) co-curricular activities, in order to make friendships, develop skills and build confidence and resilience.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Student opportunities and activities"
+        }
+      ],
+      "paragraphs": [
+        "At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.",
+        "Our programs include:",
+        "At the start of each year there will be Clubs and Committess Day at lunch time where students can visit the groups in the hall. Students can find out about each club and what they do and sign up to any that they may be interested in.",
+        "The school encourages all students to participate in two (or more) co-curricular activities, in order to make friendships, develop skills and build confidence and resilience."
+      ],
+      "listItems": [
+        "Interest-based Clubs and Committees",
+        "Academic Competitions",
+        "Creative and Performing Arts Groups",
+        "Instrumental Music Programme",
+        "Duke of Edinburgh Award",
+        "School sport, athletics and inter-school competitions",
+        "Debating and Public Speaking",
+        "Robotics and Maker Society",
+        "Student leadership opportunities including Student Representative Council"
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_120147759de8a2ce2d79e6eb21fec3fa093c00b38.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "",
+          "w": 2000,
+          "h": 1506
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1abefb325d8c6f61c1dc29af5adf98786d04d43d6.png?width=2000&format=webply&optimize=medium",
+          "alt": "Clubs and Comittees Poster (Trifolds) (A4 (Landscape)) - 1",
+          "w": 2000,
+          "h": 1414
+        },
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_13d71bff09d116ef60a2c4d28f99edf2d7df4bc49.png?width=2000&format=webply&optimize=medium",
+          "alt": "Clubs and Comittees Poster (Trifolds) (A4 (Landscape)) - 2",
+          "w": 2000,
+          "h": 1414
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Student opportunities and activities",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_120147759de8a2ce2d79e6eb21fec3fa093c00b38.jpg?width=2000&format=webply&optimize=medium",
+              "alt": ""
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "At Fort Street High School, we offer a variety of programs in the classroom and across the school to help students build new skills, make friends and explore new interests.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our programs include:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Interest-based Clubs and Committees",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Academic Competitions",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Creative and Performing Arts Groups",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Instrumental Music Programme",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Duke of Edinburgh Award",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "School sport, athletics and inter-school competitions",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Debating and Public Speaking",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Robotics and Maker Society",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Student leadership opportunities including Student Representative Council",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "At the start of each year there will be Clubs and Committess Day at lunch time where students can visit the groups in the hall. Students can find out about each club and what they do and sign up to any that they may be interested in.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school encourages all students to participate in two (or more) co-curricular activities, in order to make friendships, develop skills and build confidence and resilience.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1abefb325d8c6f61c1dc29af5adf98786d04d43d6.png?width=2000&format=webply&optimize=medium",
+              "alt": "Clubs and Comittees Poster (Trifolds) (A4 (Landscape)) - 1"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_13d71bff09d116ef60a2c4d28f99edf2d7df4bc49.png?width=2000&format=webply&optimize=medium",
+              "alt": "Clubs and Comittees Poster (Trifolds) (A4 (Landscape)) - 2"
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Schedule of Weekly activities 2025 Monday Tuesday Wednesday Thursday Friday Before School Running Club Wind Orchestra Girls Volleyball training Ultimate Frisbee Netball Club Morning Meditation Symphony Orchestra Drama Club Philosophy Wind Ensemble Breakfast Club Vocal Ensemble Jazz Ensemble Senior Boys Volleyball School Musical Band Running Club Philharmonic Orchestra Lunch SRC Training Band Junior Percussion - Senior Percussion Astronomy Club Environment Committee Girl UP Female Leadership Book Club (once a month) Recorder Ensemble Amnesty/Social Justice Sending Sunshine Club (week B) Stive Diversity Committee After School Debating & Public Speaking Blender Club (3D Modelling) Theatresports Chamber Choir Big Band Jazz Orchestra Year 9/10 English Enrichment Art Studio Concert Band Fitness Club Maker Society (Robotics) Chess Club",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Schedule of Weekly activities 2025"
+        }
+      ],
+      "paragraphs": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Before School",
+        "Running Club",
+        "Wind Orchestra",
+        "Girls Volleyball training",
+        "Ultimate Frisbee",
+        "Netball Club",
+        "Morning Meditation",
+        "Symphony Orchestra",
+        "Drama Club",
+        "Philosophy",
+        "Wind Ensemble",
+        "Breakfast Club",
+        "Vocal Ensemble",
+        "Jazz Ensemble",
+        "Senior Boys Volleyball",
+        "School Musical Band",
+        "Running Club",
+        "Philharmonic Orchestra",
+        "Lunch",
+        "SRC",
+        "Training Band",
+        "Junior Percussion",
+        "-",
+        "Senior Percussion",
+        "Astronomy Club",
+        "Environment Committee",
+        "Girl UP Female Leadership",
+        "Book Club (once a month)",
+        "Recorder Ensemble",
+        "Amnesty/Social Justice",
+        "Sending Sunshine Club (week B)",
+        "Stive",
+        "Diversity Committee",
+        "After School",
+        "Debating & Public Speaking",
+        "Blender Club (3D Modelling)",
+        "Theatresports",
+        "Chamber Choir",
+        "Big Band",
+        "Jazz Orchestra",
+        "Year 9/10 English Enrichment",
+        "Art Studio",
+        "Concert Band",
+        "Fitness Club",
+        "Maker Society (Robotics)",
+        "Chess Club"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Schedule of Weekly activities 2025",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Monday",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tuesday",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wednesday",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Thursday",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Friday",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Before School",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Running Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wind Orchestra",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Girls Volleyball training",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ultimate Frisbee",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Netball Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Morning Meditation",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Symphony Orchestra",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Drama Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Philosophy",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wind Ensemble",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Breakfast Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Vocal Ensemble",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Jazz Ensemble",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Senior Boys Volleyball",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Musical Band",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Running Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Philharmonic Orchestra",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Lunch",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "SRC",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Training Band",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Junior Percussion",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "-",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Senior Percussion",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Astronomy Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Environment Committee",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Girl UP Female Leadership",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Book Club (once a month)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Recorder Ensemble",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Amnesty/Social Justice",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sending Sunshine Club (week B)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Stive",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Diversity Committee",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "After School",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Debating & Public Speaking",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Blender Club (3D Modelling)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Theatresports",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Chamber Choir",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Big Band",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Jazz Orchestra",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Year 9/10 English Enrichment",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Art Studio",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Concert Band",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fitness Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Maker Society (Robotics)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Chess Club",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section accordions-container",
+      "visibleText": "Overseas Tours The school has a long history of sister school exchanges with Fortians having the opportunity to host students from Japan, France and Germany, as well as the opportunity to visit these countries on exchange. The Instrumental Music Program also offers students the opportunity to travel and perform across a number of Europe countries. Language Cultural Tours Students from Years 10 and 11 German and Japanese classes will be travelling to their fellow sister schools in Berlin and Tokyo during the 2023 September/October holiday period to participate in lessons, cultural activities as well as touring other culturally significant sites. All students are excited about meeting their homestay families and buddies as well as using their language skills to enhance understanding of their newfound worlds. Sister-school relationships began with the Georg Büchner Gymnasium (Berlin) in 1999 and Suginami-Sogo High School (Tokyo) from the mid 1980s. Students from these schools will be visiting Fort Street in 2024 and the school will be requesting families to billet them while they are attending Fort Street High. Billeting is a great way for Fortians to establish friendships with students their own ages and perhaps visit them in country in 2025. Contact: Ms Lindy Wark Head Teacher - History/Languages Cohen Staffroom IMP European Tour The Instrumental Music Program aims to tour overseas every 3 years, and is generally open to more senior IMP students. Previous tours have seen groups of approximately 100 students performing in Italy, Austria, Croatia, Hungary, The Czech Republic, Slovakia and Slovenia. We performed in some of the most iconic venues in Europe, including singing mass at St Peter’s Basilica in Rome, and a recital in St Mark’s Venice. As well as numerous informal recitals in venues ranging from caves to the Pantheon, we played to packed houses in public concerts in Vienna, Rome, Florence and Venice. The next IMP tour will take place in April 2024, visiting Spain and Portugal in April 2024.",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Language Cultural Tours"
+        },
+        {
+          "level": "h3",
+          "text": "IMP European Tour"
+        }
+      ],
+      "paragraphs": [
+        "The school has a long history of sister school exchanges with Fortians having the opportunity to host students from Japan, France and Germany, as well as the opportunity to visit these countries on exchange. The Instrumental Music Program also offers students the opportunity to travel and perform across a number of Europe countries.",
+        "Students from Years 10 and 11 German and Japanese classes will be travelling to their fellow sister schools in Berlin and Tokyo during the 2023 September/October holiday period to participate in lessons, cultural activities as well as touring other culturally significant sites. All students are excited about meeting their homestay families and buddies as well as using their language skills to enhance understanding of their newfound worlds.",
+        "Sister-school relationships began with the Georg Büchner Gymnasium (Berlin) in 1999 and Suginami-Sogo High School (Tokyo) from the mid 1980s. Students from these schools will be visiting Fort Street in 2024 and the school will be requesting families to billet them while they are attending Fort Street High. Billeting is a great way for Fortians to establish friendships with students their own ages and perhaps visit them in country in 2025.",
+        "Contact: Ms Lindy Wark Head Teacher - History/Languages Cohen Staffroom",
+        "The Instrumental Music Program aims to tour overseas every 3 years, and is generally open to more senior IMP students. Previous tours have seen groups of approximately 100 students performing in Italy, Austria, Croatia, Hungary, The Czech Republic, Slovakia and Slovenia. We performed in some of the most iconic venues in Europe, including singing mass at St Peter’s Basilica in Rome, and a recital in St Mark’s Venice. As well as numerous informal recitals in venues ranging from caves to the Pantheon, we played to packed houses in public concerts in Vienna, Rome, Florence and Venice.",
+        "The next IMP tour will take place in April 2024, visiting Spain and Portugal in April 2024."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "about:error",
+          "alt": "students sitting outside a historical building",
+          "w": 0,
+          "h": 0
+        }
+      ],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Overseas Tours",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button"
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Overseas Tours",
+          "parentTag": "button",
+          "parentClass": "nsw-accordion__button",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "about:error",
+              "alt": "students sitting outside a historical building"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school has a long history of sister school exchanges with Fortians having the opportunity to host students from Japan, France and Germany, as well as the opportunity to visit these countries on exchange. The Instrumental Music Program also offers students the opportunity to travel and perform across a number of Europe countries.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Language Cultural Tours",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Students from Years 10 and 11 German and Japanese classes will be travelling to their fellow sister schools in Berlin and Tokyo during the 2023 September/October holiday period to participate in lessons, cultural activities as well as touring other culturally significant sites. All students are excited about meeting their homestay families and buddies as well as using their language skills to enhance understanding of their newfound worlds.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sister-school relationships began with the Georg Büchner Gymnasium (Berlin) in 1999 and Suginami-Sogo High School (Tokyo) from the mid 1980s. Students from these schools will be visiting Fort Street in 2024 and the school will be requesting families to billet them while they are attending Fort Street High. Billeting is a great way for Fortians to establish friendships with students their own ages and perhaps visit them in country in 2025.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Lindy Wark Head Teacher - History/Languages Cohen Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Ms Lindy Wark",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Head Teacher - History/Languages",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Cohen Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "IMP European Tour",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The Instrumental Music Program aims to tour overseas every 3 years, and is generally open to more senior IMP students. Previous tours have seen groups of approximately 100 students performing in Italy, Austria, Croatia, Hungary, The Czech Republic, Slovakia and Slovenia. We performed in some of the most iconic venues in Europe, including singing mass at St Peter’s Basilica in Rome, and a recital in St Mark’s Venice. As well as numerous informal recitals in venues ranging from caves to the Pantheon, we played to packed houses in public concerts in Vienna, Rome, Florence and Venice.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The next IMP tour will take place in April 2024, visiting Spain and Portugal in April 2024.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white",
+      "visibleText": "\"The breadth of opportunities available runs from diverse academic subjects to high-quality extracurricular programs. My children have been able to explore their interests and develop into well-rounded individuals amongst like-minded peers.\" Elizabeth— a parent of Fort Street High School",
+      "headings": [],
+      "paragraphs": [
+        "\"The breadth of opportunities available runs from diverse academic subjects to high-quality extracurricular programs. My children have been able to explore their interests and develop into well-rounded individuals amongst like-minded peers.\"",
+        "Elizabeth— a parent of Fort Street High School"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "paragraph",
+          "text": "\"The breadth of opportunities available runs from diverse academic subjects to high-quality extracurricular programs. My children have been able to explore their interests and develop into well-rounded individuals amongst like-minded peers.\"",
+          "display": "block",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Elizabeth— a parent of Fort Street High School",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need to make a payment?"
+        }
+      ],
+      "paragraphs": [
+        "Our parent portal makes it easy to make a payment online.",
+        "Parent portal"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need to make a payment?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our parent portal makes it easy to make a payment online.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parent portal",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline-block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": ""
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

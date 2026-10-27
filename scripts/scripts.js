@@ -74,6 +74,20 @@ function buildWidgetAutoBlocks(main) {
 }
 
 /**
+ * Turns a lone Google Maps embed or Brightcove link into an embed block.
+ * @param {Element} main The container element
+ */
+function buildEmbedAutoBlocks(main) {
+  main.querySelectorAll('p > a[href]').forEach((link) => {
+    if (link.closest('.embed')) return;
+    if (!/google\.[a-z.]+\/maps\/embed|bcove\.video|players\.brightcove\.net/.test(link.href)) return;
+    const p = link.parentElement;
+    if (p.textContent.trim() !== link.textContent.trim()) return;
+    p.replaceWith(buildBlock('embed', { elems: [link.cloneNode(true)] }));
+  });
+}
+
+/**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
  */
@@ -97,6 +111,7 @@ function buildAutoBlocks(main) {
       });
     }
     buildWidgetAutoBlocks(main);
+    buildEmbedAutoBlocks(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);

@@ -1,0 +1,1140 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:13.704Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_parent-portal.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "networkidle",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Parent portal",
+    "description": "At Fort Street High School, we use parent portal apps to communicate to our families. Our apps are for student attendance matters, booking parent and teacher interviews, accessing academic reports, making payments, viewing financial records and giving parental consent for school events.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+    "ogTags": {
+      "og:title": "Parent portal",
+      "og:description": "At Fort Street High School, we use parent portal apps to communicate to our families. Our apps are for student attendance matters, booking parent and teacher interviews, accessing academic reports, making payments, viewing financial records and giving parental consent for school events.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1323b44ef8d18362940e6115b00f2895238a17702.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1323b44ef8d18362940e6115b00f2895238a17702.png?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "Sentral parents app logo"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Parent portal",
+      "twitter:description": "At Fort Street High School, we use parent portal apps to communicate to our families. Our apps are for student attendance matters, booking parent and teacher interviews, accessing academic reports, making payments, viewing financial records and giving parental consent for school events.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1323b44ef8d18362940e6115b00f2895238a17702.png?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Parent portal At Fort Street High School we use parent portal apps to make communication and admin easier for families. These tools help you: make payments quickly and securely view academic reports stay up to date with school events record absences. Our parent portal apps Sentral Sentral is used for communication from teachers, attendance and reports. Parents will receive instructions on how to access the Sentral Parent Portal and will be given an access key at the beginning of Term 1. Once setup you can access the portal here (opens in new window) . Sentral For student attendance matters, booking parent and teacher interviews and accessing academic reports. Log-in to the Sentral portal or: Download Sentral on Google Play (opens in new window) Download Sentral on the Apple Store (opens in new window) School Bytes School Bytes is used for payments and permission notes for excursions. Parents can setup their own School Bytes by following the instructions provided here (opens in new window) . School Bytes For making payments, viewing financial records and giving parental consent for school events. Log-in to the School Bytes portal or: Download School Bytes on Google Play (opens in new window) Download School Bytes on the Apple Store (opens in new window) Other communications Email General information is also often distributed to parents and students via email. Please ensure that you inform the school if your details change. Mercurius The school newsletter (known as “Mercurius”) is published fortnightly and emailed to students Parents and Carers. Copies are also publish on the school website, where you can also view past issues. The Fortian The school magazine (“The Fortian”) is produced each year as a record of student achievements. Mr Chapman oversees a student team of editors from Years 10 and 11, and all students are encouraged to submit work for inclusion. Social Media The school also has an account on Facebook (opens in new window) and Instagram (opens in new window) . Interpreter and Translation Services Parents and carers may ask the school for an interpreter to be present when discussing matters involving their children. Interpreters can also be asked to be present at school meetings or parent-teacher interviews. Non-English-speaking parents, carers and community members can also use the Translating and Interpreting Service on 131 450. Need help with our parent portal apps? Our friendly office staff will be happy to give you a hand. Contact us Our community Discover ways to volunteer and help shape our school community. Policies and reports Discover our local school policies, reports and plans.",
+  "coverage": {
+    "bodyTextLen": 3591,
+    "scopeTextLen": 2647,
+    "ratio": 0.737,
+    "h1Text": "Parent portal",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Parent portal At Fort Street High School we use parent portal apps to make communication and admin easier for families. These tools help you: make payments quickly and securely view academic reports stay up to date with school events record absences.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Parent portal"
+        }
+      ],
+      "paragraphs": [
+        "At Fort Street High School we use parent portal apps to make communication and admin easier for families. These tools help you:"
+      ],
+      "listItems": [
+        "make payments quickly and securely",
+        "view academic reports",
+        "stay up to date with school events",
+        "record absences."
+      ],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Parent portal",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "At Fort Street High School we use parent portal apps to make communication and admin easier for families. These tools help you:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "make payments quickly and securely",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "view academic reports",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "stay up to date with school events",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "record absences.",
+          "display": "list-item",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Our parent portal apps Sentral Sentral is used for communication from teachers, attendance and reports. Parents will receive instructions on how to access the Sentral Parent Portal and will be given an access key at the beginning of Term 1. Once setup you can access the portal here (opens in new window) .",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Our parent portal apps"
+        },
+        {
+          "level": "h2",
+          "text": "Sentral"
+        }
+      ],
+      "paragraphs": [
+        "Sentral is used for communication from teachers, attendance and reports.",
+        "Parents will receive instructions on how to access the Sentral Parent Portal and will be given an access key at the beginning of Term 1.",
+        "Once setup you can access the portal here (opens in new window) ."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "here (opens in new window)",
+          "href": "https://fortstreeths.sentral.com.au/auth/portal",
+          "absHref": "https://fortstreeths.sentral.com.au/auth/portal",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Our parent portal apps",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Sentral",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sentral is used for communication from teachers, attendance and reports.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parents will receive instructions on how to access the Sentral Parent Portal and will be given an access key at the beginning of Term 1.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once setup you can access the portal here (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Once setup you can access the portal",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "here (opens in new window)",
+              "display": "inline",
+              "href": "https://fortstreeths.sentral.com.au/auth/portal",
+              "absHref": "https://fortstreeths.sentral.com.au/auth/portal",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white columns-container",
+      "visibleText": "Sentral For student attendance matters, booking parent and teacher interviews and accessing academic reports. Log-in to the Sentral portal or: Download Sentral on Google Play (opens in new window) Download Sentral on the Apple Store (opens in new window)",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Sentral"
+        }
+      ],
+      "paragraphs": [
+        "For student attendance matters, booking parent and teacher interviews and accessing academic reports.",
+        "Log-in to the Sentral portal or:",
+        "Download Sentral on Google Play (opens in new window)",
+        "Download Sentral on the Apple Store (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Sentral on Google Play (opens in new window)",
+          "href": "https://play.google.com/store/apps/details?id=com.sentral.mobile&pli=1",
+          "absHref": "https://play.google.com/store/apps/details?id=com.sentral.mobile&pli=1",
+          "classes": ""
+        },
+        {
+          "text": "Sentral on the Apple Store (opens in new window)",
+          "href": "https://apps.apple.com/ro/app/sentral-for-parents/id1238744022?mt=8",
+          "absHref": "https://apps.apple.com/ro/app/sentral-for-parents/id1238744022?mt=8",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1323b44ef8d18362940e6115b00f2895238a17702.png?width=2000&format=webply&optimize=medium",
+          "alt": "Sentral parents app logo",
+          "w": 225,
+          "h": 225
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Sentral",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "For student attendance matters, booking parent and teacher interviews and accessing academic reports.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For student",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "attendance",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "matters, booking",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "parent and teacher interviews",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and accessing",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "academic reports",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Log-in to the Sentral portal or:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Download Sentral on Google Play (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Download",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Sentral on Google Play (opens in new window)",
+              "display": "inline",
+              "href": "https://play.google.com/store/apps/details?id=com.sentral.mobile&pli=1",
+              "absHref": "https://play.google.com/store/apps/details?id=com.sentral.mobile&pli=1",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Sentral on Google Play",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Download Sentral on the Apple Store (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Download",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Sentral on the Apple Store (opens in new window)",
+              "display": "inline",
+              "href": "https://apps.apple.com/ro/app/sentral-for-parents/id1238744022?mt=8",
+              "absHref": "https://apps.apple.com/ro/app/sentral-for-parents/id1238744022?mt=8",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Sentral on the Apple Store",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "",
+          "display": "block",
+          "level": "h2",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1323b44ef8d18362940e6115b00f2895238a17702.png?width=2000&format=webply&optimize=medium",
+              "alt": "Sentral parents app logo"
+            }
+          ],
+          "sep": ""
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s04",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "School Bytes School Bytes is used for payments and permission notes for excursions. Parents can setup their own School Bytes by following the instructions provided here (opens in new window) .",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "School Bytes"
+        }
+      ],
+      "paragraphs": [
+        "School Bytes is used for payments and permission notes for excursions. Parents can setup their own School Bytes by following the instructions provided here (opens in new window) ."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "here (opens in new window)",
+          "href": "https://support.schoolbytes.education/hc/en-us/articles/5184859634191-Parent-Portal-Set-up-your-parent-portal-account",
+          "absHref": "https://support.schoolbytes.education/hc/en-us/articles/5184859634191-Parent-Portal-Set-up-your-parent-portal-account",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "School Bytes",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "School Bytes is used for payments and permission notes for excursions. Parents can setup their own School Bytes by following the instructions provided here (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "School Bytes is used for payments and permission notes for excursions.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Parents can setup their own School Bytes by following the instructions provided",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "here (opens in new window)",
+              "display": "inline",
+              "href": "https://support.schoolbytes.education/hc/en-us/articles/5184859634191-Parent-Portal-Set-up-your-parent-portal-account",
+              "absHref": "https://support.schoolbytes.education/hc/en-us/articles/5184859634191-Parent-Portal-Set-up-your-parent-portal-account",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "here",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s05",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--off-white columns-container",
+      "visibleText": "School Bytes For making payments, viewing financial records and giving parental consent for school events. Log-in to the School Bytes portal or: Download School Bytes on Google Play (opens in new window) Download School Bytes on the Apple Store (opens in new window)",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "School Bytes"
+        }
+      ],
+      "paragraphs": [
+        "For making payments, viewing financial records and giving parental consent for school events.",
+        "Log-in to the School Bytes portal or:",
+        "Download School Bytes on Google Play (opens in new window)",
+        "Download School Bytes on the Apple Store (opens in new window)"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "School Bytes on Google Play (opens in new window)",
+          "href": "https://play.google.com/store/apps/details?id=education.schoolbytes&hl=en_AU",
+          "absHref": "https://play.google.com/store/apps/details?id=education.schoolbytes&hl=en_AU",
+          "classes": ""
+        },
+        {
+          "text": "School Bytes on the Apple Store (opens in new window)",
+          "href": "https://apps.apple.com/au/app/school-bytes-for-parents/id6463097826",
+          "absHref": "https://apps.apple.com/au/app/school-bytes-for-parents/id6463097826",
+          "classes": ""
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ce5edca6437cc08b379708c228ff2c7697789ef9.png?width=2000&format=webply&optimize=medium",
+          "alt": "School Bytes logo",
+          "w": 225,
+          "h": 225
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "",
+          "display": "block",
+          "level": "h3",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/media_1ce5edca6437cc08b379708c228ff2c7697789ef9.png?width=2000&format=webply&optimize=medium",
+              "alt": "School Bytes logo"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "School Bytes",
+          "display": "block",
+          "level": "h3",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "For making payments, viewing financial records and giving parental consent for school events.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "For making",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "payments",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ", viewing",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "financial records",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and giving",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "parental consent",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "for school events.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Log-in to the School Bytes portal or:",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Download School Bytes on Google Play (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Download",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "School Bytes on Google Play (opens in new window)",
+              "display": "inline",
+              "href": "https://play.google.com/store/apps/details?id=education.schoolbytes&hl=en_AU",
+              "absHref": "https://play.google.com/store/apps/details?id=education.schoolbytes&hl=en_AU",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "School Bytes on Google Play",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Download School Bytes on the Apple Store (opens in new window)",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Download",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "School Bytes on the Apple Store (opens in new window)",
+              "display": "inline",
+              "href": "https://apps.apple.com/au/app/school-bytes-for-parents/id6463097826",
+              "absHref": "https://apps.apple.com/au/app/school-bytes-for-parents/id6463097826",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "School Bytes on the Apple Store",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s06",
+      "rootTag": "div",
+      "rootClass": "section nsw-section",
+      "visibleText": "Other communications Email General information is also often distributed to parents and students via email. Please ensure that you inform the school if your details change. Mercurius The school newsletter (known as “Mercurius”) is published fortnightly and emailed to students Parents and Carers. Copies are also publish on the school website, where you can also view past issues. The Fortian The school magazine (“The Fortian”) is produced each year as a record of student achievements. Mr Chapman oversees a student team of editors from Years 10 and 11, and all students are encouraged to submit work for inclusion. Social Media The school also has an account on Facebook (opens in new window) and Instagram (opens in new window) . Interpreter and Translation Services Parents and carers may ask the school for an interpreter to be present when discussing matters involving their children. Interpreters can also be asked to be present at school meetings or parent-teacher interviews. Non-English-speaking parents, carers and community members can also use the Translating and Interpreting Service on 131 450.",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Other communications"
+        },
+        {
+          "level": "h3",
+          "text": "Email"
+        },
+        {
+          "level": "h3",
+          "text": "Mercurius"
+        },
+        {
+          "level": "h3",
+          "text": "The Fortian"
+        },
+        {
+          "level": "h3",
+          "text": "Social Media"
+        },
+        {
+          "level": "h3",
+          "text": "Interpreter and Translation Services"
+        }
+      ],
+      "paragraphs": [
+        "General information is also often distributed to parents and students via email. Please ensure that you inform the school if your details change.",
+        "The school newsletter (known as “Mercurius”) is published fortnightly and emailed to students Parents and Carers. Copies are also publish on the school website, where you can also view past issues.",
+        "The school magazine (“The Fortian”) is produced each year as a record of student achievements. Mr Chapman oversees a student team of editors from Years 10 and 11, and all students are encouraged to submit work for inclusion.",
+        "The school also has an account on Facebook (opens in new window) and Instagram (opens in new window) .",
+        "Parents and carers may ask the school for an interpreter to be present when discussing matters involving their children. Interpreters can also be asked to be present at school meetings or parent-teacher interviews. Non-English-speaking parents, carers and community members can also use the Translating and Interpreting Service on 131 450."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "school website",
+          "href": "/school-life/newsletters",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+          "classes": ""
+        },
+        {
+          "text": "Facebook (opens in new window)",
+          "href": "https://www.facebook.com/fortstreethighschool/",
+          "absHref": "https://www.facebook.com/fortstreethighschool/",
+          "classes": ""
+        },
+        {
+          "text": "Instagram (opens in new window)",
+          "href": "https://www.instagram.com/fortstreet_hs/?hl=en",
+          "absHref": "https://www.instagram.com/fortstreet_hs/?hl=en",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Other communications",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Email",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "General information is also often distributed to parents and students via email. Please ensure that you inform the school if your details change.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Mercurius",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school newsletter (known as “Mercurius”) is published fortnightly and emailed to students Parents and Carers. Copies are also publish on the school website, where you can also view past issues.",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The school newsletter (known as “Mercurius”) is published fortnightly and emailed to students Parents and Carers. Copies are also publish on the",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "school website",
+              "display": "inline",
+              "href": "/school-life/newsletters",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/newsletters",
+              "classes": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ", where you can also view past issues.",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "The Fortian",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school magazine (“The Fortian”) is produced each year as a record of student achievements. Mr Chapman oversees a student team of editors from Years 10 and 11, and all students are encouraged to submit work for inclusion.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Social Media",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "The school also has an account on Facebook (opens in new window) and Instagram (opens in new window) .",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "The school also has an account on",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "cta",
+              "text": "Facebook (opens in new window)",
+              "display": "inline",
+              "href": "https://www.facebook.com/fortstreethighschool/",
+              "absHref": "https://www.facebook.com/fortstreethighschool/",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Facebook",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "and",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "cta",
+              "text": "Instagram (opens in new window)",
+              "display": "inline",
+              "href": "https://www.instagram.com/fortstreet_hs/?hl=en",
+              "absHref": "https://www.instagram.com/fortstreet_hs/?hl=en",
+              "classes": "",
+              "children": [
+                {
+                  "kind": "text",
+                  "text": "Instagram",
+                  "parentTag": "a",
+                  "parentClass": "",
+                  "sep": ""
+                },
+                {
+                  "kind": "text",
+                  "text": "(opens in new window)",
+                  "parentTag": "span",
+                  "parentClass": "sr-only",
+                  "sep": " "
+                }
+              ],
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": ".",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Interpreter and Translation Services",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parents and carers may ask the school for an interpreter to be present when discussing matters involving their children. Interpreters can also be asked to be present at school meetings or parent-teacher interviews. Non-English-speaking parents, carers and community members can also use the Translating and Interpreting Service on 131 450.",
+          "display": "block",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s07",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need help with our parent portal apps? Our friendly office staff will be happy to give you a hand. Contact us",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need help with our parent portal apps?"
+        }
+      ],
+      "paragraphs": [
+        "Our friendly office staff will be happy to give you a hand.",
+        "Contact us"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Contact us",
+          "href": "/contact-us",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need help with our parent portal apps?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our friendly office staff will be happy to give you a hand.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact us",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Contact us",
+              "display": "inline-block",
+              "href": "/contact-us",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/contact-us",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s08",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Our community Discover ways to volunteer and help shape our school community. Policies and reports Discover our local school policies, reports and plans.",
+      "headings": [],
+      "paragraphs": [
+        "Discover ways to volunteer and help shape our school community.",
+        "Discover our local school policies, reports and plans."
+      ],
+      "listItems": [
+        "Our community Discover ways to volunteer and help shape our school community.",
+        "Policies and reports Discover our local school policies, reports and plans."
+      ],
+      "ctas": [
+        {
+          "text": "Our community",
+          "href": "/our-community/pandc",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+          "classes": ""
+        },
+        {
+          "text": "Policies and reports",
+          "href": "/about-us/policies-and-reports",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+          "classes": ""
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Our community Discover ways to volunteer and help shape our school community.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Our community",
+              "display": "inline",
+              "href": "/our-community/pandc",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/our-community/pandc",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover ways to volunteer and help shape our school community.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Policies and reports Discover our local school policies, reports and plans.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Policies and reports",
+              "display": "inline",
+              "href": "/about-us/policies-and-reports",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/policies-and-reports",
+              "classes": "",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discover our local school policies, reports and plans.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}

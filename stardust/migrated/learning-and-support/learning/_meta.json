@@ -1,0 +1,66 @@
+{
+  "slug": "learning-and-support_learning",
+  "type": "content",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "M4",
+    "M5",
+    "M9",
+    "M6"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "teaser-ti",
+    "teaser-cards",
+    "title-text",
+    "title-text",
+    "title-text",
+    "title-text",
+    "teaser-cards"
+  ],
+  "canonShas": {
+    "header": "53bc1ea6701a",
+    "footer": "ad1609615586",
+    "css": "9fd25f650ea3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Learning",
+    "description": "At Fort Street High School, we follow the NSW curriculum. We offer a wide range of subjects to support every student’s learning journey. Our teachers use effective teaching strategies to help students reach their goals. We also provide learning support to assist students who need extra help, so all students can succeed.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Learning",
+    "description": "At Fort Street High School, we follow the NSW curriculum. We offer a wide range of subjects to support every student’s learning journey. Our teachers use effective teaching strategies to help students reach their goals. We also provide learning support to assist students who need extra help, so all students can succeed.",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/learning"
+  },
+  "migratedAt": "2026-10-21T13:40:01Z",
+  "designMdSha": null,
+  "designJsonSha": null,
+  "sourceCurrentSha": null,
+  "sourceProposedSha": "7227aa097a4e",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://fortstreet-h.schools.nsw.gov.au/learning-and-support/www.primaryethics.com.au",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "learning-and-support/learning/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "learning-and-support/learning/_meta.json",
+  "driverVersion": "1"
+}

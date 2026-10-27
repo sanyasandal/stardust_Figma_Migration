@@ -1,0 +1,723 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/capture-content.mjs",
+    "capturedAt": "2026-10-21T13:22:38.565Z",
+    "url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport",
+    "viewport": "1440x900",
+    "scope": "main",
+    "normalize": {
+      "source": "/Users/ssandal/repos/EDS customer repos/copilot-worktrees/stardust_Figma_Migration/ssandal-adobe-animated-telegram/stardust/reskin/normalize/school-life_student-opportunities-and-activities_sport.mjs",
+      "ledger": [
+        {
+          "id": "N-D1",
+          "what": "remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes)",
+          "why": "overlay chrome injected by a CMP, not page content; re-added at deploy time"
+        },
+        {
+          "id": "N-D2",
+          "what": "de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows",
+          "why": "hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order"
+        },
+        {
+          "id": "N1",
+          "what": "expand NSW accordions: remove hidden=\"until-found\" from .nsw-accordion__content, set aria-expanded=true",
+          "why": "collapsed panels are absent from innerText — same class as N-D2 hidden slides; the reskin renders every panel body (Figma Accordion expanded variant 12362:10348)"
+        },
+        {
+          "id": "N2",
+          "what": "remove Material Icons ligature spans (.material-icons: keyboard_arrow_down, east, north)",
+          "why": "aria-hidden decorative glyphs whose ligature names leak into innerText; donor supplies its own chevron/arrow glyphs via CSS (mapping-brief § Icon-ligature text, \"normalize it away\")"
+        }
+      ]
+    },
+    "nav": {
+      "live": true,
+      "waitUntil": "domcontentloaded",
+      "headed": false
+    }
+  },
+  "metadata": {
+    "title": "Sport",
+    "description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+    "canonical": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport",
+    "ogTags": {
+      "og:title": "Sport",
+      "og:description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+      "og:url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/sport",
+      "og:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_185c8303a93577cfe1080f7100f69113dae638cd2.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:secure_url": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_185c8303a93577cfe1080f7100f69113dae638cd2.jpg?width=1200&format=pjpg&optimize=medium",
+      "og:image:alt": "students playing in the ground"
+    },
+    "twitterTags": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Sport",
+      "twitter:description": "At Fort Street High School, we offer a variety of co-curricular (extra-curricular) programs and activities. They help students build new skills, make friends and explore new interests.",
+      "twitter:image": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_185c8303a93577cfe1080f7100f69113dae638cd2.jpg?width=1200&format=pjpg&optimize=medium"
+    },
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null
+  },
+  "scope": [
+    {
+      "sel": "main",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Sport Knock Out Sport Voluntary, wide range of teams but limited places. Students compete against other schools in our region during school time. Training varies from team to team, depending on staff availability and expertise. Teams play until they lose (generally one or two games). Additional tournaments are available for some knock out sports. Sports offered depend on student interest and staff availability. The Combined High Schools knockout sports being offered in 2025 are; CHS 15 + Opens Basketball (Boys and Girls) CHS 15's + Opens Football (Boys and Girls) 14's Futsal (Boys) 16's Futsal (Boys and Girls) Opens Futsal (Boys and Girls) CHS Opens Touch Football (Boys and Girls) CHS 15's + Opens Netball (Girls) CHS Opens Volleyball (Boys + Girls) CHS Open's Cricket 15's Football - Bill Turner Cup (Boys + Girls) Year 7 + 8 Football - Wanderer's Cup (Boys + Girls) Fitness Club This group meets for fitness training on Thursday afternoons 3:30- 4:10pm in the gym. Contact: Ms Cove (Rowe Staffroom) Running Club Whatever your skill level you are welcome to join the school running club which meets on Friday mornings at 8:00am for half an hour on the oval. Contact: Mr Feng or Mr Sarif (Rowe Staffroom) Before and After School Co-Curricular Activities Sport When Where With who Running Club Monday at 7.45am FSHS Reception Mr Edmund Feng Girls Volleyball training Monday at 7.45am FSHS Gym Mr Bradley Sarif Netball Club Tuesday at 7:45 am FSHS Netball Courts Ms Melinda Wark Ultimate Frisbee Tuesday at 7:45 am FSHS Oval Mr Edmund Feng Fitness Training Wednesday at 3.30 - 4.10pm FSHS Gym Ms Maddy Cove Snr Boys Volleyball Thursday at 8.30am FSHS Gym Mr Bradley Sarif Running Club Friday at 7.45am FSHS Reception Mr Bradley Sarif Sports in the table above run on a weekly basis, a number of other sports are also available throughout the year. Students should check their emails weekly for updates and announcements. Contact: Mr Edmund Feng & Mr Bradley Sarif Sports Co-ordinators Rowe Staffroom Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+  "coverage": {
+    "bodyTextLen": 3462,
+    "scopeTextLen": 2272,
+    "ratio": 0.656,
+    "h1Text": "Sport",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": "div",
+      "rootClass": "section nsw-section table-container",
+      "visibleText": "Sport Knock Out Sport Voluntary, wide range of teams but limited places. Students compete against other schools in our region during school time. Training varies from team to team, depending on staff availability and expertise. Teams play until they lose (generally one or two games). Additional tournaments are available for some knock out sports. Sports offered depend on student interest and staff availability. The Combined High Schools knockout sports being offered in 2025 are; CHS 15 + Opens Basketball (Boys and Girls) CHS 15's + Opens Football (Boys and Girls) 14's Futsal (Boys) 16's Futsal (Boys and Girls) Opens Futsal (Boys and Girls) CHS Opens Touch Football (Boys and Girls) CHS 15's + Opens Netball (Girls) CHS Opens Volleyball (Boys + Girls) CHS Open's Cricket 15's Football - Bill Turner Cup (Boys + Girls) Year 7 + 8 Football - Wanderer's Cup (Boys + Girls) Fitness Club This group meets for fitness training on Thursday afternoons 3:30- 4:10pm in the gym. Contact: Ms Cove (Rowe Staffroom) Running Club Whatever your skill level you are welcome to join the school running club which meets on Friday mornings at 8:00am for half an hour on the oval. Contact: Mr Feng or Mr Sarif (Rowe Staffroom) Before and After School Co-Curricular Activities Sport When Where With who Running Club Monday at 7.45am FSHS Reception Mr Edmund Feng Girls Volleyball training Monday at 7.45am FSHS Gym Mr Bradley Sarif Netball Club Tuesday at 7:45 am FSHS Netball Courts Ms Melinda Wark Ultimate Frisbee Tuesday at 7:45 am FSHS Oval Mr Edmund Feng Fitness Training Wednesday at 3.30 - 4.10pm FSHS Gym Ms Maddy Cove Snr Boys Volleyball Thursday at 8.30am FSHS Gym Mr Bradley Sarif Running Club Friday at 7.45am FSHS Reception Mr Bradley Sarif Sports in the table above run on a weekly basis, a number of other sports are also available throughout the year. Students should check their emails weekly for updates and announcements. Contact: Mr Edmund Feng & Mr Bradley Sarif Sports Co-ordinators Rowe Staffroom",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Sport"
+        },
+        {
+          "level": "h2",
+          "text": "Knock Out Sport"
+        },
+        {
+          "level": "h2",
+          "text": "Fitness Club"
+        },
+        {
+          "level": "h2",
+          "text": "Running Club"
+        },
+        {
+          "level": "h2",
+          "text": "Before and After School Co-Curricular Activities"
+        },
+        {
+          "level": "h3",
+          "text": "Sport"
+        },
+        {
+          "level": "h3",
+          "text": "When"
+        },
+        {
+          "level": "h3",
+          "text": "Where"
+        },
+        {
+          "level": "h3",
+          "text": "With who"
+        }
+      ],
+      "paragraphs": [
+        "Voluntary, wide range of teams but limited places. Students compete against other schools in our region during school time. Training varies from team to team, depending on staff availability and expertise.",
+        "Teams play until they lose (generally one or two games). Additional tournaments are available for some knock out sports.",
+        "Sports offered depend on student interest and staff availability. The Combined High Schools knockout sports being offered in 2025 are;",
+        "This group meets for fitness training on Thursday afternoons 3:30- 4:10pm in the gym.",
+        "Contact: Ms Cove (Rowe Staffroom)",
+        "Whatever your skill level you are welcome to join the school running club which meets on Friday mornings at 8:00am for half an hour on the oval.",
+        "Contact: Mr Feng or Mr Sarif (Rowe Staffroom)",
+        "Running Club",
+        "Monday at 7.45am",
+        "FSHS Reception",
+        "Mr Edmund Feng",
+        "Girls Volleyball training",
+        "Monday at 7.45am",
+        "FSHS Gym",
+        "Mr Bradley Sarif",
+        "Netball Club",
+        "Tuesday at 7:45 am",
+        "FSHS Netball Courts",
+        "Ms Melinda Wark",
+        "Ultimate Frisbee",
+        "Tuesday at 7:45 am",
+        "FSHS Oval",
+        "Mr Edmund Feng",
+        "Fitness Training",
+        "Wednesday at 3.30 - 4.10pm",
+        "FSHS Gym",
+        "Ms Maddy Cove",
+        "Snr Boys Volleyball",
+        "Thursday at 8.30am",
+        "FSHS Gym",
+        "Mr Bradley Sarif",
+        "Running Club",
+        "Friday at 7.45am",
+        "FSHS Reception",
+        "Mr Bradley Sarif",
+        "Sports in the table above run on a weekly basis, a number of other sports are also available throughout the year. Students should check their emails weekly for updates and announcements.",
+        "Contact: Mr Edmund Feng & Mr Bradley Sarif Sports Co-ordinators Rowe Staffroom"
+      ],
+      "listItems": [
+        "CHS 15 + Opens Basketball (Boys and Girls)",
+        "CHS 15's + Opens Football (Boys and Girls)",
+        "14's Futsal (Boys)",
+        "16's Futsal (Boys and Girls)",
+        "Opens Futsal (Boys and Girls)",
+        "CHS Opens Touch Football (Boys and Girls)",
+        "CHS 15's + Opens Netball (Girls)",
+        "CHS Opens Volleyball (Boys + Girls)",
+        "CHS Open's Cricket",
+        "15's Football - Bill Turner Cup (Boys + Girls)",
+        "Year 7 + 8 Football - Wanderer's Cup (Boys + Girls)"
+      ],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_185c8303a93577cfe1080f7100f69113dae638cd2.jpg?width=2000&format=webply&optimize=medium",
+          "alt": "students playing in the ground",
+          "w": 602,
+          "h": 451
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Sport",
+          "display": "block",
+          "level": "h1",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "",
+          "display": "block",
+          "children": [
+            {
+              "kind": "image",
+              "currentSrc": "https://fortstreet-h.schools.nsw.gov.au/school-life/student-opportunities-and-activities/media_185c8303a93577cfe1080f7100f69113dae638cd2.jpg?width=2000&format=webply&optimize=medium",
+              "alt": "students playing in the ground"
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "heading",
+          "text": "Knock Out Sport",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Voluntary, wide range of teams but limited places. Students compete against other schools in our region during school time. Training varies from team to team, depending on staff availability and expertise.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Teams play until they lose (generally one or two games). Additional tournaments are available for some knock out sports.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sports offered depend on student interest and staff availability. The Combined High Schools knockout sports being offered in 2025 are;",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "CHS 15 + Opens Basketball (Boys and Girls)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "CHS 15's + Opens Football (Boys and Girls)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "14's Futsal (Boys)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "16's Futsal (Boys and Girls)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Opens Futsal (Boys and Girls)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "CHS Opens Touch Football (Boys and Girls)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "CHS 15's + Opens Netball (Girls)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "CHS Opens Volleyball (Boys + Girls)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "CHS Open's Cricket",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "15's Football - Bill Turner Cup (Boys + Girls)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "listItem",
+          "text": "Year 7 + 8 Football - Wanderer's Cup (Boys + Girls)",
+          "display": "list-item",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Fitness Club",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "This group meets for fitness training on Thursday afternoons 3:30- 4:10pm in the gym.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Ms Cove (Rowe Staffroom)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Running Club",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Whatever your skill level you are welcome to join the school running club which meets on Friday mornings at 8:00am for half an hour on the oval.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Feng or Mr Sarif (Rowe Staffroom)",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Before and After School Co-Curricular Activities",
+          "display": "block",
+          "level": "h2",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Sport",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "When",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "Where",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "heading",
+          "text": "With who",
+          "display": "block",
+          "level": "h3",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Running Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Monday at 7.45am",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "FSHS Reception",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Edmund Feng",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Girls Volleyball training",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Monday at 7.45am",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "FSHS Gym",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Bradley Sarif",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Netball Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tuesday at 7:45 am",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "FSHS Netball Courts",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Melinda Wark",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ultimate Frisbee",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tuesday at 7:45 am",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "FSHS Oval",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Edmund Feng",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fitness Training",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Wednesday at 3.30 - 4.10pm",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "FSHS Gym",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ms Maddy Cove",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Snr Boys Volleyball",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Thursday at 8.30am",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "FSHS Gym",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Bradley Sarif",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Running Club",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Friday at 7.45am",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "FSHS Reception",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Mr Bradley Sarif",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sports in the table above run on a weekly basis, a number of other sports are also available throughout the year. Students should check their emails weekly for updates and announcements.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact: Mr Edmund Feng & Mr Bradley Sarif Sports Co-ordinators Rowe Staffroom",
+          "display": "block",
+          "children": [
+            {
+              "kind": "text",
+              "text": "Contact:",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": ""
+            },
+            {
+              "kind": "text",
+              "text": "Mr Edmund Feng & Mr Bradley Sarif",
+              "parentTag": "strong",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Sports Co-ordinators",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            },
+            {
+              "kind": "text",
+              "text": "Rowe Staffroom",
+              "parentTag": "p",
+              "parentClass": "",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s02",
+      "rootTag": "div",
+      "rootClass": "section nsw-section nsw-section--brand-dark nsw-section--invert",
+      "visibleText": "Need to make a payment? Our parent portal makes it easy to make a payment online. Parent portal",
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Need to make a payment?"
+        }
+      ],
+      "paragraphs": [
+        "Our parent portal makes it easy to make a payment online.",
+        "Parent portal"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Parent portal",
+          "href": "/school-life/parent-portal",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+          "classes": "button"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "text": "Need to make a payment?",
+          "display": "block",
+          "level": "h2",
+          "sep": ""
+        },
+        {
+          "kind": "paragraph",
+          "text": "Our parent portal makes it easy to make a payment online.",
+          "display": "block",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Parent portal",
+          "display": "block",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Parent portal",
+              "display": "inline-block",
+              "href": "/school-life/parent-portal",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/parent-portal",
+              "classes": "button",
+              "sep": ""
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    },
+    {
+      "slot": "s03",
+      "rootTag": "div",
+      "rootClass": "section nsw-section card-container-container",
+      "visibleText": "Facilities and resources Learn how our spaces and tools support every subject and learning style. Events Find out about school events, celebrations and what’s coming up.",
+      "headings": [],
+      "paragraphs": [
+        "Learn how our spaces and tools support every subject and learning style.",
+        "Find out about school events, celebrations and what’s coming up."
+      ],
+      "listItems": [
+        "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+        "Events Find out about school events, celebrations and what’s coming up."
+      ],
+      "ctas": [
+        {
+          "text": "Facilities and resources",
+          "href": "/about-us/facilities-and-resources",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+          "classes": "button primary"
+        },
+        {
+          "text": "Events",
+          "href": "/school-life/events",
+          "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+          "classes": "button primary"
+        }
+      ],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "listItem",
+          "text": "Facilities and resources Learn how our spaces and tools support every subject and learning style.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Facilities and resources",
+              "display": "inline",
+              "href": "/about-us/facilities-and-resources",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/about-us/facilities-and-resources",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Learn how our spaces and tools support every subject and learning style.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": ""
+        },
+        {
+          "kind": "listItem",
+          "text": "Events Find out about school events, celebrations and what’s coming up.",
+          "display": "list-item",
+          "children": [
+            {
+              "kind": "cta",
+              "text": "Events",
+              "display": "inline",
+              "href": "/school-life/events",
+              "absHref": "https://fortstreet-h.schools.nsw.gov.au/school-life/events",
+              "classes": "button primary",
+              "sep": ""
+            },
+            {
+              "kind": "paragraph",
+              "text": "Find out about school events, celebrations and what’s coming up.",
+              "display": "block",
+              "sep": " "
+            }
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true
+    }
+  ]
+}
