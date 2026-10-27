@@ -1495,6 +1495,13 @@ Appended live as each step completes.</p>
 <td>Step 28's cause was wrong: DA gives signed-in authors a <code>content.da.live</code> cookie, so DA-hosted images do show; the 401 was only from an unauthenticated <code>curl</code>. The real gap: the skill's samples only had placeholder graphics. Uploaded the 9 real photos the samples came from to DA <code>library/blocks/images/{hero-1,cards-1..5,teaser-1,teaser-2,columns-1}</code>, pointed the samples at them, removed the placeholders, fixed a stray <code>&lt;em&gt;.&lt;/em&gt;</code> in the hero sample, re-previewed (all 9 images load).</td>
 <td>DA <code>library/blocks/**</code>, <code>content/library/blocks/**</code></td>
 </tr>
+<tr>
+<td>30</td>
+<td>Site root <code>/</code> served the Fort Street home page</td>
+<td>DA source API (version, PUT, upload) + <code>admin.hlx.page/preview</code></td>
+<td><code>main--…aem.page/</code> returned 404: the DA root <code>index.html</code> was the never-previewed boilerplate starter. Saved it as a DA version, PUT the <code>fortstreet/index.html</code> content as root <code>index.html</code>, previewed. Its 3 social-feed photos came from signed Facebook CDN URLs that had since expired (<code>about:error</code>), so the 3 already-ingested photos were uploaded to DA <code>.index-images/social-{1,2,3}.jpg</code> and referenced from there. <code>/</code> now returns 200: all 5 blocks load and 18/18 images load.</td>
+<td>DA <code>index.html</code>, <code>.index-images/*</code></td>
+</tr>
 </tbody>
 </table></div>
 </main></body></html>

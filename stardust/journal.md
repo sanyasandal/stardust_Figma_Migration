@@ -129,3 +129,15 @@
 
 **Artifacts touched:**
 - DA library/blocks/{hero,cards,teaser,columns}.html + images/, content/library/blocks/**, report/{benchmark-report,migration-steps}.md, report/benchmark-report.html
+
+## 2026 — Site root 404 fixed
+
+**Prompt:** (screenshot) `main--stardust-figma-migration--sanyasandal.aem.page/` shows 404.
+
+- Cause: the DA root `index.html` was the AEM boilerplate starter and had never been previewed; the migrated home page lives at `/fortstreet/`.
+- Fix: saved the old root as a DA version, then replaced the root `index.html` with the Fort Street home page content (nav/footer still `/fortstreet/nav`, `/fortstreet/footer`) and previewed it on `main`.
+- Its 3 social-feed images used signed `fbcdn.net` URLs that had expired, so the root preview failed to load them (`about:error`). Re-hosted the copies already ingested on `/fortstreet/` in DA `.index-images/` and pointed the page at them.
+- Verified: 200, header/hero/cards/teaser/footer loaded, 18/18 images load.
+
+**Artifacts touched:**
+- DA index.html, DA .index-images/social-{1,2,3}.jpg, report/migration-steps.md
